@@ -73,4 +73,20 @@
 <li>Docker 与内嵌服务需核对实际版本：文章提醒 Nginx 常被包含在其他服务中，Docker 用户更新前必须确认镜像内的 Nginx 版本也已更新，否则仅更新外层程序或按常规流程更新，可能并不能让实际运行的 Nginx 获得修复。</li>
 <li>Discourse 更新中的补丁状态坑：作者按 cd /var/discourse、git pull、./launcher rebuild app 更新 Discourse 后，检查到 nginx version: nginx/1.26.3。文中记录其排查到 Discourse 一直使用该版本并依赖补丁解决安全问题；此次重建后补丁未装上，原因与当天安全修复代码、基础镜像发布和代码审核合并状态不同步有关，因此仍需等待上游合并。</li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/">https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:dbafd85c-6be0-4750-b9c0-10996f88f2b4</guid><pubDate>Sat, 21 Nov 2026 00:28:44 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/">https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:dbafd85c-6be0-4750-b9c0-10996f88f2b4</guid><pubDate>Sat, 21 Nov 2026 00:28:44 GMT</pubDate></item><item><title>AI 视频超分处理低清素材的模型选择、参数设置与效果评估</title><link>https://www.appinn.com/aiarty-video-enhancer-black-friday/</link><description>文章解释普通放大、锐化与 AI 视频超分的区别：普通放大主要增加像素，锐化增强边缘，AI 超分尝试重建纹理、改善边缘并降噪去模糊。文中以 Aiarty Video Enhancer 为例，说明导入视频、按素材选择增强模型、设置放大倍率与输出分辨率、预览导出的流程，并给出老视频、暗光视频和 AI 生成视频的处理思路。核心限制是 AI 重建细节不等于真实记录的信息，严重失焦、运动模糊或损坏素材无法保证完全恢复，最终效果取决于原始素材质量和具体场景。</description><content:encoded><![CDATA[<section>
+<h2>AI 视频超分处理低清素材的模型选择、参数设置与效果评估</h2>
+<p>分类：Method</p>
+<p>摘要：文章解释普通放大、锐化与 AI 视频超分的区别：普通放大主要增加像素，锐化增强边缘，AI 超分尝试重建纹理、改善边缘并降噪去模糊。文中以 Aiarty Video Enhancer 为例，说明导入视频、按素材选择增强模型、设置放大倍率与输出分辨率、预览导出的流程，并给出老视频、暗光视频和 AI 生成视频的处理思路。核心限制是 AI 重建细节不等于真实记录的信息，严重失焦、运动模糊或损坏素材无法保证完全恢复，最终效果取决于原始素材质量和具体场景。</p>
+<p>价值：对该用户而言，这篇文章的可借鉴点不在于证明某个软件必然有效，而在于提供了一套低清视频处理的判断流程：先区分普通放大、锐化和 AI 超分，再按素材主要问题选择模型和倍率，最后通过固定画面、局部放大和连续播放检查细节自然度、噪点、光晕与闪烁。文中反复强调不要盲目追求 4K、强度不一定越高越好、重要素材先短片测试，这些限制条件可帮助在实际处理家庭录像、暗光素材或 AI 生成视频时减少过度增强和重复导出。</p>
+<h3>Findings</h3>
+<ul>
+<li>普通放大与 AI 超分的能力边界：普通放大通过插值增加像素数量，能改变分辨率但不能找回已丢失细节；锐化主要增强边缘对比度，可能出现光晕；AI 超分分析物体、纹理和边缘特征，尝试重建细节并结合降噪、去模糊改善观感。AI 重建的细节不等同于摄像机真实记录的细节。</li>
+<li>素材质量决定大倍率放大的可靠性：文章指出，原始素材质量越差，大倍率放大后的效果越难保证；严重失焦、运动模糊或已损坏的素材，即使使用 AI 也无法保证完全恢复。</li>
+<li>按画质问题匹配增强模型：moDetail-HQ v3 被描述为侧重细节和纹理恢复，适合人物头发、皮肤、植物、动物毛发及一般视频增强；Smooth-HQ v3 侧重自然平滑，适合 AI 生成视频、动漫和希望保持原有风格的素材；superVideo vHQ 侧重严重噪点和暗光视频，文中称目前主要支持 2 倍放大。</li>
+<li>放大倍率与增强强度需要结合预览调整：文中给出的尝试路径包括：480P 放大到 1080P，720P 放大到 1080P 或 2K，1080P 放大到 4K，高清素材可用 1x 做不改变分辨率的增强。增强强度越高通常细节更明显，但也可能让皮肤、头发和背景纹理不自然，因此应结合预览选择。</li>
+<li>效果评估应同时看静态细节和动态稳定性：建议固定同一时间点、同一画面区域和相同显示比例，重点观察头发边缘、眼睛、衣物纹理、自然场景细碎纹理、建筑轮廓、锐化光晕、暗部噪点和细节保留；动态画面还要检查纹理与边缘是否闪烁或跳变。重要素材可先处理一小段再批量导出。</li>
+<li>不同素材类型的处理重点不同：老视频和低分辨率视频可优先尝试超分与细节恢复；夜景、暗光录像应重点处理噪点，避免直接放大导致噪点同步变大；AI 生成视频和动漫素材更适合关注去模糊、降噪与原有色彩纹理连续性的自然观感。</li>
+<li>导出流程中的批量处理与恢复能力：导出前可预览是否有过度锐化或细节异常，再选择输出格式和保存位置；多个视频可加入任务列表分别设置参数后批量导出。文中还提到暂停后可按进度生成预览文件、可取消预览生成，以及软件关闭或重启后恢复未完成导出任务的能力。</li>
+<li>计算资源会影响处理模式选择：AI 视频增强需要一定计算资源；显存有限时可尝试视频分块推理模式，更关注速度时可考虑 Turbo 模式，但速度优先可能在细节表现上有所取舍。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/aiarty-video-enhancer-black-friday/">https://www.appinn.com/aiarty-video-enhancer-black-friday/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:6c8326a9-3d3d-4733-a50b-04c9f0889aef</guid><pubDate>Sat, 21 Nov 2026 07:41:24 GMT</pubDate></item></channel></rss>
