@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content-pending.xml</link><description>PIS curated knowledge publications</description><fh:archive/><item><title>Alfred 6 的自定义 UI Toolkit 与功能更新要点</title><link>https://www.appinn.com/alfred-6/</link><description>你看到的内容可能由第三方 AI 基于小众软件文章提炼总结而成，可能与原文真实意图存在偏差。不代表小众软件观点和立场。请点击链接阅读原文细致比对和校验。Alfred 6 发布的核心变化是新增 Alfred UI Toolkit：工作流可用 JSON 定义自定义操作窗口的控件与布局，展示文字、图片、Markdown、进度条、网页等内容，并可调用 AI 模型；文章还介绍了搜索历史、联系人搜索、剪贴板、界面主题和免费版功能的改进，并汇总了用户对扩展性、体验差异、卡顿反馈、价格与使用习惯的反应。文章同时说明 Alfred 6 仍是约 6MB 的原生 macOS 应用，最低支持 macOS 12，基础功能免费但 Workflow 等高级功能需 Powerpack。</description><content:encoded><![CDATA[<section>
+<h2>Alfred 6 的自定义 UI Toolkit 与功能更新要点</h2>
+<p>分类：Resource</p>
+<p>摘要：你看到的内容可能由第三方 AI 基于小众软件文章提炼总结而成，可能与原文真实意图存在偏差。不代表小众软件观点和立场。请点击链接阅读原文细致比对和校验。Alfred 6 发布的核心变化是新增 Alfred UI Toolkit：工作流可用 JSON 定义自定义操作窗口的控件与布局，展示文字、图片、Markdown、进度条、网页等内容，并可调用 AI 模型；文章还介绍了搜索历史、联系人搜索、剪贴板、界面主题和免费版功能的改进，并汇总了用户对扩展性、体验差异、卡顿反馈、价格与使用习惯的反应。文章同时说明 Alfred 6 仍是约 6MB 的原生 macOS 应用，最低支持 macOS 12，基础功能免费但 Workflow 等高级功能需 Powerpack。</p>
+<p>价值：在用户背景未提供具体职业或偏好、且强调区分事实、推断与缺失信息的情况下，本文的可保存价值在于：清楚列出 Alfred 6 从关键词结果列表向自定义原生 UI 工作流扩展的能力与 tryaui 入口，可用于评估 macOS 效率工具和工作流界面设计；同时给出价格、平台要求、默认关闭项等可核对条件，并标注延迟、卡顿反馈缺少复现信息，避免把个别体验直接当成结论。</p>
+<h3>Findings</h3>
+<ul>
+<li>Alfred UI Toolkit 扩展工作流交互：Alfred 6 新增 Alfred UI Toolkit，开发者可用 JSON 定义工作流操作窗口的控件与布局，放入输入框、按钮、表格，以及文字、图片、Markdown、进度条、网页等预览内容；文章称这些界面按官方技术说明会转换为 macOS 原生 AppKit 控件，并可调用 AI 模型。</li>
+<li>tryaui 提供即时编辑预览入口：安装后输入 tryaui 可编辑 JSON 并实时预览生成的界面，停止输入后预览自动更新，为开发者测试和迭代自定义工作流界面提供具体入口。</li>
+<li>日常使用功能改进：新版本增加搜索历史（方向键 ↑ 找回或 ! 搜索，默认关闭需启用）、重写联系人搜索以支持 CJK 分词和模糊匹配并显示头像、剪贴板支持更多富文本格式且最多可同时显示 30 条历史、界面支持浅色模式和 Liquid Glass 风格元素，免费版开放自定义备用搜索引擎。</li>
+<li>平台与授权条件：Alfred 6 仍为完全原生 macOS 应用，安装包约 6MB，最低支持 macOS 12；基础功能免费，Workflow 等高级功能需 Powerpack，单用户授权 £40，终身升级授权 £70，老用户可购买升级授权。</li>
+<li>用户反馈显示扩展性与实际体验并存不确定性：有用户看好 Alfred UI 的扩展空间，并称用 Claude 做出东西后速度和响应不错；也有用户认为与 5 代差异不大、官方 Launchpad 示例有延迟。Brain Outsourcing 卡顿反馈缺少配置和复现信息，文章明确指出暂不能判断问题来自工作流、模型服务还是网络；价格和使用习惯也影响是否迁移或升级。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/alfred-6/">https://www.appinn.com/alfred-6/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:9e0af890-4c26-4999-b4d8-e6d165fff58d</guid><pubDate>Sat, 21 Nov 2026 00:26:28 GMT</pubDate></item><item><title>群晖 DSM/BeeStation 两项高危漏洞的影响范围、修复状态与缓解措施</title><link>https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</link><description>文章围绕群晖披露的 OAuth API 与 NGINX HTTP/2 两项漏洞，整理其 CVSS 评分、可能影响、受影响版本、修复计划与临时缓解措施。OAuth API 漏洞评分 9.8，攻击者无需登录或用户交互即可读写任意文件或造成服务不可用；NGINX HTTP/2 漏洞评分 8.1，可能导致 Web 服务崩溃并在特定条件下远程执行代码。文章强调公告仍显示处理中，计划修复日期不等于补丁已可下载，并给出停用 OAuth Service、关闭 HTTP/2、减少公网暴露等应对建议。</description><content:encoded><![CDATA[<section>
+<h2>群晖 DSM/BeeStation 两项高危漏洞的影响范围、修复状态与缓解措施</h2>
+<p>分类：Method</p>
+<p>摘要：文章围绕群晖披露的 OAuth API 与 NGINX HTTP/2 两项漏洞，整理其 CVSS 评分、可能影响、受影响版本、修复计划与临时缓解措施。OAuth API 漏洞评分 9.8，攻击者无需登录或用户交互即可读写任意文件或造成服务不可用；NGINX HTTP/2 漏洞评分 8.1，可能导致 Web 服务崩溃并在特定条件下远程执行代码。文章强调公告仍显示处理中，计划修复日期不等于补丁已可下载，并给出停用 OAuth Service、关闭 HTTP/2、减少公网暴露等应对建议。</p>
+<p>价值：对没有专门安全背景的用户，这篇文章把安全公告转化为一份可执行的排查清单：先确认产品版本和补丁状态，再依据依赖关系决定是否停用 OAuth Service、关闭 HTTP/2、减少公网暴露并加强备份。它还区分了计划修复与实际补丁可用、官方确认与作者建议，适合用于 NAS 安全自查和风险沟通。</p>
+<h3>Findings</h3>
+<ul>
+<li>OAuth API 漏洞的攻击面与业务影响：CVE-2026-120382 影响 DSM OAuth API，CVSS 3.1 评分为 9.8。文章称问题出在命令参数分隔符处理，远程攻击者无需 DSM 账户、无需用户交互，就可能读取或写入任意文件，或发起拒绝服务攻击。依赖该服务的第三方应用可能无法完成授权、续期或访问 NAS，例如 Amazon Echo / Alexa 连接 Audio Station 播放音乐。</li>
+<li>NGINX HTTP/2 漏洞具有条件性且可能影响第三方程序：CVE-2026-123007 影响启用 HTTP/2 的 NGINX，CVSS 3.1 评分为 8.1。文中称其可能导致 Web 服务崩溃，并在特定条件下远程执行代码；群晖产品使用到该组件，第三方套件或用户自行通过 Docker 安装的程序也可能需要检查。</li>
+<li>修复目标与补丁可用性需要区分：两份公告覆盖 DSM 7.4、7.3、7.2.2、7.2.1、7.1 以及 BeeStation OS 1.5。DSM 7.4 和 7.3 列出目标版本及计划日期，7.2.2/7.2.1 被建议升级到更高版本但需确认机型支持，7.1 与 BeeStation OS 1.5 尚未列出可用修复版本。文章核对时英文公告仍显示 Ongoing，提醒计划日期不等于补丁已经开放下载。</li>
+<li>补丁前的临时缓解路径：文章给出的临时措施包括在套件中心停用 OAuth Service 以对应 OAuth API 漏洞，但需先确认依赖该服务的应用；以及在控制面板→网络→连接中关闭 HTTP/2，以对应 NGINX HTTP/2 漏洞。更新后台可能刷不出来，文章建议到群晖官网选择设备后查看 release note。</li>
+<li>降低公网暴露与备份仍是风险缓解重点：作者建议尽可能关闭公网访问，改用网云连、Tailscale、Zerotier 等组网方式。文章称公告未单独确认 QuickConnect 本身存在漏洞，同时强调异地备份重要；漏洞被披露并不代表只有某一品牌不安全，更换系统也不能消除所有漏洞风险。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/">https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:799b8ed1-1ade-42b8-a89f-6c8a7e609879</guid><pubDate>Sat, 21 Nov 2026 00:27:11 GMT</pubDate></item><item><title>PHP 8.6 功能更新与 PHP 8.2–8.5 安全补丁版本</title><link>https://www.appinn.com/php-8-6-security-updates/</link><description>文章称 PHP 8.6 正式发布，新增部分函数应用、Duration 类、Polling API、clamp() 等功能，并调整部分 Session 安全默认设置。与此同时，PHP 官方为 8.2 至 8.5 受支持分支发布安全更新，修复最高标记为 CRITICAL 的漏洞；文中指出这类漏洞需要非默认配置或不常见部署环境触发。对 PHP 站点管理员，文章建议优先更新当前分支至对应安全版本，并在使用发行版或主机商软件包时核对是否已回补修复。</description><content:encoded><![CDATA[<section>
+<h2>PHP 8.6 功能更新与 PHP 8.2–8.5 安全补丁版本</h2>
+<p>分类：Resource</p>
+<p>摘要：文章称 PHP 8.6 正式发布，新增部分函数应用、Duration 类、Polling API、clamp() 等功能，并调整部分 Session 安全默认设置。与此同时，PHP 官方为 8.2 至 8.5 受支持分支发布安全更新，修复最高标记为 CRITICAL 的漏洞；文中指出这类漏洞需要非默认配置或不常见部署环境触发。对 PHP 站点管理员，文章建议优先更新当前分支至对应安全版本，并在使用发行版或主机商软件包时核对是否已回补修复。</p>
+<p>价值：该用户背景未提供具体 PHP 熟悉度或运维场景，因此知识增量主要是可操作的版本与安全维护信息：文章把 PHP 8.6 的新功能与旧分支安全修复分开呈现，给出可直接核对的补丁版本，并强调供应商软件包可能尚未回补这一现实约束。对维护 PHP 站点或关注语言版本演进的用户，可用于制定短期补丁计划和理解新版本能力；但文章未给出漏洞机理、CVE 或复现条件，不能作为深入安全研究材料。</p>
+<h3>Findings</h3>
+<ul>
+<li>PHP 8.6 的主要语言与 API 变化：文中列出 PHP 8.6 的新增能力包括：提前固定函数部分参数并返回闭包的部分函数应用；表示与时区无关、支持纳秒精度的时间间隔 Duration 类；面向事件循环库的 Polling API；clamp() 范围限制函数；SortDirection 枚举、只读属性默认值以及部分 Session 安全默认设置调整。</li>
+<li>受支持分支的安全修复版本：文章给出四个受支持分支的安全修复版本：PHP 8.2.36、8.3.37、8.4.28 和 8.5.13，并称这些版本均被官方标记为安全版本。</li>
+<li>CRITICAL 漏洞的触发条件限制：官方预警称本轮漏洞最高严重程度达到 CRITICAL，但同时说明达到该等级的问题需要非默认配置或不常见的部署环境才能触发，不能据此推断所有默认 PHP 部署都处于同等风险。</li>
+<li>站点维护中的补丁优先策略：对于 WordPress 等 PHP 网站，文章建议优先安装当前分支的安全补丁；例如使用 PHP 8.3 时可更新至 8.3.37，不必仅为这批漏洞立即升级到 PHP 8.6。使用发行版或主机商提供的软件包时，还应核对供应商是否已回补修复。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/php-8-6-security-updates/">https://www.appinn.com/php-8-6-security-updates/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:6c0f0334-d6d6-4b22-8965-e055af432111</guid><pubDate>Sat, 21 Nov 2026 00:27:37 GMT</pubDate></item><item><title>UU远程付费方案与免费版功能边界</title><link>https://www.appinn.com/uu-remote-vip-pricing/</link><description>文章说明网易 UU 远程在免费运营三年后引入 VIP/SVIP，原本免费的 4K 144 帧、高带宽、HDR/多通道/虚拟屏等能力转入付费档，免费版仍保留基础远控并限制为 1080P 30 帧。文中列出连续包月、单月、年卡价格、老用户优惠和作者异地游戏体验，认为偶尔远程办公免费版够用，高帧率或 4K 游戏需求需考虑付费。</description><content:encoded><![CDATA[<section>
+<h2>UU远程付费方案与免费版功能边界</h2>
+<p>分类：Resource</p>
+<p>摘要：文章说明网易 UU 远程在免费运营三年后引入 VIP/SVIP，原本免费的 4K 144 帧、高带宽、HDR/多通道/虚拟屏等能力转入付费档，免费版仍保留基础远控并限制为 1080P 30 帧。文中列出连续包月、单月、年卡价格、老用户优惠和作者异地游戏体验，认为偶尔远程办公免费版够用，高帧率或 4K 游戏需求需考虑付费。</p>
+<p>价值：对通用背景用户而言，这份内容的增量不在于技术原理，而在于把远程工具从免费到付费后的功能边界和价格结构具体化，可用于判断是否值得为 4K、144 帧、高带宽或全球节点付费。作者的个人远控游戏与手柄问题提供了设备兼容性的实际参考，但文中没有系统性性能测试，结论应限于其个人场景。</p>
+<h3>Findings</h3>
+<ul>
+<li>免费版能力边界：文章称基础远控永久免费，免费用户最高 1080P 30 帧；不限连接次数和时长，不排队无广告，并保留文件传输、远程开机、游戏手柄、端口映射等功能，因此日常远程办公和操作电脑仍可继续使用。</li>
+<li>VIP 与 SVIP 权益差异：VIP 连续包月 24 元、单月 30 元、年卡 238 元，最高支持 4K 144 帧和 500Mbps，并支持 HDR、多通道、虚拟屏；SVIP 连续包月 88 元、单月 98 元、年卡 758 元，表格显示其包含上述能力并额外支持全球远控节点。</li>
+<li>老用户优惠具有时间条件：文章列出 2026 年 12 月 1 日前注册的老用户可领取年卡五折优惠，VIP 年卡折后约 119 元、约合每月 9.9 元；这是特定时间窗口优惠，不能视为长期价格。</li>
+<li>商业化的成本解释：作者认为 UU 远程商业化并不意外，原因是产品体验好导致用户激增，继而推高服务器、带宽和研发成本；这是作者解释，文中没有提供财务或运营数据佐证。</li>
+<li>实际使用体验与兼容限制：作者称异地连接回家玩《塞尔达传说：王国之泪》时能跑满 60 帧，但受显示器限制，且手柄按键支持存在问题；这提示高帧率远控体验与手柄兼容性需要结合具体设备验证。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/uu-remote-vip-pricing/">https://www.appinn.com/uu-remote-vip-pricing/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:59236a7c-72b4-481e-8596-e75aaabccc62</guid><pubDate>Sat, 21 Nov 2026 00:27:54 GMT</pubDate></item><item><title>Microsoft To Do 退役后的任务管理迁移要点</title><link>https://www.appinn.com/microsoft-to-do-shutdown-2027/</link><description>文章梳理了 Wunderlist 被微软收购后关闭、Microsoft To Do 又将退役的时间线，指出微软正把任务管理整合进 Planner，并与 Microsoft 365、Copilot 进一步结合。企业和学校用户可转向 Planner，但任务不会全部自动迁移；个人微软账户无法使用 Planner，包括 Microsoft 365 Personal 和 Family 订阅用户。微软计划提供数据导出方式，但具体操作尚未公布，用户需提前考虑替代方案。</description><content:encoded><![CDATA[<section>
+<h2>Microsoft To Do 退役后的任务管理迁移要点</h2>
+<p>分类：Resource</p>
+<p>摘要：文章梳理了 Wunderlist 被微软收购后关闭、Microsoft To Do 又将退役的时间线，指出微软正把任务管理整合进 Planner，并与 Microsoft 365、Copilot 进一步结合。企业和学校用户可转向 Planner，但任务不会全部自动迁移；个人微软账户无法使用 Planner，包括 Microsoft 365 Personal 和 Family 订阅用户。微软计划提供数据导出方式，但具体操作尚未公布，用户需提前考虑替代方案。</p>
+<p>价值：对该用户而言，若使用或关注任务管理工具，这篇内容提供了明确的退役时间、迁移对象和账号类型限制，可用于提前备份任务数据并选择替代方案；其收购、替代、再关闭的时间线也提示，在采用平台型效率工具时应关注数据导出和长期可持续性。文章未提供具体迁移步骤，后续仍需等待微软公布操作细节。</p>
+<h3>Findings</h3>
+<ul>
+<li>两代待办产品的关闭时间线：文章称，微软在 2015 年据报道以约 1 亿至 2 亿美元收购 Wunderlist，2017 年推出 Microsoft To Do，2020 年关闭 Wunderlist，并宣布 Microsoft To Do 将于 2027 年 6 月 30 日退役。</li>
+<li>任务管理的整合方向与账号限制：微软计划将任务管理功能整合进 Microsoft Planner，并与 Microsoft 365、Copilot 结合；企业和学校用户可转向 Planner，但任务不会全部自动迁移，个人微软账户及 Microsoft 365 Personal、Family 订阅用户无法使用 Planner。</li>
+<li>迁移前需要关注导出和替代方案：微软计划提供数据导出方式，但具体迁移操作尚未公布；在关闭前仍可继续使用 To Do，文章建议个人用户提前考虑 Todoist、滴答清单（TickTick）等替代工具。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/microsoft-to-do-shutdown-2027/">https://www.appinn.com/microsoft-to-do-shutdown-2027/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:9004b2d5-3c80-40a5-84af-71bb1b9d101e</guid><pubDate>Sat, 21 Nov 2026 00:28:17 GMT</pubDate></item><item><title>Nginx HTTP/2 漏洞的安全排查、临时缓解与嵌套发行版更新坑</title><link>https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</link><description>文章围绕文中所称 2026 年 11 月 18 日披露的 Nginx 安全漏洞，重点提示开启 HTTP/2 的服务可能面临无需登录的远程代码执行风险，并给出版本检查、修复版本、临时关闭 HTTP/2 的命令及 Docker 镜像核对提醒。作者还记录了 WordPress 升级较顺利，而 Discourse 按官方流程更新后仍因实际 Nginx 版本与补丁状态问题导致修复未生效的排查过程。</description><content:encoded><![CDATA[<section>
+<h2>Nginx HTTP/2 漏洞的安全排查、临时缓解与嵌套发行版更新坑</h2>
+<p>分类：Method</p>
+<p>摘要：文章围绕文中所称 2026 年 11 月 18 日披露的 Nginx 安全漏洞，重点提示开启 HTTP/2 的服务可能面临无需登录的远程代码执行风险，并给出版本检查、修复版本、临时关闭 HTTP/2 的命令及 Docker 镜像核对提醒。作者还记录了 WordPress 升级较顺利，而 Discourse 按官方流程更新后仍因实际 Nginx 版本与补丁状态问题导致修复未生效的排查过程。</p>
+<p>价值：给定背景未限定具体专业领域，因此这篇内容的价值主要体现为可执行的安全运维材料：可直接用于检查 Nginx 版本、识别 HTTP/2 配置、选择升级或临时关闭的处置路径；Docker 与 Discourse 案例提供了比一般漏洞快讯更具体的故障复盘，提示在更新后必须继续核对实际运行的 Nginx 版本和补丁状态，不能只依据官方更新流程判断是否已修复。</p>
+<h3>Findings</h3>
+<ul>
+<li>HTTP/2 相关漏洞风险：文中重点列出两项 HTTP/2 漏洞：CVE-2026-123007 为 HTTP/2 流量控制处理中的内存损坏问题，可能导致远程代码执行；CVE-2026-123633 为 HTTP/2 连接复用中的 Use-after-free 问题，在特定条件下可能导致远程代码执行。文章还提到存在涉及 DNS 解析、TLS、try_files 与 alias 的其他安全漏洞。</li>
+<li>版本判定与修复版本：文中建议先用 nginx -v 查看当前版本，并称官方已在稳定版 1.30.7、主线版 1.31.9 中修复相关漏洞。对普通管理员，首要关注点是是否启用 HTTP/2，以及是否已安装安全补丁。</li>
+<li>临时缓解方法：暂时无法升级时，可用 nginx -T 2&gt;&amp;1 | grep -E &#39;http2|quic&#39; 检查配置；若出现 http2 on;，删除该行后重启 Nginx，以临时关闭 HTTP/2。该方法是应急缓解，不应被描述为彻底修复。</li>
+<li>Docker 与内嵌服务需核对实际版本：文章提醒 Nginx 常被包含在其他服务中，Docker 用户更新前必须确认镜像内的 Nginx 版本也已更新，否则仅更新外层程序或按常规流程更新，可能并不能让实际运行的 Nginx 获得修复。</li>
+<li>Discourse 更新中的补丁状态坑：作者按 cd /var/discourse、git pull、./launcher rebuild app 更新 Discourse 后，检查到 nginx version: nginx/1.26.3。文中记录其排查到 Discourse 一直使用该版本并依赖补丁解决安全问题；此次重建后补丁未装上，原因与当天安全修复代码、基础镜像发布和代码审核合并状态不同步有关，因此仍需等待上游合并。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/">https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:dbafd85c-6be0-4750-b9c0-10996f88f2b4</guid><pubDate>Sat, 21 Nov 2026 00:28:44 GMT</pubDate></item></channel></rss>
