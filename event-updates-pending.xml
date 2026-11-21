@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates-pending.xml</link><description>PIS event and event-update publications</description><fh:archive/><item><title>Alfred 6 发布与 UI Toolkit 更新</title><link>https://www.appinn.com/alfred-6/</link><description>Alfred 6 正式发布。本文称其新增 Alfred UI Toolkit，开发者可用 JSON 定义工作流操作窗口的控件和布局，显示文字、图片、Markdown、进度条、网页等内容，并调用 AI 模型；相关界面会转换为 macOS 原生 AppKit 控件。Alfred 6 还改进了搜索历史、联系人搜索、剪贴板历史、界面设计，并向免费用户开放自定义备用搜索引擎。该应用仍为原生 macOS 应用，安装包约 6MB，最低支持 macOS 12；单用户授权 £40，终身升级授…</description><content:encoded><![CDATA[<section>
+<h2>Alfred 6 发布与 UI Toolkit 更新</h2>
+<p>核心实体：Alfred 6</p>
+<p>主题：Alfred 6 正式发布及新功能更新</p>
+<p>范围：覆盖 Alfred 6 版本发布、Alfred UI Toolkit 与工作流界面能力、搜索历史、联系人搜索、剪贴板、界面与免费版功能改进，以及系统要求、授权价格和用户反馈。</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>Alfred 6 正式发布。本文称其新增 Alfred UI Toolkit，开发者可用 JSON 定义工作流操作窗口的控件和布局，显示文字、图片、Markdown、进度条、网页等内容，并调用 AI 模型；相关界面会转换为 macOS 原生 AppKit 控件。Alfred 6 还改进了搜索历史、联系人搜索、剪贴板历史、界面设计，并向免费用户开放自定义备用搜索引擎。该应用仍为原生 macOS 应用，安装包约 6MB，最低支持 macOS 12；单用户授权 £40，终身升级授权 £70。文章还汇总了用户对新工作流、变化幅度、卡顿反馈和价格的不同看法。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/alfred-6/">https://www.appinn.com/alfred-6/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:725ba587-584d-426d-b8f1-54f7916c923d</guid><pubDate>Sat, 21 Nov 2026 00:26:37 GMT</pubDate></item><item><title>Andarium iPhone 安卓虚拟机应用下架</title><link>https://www.appinn.com/andarium/</link><description>文章称，iPhone 应用 Andarium 可以在 iPhone 中运行安卓虚拟机。苹果已下架该应用；作者表示其手机中仍保留该应用，体验卡顿、触摸不顺畅但可用，并称已安装 Firefox 打开论坛；系统设置显示其为 Android 17，来自 LineageOS 24 版本。</description><content:encoded><![CDATA[<section>
+<h2>Andarium iPhone 安卓虚拟机应用下架</h2>
+<p>核心实体：Andarium</p>
+<p>主题：iPhone 上运行安卓虚拟机的应用及下架状态</p>
+<p>范围：围绕 Andarium 在 iPhone 中运行 Android 虚拟机环境的功能、可用体验及被苹果下架的情况。</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>文章称，iPhone 应用 Andarium 可以在 iPhone 中运行安卓虚拟机。苹果已下架该应用；作者表示其手机中仍保留该应用，体验卡顿、触摸不顺畅但可用，并称已安装 Firefox 打开论坛；系统设置显示其为 Android 17，来自 LineageOS 24 版本。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/andarium/">https://www.appinn.com/andarium/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:dcc63ce6-5f19-4eca-a532-c949a020ab8c</guid><pubDate>Sat, 21 Nov 2026 00:26:52 GMT</pubDate></item><item><title>群晖 CVE-2026-120382 OAuth API 任意文件读写漏洞</title><link>https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</link><description>文中称群晖于 2026-11-19 发布 Synology-SA-26:21，披露 CVE-2026-120382：DSM OAuth API 因命令参数分隔符处理问题，CVSS 3.1 评分 9.8；官方称远程攻击者无需登录或用户交互即可读取或写入任意文件，或造成拒绝服务。文中核对称截至 2026-11-20 公告仍为 Ongoing，DSM 7.4 修复目标为 7.4.1-90080 Update 2 或更高、DSM 7.3 为 7.3.2-86009 Update 6…</description><content:encoded><![CDATA[<section>
+<h2>群晖 CVE-2026-120382 OAuth API 任意文件读写漏洞</h2>
+<p>核心实体：群晖（Synology）</p>
+<p>主题：DSM OAuth API 漏洞的影响、修复版本与临时缓解措施</p>
+<p>范围：群晖 DSM 7.4、7.3、7.2.2、7.2.1、7.1 及 BeeStation OS 1.5 中 OAuth API 相关漏洞的安全公告状态、修复计划、补丁可用性和临时缓解措施</p>
+<p>发生时间：2026-11-19T00:00:00+08:00</p>
+<h3>初始事实</h3>
+<p>文中称群晖于 2026-11-19 发布 Synology-SA-26:21，披露 CVE-2026-120382：DSM OAuth API 因命令参数分隔符处理问题，CVSS 3.1 评分 9.8；官方称远程攻击者无需登录或用户交互即可读取或写入任意文件，或造成拒绝服务。文中核对称截至 2026-11-20 公告仍为 Ongoing，DSM 7.4 修复目标为 7.4.1-90080 Update 2 或更高、DSM 7.3 为 7.3.2-86009 Update 6 或更高且计划 11 月 20 日前发布，其他列出版本仍在修复或未确认补丁；临时缓解措施为停用 OAuth Service 套件。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/">https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:a746fda8-86f6-47d3-9e89-896e29937707</guid><pubDate>Sat, 21 Nov 2026 00:27:45 GMT</pubDate></item><item><title>群晖 CVE-2026-123007 NGINX HTTP/2 远程代码执行漏洞</title><link>https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</link><description>文中称群晖于 2026-11-19 发布 Synology-SA-26:20，披露 CVE-2026-123007（NGINX2Root）：启用 HTTP/2 的 NGINX 存在 CVSS 3.1 评分 8.1 的漏洞，可能导致 Web 服务崩溃，并在特定条件下远程执行代码。文中核对称截至 2026-11-20 公告仍为 Ongoing，DSM 7.4 与 7.3 的修复目标分别为 7.4.1-90080 Update 2 或更高、7.3.2-86009 Update 6…</description><content:encoded><![CDATA[<section>
+<h2>群晖 CVE-2026-123007 NGINX HTTP/2 远程代码执行漏洞</h2>
+<p>核心实体：群晖（Synology）</p>
+<p>主题：NGINX2Root/CVE-2026-123007 在群晖产品中的影响、修复版本与临时缓解措施</p>
+<p>范围：群晖 DSM 7.4、7.3、7.2.2、7.2.1、7.1 及 BeeStation OS 1.5 中启用 HTTP/2 的 NGINX 相关漏洞的安全公告状态、修复计划、第三方套件/Docker 风险提示和临时缓解措施</p>
+<p>发生时间：2026-11-19T00:00:00+08:00</p>
+<h3>初始事实</h3>
+<p>文中称群晖于 2026-11-19 发布 Synology-SA-26:20，披露 CVE-2026-123007（NGINX2Root）：启用 HTTP/2 的 NGINX 存在 CVSS 3.1 评分 8.1 的漏洞，可能导致 Web 服务崩溃，并在特定条件下远程执行代码。文中核对称截至 2026-11-20 公告仍为 Ongoing，DSM 7.4 与 7.3 的修复目标分别为 7.4.1-90080 Update 2 或更高、7.3.2-86009 Update 6 或更高且计划 11 月 20 日前发布，其他版本仍在修复或未列出修复版本；临时缓解措施为关闭 HTTP/2，且文中提示第三方套件或 Docker 程序需自行检查。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/">https://www.appinn.com/synology-dsm-critical-vulnerabilities-2026-11/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b3ccf8ea-5542-43d5-8b33-ee00ba66d724</guid><pubDate>Sat, 21 Nov 2026 00:27:49 GMT</pubDate></item><item><title>PHP 8.6 正式发布，新增部分函数应用等多项特性</title><link>https://www.appinn.com/php-8-6-security-updates/</link><description>2026 年 11 月 19 日 PHP 8.6 正式发布，带来多项新功能：部分函数应用（提前固定函数的部分参数并返回接收剩余参数的闭包）、表示与时区无关的时间间隔且支持纳秒精度的 Duration 类（可用于超时设置、性能计时等）、提供可扩展 I/O 多路复用能力供事件循环库使用的 Polling API、将数值限制在指定范围内的 clamp() 函数；此外新增 SortDirection 枚举、支持只读属性默认值，并调整了部分 Session 安全默认设置。</description><content:encoded><![CDATA[<section>
+<h2>PHP 8.6 正式发布，新增部分函数应用等多项特性</h2>
+<p>核心实体：PHP</p>
+<p>主题：PHP 8.6 大版本发布与新特性</p>
+<p>范围：PHP 8.6 版本的功能特性发布、官方介绍与后续 8.6.x 维护、升级建议追踪</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>2026 年 11 月 19 日 PHP 8.6 正式发布，带来多项新功能：部分函数应用（提前固定函数的部分参数并返回接收剩余参数的闭包）、表示与时区无关的时间间隔且支持纳秒精度的 Duration 类（可用于超时设置、性能计时等）、提供可扩展 I/O 多路复用能力供事件循环库使用的 Polling API、将数值限制在指定范围内的 clamp() 函数；此外新增 SortDirection 枚举、支持只读属性默认值，并调整了部分 Session 安全默认设置。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/php-8-6-security-updates/">https://www.appinn.com/php-8-6-security-updates/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:55e54ccd-06d0-49b0-8df4-6a4d54c49bc9</guid><pubDate>Sat, 21 Nov 2026 00:28:10 GMT</pubDate></item><item><title>PHP 为 8.2–8.5 分支发布紧急安全更新，修复含 CRITICAL 级别漏洞</title><link>https://www.appinn.com/php-8-6-security-updates/</link><description>PHP 官方于 2026 年 11 月 18 日提前发出安全预警，表示即将修复多个安全漏洞，最高严重程度达 CRITICAL，并说明该等级问题需非默认配置或不常见的部署环境才能触发；11 月 19 日正式发布安全更新，分别为 PHP 8.2.36、8.3.37、8.4.28、8.5.13，四个版本均被官方标记为安全版本。官方建议 WordPress 等 PHP 站点管理员优先安装当前分支的安全补丁（如使用 8.3 可更新至 8.3.37，无需为修复这批漏洞立即升级到 8.6…</description><content:encoded><![CDATA[<section>
+<h2>PHP 为 8.2–8.5 分支发布紧急安全更新，修复含 CRITICAL 级别漏洞</h2>
+<p>核心实体：PHP</p>
+<p>主题：PHP 安全漏洞预警与补丁版本发布</p>
+<p>范围：PHP 各受支持分支（8.2/8.3/8.4/8.5）的安全漏洞预告、补丁版本发布、受影响范围说明与升级/回补建议追踪</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>PHP 官方于 2026 年 11 月 18 日提前发出安全预警，表示即将修复多个安全漏洞，最高严重程度达 CRITICAL，并说明该等级问题需非默认配置或不常见的部署环境才能触发；11 月 19 日正式发布安全更新，分别为 PHP 8.2.36、8.3.37、8.4.28、8.5.13，四个版本均被官方标记为安全版本。官方建议 WordPress 等 PHP 站点管理员优先安装当前分支的安全补丁（如使用 8.3 可更新至 8.3.37，无需为修复这批漏洞立即升级到 8.6），使用发行版或主机商软件包时应核对供应商是否已回补修复。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/php-8-6-security-updates/">https://www.appinn.com/php-8-6-security-updates/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4229264b-c590-4f40-97f0-85f2fd27af3d</guid><pubDate>Sat, 21 Nov 2026 00:28:13 GMT</pubDate></item><item><title>网易UU远程推出VIP/SVIP付费会员，免费版降至1080P 30帧</title><link>https://www.appinn.com/uu-remote-vip-pricing/</link><description>免费运营三年后，网易UU远程宣布推出付费会员：VIP连续包月24元/月（单月30元、年卡238元），SVIP连续包月88元/月（单月98元、年卡758元）；原本免费的4K 144帧等高级功能被划入VIP/SVIP权益，免费版最高仅1080P 30帧。免费版仍承诺不限连接次数与时长、不排队、无广告，并支持文件传输、远程开机、游戏手柄、端口映射。2026年12月1日前注册的老用户可领取年卡五折优惠，VIP年卡折后约119元（约每月9.9元）。</description><content:encoded><![CDATA[<section>
+<h2>网易UU远程推出VIP/SVIP付费会员，免费版降至1080P 30帧</h2>
+<p>核心实体：网易UU远程</p>
+<p>主题：远程控制产品的付费会员体系与免费版权益调整</p>
+<p>范围：网易UU远程的会员档位与定价、各档画质/带宽/HDR/虚拟屏/全球节点等权益划分、免费版功能边界，以及老用户优惠等商业化安排</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>免费运营三年后，网易UU远程宣布推出付费会员：VIP连续包月24元/月（单月30元、年卡238元），SVIP连续包月88元/月（单月98元、年卡758元）；原本免费的4K 144帧等高级功能被划入VIP/SVIP权益，免费版最高仅1080P 30帧。免费版仍承诺不限连接次数与时长、不排队、无广告，并支持文件传输、远程开机、游戏手柄、端口映射。2026年12月1日前注册的老用户可领取年卡五折优惠，VIP年卡折后约119元（约每月9.9元）。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/uu-remote-vip-pricing/">https://www.appinn.com/uu-remote-vip-pricing/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:191229e4-6ee9-49e9-8c3e-d7ed4dcbaf48</guid><pubDate>Sat, 21 Nov 2026 00:28:30 GMT</pubDate></item><item><title>微软宣布 Microsoft To Do 将于 2027 年 6 月 30 日退役</title><link>https://www.appinn.com/microsoft-to-do-shutdown-2027/</link><description>微软宣布 Microsoft To Do 将于 2027 年 6 月 30 日正式退役，并正在将任务管理功能整合进 Microsoft Planner，与 Microsoft 365、Copilot 等产品结合。按报道，企业和学校用户可转向 Planner，但任务不会全部自动迁移；个人微软账户（含 Microsoft 365 Personal 和 Family 订阅）无法使用 Planner；微软计划提供数据导出方式，具体迁移操作尚未公布。背景为微软 2015 年据报道以约…</description><content:encoded><![CDATA[<section>
+<h2>微软宣布 Microsoft To Do 将于 2027 年 6 月 30 日退役</h2>
+<p>核心实体：Microsoft To Do</p>
+<p>主题：微软待办产品 Microsoft To Do 的退役与功能整合</p>
+<p>范围：Microsoft To Do 停止服务的官方计划、时间节点、用户数据导出与迁移安排，以及任务管理功能向 Microsoft Planner 及 Microsoft 365、Copilot 的整合；相关产品线历史（Wunderlist 收购与关闭）仅作为背景</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>微软宣布 Microsoft To Do 将于 2027 年 6 月 30 日正式退役，并正在将任务管理功能整合进 Microsoft Planner，与 Microsoft 365、Copilot 等产品结合。按报道，企业和学校用户可转向 Planner，但任务不会全部自动迁移；个人微软账户（含 Microsoft 365 Personal 和 Family 订阅）无法使用 Planner；微软计划提供数据导出方式，具体迁移操作尚未公布。背景为微软 2015 年据报道以约 1 亿至 2 亿美元收购 Wunderlist，2017 年推出 Microsoft To Do，2020 年关闭 Wunderlist。上述退役时间与迁移安排为微软方面公布/媒体报道内容，具体迁移细则仍待披露。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/microsoft-to-do-shutdown-2027/">https://www.appinn.com/microsoft-to-do-shutdown-2027/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ca731bb0-5cfe-498a-beff-adfeb04a330d</guid><pubDate>Sat, 21 Nov 2026 00:28:47 GMT</pubDate></item><item><title>Nginx HTTP/2 漏洞（CVE-2026-123007/CVE-2026-123633）披露与修复版本发布</title><link>https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</link><description>据媒体报道，Nginx 于 2026 年 11 月 18 日披露多个安全漏洞，其中两项涉及 HTTP/2：CVE-2026-123007 为 HTTP/2 流量控制处理中的内存损坏问题，可能导致无需登录的远程代码执行；CVE-2026-123633 为 HTTP/2 连接复用中的 Use-after-free 问题，在特定条件下同样可能导致远程代码执行。此外还有涉及 DNS 解析、TLS、try_files 与 alias 等功能的漏洞。报道称官方已在稳定版 1.30.7 …</description><content:encoded><![CDATA[<section>
+<h2>Nginx HTTP/2 漏洞（CVE-2026-123007/CVE-2026-123633）披露与修复版本发布</h2>
+<p>核心实体：Nginx</p>
+<p>主题：Nginx 官方披露的 HTTP/2 等高危漏洞的成因、影响范围、修复版本与临时缓解及下游补丁跟进</p>
+<p>范围：Nginx 于 2026-11-18 披露的多个安全漏洞，重点为 HTTP/2 流量控制内存损坏（CVE-2026-123007）与 HTTP/2 连接复用释放后使用（CVE-2026-123633），以及 DNS 解析、TLS、try_files 与 alias 等相关漏洞；覆盖官方修复版本（稳定版 1.30.7、主线版 1.31.9）、临时关闭 HTTP/2 的缓解措施、Docker 镜像版本核查，以及下游项目（如 Discourse）的补丁合并与镜像更新进展</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>据媒体报道，Nginx 于 2026 年 11 月 18 日披露多个安全漏洞，其中两项涉及 HTTP/2：CVE-2026-123007 为 HTTP/2 流量控制处理中的内存损坏问题，可能导致无需登录的远程代码执行；CVE-2026-123633 为 HTTP/2 连接复用中的 Use-after-free 问题，在特定条件下同样可能导致远程代码执行。此外还有涉及 DNS 解析、TLS、try_files 与 alias 等功能的漏洞。报道称官方已在稳定版 1.30.7 与主线版 1.31.9 中修复；暂时无法升级者可检查配置中的 http2 on; 并移除后重启以临时缓解，Docker 用户需确认镜像内 Nginx 版本同步更新。报道还以作者自建服务为例指出，Discourse 长期沿用 nginx 1.26.3（跟随 Debian 13 基础镜像）并通过持续打补丁应对安全问题，按其标准流程（git pull、./launcher rebuild app）重建后 Nginx 补丁未生效；文中称 11 月 19 日 Discourse 已合并安全修复代码并于 Docker Hub 发布新的基础镜像，但相关代码推送仍处于等待审核、未被合并状态，需继续等待。以上为媒体报道与作者自述，具体修复状态应以各官方公告为准。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/">https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:308331ee-eb6d-4038-8835-2fb100ef16a4</guid><pubDate>Sat, 21 Nov 2026 00:29:19 GMT</pubDate></item></channel></rss>
