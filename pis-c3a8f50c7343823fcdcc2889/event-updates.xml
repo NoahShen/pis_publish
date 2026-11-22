@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>亚历杭德罗·奥发布年度回顾谈 AI 多项目并行导致分心</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</link><description>周刊称，Hugging Face 布道师亚历杭德罗·奥本周发布年度回顾，总结自己在 Hugging Face 的这一年。他在回顾中称 2026 年是自己最分心的一年，大多时候有 4 到 10 个 Agent 同时推进三四个项目，每天消耗数百万 Token，并表示希望 2027 年减少分心、更专注于一两个核心项目。</description><content:encoded><![CDATA[<section>
+<h2>亚历杭德罗·奥发布年度回顾谈 AI 多项目并行导致分心</h2>
+<p>核心实体：Alejandro AO</p>
+<p>主题：AI 辅助多项目并行开发中的专注问题与个人实践反思</p>
+<p>范围：围绕亚历杭德罗·奥在 Hugging Face 期间发布的年度回顾、视频科普内容及其对多 Agent 开发方式的公开总结和后续反思</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，Hugging Face 布道师亚历杭德罗·奥本周发布年度回顾，总结自己在 Hugging Face 的这一年。他在回顾中称 2026 年是自己最分心的一年，大多时候有 4 到 10 个 Agent 同时推进三四个项目，每天消耗数百万 Token，并表示希望 2027 年减少分心、更专注于一两个核心项目。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:727ce112-d0d9-42e9-ad3f-2d618b1053ff</guid><pubDate>Sun, 22 Nov 2026 10:09:53 GMT</pubDate></item></channel></rss>
