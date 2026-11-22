@@ -336,4 +336,17 @@
 <li>效果与兼容性结论不能直接外推：“删掉近三分之一 Skills 后更清爽”是作者的主观体验，正文没有提供 token 消耗、任务成功率或回归测试数据；“根目录创建 CLAUDE.md 会让 Claude Code 不再读 AGENTS.md”也是特定工具链经验，未附官方依据。两者都应先在用户实际使用的 Agent 和项目版本中小范围验证。</li>
 <li>周刊附带的工具线索：正文列出 DeepSeek API 文档，称搜索、抓取、OCR、语音能力可分别调用（https://api-docs.deepseek.com/zh-cn/guides/build_a_chatbot/）；Detent 是可用 shadcn CLI 安装的组件库（https://detentui.com/）；DiffCode 是用于在不开 Xcode 或 VSCode 的情况下审阅 Agent 所改 Git diff 的 Mac 原生工具（https://ihou.github.io/DiffCode/）。这些内容只有简短介绍，功能、价格和兼容性仍需查阅官方文档并实测。</li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/290/">https://weekly.tw93.fun/posts/290/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d2a97d16-2cba-41d1-8a9f-323a954f68dd</guid><pubDate>Sun, 22 Nov 2026 14:33:23 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/290/">https://weekly.tw93.fun/posts/290/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d2a97d16-2cba-41d1-8a9f-323a954f68dd</guid><pubDate>Sun, 22 Nov 2026 14:33:23 GMT</pubDate></item><item><title>用 AI 做出不'AI Slop'的产品设计：tw93 的实践清单与 AI 时代笔记应用思考（周刊第 289 期）</title><link>https://weekly.tw93.fun/posts/289/</link><description>本期为 tw93 个人周刊合集，核心价值集中在两部分：一是作者以产品工程师视角总结的一套'用 AI 做出易用且不丑的产品'的可操作设计清单；二是其维护 7 年的原生 Markdown 笔记应用妙言（Miaoyan）的实践经验与对 AI 时代笔记应用形态的思考。其余为简要工具推荐（Scene、MCP 交互教程、Vimy、Kami）和生活杂谈。所述均为作者个人经验与观点，视觉类规则未经系统验证。</description><content:encoded><![CDATA[<section>
+<h2>用 AI 做出不&#39;AI Slop&#39;的产品设计：tw93 的实践清单与 AI 时代笔记应用思考（周刊第 289 期）</h2>
+<p>分类：Method</p>
+<p>摘要：本期为 tw93 个人周刊合集，核心价值集中在两部分：一是作者以产品工程师视角总结的一套&#39;用 AI 做出易用且不丑的产品&#39;的可操作设计清单；二是其维护 7 年的原生 Markdown 笔记应用妙言（Miaoyan）的实践经验与对 AI 时代笔记应用形态的思考。其余为简要工具推荐（Scene、MCP 交互教程、Vimy、Kami）和生活杂谈。所述均为作者个人经验与观点，视觉类规则未经系统验证。</p>
+<p>价值：对该用户（软件工程 + AI/人机协作背景），设计清单可直接用于指导自己的 AI 产品界面与文案，或原样交给 Agent 对代码仓库做 Review；&#39;出 3 方案择优 + 前后对比 PDF + 多轮耐心迭代&#39;的协作方式可迁移到其工程与量化工具的开发实践；妙言关于&#39;AI 友好 + 原生 git 回滚 + CLI 驱动笔记&#39;的设想对人机协作工具设计有直接参考价值；Vimy 与其&#39;隔离 Agent 执行环境&#39;的需求相关。需注意这些均为作者个人经验与审美主张，视觉规则属于经验法则而非验证结论，应结合自身产品情境取舍。</p>
+<h3>Findings</h3>
+<ul>
+<li>产品优先级：能解决问题 &gt; 易于使用 &gt; 好看美观：作者认为好设计救不了不解决问题的产品，设计只是锦上添花；应先确保产品解决真实需求和场景，再追求易用性，最后才是美观，类似先温饱再吃好的次序。</li>
+<li>易用且不丑的具体设计清单：以&#39;不懂技术的小白能否不用说明书走通主链路&#39;为标准排查卡点；文案本地化、达意不啰嗦，能用交互表达就不用文字；只在不可逆操作时二次确认，避免满屏弹框和大片红色警告；一页只留一个强调色，灰用偏暖灰（可从中国传统色取色），回避橙色与老企业亮蓝；一页最多 4 种字号并保证无障碍对比度；少用斜体、全大写，等宽字体仅用于代码、路径、指标；同一动作全产品只用一个动词，避免&#39;立即购买&#39;式催促词；嵌套圆角同心（内圆角=外圆角−间距）；页面默认平坦，阴影只给真正浮起的弹窗，不卡片套卡片；多语言优先适配最长文案，可改文案但不改字号、不截断。</li>
+<li>与 AI 协作迭代设计的工作流：可将整段设计清单直接交给 Agent 对产品代码仓库做 Review；对反复调不好的设计让 Agent 一次出 3 个候选方案再择优继续优化；作者习惯让 AI 生成前后对比图放进 PDF 便于评审。他强调成败关键在人的耐心——常为一个文案、颜色、设计与 AI 讨论十几轮才满意。</li>
+<li>AI 时代笔记应用的形态思考（妙言/Miaoyan）：作者 7 年前用 Swift 写了原生、纯本地、高性能、非所见即所得的 Markdown 应用妙言，坚持完全遵循 md 规范以免绑定特定软件（认为这是 Markdown 与 Word 的本质区别），并自实现类 git 的本地版本记录；移动端以预览和阅读为主而非长文写作。AI 时代新增 CLI（miao open/new/search/list/cat）覆盖笔记新建、查找、读取；他设想未来笔记应用应以阅读预览为主、AI 友好、原生支持 git 版本回滚。同时表达保留独立写作能力、可借助 AI 但不把&#39;脑子全交给它&#39;的态度。</li>
+<li>值得关注的小工具与资源：Scene（受 Omarchy 启发，让 Mac 壁纸、编辑器、终端主题统一的 GitHub 开源工具）；mcp-explained.com（Runlayer 出品的交互式 MCP 教程，作者认为其形式可借鉴做教程）；Vimy（Apple Silicon 上的轻量 macOS 虚拟机，作者拟用它隔离 Agent 操作，避免与自己抢鼠标——与其现用旧 M2 Pro 的做法互补）；Kami（通过 Agent 指令把内容排成小红书卡片，含 8 种底色）。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/289/">https://weekly.tw93.fun/posts/289/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d24bc6ab-d3e9-42c2-8d23-a45c3e507363</guid><pubDate>Sun, 22 Nov 2026 14:34:04 GMT</pubDate></item></channel></rss>
