@@ -6,4 +6,28 @@
 <p>发生时间：时间未确定</p>
 <h3>初始事实</h3>
 <p>周刊称，Hugging Face 布道师亚历杭德罗·奥本周发布年度回顾，总结自己在 Hugging Face 的这一年。他在回顾中称 2026 年是自己最分心的一年，大多时候有 4 到 10 个 Agent 同时推进三四个项目，每天消耗数百万 Token，并表示希望 2027 年减少分心、更专注于一两个核心项目。</p>
-</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:727ce112-d0d9-42e9-ad3f-2d618b1053ff</guid><pubDate>Sun, 22 Nov 2026 10:09:53 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:727ce112-d0d9-42e9-ad3f-2d618b1053ff</guid><pubDate>Sun, 22 Nov 2026 10:09:53 GMT</pubDate></item><item><title>《GTA6》发售并因写实主义获得玩家好评</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</link><description>周刊称，《GTA6》本周发售，总体好评如潮，许多玩家对其还原犯罪都市迈阿密和接近现实的情节设定感到震惊。文中举出一名玩家讲述的游戏内情节：在交通事故后，轿车司机因肇事卡车属于影射亚马逊的撒哈拉公司而试图索赔，并请玩家作证后通过游戏货币转账几千美元。</description><content:encoded><![CDATA[<section>
+<h2>《GTA6》发售并因写实主义获得玩家好评</h2>
+<p>核心实体：GTA6</p>
+<p>主题：《GTA6》发售后的玩家评价与写实主义设定</p>
+<p>范围：围绕《GTA6》本周发售、市场总体反馈以及玩家对游戏内拟真情节的讲述和传播</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，《GTA6》本周发售，总体好评如潮，许多玩家对其还原犯罪都市迈阿密和接近现实的情节设定感到震惊。文中举出一名玩家讲述的游戏内情节：在交通事故后，轿车司机因肇事卡车属于影射亚马逊的撒哈拉公司而试图索赔，并请玩家作证后通过游戏货币转账几千美元。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d009f231-174a-4f0b-9d1f-131fad59ab29</guid><pubDate>Sun, 22 Nov 2026 10:09:59 GMT</pubDate></item><item><title>联想指纹加密U盘被拆出未加密SD卡</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊称，国外网友爆料联想一款加密U盘带指纹传感器，需指纹认证后才能读写；网友拆开后发现存储介质是一块SD卡，取下该SD卡后指纹加密消失，卡内数据可不加密读写。</description><content:encoded><![CDATA[<section>
+<h2>联想指纹加密U盘被拆出未加密SD卡</h2>
+<p>核心实体：联想加密U盘</p>
+<p>主题：指纹加密U盘安全机制</p>
+<p>范围：联想带指纹认证功能加密U盘的产品结构、加密实现有效性及用户拆解发现的问题</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，国外网友爆料联想一款加密U盘带指纹传感器，需指纹认证后才能读写；网友拆开后发现存储介质是一块SD卡，取下该SD卡后指纹加密消失，卡内数据可不加密读写。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3963aec3-a58e-4904-86f6-136df2cfe162</guid><pubDate>Sun, 22 Nov 2026 10:12:06 GMT</pubDate></item><item><title>Fable 5.2一夜生成可玩游戏关卡</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊介绍，作者将侄子手绘的游戏草图和设想提交给刚发布的Fable 5.2模型，该模型用一个晚上生成了全部12个关卡，且第一次生成结果即可玩。</description><content:encoded><![CDATA[<section>
+<h2>Fable 5.2一夜生成可玩游戏关卡</h2>
+<p>核心实体：Fable 5.2</p>
+<p>主题：游戏生成模型能力</p>
+<p>范围：Fable 5.2模型发布及其依据草图和设想生成可玩游戏内容的能力展示</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊介绍，作者将侄子手绘的游戏草图和设想提交给刚发布的Fable 5.2模型，该模型用一个晚上生成了全部12个关卡，且第一次生成结果即可玩。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:00010ecd-c5cb-4def-913f-65b57e5089f5</guid><pubDate>Sun, 22 Nov 2026 10:12:26 GMT</pubDate></item></channel></rss>
