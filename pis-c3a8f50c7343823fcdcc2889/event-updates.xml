@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Node.js拟改为每年发布一个长期支持版本</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊称，从明年开始Node.js每年将只发布一个版本，每个版本都是长期支持；2027年的Node.js 27已进入测试，文章介绍了其新特性。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>JetBrains首次年度亏损</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</link><description>文章称，著名IDE厂商JetBrains在2025年出现公司成立20年以来第一次亏损；其主力产品IntelliJ IDEA被广泛用于Java/Kotlin开发。文章认为，可能原因包括AI编码盛行导致传统IDE需求减少，或JetBrains为AI投入巨资，并据此判断传统IDE正在衰落。</description><content:encoded><![CDATA[<section>
+<h2>JetBrains首次年度亏损</h2>
+<p>核心实体：JetBrains</p>
+<p>主题：经营亏损与IDE市场变化</p>
+<p>范围：JetBrains经营状况、AI投入及传统IDE需求变化相关信息</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>文章称，著名IDE厂商JetBrains在2025年出现公司成立20年以来第一次亏损；其主力产品IntelliJ IDEA被广泛用于Java/Kotlin开发。文章认为，可能原因包括AI编码盛行导致传统IDE需求减少，或JetBrains为AI投入巨资，并据此判断传统IDE正在衰落。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:783b6469-85b1-426e-86d4-148f42cd7229</guid><pubDate>Sun, 22 Nov 2026 10:14:59 GMT</pubDate></item><item><title>谷歌太空TPU实验成功</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</link><description>文章称谷歌本周宣布其太空机房实验成功：在太空部署4颗TPU芯片并预装Gemma 4模型，工程师要求其以绕地球飞行的TPU视角写俳句，卫星成功返回结果。文章同时指出，该实验卫星每小时只能发1度电，受散热限制TPU每次只能连续工作约20分钟，因此推算太空机房可行性不高。</description><content:encoded><![CDATA[<section>
+<h2>谷歌太空TPU实验成功</h2>
+<p>核心实体：谷歌</p>
+<p>主题：太空TPU计算实验</p>
+<p>范围：谷歌在卫星或太空环境部署TPU、运行模型推理实验及电力散热可行性评估</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>文章称谷歌本周宣布其太空机房实验成功：在太空部署4颗TPU芯片并预装Gemma 4模型，工程师要求其以绕地球飞行的TPU视角写俳句，卫星成功返回结果。文章同时指出，该实验卫星每小时只能发1度电，受散热限制TPU每次只能连续工作约20分钟，因此推算太空机房可行性不高。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0c04bacd-700c-4073-a8f0-0343d0128043</guid><pubDate>Sun, 22 Nov 2026 10:14:46 GMT</pubDate></item><item><title>MonKeyAI（百智办公）开源企业AI工作台</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</link><description>文中介绍开源企业AI工作台MonKeyAI（中文名“百智办公”），称其GitHub已有5000颗星；支持私有化部署、指定模型、共享知识库/技能/MCP资源、权限管理和使用统计，并覆盖办公、编程、设计场景。文中还称其提供Web、iOS、安卓、Mac/Win/Linux及鸿蒙客户端，服务器端仅需单核CPU和1G内存；免费使用，但团队超过10人需购买授权。</description><content:encoded><![CDATA[<section>
+<h2>MonKeyAI（百智办公）开源企业AI工作台</h2>
+<p>核心实体：MonKeyAI</p>
+<p>主题：开源企业AI工作台功能与采用情况</p>
+<p>范围：MonKeyAI（百智办公）的开源状态、部署方式、功能范围、客户端支持、硬件要求和授权模式</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>文中介绍开源企业AI工作台MonKeyAI（中文名“百智办公”），称其GitHub已有5000颗星；支持私有化部署、指定模型、共享知识库/技能/MCP资源、权限管理和使用统计，并覆盖办公、编程、设计场景。文中还称其提供Web、iOS、安卓、Mac/Win/Linux及鸿蒙客户端，服务器端仅需单核CPU和1G内存；免费使用，但团队超过10人需购买授权。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:76712702-9da6-4d1e-bac0-4be1bf33cd8b</guid><pubDate>Sun, 22 Nov 2026 10:14:31 GMT</pubDate></item><item><title>Node.js拟改为每年发布一个长期支持版本</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊称，从明年开始Node.js每年将只发布一个版本，每个版本都是长期支持；2027年的Node.js 27已进入测试，文章介绍了其新特性。</description><content:encoded><![CDATA[<section>
 <h2>Node.js拟改为每年发布一个长期支持版本</h2>
 <p>核心实体：Node.js</p>
 <p>主题：版本发布策略与Node.js 27测试</p>
