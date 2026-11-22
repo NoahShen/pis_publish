@@ -297,4 +297,16 @@
 <li>系统级训推优化的量化收益清单：训练侧：基于 Flash-Attention V2 重构动态 Mask（22ms→1ms，前向 +128%、反向 +152%）、Triton 重构 GLN 融合算子（带宽利用率 30%→60%+，整体提速 30%+）、小矩阵批量 Newton-Schulz（NS 阶段 +241%，端到端吞吐 +19%）、消除 D2H 阻塞点（+15%）、用 Agent 分析删减约 500 个特征且 GAUC 无损（吞吐 +6%）。推理侧：多 Hashtable 查询合并共享（显存 22GB→5.9GB）、按 Mask 有效索引跳过全零块计算（单算子延迟 -50%）、利用可见性规则跳过 User→Item 无效 Attention（-13%）、GLN 自定义算子（+38%）、推理图精简（+20%）。</li>
 <li>Scaling 验证与业务收益：在网络层数、Token Dim（192~768）、序列长度（400~2000）三个维度均观察到离线 GAUC 稳定提升，展现稳健 Scaling 能力。MTFM V1 在美团外卖多业务全量后，在线 A/B 订单量提升 2.06%~6.68%，推理成本降低 24%；单样本计算量 192 GFLOPs，较传统 DLRM 高数百倍。论文被 KDD 2026 接收。</li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html">https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:43df1895-2796-47ef-8a60-36ceb5903bc2</guid><pubDate>Sun, 22 Nov 2026 14:26:27 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html">https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:43df1895-2796-47ef-8a60-36ceb5903bc2</guid><pubDate>Sun, 22 Nov 2026 14:26:27 GMT</pubDate></item><item><title>App Store 限免监控网站 appstore.apprcn.com：自动聚合限免并识别假限免</title><link>https://www.apprcn.com/app-store.html</link><description>反斗软件团队推出基于苹果 App Store 网页接口的限免监控网站 https://appstore.apprcn.com，替代以往人工挑选方式，自动聚合当前限免应用，覆盖本体限免、内购限免及第三方渠道兑换码三类。站点提供中美两区本体与内购价格对照，用于识别应用由付费转为内购后本体免费造成的假限免；对非中文介绍接入 API 翻译，支持点击图标或扫码跳转 App Store 下载。网站 9 月底上线，仍在修复 bug；后续规划个性化推送、降价提醒（因数据量大暂缺资源）及 iOS 客户端公测，并为开发者搭建自动推广位。以上均为站长自述，未经第三方验证。</description><content:encoded><![CDATA[<section>
+<h2>App Store 限免监控网站 appstore.apprcn.com：自动聚合限免并识别假限免</h2>
+<p>分类：Resource</p>
+<p>摘要：反斗软件团队推出基于苹果 App Store 网页接口的限免监控网站 https://appstore.apprcn.com，替代以往人工挑选方式，自动聚合当前限免应用，覆盖本体限免、内购限免及第三方渠道兑换码三类。站点提供中美两区本体与内购价格对照，用于识别应用由付费转为内购后本体免费造成的假限免；对非中文介绍接入 API 翻译，支持点击图标或扫码跳转 App Store 下载。网站 9 月底上线，仍在修复 bug；后续规划个性化推送、降价提醒（因数据量大暂缺资源）及 iOS 客户端公测，并为开发者搭建自动推广位。以上均为站长自述，未经第三方验证。</p>
+<p>价值：对该用户是一个可直接使用的优惠情报渠道：定期访问可低成本跟踪 App Store 限免与降价动态，符合其保留折扣类情报及官方链接的偏好；其中假限免的识别逻辑（付费转内购导致本体免费）是判断优惠真实性的可复用经验。该站点本身也是一个基于 App Store 网页接口做数据监控与聚合的小型自动化案例，对其关注自动化与工程实践有轻度参考意义。需注意内容为站长自述，功能完成度与数据准确性未经第三方验证，上线初期稳定性有限，降价提醒等规划功能尚未落地。</p>
+<h3>Findings</h3>
+<ul>
+<li>监控机制：基于 App Store 网页接口自动聚合：相比此前人工挑选（质量可控但易漏掉限免），新站通过苹果 App Store 网页接口自动监控，尽可能覆盖更多限免；质量控制由人工筛选转为自动化，代价是上线初期仍存在较多 bug。</li>
+<li>假限免识别：中美两区价格对照：点开应用卡片可查看中美两区的本体费用与内购费用，用于识别应用从付费改为内购后本体免费造成的假限免——这是判断限免真实性的实用细节，避免了误以为白捡付费应用的情况。</li>
+<li>覆盖三类限免及辅助功能：覆盖本体限免、内购限免（均走 App Store 渠道）与第三方平台分发兑换码的限免；非中文介绍经 API 翻译，支持点击图标或扫码跳转 App Store 下载。</li>
+<li>运营现状与后续计划：网站 9 月底上线，已修复不少 bug 但问题仍存；已规划个性化消息推送、降价提醒（因数据庞大暂缺资源），iOS 客户端测试中、可能几周内公测，另为开发者搭建自动推广位，并计划提供开发者对接用户的测试平台。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.apprcn.com/app-store.html">https://www.apprcn.com/app-store.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3f3cbe44-0339-42bd-b051-3fda2148dd76</guid><pubDate>Sun, 22 Nov 2026 14:28:38 GMT</pubDate></item></channel></rss>
