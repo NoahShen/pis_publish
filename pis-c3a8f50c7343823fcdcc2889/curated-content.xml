@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>科技周刊中的 AI 注意力管理、多智能体模式与未来战争框架</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</link><description>本期周刊是科技内容合集，核心可提炼部分包括：Alejandro AO 对 AI 时代多 Agent 并行导致注意力分散的个人反思；AI 编码瓶颈、多智能体协作模式和若干软件/AI 工具资源线索；以及《未来的战争》书摘中关于传感器、射程、精度如何改变作战方式的解释框架。内容由个人经验、观点摘录、链接摘要和书摘混合构成，证据深度不一，工具部分只作简要介绍，适合作为问题意识和后续检索线索，不宜视为已验证结论。</description><content:encoded><![CDATA[<section>
+<h2>科技周刊中的 AI 注意力管理、多智能体模式与未来战争框架</h2>
+<p>分类：Insight</p>
+<p>摘要：本期周刊是科技内容合集，核心可提炼部分包括：Alejandro AO 对 AI 时代多 Agent 并行导致注意力分散的个人反思；AI 编码瓶颈、多智能体协作模式和若干软件/AI 工具资源线索；以及《未来的战争》书摘中关于传感器、射程、精度如何改变作战方式的解释框架。内容由个人经验、观点摘录、链接摘要和书摘混合构成，证据深度不一，工具部分只作简要介绍，适合作为问题意识和后续检索线索，不宜视为已验证结论。</p>
+<p>价值：对用户的认知增量主要在于把 AI 提效与注意力稀缺、项目组合选择联系起来，可用于反思多 Agent 工作流中的项目筛选、代码审查与维护负担；多智能体三模式提供了可继续研究的架构分类；未来战争部分提供了一个可迁移到复杂系统分析的描述框架，帮助思考侦察能力、打击距离、集中与分散、消耗战之间的系统关系。工具与教程列表可作为后续验证和选型的候选线索，但当前正文证据有限，需要回到原始项目文档确认。</p>
+<h3>Findings</h3>
+<ul>
+<li>AI 降低启动成本但加剧注意力分散：文中引用 Hugging Face 布道师 Alejandro AO 的个人回顾：他同时用 4 到 10 个 Agent 推进三四个项目、每天消耗数百万 Token，却仍搁置部分项目。其核心反思是，AI 让新点子看似很快能落地，但不会让一天超过 24 小时；小项目会膨胀并挤占高优先级工作，导致成果看似多却不够深入。文中据此建议减少项目数量，把时间投入一两个核心项目。</li>
+<li>AI 编码的瓶颈可能转向审查与维护：言论部分引用观点称，AI 编码使软件开发瓶颈从编写代码转移到代码审查；AI 并没有增加需要软件或维护软件的人数，而是增加代码量和项目数量，并可能分散本应共享的资源。这些是文中摘录的判断，未提供实证细节，可作为工程流程观察的问题线索。</li>
+<li>多智能体协作的三种分类：文章列表摘要把多 AI 代理协作分为管道式（步骤完成后移交下一步）、编排式（由编排器统一指挥）和白板式（各 AI 阅读共享白板信息后自主行动）。正文仅给出分类，未展开适用场景与权衡。</li>
+<li>未来战争由侦察与远程打击能力重塑：文摘部分转述《未来的战争》的观点：传感器覆盖、武器射程和弹药精度是决定现代战争的三大要素；发现目标后可远程摧毁，使奇袭和近距离交战更困难，部队集结暴露范围扩大，后方也不再安全。</li>
+<li>未来战争的应对路径与消耗战倾向：同一文摘提出三类应对：分散并构筑工事、撤入城市等难以侦察和打击的复杂地形、攻击敌方传感器并部署己方传感器。其设想是高机动小组配合后方重型火力，争取短暂窗口夺取单一目标；总体趋势更可能是消耗战而非奇袭制胜。正文没有给出数据或案例验证。</li>
+<li>可继续评估的软件与 AI 资源线索：周刊列出多项与软件工程和 AI 实践相关的工具和教程线索：Netdata 用于集中查看服务器与服务状态，Srcbook 面向 TypeScript/JavaScript 的互动笔记本，sgrep 提供语义搜索式 grep，13ft 可抓取付费墙后内容但需自搭建，tinybrain 用 PyTorch 展示中文小模型从数据清洗到强化学习的流程，Web Browser Engineering 用几千行 Python 讲解浏览器原理，另有生成式 AI 数学入门教程。正文只有简短介绍，使用前仍需核验维护状态、许可与安全边界。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:bd2fbb8b-9ecc-4151-88a6-128e435548ad</guid><pubDate>Sun, 22 Nov 2026 10:09:18 GMT</pubDate></item></channel></rss>
