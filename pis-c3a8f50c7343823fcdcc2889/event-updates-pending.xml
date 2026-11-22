@@ -86,4 +86,12 @@
 <p>发生时间：时间未确定</p>
 <h3>初始事实</h3>
 <p>周刊称，本周一家美国模型公司在其网站发文声称，Qwen3-Coder 会区别对待用户：当用户自称“美国国防承包商”时，模型生成的代码质量较差、漏洞更多；当用户自称中国公司时，代码质量更高。周刊作者质疑该测试选择的是 2025 年 7 月 31 日发布、激活参数仅 3.3B 的 Qwen3-Coder-30B-A3B-Instruct，并称该公司同时销售所谓“经过安全化处理的”同款模型，因此该指控和测试动机可疑。</p>
-</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:e53db514-a1a6-4e25-b399-c6987cdb042f</guid><pubDate>Sun, 22 Nov 2026 10:16:36 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:e53db514-a1a6-4e25-b399-c6987cdb042f</guid><pubDate>Sun, 22 Nov 2026 10:16:36 GMT</pubDate></item><item><title>AI 模型生成《看不见的城市》3D 版本并比较效果</title><link>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</link><description>周刊称，有人将卡尔维诺《看不见的城市》中 55 座城市的文字描述输入 AI 模型，用 GPT-6 Astra 和 Claude Opus 5.5 建立可视化 3D 版本。文中比较称，Claude Opus 5.5 的艾琳和伊希多拉实现更忠实于原著，GPT-6 Astra 生成的 55 个城市外观相似且未能呈现原文意境。</description><content:encoded><![CDATA[<section>
+<h2>AI 模型生成《看不见的城市》3D 版本并比较效果</h2>
+<p>核心实体：3D 版《看不见的城市》</p>
+<p>主题：将《看不见的城市》中的城市文字描述生成可视化 3D 版本</p>
+<p>范围：围绕该项目对 55 座城市的 AI 3D 生成，以及 GPT-6 Astra 与 Claude Opus 5.5 实现效果比较；不覆盖一般 AI 3D 建模工具或小说本身研究。</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，有人将卡尔维诺《看不见的城市》中 55 座城市的文字描述输入 AI 模型，用 GPT-6 Astra 和 Claude Opus 5.5 建立可视化 3D 版本。文中比较称，Claude Opus 5.5 的艾琳和伊希多拉实现更忠实于原著，GPT-6 Astra 生成的 55 个城市外观相似且未能呈现原文意境。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ea5be75e-1434-449d-82e3-4845d577a120</guid><pubDate>Sun, 22 Nov 2026 10:18:09 GMT</pubDate></item></channel></rss>
