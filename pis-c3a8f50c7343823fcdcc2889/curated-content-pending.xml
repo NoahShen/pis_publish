@@ -362,4 +362,17 @@
 <li>单人按任务特点做多模型分工的实践经验：作者将不同模型按任务分配：GPT-6 Astra Medium 用于需求分析和代码 Review 等细致工作；Opus 5.5 High 用于长任务编码（跨仓库迁移、大仓库审计），主观评价其能自主规划步骤、稳定完成 2 小时级任务；Grok 用于处理开源 issue/PR 和用户增长工作；另在 Mac 上写 C# 并借助 Parallels Desktop 虚拟机让 Agent 操作 Windows 软件完成测试。均为单人主观体验，无对照评测，仅作工作流参考。</li>
 <li>观点：AI 用量排名应看产出而非 Token 消耗：作者批评只统计 Token 使用量排名、不考察用 Token 做了什么的做法，认为这本末倒置且容易把工程师带偏；主张把订阅额度用于解决实际问题而非写 Demo。属于个人观点，但对团队如何评估 AI 使用效率有启发意义。</li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/284/">https://weekly.tw93.fun/posts/284/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:7e3b459a-ad9c-4967-876c-fbf59b11e966</guid><pubDate>Sun, 22 Nov 2026 14:41:48 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/284/">https://weekly.tw93.fun/posts/284/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:7e3b459a-ad9c-4967-876c-fbf59b11e966</guid><pubDate>Sun, 22 Nov 2026 14:41:48 GMT</pubDate></item><item><title>周刊第282期：文档排版的设计思考与 AI 时代工具精选</title><link>https://weekly.tw93.fun/posts/282/</link><description>本期周刊混合了潮流工具推荐与随笔，其中最有分量的是作者在迭代 AI 时代排版引擎 Kami 过程中对文档排版的设计理解：排版服务于阅读与理解而非炫技，先有内容再有排版，配图需解释内容，并以「如无必要，勿增实体」为原则做减法。此外收录了 Dario Amodei《We Must Pace the Frontier》一文（周刊称其公开呼吁放慢 AI 能力迭代、马斯克赞同，正文论点需读原文）、几个实用小工具（MacTap、哪版、iOS 第三方输入法悬浮窗语音等）与个人闲谈内容。</description><content:encoded><![CDATA[<section>
+<h2>周刊第282期：文档排版的设计思考与 AI 时代工具精选</h2>
+<p>分类：Insight</p>
+<p>摘要：本期周刊混合了潮流工具推荐与随笔，其中最有分量的是作者在迭代 AI 时代排版引擎 Kami 过程中对文档排版的设计理解：排版服务于阅读与理解而非炫技，先有内容再有排版，配图需解释内容，并以「如无必要，勿增实体」为原则做减法。此外收录了 Dario Amodei《We Must Pace the Frontier》一文（周刊称其公开呼吁放慢 AI 能力迭代、马斯克赞同，正文论点需读原文）、几个实用小工具（MacTap、哪版、iOS 第三方输入法悬浮窗语音等）与个人闲谈内容。</p>
+<p>价值：对这位从事软件工程并关注 AI 的用户，最有直接用处的是 Kami 作者的排版设计思考：它把「排版服务于理解」「如无必要勿增实体」落到了具体取舍（删装饰线/竖条/阴影、调整表格线与间距），对撰写文档、设计产品界面有可迁移的参考；其中「用测试脚本自动检查 AI 生成排版」的做法与用户关注的 Harness、AI 输出质量约束实践直接相关。Dario 放慢 AI 迭代的发文是值得跟进的 AI 行业信号，但本期仅提供链接与一句话转述，论证需读原文。MacTap、哪版、iOS 输入法悬浮窗等属于可选的小工具与小技巧，价值偏轻。需注意：排版原则为作者个人经验性观点而非研究结论，其效果未经验证。</p>
+<h3>Findings</h3>
+<ul>
+<li>图表与配图必须服务于理解：能发现规律的图表、能把事情解释清楚的图片，效果往往好于纯文字（一图胜千言）；但与内容无关、仅为好看的配图会让读者不知道它想说什么，反而减分。</li>
+<li>「如无必要，勿增实体」在排版中的应用：每加一根线、一个框、一块底色，都要问它帮助读者理解了什么；如果字号、间距和对齐已经能说清关系，就不必再叠装饰。同时不应为追求极简而删掉真正帮助阅读的元素（如加粗、变色）。作者在 Kami 中的具体实践：删掉标题旁无用的装饰短线、提示块的蓝色竖条与多余阴影，表格线变细变淡，间距留得更开。</li>
+<li>用测试脚本约束 AI 生成的排版质量：作者将上述排版要求与建议写成测试脚本做自动检查，用于发现 AI 生成内容中未被察觉的排版问题。这是 AI 时代工程实践中「用自动化规则约束 AI 输出」的一个具体小案例。</li>
+<li>AI 动态：Dario Amodei 发文呼吁控制 AI 能力迭代速度：周刊提及 Dario Amodei（Anthropic CEO）发布《We Must Pace the Frontier》，公开呼吁放慢 AI 能力迭代，并称马斯克也表达赞同。此为周刊转述的链接与一句话介绍，具体论据需阅读原文，属值得跟踪的 AI 行业信号。</li>
+<li>实用小工具与技巧合集：MacTap：敲击 MacBook 机身或桌面触发快捷键，支持一敲/两敲/三敲映射，约 M2 及之后的机型支持；Mac Duo：把 iPhone 合盖动效搬到 MacBook，需带盖角传感器的机型，偏趣味性；哪版：一张表对比各销售地区 iPhone 的 SIM、Apple Intelligence 与保修差异，适合纠结国行/港版/美版时参考；iOS 第三方输入法新增语音悬浮窗模式（如微信输入法在输入法设置中开启），语音输入不再跳转 App。</li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://weekly.tw93.fun/posts/282/">https://weekly.tw93.fun/posts/282/</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:964bff26-53d6-4751-80aa-a323be65b202</guid><pubDate>Sun, 22 Nov 2026 14:43:48 GMT</pubDate></item></channel></rss>
