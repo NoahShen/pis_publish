@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Fable 5.2一夜生成可玩游戏关卡</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊介绍，作者将侄子手绘的游戏草图和设想提交给刚发布的Fable 5.2模型，该模型用一个晚上生成了全部12个关卡，且第一次生成结果即可玩。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Node.js拟改为每年发布一个长期支持版本</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊称，从明年开始Node.js每年将只发布一个版本，每个版本都是长期支持；2027年的Node.js 27已进入测试，文章介绍了其新特性。</description><content:encoded><![CDATA[<section>
+<h2>Node.js拟改为每年发布一个长期支持版本</h2>
+<p>核心实体：Node.js</p>
+<p>主题：版本发布策略与Node.js 27测试</p>
+<p>范围：Node.js发布周期、长期支持策略调整及后续版本测试进展</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，从明年开始Node.js每年将只发布一个版本，每个版本都是长期支持；2027年的Node.js 27已进入测试，文章介绍了其新特性。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html">http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:5681b38a-3865-40b8-968c-5c5c3cffe972</guid><pubDate>Sun, 22 Nov 2026 10:12:36 GMT</pubDate></item><item><title>Fable 5.2一夜生成可玩游戏关卡</title><link>http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html</link><description>周刊介绍，作者将侄子手绘的游戏草图和设想提交给刚发布的Fable 5.2模型，该模型用一个晚上生成了全部12个关卡，且第一次生成结果即可玩。</description><content:encoded><![CDATA[<section>
 <h2>Fable 5.2一夜生成可玩游戏关卡</h2>
 <p>核心实体：Fable 5.2</p>
 <p>主题：游戏生成模型能力</p>
