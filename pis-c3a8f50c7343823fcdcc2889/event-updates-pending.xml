@@ -94,4 +94,12 @@
 <p>发生时间：时间未确定</p>
 <h3>初始事实</h3>
 <p>周刊称，有人将卡尔维诺《看不见的城市》中 55 座城市的文字描述输入 AI 模型，用 GPT-6 Astra 和 Claude Opus 5.5 建立可视化 3D 版本。文中比较称，Claude Opus 5.5 的艾琳和伊希多拉实现更忠实于原著，GPT-6 Astra 生成的 55 个城市外观相似且未能呈现原文意境。</p>
-</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ea5be75e-1434-449d-82e3-4845d577a120</guid><pubDate>Sun, 22 Nov 2026 10:18:09 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ea5be75e-1434-449d-82e3-4845d577a120</guid><pubDate>Sun, 22 Nov 2026 10:18:09 GMT</pubDate></item><item><title>Deno 宣布被 Cloudflare 收购并终止开发</title><link>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</link><description>周刊称，上周 Deno 宣布被 Cloudflare 收购，未来一年将只发布错误修复和安全更新，随后彻底结束。创始人 Ryan Dahl 表示，Deno 已被 Node.js 兼容性束缚，未能解决重大问题，重新实现 Node.js 并不值得。</description><content:encoded><![CDATA[<section>
+<h2>Deno 宣布被 Cloudflare 收购并终止开发</h2>
+<p>核心实体：Deno</p>
+<p>主题：Deno 项目被收购后的维护结束</p>
+<p>范围：围绕 Deno 被 Cloudflare 收购、后续维护安排及创始人 Ryan Dahl 对放弃原因的说明；不覆盖 Node.js 的一般发展。</p>
+<p>发生时间：时间未确定</p>
+<h3>初始事实</h3>
+<p>周刊称，上周 Deno 宣布被 Cloudflare 收购，未来一年将只发布错误修复和安全更新，随后彻底结束。创始人 Ryan Dahl 表示，Deno 已被 Node.js 兼容性束缚，未能解决重大问题，重新实现 Node.js 并不值得。</p>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:02d0f603-8cc0-4e10-8c4b-bec6f89acd54</guid><pubDate>Sun, 22 Nov 2026 10:18:31 GMT</pubDate></item></channel></rss>
