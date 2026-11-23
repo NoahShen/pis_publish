@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>Jync v2.4.1 的 TDengine 3.x 轮询接入与元数据设计</title><link>https://www.oschina.net/news/503686</link><description>Jync v2.4.1 新增 35 种 TDengine 3.x 预设，通过官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口读取数据，使用 6041 端口，驱动 JAR 需由部署方自行提供。元数据通过 information_schema 与 DESCRIBE 获取，超级表进入同步清单，子表不重复列举；分块键支持 ts + 声明主键，或声明主键 + TAG 复合主键。当前内容为截断版，标题提到的布尔与改列修复未展开，分块同步的完整语义也未展示。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>Magpie 更新：支持将划词结果一键写入 Anki</title><link>https://www.oschina.net/news/503662</link><description>内容介绍跨平台 AI 划词工具 Magpie 的 Anki 集成：用户可在任意应用中划选或双击文本，通过浮动工具栏进行翻译、解释或总结，并将结果直接写入 Anki；产品还声称支持从图片、视频和扫描文档中框选识别文字。当前内容是发布简介，未提供安装方式、配置步骤、兼容性、隐私处理细节或实际效果验证，且标题与正文分别写作 v0.1.23 和 v0.1.22。</description><content:encoded><![CDATA[<section>
+<h2>Magpie 更新：支持将划词结果一键写入 Anki</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：内容介绍跨平台 AI 划词工具 Magpie 的 Anki 集成：用户可在任意应用中划选或双击文本，通过浮动工具栏进行翻译、解释或总结，并将结果直接写入 Anki；产品还声称支持从图片、视频和扫描文档中框选识别文字。当前内容是发布简介，未提供安装方式、配置步骤、兼容性、隐私处理细节或实际效果验证，且标题与正文分别写作 v0.1.23 和 v0.1.22。</p>
+<p><strong>价值</strong>：对持续关注 AI 软件与实用自动化的用户，这提供了一条值得测试的工作流：阅读外语材料时直接调用 AI 处理，并把选定结果送入 Anki 间隔复习系统。其潜在价值主要在于减少摘录、翻译和制卡之间的手工搬运；不过现有内容偏产品宣传且不完整，实际采用前仍需核查跨平台支持、Anki 字段映射、隐私边界和稳定性，并确认标题与正文所示版本号不一致的问题。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>Anki 成为划词结果的直接输出目标</strong><p>Magpie 的浮动工具栏除复制和搜索外，还可将选中的内容写入 Anki，为外语学习或知识整理提供了从阅读、翻译解释到制卡之间的连续工作流。</p></li>
+<li><strong>工具定位为跨平台、非侵入式 AI 划词入口</strong><p>按产品描述，用户在任意应用中划选或双击文本即可调出工具栏，执行翻译、解释和总结；图片、视频与扫描文档中的文字也可通过框选进入识别与处理流程。</p></li>
+<li><strong>当前发布信息的可验证细节有限</strong><p>正文没有给出下载链接、支持平台、数据发送或本地处理方式、Anki 配置方法及效果案例，因此更适合作为值得进一步试用核查的工具线索，而不是已经验证的解决方案。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503662">https://www.oschina.net/news/503662</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:7160745d-2b57-42e3-8f48-e7a5c1448705</guid><pubDate>Mon, 23 Nov 2026 05:23:16 GMT</pubDate></item><item><title>Gemini 4 Neon 的产品定位与计费参数</title><link>https://www.oschina.net/news/503675/google-gemini-4-neon</link><description>文章介绍了 Google Gemini 4 系列新增的中间档模型 Neon。按文章转述的 Google 定位，Carbon 面向最困难的长周期项目，Hydrogen 面向日常快速执行，Neon 强调深度与效率平衡。Neon 的列出价格为每百万 token 输入 3 美元、缓存输入 0.15 美元（较普通输入价折扣 95%）、输出 15 美元，上下文窗口为 100 万 token。由于内容截断，未提供能力基准、相对性能、可用性、官方链接或完整价格比较，因此目前只能将其作为模型选型和成本估算的初步参考。</description><content:encoded><![CDATA[<section>
+<h2>Gemini 4 Neon 的产品定位与计费参数</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：文章介绍了 Google Gemini 4 系列新增的中间档模型 Neon。按文章转述的 Google 定位，Carbon 面向最困难的长周期项目，Hydrogen 面向日常快速执行，Neon 强调深度与效率平衡。Neon 的列出价格为每百万 token 输入 3 美元、缓存输入 0.15 美元（较普通输入价折扣 95%）、输出 15 美元，上下文窗口为 100 万 token。由于内容截断，未提供能力基准、相对性能、可用性、官方链接或完整价格比较，因此目前只能将其作为模型选型和成本估算的初步参考。</p>
+<p><strong>价值</strong>：这些具体参数可为该用户的 Agent、Harness 和量化研究工作流提供模型路由与调用成本的初始基线，并用于检查长上下文容量是否满足研究资料处理需求。尤其是普通输入与缓存输入之间 95% 的价差，可纳入缓存策略的敏感性分析。不过，由于片段缺少官方来源、横向评测和可用性信息，现阶段更适合做初筛与预算估算，不足以直接支持模型采购或生产部署决策。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>Gemini 4 采用三档产品定位</strong><p>文章称 Carbon 负责最具挑战性的长周期项目，Hydrogen 用于日常快速执行，新增的 Neon 位于两者之间，目标是在推理深度与执行效率之间取得平衡。这属于厂商定位，尚非独立验证的性能结论。</p></li>
+<li><strong>Neon 的百万 token 定价</strong><p>文章列出的 Neon 价格为：每百万 token 输入 3 美元，缓存输入 0.15 美元，即普通输入价的 5%，每百万 token 输出 15 美元。这些数字可用于初步估算 Agent、批量文档处理等任务的模型调用成本。</p></li>
+<li><strong>上下文窗口达到 100 万 token</strong><p>Neon 被标注为 100 万 token 上下文窗口，可作为长文档或长上下文任务的容量条件；窗口大小本身不代表其长上下文效果、延迟或可靠性，文中没有相关评测。</p></li>
+<li><strong>当前片段不足以判断性价比</strong><p>内容没有给出与 Carbon、Hydrogen 或其他模型的统一基准、输出质量、吞吐量、延迟、可用区域和计费细则，因此无法仅凭价格与定位判断 Neon 的实际性能或成本效益。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503675/google-gemini-4-neon">https://www.oschina.net/news/503675/google-gemini-4-neon</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:03de7e13-2d42-4882-8ffd-50334ccff91e</guid><pubDate>Mon, 23 Nov 2026 05:22:42 GMT</pubDate></item><item><title>NGINX 两个 HTTP/2 条件下的未认证 RCE 漏洞</title><link>https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</link><description>该片段称，NGINX 存在 CVE-2026-123633 和 CVE-2026-123007，在服务器启用 HTTP/2 时可用于未认证攻击者执行任意代码，两者的 CVSS 4.0 评分均为 9.2。漏洞由五个团队分别独立发现；Wiz 表示其发现过程使用了自有 AI 工具并提及 Gemini，但相关内容在片段中已被截断。当前内容没有给出受影响版本、修复版本、技术机制或实际利用活动信息。</description><content:encoded><![CDATA[<section>
+<h2>NGINX 两个 HTTP/2 条件下的未认证 RCE 漏洞</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：该片段称，NGINX 存在 CVE-2026-123633 和 CVE-2026-123007，在服务器启用 HTTP/2 时可用于未认证攻击者执行任意代码，两者的 CVSS 4.0 评分均为 9.2。漏洞由五个团队分别独立发现；Wiz 表示其发现过程使用了自有 AI 工具并提及 Gemini，但相关内容在片段中已被截断。当前内容没有给出受影响版本、修复版本、技术机制或实际利用活动信息。</p>
+<p><strong>价值</strong>：对用户的软件工程与 AI 跟踪而言，具体 CVE 编号和 HTTP/2 这一暴露前提可用于盘点 NGINX 部署，并优先核对后续官方公告中的版本范围与修复方案。不过当前片段信息不完整，缺少补丁、漏洞机制、复现条件及在野利用证据，因此更适合作为风险排查线索，不能单独作为完成修复或评价 AI 自动发现能力的充分依据。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>两个未认证远程代码执行漏洞的 CVE 编号与评分</strong><p>CVE-2026-123633 和 CVE-2026-123007 被报道为可导致未认证远程代码执行的高危漏洞，CVSS 4.0 评分均为 9.2。</p></li>
+<li><strong>HTTP/2 是当前披露的共同暴露前提</strong><p>片段明确称两个漏洞都要求 NGINX 服务器启用 HTTP/2；这一条件可用于初步判断部署是否可能受到影响，但片段未说明具体受影响版本及利用链的其他要求。</p></li>
+<li><strong>多个团队独立发现，AI 辅助发现的细节尚不完整</strong><p>Wiz Research、Ikotas Labs、Metnir、Rapid7 和 Xint 分别发现了这些漏洞。Wiz 称过程中使用自有 AI 工具并提及 Gemini，但由于相关段落被截断，无法评估 AI 对漏洞发现的具体贡献、验证过程或可复现性。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities">https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2b6cb4c8-a132-4d36-a246-9d21c4d1b3aa</guid><pubDate>Mon, 23 Nov 2026 05:22:06 GMT</pubDate></item><item><title>Jync v2.4.1 的 TDengine 3.x 轮询接入与元数据设计</title><link>https://www.oschina.net/news/503686</link><description>Jync v2.4.1 新增 35 种 TDengine 3.x 预设，通过官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口读取数据，使用 6041 端口，驱动 JAR 需由部署方自行提供。元数据通过 information_schema 与 DESCRIBE 获取，超级表进入同步清单，子表不重复列举；分块键支持 ts + 声明主键，或声明主键 + TAG 复合主键。当前内容为截断版，标题提到的布尔与改列修复未展开，分块同步的完整语义也未展示。</description><content:encoded><![CDATA[<section>
 <h2>Jync v2.4.1 的 TDengine 3.x 轮询接入与元数据设计</h2>
 <p><strong>分类</strong>：Resource</p>
 <p><strong>摘要</strong>：Jync v2.4.1 新增 35 种 TDengine 3.x 预设，通过官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口读取数据，使用 6041 端口，驱动 JAR 需由部署方自行提供。元数据通过 information_schema 与 DESCRIBE 获取，超级表进入同步清单，子表不重复列举；分块键支持 ts + 声明主键，或声明主键 + TAG 复合主键。当前内容为截断版，标题提到的布尔与改列修复未展开，分块同步的完整语义也未展示。</p>
