@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>Magpie 更新：支持将划词结果一键写入 Anki</title><link>https://www.oschina.net/news/503662</link><description>内容介绍跨平台 AI 划词工具 Magpie 的 Anki 集成：用户可在任意应用中划选或双击文本，通过浮动工具栏进行翻译、解释或总结，并将结果直接写入 Anki；产品还声称支持从图片、视频和扫描文档中框选识别文字。当前内容是发布简介，未提供安装方式、配置步骤、兼容性、隐私处理细节或实际效果验证，且标题与正文分别写作 v0.1.23 和 v0.1.22。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>CyreneAdmin v1.6.0：自动建表、RBAC 授权边界收敛与标签页交互更新</title><link>https://www.oschina.net/news/503659</link><description>CyreneAdmin 是同时支持 Spring Boot 与 Solon 的后台管理系统脚手架，内置权限控制、用户管理、菜单配置和操作日志等模块。v1.6.0 的可见更新包括启动时自动建表、收敛 RBAC 授权边界、增加标签页右键最大化，以及通过依赖管理锁定 Spring Boot 与 Spring Framework 版本。当前正文被截断，未提供具体版本号、实现方式、兼容性说明或安全语义变化。</description><content:encoded><![CDATA[<section>
+<h2>CyreneAdmin v1.6.0：自动建表、RBAC 授权边界收敛与标签页交互更新</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：CyreneAdmin 是同时支持 Spring Boot 与 Solon 的后台管理系统脚手架，内置权限控制、用户管理、菜单配置和操作日志等模块。v1.6.0 的可见更新包括启动时自动建表、收敛 RBAC 授权边界、增加标签页右键最大化，以及通过依赖管理锁定 Spring Boot 与 Spring Framework 版本。当前正文被截断，未提供具体版本号、实现方式、兼容性说明或安全语义变化。</p>
+<p><strong>价值</strong>：该项目可为该用户评估企业级管理后台脚手架、权限模块及 Spring Boot/Solon 双框架实现提供实际候选；“自动建表”“RBAC 授权边界收敛”和依赖版本锁定也可直接作为选型、安全审查与升级检查项。不过当前内容不完整，采用前仍需核查完整发布说明、具体依赖版本、RBAC 变更语义、迁移影响及实际测试结果。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>支持 Spring Boot 与 Solon 的后台管理脚手架</strong><p>CyreneAdmin 面向企业级后台系统，集成权限控制、用户管理、菜单配置和操作日志，可作为多框架管理后台实现方案的评估对象。</p></li>
+<li><strong>v1.6.0 改进初始化、权限边界和标签页交互</strong><p>本次发布包含启动时自动建表、RBAC 授权边界收敛，以及标签页右键最大化，分别对应部署初始化简化、权限控制收紧和后台界面操作优化。</p></li>
+<li><strong>通过依赖管理固定 Spring 技术栈版本</strong><p>更新使用依赖管理锁定 Spring Boot 与 Spring Framework 版本，意在降低框架组件版本漂移带来的兼容风险；原文未给出所锁定的具体版本。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503659">https://www.oschina.net/news/503659</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ff0d5b35-3c74-4bdd-ba7b-af7617bfe86b</guid><pubDate>Mon, 23 Nov 2026 05:24:08 GMT</pubDate></item><item><title>Jync 捷同 v2.4.0：以只读 AI 助手诊断 ETL 任务与变更日志断流</title><link>https://www.oschina.net/news/503660</link><description>Jync 捷同 v2.4.0 面向 ADMIN / OPS 角色加入内嵌 AI 运维助手。接入大模型后，可用自然语言查询任务状态、进度与吞吐、源/目标行数、数据库性能、当前告警及最近 ETL 结果。变更日志断流时，助手可逐项检查连接、权限、位点和跳过计数；该检查会连接源库，且单次对话最多执行两次。版本还引入多角色权限并采用 Apache-2.0 协议。现有内容未展示 11 个只读工具的完整清单、模型接入细节或效果验证。</description><content:encoded><![CDATA[<section>
+<h2>Jync 捷同 v2.4.0：以只读 AI 助手诊断 ETL 任务与变更日志断流</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：Jync 捷同 v2.4.0 面向 ADMIN / OPS 角色加入内嵌 AI 运维助手。接入大模型后，可用自然语言查询任务状态、进度与吞吐、源/目标行数、数据库性能、当前告警及最近 ETL 结果。变更日志断流时，助手可逐项检查连接、权限、位点和跳过计数；该检查会连接源库，且单次对话最多执行两次。版本还引入多角色权限并采用 Apache-2.0 协议。现有内容未展示 11 个只读工具的完整清单、模型接入细节或效果验证。</p>
+<p><strong>价值</strong>：该发布为用户关注的 AI 工程、Agent 工具调用和软件架构提供了具体案例：以角色授权、只读工具和次数上限控制自然语言运维助手的能力边界。它还可作为设计数据运维 Agent、变更流诊断流程及 LLM 工具权限机制的参考；但因正文不完整，尚不足以判断其实际诊断准确率、部署成本或开源代码质量。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>用自然语言统一查询数据运维状态</strong><p>AI 助手覆盖任务状态、进度与吞吐、源/目标行数、数据库性能、告警和最近 ETL 结果，可作为数据集成运维的自然语言查询入口。</p></li>
+<li><strong>将变更日志断流拆解为四项前提检查</strong><p>诊断流程逐项检查连接、权限、位点和跳过计数，把模糊的“断流”问题转化为可定位的排查步骤；检查可能访问源库，单次对话最多进行两次。</p></li>
+<li><strong>以角色和只读工具约束 AI 运维能力</strong><p>助手仅对 ADMIN / OPS 开放，并配置了 11 个只读工具。该设计限制了 AI 的操作范围，适合作为评估 LLM 接入企业数据运维系统时的权限与工具安全参考。</p></li>
+<li><strong>开源发布但实现信息仍不完整</strong><p>v2.4.0 引入多角色权限并采用 Apache-2.0 开源协议，但当前片段没有提供完整工具清单、仓库信息、模型配置方式或基准测试，因此更适合作为待进一步核验的工具线索。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503660">https://www.oschina.net/news/503660</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b27f021f-b5fb-49df-81fd-fa2c7623c53e</guid><pubDate>Mon, 23 Nov 2026 05:23:56 GMT</pubDate></item><item><title>Magpie 更新：支持将划词结果一键写入 Anki</title><link>https://www.oschina.net/news/503662</link><description>内容介绍跨平台 AI 划词工具 Magpie 的 Anki 集成：用户可在任意应用中划选或双击文本，通过浮动工具栏进行翻译、解释或总结，并将结果直接写入 Anki；产品还声称支持从图片、视频和扫描文档中框选识别文字。当前内容是发布简介，未提供安装方式、配置步骤、兼容性、隐私处理细节或实际效果验证，且标题与正文分别写作 v0.1.23 和 v0.1.22。</description><content:encoded><![CDATA[<section>
 <h2>Magpie 更新：支持将划词结果一键写入 Anki</h2>
 <p><strong>分类</strong>：Resource</p>
 <p><strong>摘要</strong>：内容介绍跨平台 AI 划词工具 Magpie 的 Anki 集成：用户可在任意应用中划选或双击文本，通过浮动工具栏进行翻译、解释或总结，并将结果直接写入 Anki；产品还声称支持从图片、视频和扫描文档中框选识别文字。当前内容是发布简介，未提供安装方式、配置步骤、兼容性、隐私处理细节或实际效果验证，且标题与正文分别写作 v0.1.23 和 v0.1.22。</p>
