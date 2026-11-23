@@ -465,4 +465,52 @@
 <p><strong>发生时间</strong>：2026-11-15T00:00:00Z</p>
 <h3>初始事实</h3>
 <p>Qwen 团队于 11 月 15 日发布 Qwen4-Max，称其基于 Qwen4 架构，配备 2.4 万亿参数骨干、每个 token 激活 710 亿参数及 3280 亿 N-gram embedding 参数，并原生支持视觉和 100 万 token 上下文。团队称 Xhigh、High 档在 Work360 上分别减少约 24%、35% 的 token 用量，平均每任务成本从 4.43 美元降至 1.67 美元；Qwen4-Max 的 Work360 得分为 52.69，Qwen3.8-Max 为 47.74。内容还称 Qwen4-Max 权重暂不开源，阿里仅计划开源同系列小模型。</p>
-</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4e69c8f4-b4f0-459f-9959-14cce9ddc1e0</guid><pubDate>Mon, 23 Nov 2026 06:07:17 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4e69c8f4-b4f0-459f-9959-14cce9ddc1e0</guid><pubDate>Mon, 23 Nov 2026 06:07:17 GMT</pubDate></item><item><title>uBlock Origin 网站驱动通用 XSS 披露并完成修复</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>11 月 15 日，Smitty van Bodegom 公开了 uBlock Origin 的通用 XSS 漏洞。恶意网站可诱导扩展添加任意“受信任过滤器”，并利用 `opt` 字段注入在任意站点上下文执行 JavaScript；Firefox 上的 MV2 版本受影响，MV3 版本 uBO Lite 存在类似但较轻的问题。GitHub 公告称 1.75.2 及更早版本受影响，1.75.4 已修复，安全公告编号为 GHSA-cmqw-9r2w-6wv2。修复方案要求真正的…</description><content:encoded><![CDATA[<section>
+<h2>uBlock Origin 网站驱动通用 XSS 披露并完成修复</h2>
+<p><strong>核心实体</strong>：uBlock Origin</p>
+<p><strong>主题</strong>：uBlock Origin 受信任过滤器注入漏洞</p>
+<p><strong>范围</strong>：Firefox MV2 版本及 uBO Lite 的网站驱动通用 XSS 攻击链、扩展 UUID 泄露、修复版本和安全公告。</p>
+<p><strong>发生时间</strong>：2026-11-15T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>11 月 15 日，Smitty van Bodegom 公开了 uBlock Origin 的通用 XSS 漏洞。恶意网站可诱导扩展添加任意“受信任过滤器”，并利用 `opt` 字段注入在任意站点上下文执行 JavaScript；Firefox 上的 MV2 版本受影响，MV3 版本 uBO Lite 存在类似但较轻的问题。GitHub 公告称 1.75.2 及更早版本受影响，1.75.4 已修复，安全公告编号为 GHSA-cmqw-9r2w-6wv2。修复方案要求真正的元素选择器通过内容脚本取得秘密口令，并在首次 postMessage 消息中携带该口令。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:a3365a9d-5231-495d-ae68-e0a57e95fb8d</guid><pubDate>Mon, 23 Nov 2026 06:07:24 GMT</pubDate></item><item><title>MIT 2026 年秋季开设制造实践课程</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>MIT 的 MAS.863/4.140/6.9020“How to Make (almost) Anything”课程于 2026 年 9 月 9 日至 12 月 15 日开设，由 Neil Gershenfeld 授课，共 18 学分，官方建议每周投入约 18 小时。课程覆盖计算机辅助设计、项目管理、计算机控制切割、嵌入式编程、3D 扫描与打印、电子制造、机器设计、网络通信、系统集成和项目开发等主题。相关讨论集中于广度优先制造教育的价值，以及在 LLM 和 agent 普…</description><content:encoded><![CDATA[<section>
+<h2>MIT 2026 年秋季开设制造实践课程</h2>
+<p><strong>核心实体</strong>：How to Make (almost) Anything</p>
+<p><strong>主题</strong>：MIT 2026 年秋季课程安排与制造教育实践</p>
+<p><strong>范围</strong>：MIT 课程的学期安排、授课教师与学分、跨领域实践主题，以及制造教育广度和 LLM 时代横向知识的讨论。</p>
+<p><strong>发生时间</strong>：2026-09-09T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>MIT 的 MAS.863/4.140/6.9020“How to Make (almost) Anything”课程于 2026 年 9 月 9 日至 12 月 15 日开设，由 Neil Gershenfeld 授课，共 18 学分，官方建议每周投入约 18 小时。课程覆盖计算机辅助设计、项目管理、计算机控制切割、嵌入式编程、3D 扫描与打印、电子制造、机器设计、网络通信、系统集成和项目开发等主题。相关讨论集中于广度优先制造教育的价值，以及在 LLM 和 agent 普及后 knowing what can be done 对解决实际问题的重要性。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:633dca30-7a68-40a3-bf77-142bf03533ca</guid><pubDate>Mon, 23 Nov 2026 06:07:28 GMT</pubDate></item><item><title>Tor 发布 0.4.9.17 紧急修复持续 DDoS 风险</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>Tor Project 发布 0.4.9.17，修复一组安全问题，其中与 relay 的 IPv6 处理相关的 DoS 防御尤其重要。内容称当前网络正遭受持续 DDoS，攻击已影响大多数 relay 运营者，大量客户端电路涌入并压垮网络中的 relay；运营者应尽快升级，升级后不需要额外操作。报道还记录一名 guard 节点运营者遭遇攻击后，通过停止让节点承担 guard 角色恢复正常，而本次攻击的具体动机仍未确定。</description><content:encoded><![CDATA[<section>
+<h2>Tor 发布 0.4.9.17 紧急修复持续 DDoS 风险</h2>
+<p><strong>核心实体</strong>：Tor Project</p>
+<p><strong>主题</strong>：Tor 0.4.9.17 的持续 DDoS 应急安全修复</p>
+<p><strong>范围</strong>：0.4.9.17 的安全修复、relay 的 IPv6 DoS 防御、持续攻击对网络和节点运营者的影响及升级要求。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Tor Project 发布 0.4.9.17，修复一组安全问题，其中与 relay 的 IPv6 处理相关的 DoS 防御尤其重要。内容称当前网络正遭受持续 DDoS，攻击已影响大多数 relay 运营者，大量客户端电路涌入并压垮网络中的 relay；运营者应尽快升级，升级后不需要额外操作。报道还记录一名 guard 节点运营者遭遇攻击后，通过停止让节点承担 guard 角色恢复正常，而本次攻击的具体动机仍未确定。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:eed898d6-c8b5-4646-b8b6-c556b7cc268c</guid><pubDate>Mon, 23 Nov 2026 06:07:35 GMT</pubDate></item><item><title>EchoMotion 用单块智能手表追踪全身动作</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>康奈尔大学 SciFi 实验室发布 EchoMotion 系统，利用智能手表的扬声器和麦克风发射人耳听不见的超声波，并通过回声和轻量 AI 模型推算全身姿态。论文于 10 月 13 日在上海举行的 UbiComp/IWSC 会议上发表。原型感知功耗约 12 毫瓦，在 Galaxy Watch 6 上运行 30 分钟耗电 5%—6%；15 名新参与者的关节位置平均误差低于 4 英寸，完成 12 分钟校准后降至约 2.4 英寸，同一模型无需重新训练即可用于 Galaxy Wat…</description><content:encoded><![CDATA[<section>
+<h2>EchoMotion 用单块智能手表追踪全身动作</h2>
+<p><strong>核心实体</strong>：EchoMotion</p>
+<p><strong>主题</strong>：基于超声波回声与轻量 AI 的全身动作追踪</p>
+<p><strong>范围</strong>：EchoMotion 的系统原理、感知功耗、参与者实验、关节定位精度、跨设备泛化及超声波隐私和可听性讨论。</p>
+<p><strong>发生时间</strong>：2026-10-13T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>康奈尔大学 SciFi 实验室发布 EchoMotion 系统，利用智能手表的扬声器和麦克风发射人耳听不见的超声波，并通过回声和轻量 AI 模型推算全身姿态。论文于 10 月 13 日在上海举行的 UbiComp/IWSC 会议上发表。原型感知功耗约 12 毫瓦，在 Galaxy Watch 6 上运行 30 分钟耗电 5%—6%；15 名新参与者的关节位置平均误差低于 4 英寸，完成 12 分钟校准后降至约 2.4 英寸，同一模型无需重新训练即可用于 Galaxy Watch 7 和 Google Pixel Watch 3。评论者根据论文所列 18—24.5 kHz 发射频率认为信号对部分人未必完全听不见，长期使用可能造成噪声污染。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:08845d07-ddc0-4847-93c3-c8a3dbc79a99</guid><pubDate>Mon, 23 Nov 2026 06:07:55 GMT</pubDate></item><item><title>ParadeDB 公开 Rank Join 跨表搜索优化方案</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>ParadeDB 的 Stu Hood 介绍其多表相关性搜索方案。在 StackOverflow 数据集的三表 Top-K 自然 SQL 基准中，查询时间从约 118 秒降至单核 100—600 毫秒，最多约 1000 倍。方案通过 Postgres 规划器钩子识别 search join，将完整 JOIN 及 LIMIT 或 GROUP BY 下发到基于 Apache DataFusion 的列存执行器；0.26.4 引入的 Rank Join 按分数流式构建候选集，并通…</description><content:encoded><![CDATA[<section>
+<h2>ParadeDB 公开 Rank Join 跨表搜索优化方案</h2>
+<p><strong>核心实体</strong>：ParadeDB</p>
+<p><strong>主题</strong>：基于列存执行器和 Rank Join 的多表相关性搜索</p>
+<p><strong>范围</strong>：ParadeDB 的 search join 执行架构、0.26.4 引入的 Rank Join、跨表 Top-K 基准表现及反规范化讨论。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>ParadeDB 的 Stu Hood 介绍其多表相关性搜索方案。在 StackOverflow 数据集的三表 Top-K 自然 SQL 基准中，查询时间从约 118 秒降至单核 100—600 毫秒，最多约 1000 倍。方案通过 Postgres 规划器钩子识别 search join，将完整 JOIN 及 LIMIT 或 GROUP BY 下发到基于 Apache DataFusion 的列存执行器；0.26.4 引入的 Rank Join 按分数流式构建候选集，并通过紧凑内部文档 ID 和 join key 减少数据搬运。评论区认为规范化数据仍可保留，但索引能够让部分用例呈现类似反规范化的查询效果。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:5dc3fd74-f496-47e1-9590-246bba608296</guid><pubDate>Mon, 23 Nov 2026 06:08:01 GMT</pubDate></item><item><title>2007 年 ThinkPad z61t 断电复位复活案例持续流传</title><link>https://hacker-podcast.agi.li/episode/2026-11-16</link><description>2007 年，Mike Masnick 在大会前发现自己的 ThinkPad z61t 无法开机；IBM 支持人员建议拔掉 AC 适配器、取出电池、以一秒间隔按电源键 10 次，再按住电源键 30 秒，随后装回电池并按电源键，机器由此恢复启动。支持人员将其解释为静电放电。此后有用户报告该方法在 T21、T40、X31、X200、R61 等多种型号上有效；部分客服经验丰富的评论者认为，这一长按和断电流程可能只是为了确保充分释放残余电荷或重置 EC，而并非精确的“魔法序列”，该…</description><content:encoded><![CDATA[<section>
+<h2>2007 年 ThinkPad z61t 断电复位复活案例持续流传</h2>
+<p><strong>核心实体</strong>：ThinkPad</p>
+<p><strong>主题</strong>：ThinkPad 断电后通过电源键序列恢复启动的案例与可能机制</p>
+<p><strong>范围</strong>：z61t 原始复活案例、后续型号用户案例，以及残余电荷、电容和嵌入式控制器重启等可能解释。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>2007 年，Mike Masnick 在大会前发现自己的 ThinkPad z61t 无法开机；IBM 支持人员建议拔掉 AC 适配器、取出电池、以一秒间隔按电源键 10 次，再按住电源键 30 秒，随后装回电池并按电源键，机器由此恢复启动。支持人员将其解释为静电放电。此后有用户报告该方法在 T21、T40、X31、X200、R61 等多种型号上有效；部分客服经验丰富的评论者认为，这一长按和断电流程可能只是为了确保充分释放残余电荷或重置 EC，而并非精确的“魔法序列”，该报告并未确定唯一机制。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-16">https://hacker-podcast.agi.li/episode/2026-11-16</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:1bb041f9-1624-4655-b050-6c5a2905a17d</guid><pubDate>Mon, 23 Nov 2026 06:08:05 GMT</pubDate></item></channel></rss>
