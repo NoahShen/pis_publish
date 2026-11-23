@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人情报站</title><link>https://noahshen.github.io/pis_publish/</link><description>作者、周刊与资讯选读</description><item><title>【投资与金融】持股跟踪</title><link>https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</link><description><![CDATA[<div>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人情报站</title><link>https://noahshen.github.io/pis_publish/</link><description>作者、周刊与资讯选读</description><item><title>【个人工作记录】持股跟踪</title><link>https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</link><description><![CDATA[<div>
 <p><small>个人工作记录 · 2026-11-21 20:11:18 北京时间</small></p>
 <p>作者把长电、茅台和腾讯放在一篇持仓记录里，附了自己的历史盈亏。</p>
 <p>长电一节从水情入手：三峡虽已蓄到 175 米，作者观察到水位仍低于同期，并引用另一位观察者对全年发电量的估算。</p>
@@ -9,7 +9,7 @@
 <p>作者把长电、茅台和腾讯放在一篇持仓记录里，附了自己的历史盈亏。</p>
 <p>长电一节从水情入手：三峡虽已蓄到 175 米，作者观察到水位仍低于同期，并引用另一位观察者对全年发电量的估算。</p>
 <p><small>依据订阅源摘录 · <a href="https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【开发工具】第291期 - 晚秋良渚</title><link>https://weekly.tw93.fun/posts/291/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【潮流周刊】第291期 - 晚秋良渚</title><link>https://weekly.tw93.fun/posts/291/</link><description><![CDATA[<div>
 <p><small>潮流周刊 · 2026-11-23 08:00:00 北京时间</small></p>
 <p>作者从周末在良渚拍秋景写起。这一期把开发工具和旅行随笔放在一起，可以挑自己当下想读的一段。</p>
 <ul><li><strong>Pake</strong> 已支持把网页打包成 Mac、Windows 和 Linux 桌面应用。</li><li><strong>T3 Code</strong> 是作者推荐的多 Coding Agent 工具，在手机上也能用。</li><li><strong>吉隆坡游记</strong>写的是亲眼所见与行前想象的落差，从街区面貌聊到当地人的生活节奏。</li></ul>
@@ -489,7 +489,7 @@
 <p>微软已公告 To Do 将于 <strong>2027 年 6 月 30 日</strong>停用，Web、Windows、Mac、iOS、Android 全部关停；工作或学校账户的既有任务只能通过 Planner 访问到该日期，官方至今未公布导出方式，个人账户则没有迁移路径。</p>
 <p>替代品是奇妙清单创始人 Christian Reber 在 Wunderlist 关闭前一天创办的 Superlist：每条任务可以写成长文并穿插子任务，免费版最多 5 个清单、付费版不限；Settings &gt; Integrations 里可与 To Do 实时同步，但免费版需先把清单精简过。作者提醒目前还没有中文界面。</p>
 <p><small>依据订阅源正文 · <a href="https://www.appinn.com/superlist-start/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【风险管理】Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【苏格兰威士忌找不到了】Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><description><![CDATA[<div>
 <p><small>苏格兰威士忌找不到了 · 2026-11-23 11:46:00 北京时间</small></p>
 <p>作者整理 11 月 20 日 Al Brooks 美股实盘交易室中 Mike（网名 Precog）分享的要点。核心原则是大周期能量压倒小周期：当天 ES 自上周三起就在大级别下跌通道里，他用 AI 查得的背景数据佐证——过去 1 个月 ES 已跌约 7.73%–8.71%，过去 12 个月出现过两次超过 10% 的回调，因此「跌够了」并不构成抄底理由。</p>
 <p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
@@ -501,7 +501,7 @@
 <p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
 <p>短线纪律部分是多维度测量目标并重点看 50% 中位与 33%/66%，盯住前一根 K 线的高低点做剥头皮，以及用倒计时器等 K 线收盘确认再下结论——作者为此专门写过 PATimer 来提醒自己别中途抢跑。</p>
 <p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/mike-precog-trading-room-notes.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【行为金融】Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【苏格兰威士忌找不到了】Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><description><![CDATA[<div>
 <p><small>苏格兰威士忌找不到了 · 2026-11-23 18:50:00 北京时间</small></p>
 <p>作者把 Al Brooks 2015 年 2 月与 2016 年 3 月两篇交易室问答合读，回答「要学多久才能稳定盈利」。Al 给的跨度很大：有人 6 个月到 1 年就做到，也有人 1–2 年做得不错；他认为快慢几乎完全取决于个人性格——你到底有多愿意戒掉坏毛病、变成一个彻底客观的人。</p>
 <p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
@@ -513,7 +513,7 @@
 <p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
 <p>给普通交易者的减负很具体：Bar 39 的强空头阴线做空、Bar 54 的底部大阳线反包做多，各抓 4 个点「出去散步」就够，一天一两笔比追 40 个机会更实际；新手最致命的陷阱是窄幅震荡区间，像吸引苍蝇的灭蝇灯，把人钉在屏幕前不敢下手。</p>
 <p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【制度与治理】又读完了一本禁书</title><link>https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【自由庄园】又读完了一本禁书</title><link>https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/</link><description><![CDATA[<div>
 <p><small>自由庄园 · 2026-11-22 08:17:00 北京时间</small></p>
 <p>作者读完《为什么要有图书馆》——一位大学副教授挂职西安碑林区文旅局副局长期间，从零建起区图书馆并记录全过程的书。书因写到本地官场贪腐而在当地成了禁书，区里还曾用公账买 100 本，供「网评员」到豆瓣打差评。</p>
 <p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
@@ -525,7 +525,7 @@
 <p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
 <p>一个反讽：文章发出后被列出「五不该」——不该反衬其他区县、指出评审条例问题、不感谢各级领导、揭露馆配潜规则、担心十万加带来舆情；豆瓣上的一星差评也被作者视作网评员的痕迹。</p>
 <p><small>依据订阅源正文 · <a href="https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【开发工具】HTML 下拉选择框的样式示例</title><link>https://simonwillison.net/2026/Nov/22/select-styling/</link><guid isPermaLink="false">d0574a25c30e3a08e8dd80d98adf690721d9ee68e7bac39d9cfc96d4b41c79c2</guid><pubDate>Mon, 23 Nov 2026 03:45:06 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></content:encoded></item><item><title>【软件架构】Muru：用 Rust 编写的 Python 应用服务器</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="false">5d521776d89502166ee0ae52d78cec34a21648996552cac2f63e6831b7f5fe2c</guid><pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（18 条）</title><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Simon Willison】HTML 下拉选择框的样式示例</title><link>https://simonwillison.net/2026/Nov/22/select-styling/</link><guid isPermaLink="false">d0574a25c30e3a08e8dd80d98adf690721d9ee68e7bac39d9cfc96d4b41c79c2</guid><pubDate>Mon, 23 Nov 2026 03:45:06 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></content:encoded></item><item><title>【Simon Willison】Muru：用 Rust 编写的 Python 应用服务器</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="false">5d521776d89502166ee0ae52d78cec34a21648996552cac2f63e6831b7f5fe2c</guid><pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（18 条）</title><description><![CDATA[<div>
 <p><strong>Moto Tag 3 尚未公布，亚马逊已开始接受订单</strong><br/>
 <small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
 <p><strong>三星刷新率高达 1,100 Hz 的游戏显示器将于下月上市，售价 899.99 美元</strong><br/>
