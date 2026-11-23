@@ -178,4 +178,17 @@
 <li><strong>平台单方面控制收益可能破坏创作者预期</strong><p>文章援引知情人士和投资人称，创想云早期活跃度不高，VIP付费下载抑制了部分用户意愿，而现金回报主要给予平台选定的“星标模型”，创作者收入具有较强平台裁量。这一案例提示，模型平台不仅要提供内容目录，还需要让创作者相信贡献能够持续转化为回报；仅由平台集中分配收益，可能使供给循环难以启动。</p></li>
 <li><strong>硬件与内容相互强化，构成难以短期复制的组合优势</strong><p>活跃装机量决定社区需求和创作者收益的基础，硬件支持的材料、颜色及换头能力又决定可生产的内容类型。存量模型和创作者还能通过切片软件及算法调整适配新机器，降低新品上线时的内容获取成本。因此，真正难复制的并非网站或模型库本身，而是装机基数、创作者经济、硬件能力、反作弊计分及跨机型内容复用能力的组合。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/weiwu/zv5a8TgwqnZmROX5.html">https://www.leiphone.com/category/weiwu/zv5a8TgwqnZmROX5.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ea5b865d-f406-4a0b-8ea9-477f8d4f6f5e</guid><pubDate>Mon, 23 Nov 2026 02:47:36 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/weiwu/zv5a8TgwqnZmROX5.html">https://www.leiphone.com/category/weiwu/zv5a8TgwqnZmROX5.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ea5b865d-f406-4a0b-8ea9-477f8d4f6f5e</guid><pubDate>Mon, 23 Nov 2026 02:47:36 GMT</pubDate></item><item><title>灵掌机器人灵巧手的产品分层与场景化验证路径</title><link>https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html</link><description>文章介绍了灵掌机器人展示的9款灵巧手及其在工业制造、太空任务、特种作业、科研与人形机器人领域的应用方案。可提取的信息包括腱绳驱动路线、不同产品的负载与自由度配置、视觉—策略—控制—执行的系统分工、太空设备的环境适应性测试项目，以及从垂直场景验证逐步走向通用化的迭代思路。相关性能主要来自公司陈述，太空飞行验证和实际产线连续运行效果仍有待后续验证。</description><content:encoded><![CDATA[<section>
+<h2>灵掌机器人灵巧手的产品分层与场景化验证路径</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：文章介绍了灵掌机器人展示的9款灵巧手及其在工业制造、太空任务、特种作业、科研与人形机器人领域的应用方案。可提取的信息包括腱绳驱动路线、不同产品的负载与自由度配置、视觉—策略—控制—执行的系统分工、太空设备的环境适应性测试项目，以及从垂直场景验证逐步走向通用化的迭代思路。相关性能主要来自公司陈述，太空飞行验证和实际产线连续运行效果仍有待后续验证。</p>
+<p><strong>价值</strong>：对关注具身智能和机器人工程的该用户，这篇文章提供了一条从模型决策、视觉感知、工程控制到机械臂与灵巧手执行的较具体产品链路，同时列出了工业部署和太空应用各自需要验证的条件，可用于机器人产品图谱、技术尽调和场景选型研究。由于内容主要来自展会报道和企业自述，且缺少第三方基准、连续运行数据及完整安全认证信息，更适合作为产品线索和验证清单的起点，而不能据此认定其商业成熟度或实际性能已经得到独立证明。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>以高负载、腱绳驱动和场景化设计形成产品分层</strong><p>公司称其灵巧手采用高寿命、大负载、高稳定性的腱绳驱动路线，并以两指、三指、四指和五指结构覆盖9款产品。LZ-Pro工业重载灵巧手最大抓取负载为30公斤，面向重型零部件搬运和物料分拣；LZ-Explore仿生灵巧手具有23个自由度，其中19个为主动自由度，面向科研、人形机器人及通用操作探索。文章未提供精度、重复定位、重量、寿命和成本等完整指标。</p></li>
+<li><strong>工业双臂操作采用分层感知与执行架构</strong><p>工业方案由工业垂直模型适配具体工序的操作策略，视觉系统识别航插或物料位置，工程控制系统组织动作，机械臂与灵巧手完成移动、抓取、插入、旋紧和放置。进入产线前还需针对客户工件、现场布局和工艺节拍验证连续运行稳定性、换型适配和异常处理，这为评估灵巧操作系统的落地条件提供了较具体的检查框架。</p></li>
+<li><strong>LZ-Space已做环境适应性地面测试，真实飞行验证尚未完成</strong><p>LZ-Space集成机械臂、五指灵巧手和远程操作系统，已完成卫星飞船上装测试。公司称设备通过了相当于自身重量10倍加速度下的振动测试、模拟太空真空中零下25℃至60℃的冷热循环测试，以及模拟太空高能射线的总剂量与单粒子辐照试验；后续实际飞行表现仍需随任务验证，不能将地面试验等同于在轨可用性。</p></li>
+<li><strong>特种作业采用外骨骼动作采集与远程操作</strong><p>LZ-Ex通过精细化外骨骼采集人体操作动作，远程控制机器人完成危险品处置，并可与轮足式机器人及特种遥操作平台组合，以减少专业人员进入危险区域。公司同时宣称防爆与毫米级精细操作能力，但文章未给出防爆认证、操作延迟、定位精度或复杂环境试验数据，因而这些性能仍属于待独立核验的产品主张。</p></li>
+<li><strong>先在垂直高风险任务中验证，再扩展通用能力</strong><p>公司的产品迭代思路不是单纯增加关节数量，而是优先围绕负载、精度、可靠性、灵活性和任务适配进行优化。实施路径是先在分拣、搬运、上下料及危险环境等明确场景中验证，利用工位操作记录和异常反馈改进策略，再逐步扩展到更通用的任务。这是企业提出的研发与商业化策略，而非已经被普遍验证的技术规律。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html">https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3399f170-122c-4113-a49d-757d3b92fbfc</guid><pubDate>Mon, 23 Nov 2026 02:51:30 GMT</pubDate></item></channel></rss>
