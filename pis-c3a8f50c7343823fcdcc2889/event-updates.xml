@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>MrDoc v1.1.2 版本发布</title><link>https://www.oschina.net/news/503733</link><description>内容标题称 MrDoc v1.1.2 已发布，并将其描述为全平台、多终端的私有部署 AI 知识库系统。正文概述该产品通过“文集 + 文档”组织内容，支持 Markdown、富文本、Office 文档、表格、图表、权限控制与协作，但未提供本次版本的具体更新项或确切发布日期。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>XXL-AI v1.7.0 发布及会话架构升级</title><link>https://www.oschina.net/news/503728</link><description>XXL-AI v1.7.0 本地版（Desk 桌面端）发布。Release Notes 显示，本次版本将包含模型请求、工具调用、MCP 调用和 SKILL 加载等环节的会话 Loop 整合为 chat 模块下独立的 Harness 模块，以提升可维护性和扩展性；同时对会话模型进行标准化，并将会话 Loop 的差异化行为统一通过“会话属性”扩展设置。</description><content:encoded><![CDATA[<section>
+<h2>XXL-AI v1.7.0 发布及会话架构升级</h2>
+<p><strong>核心实体</strong>：XXL-AI</p>
+<p><strong>主题</strong>：v1.7.0 版本发布与 Desk 桌面端会话架构升级</p>
+<p><strong>范围</strong>：XXL-AI AI 应用开发平台的版本发布，重点覆盖 Desk 桌面端的 Harness 模块、会话模型标准化及扩展机制</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>XXL-AI v1.7.0 本地版（Desk 桌面端）发布。Release Notes 显示，本次版本将包含模型请求、工具调用、MCP 调用和 SKILL 加载等环节的会话 Loop 整合为 chat 模块下独立的 Harness 模块，以提升可维护性和扩展性；同时对会话模型进行标准化，并将会话 Loop 的差异化行为统一通过“会话属性”扩展设置。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503728">https://www.oschina.net/news/503728</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d1df8e43-da06-40f2-adbc-4575c7be547b</guid><pubDate>Mon, 23 Nov 2026 05:19:13 GMT</pubDate></item><item><title>拾趣 Magpie v0.2.0 版本发布与功能更新</title><link>https://www.oschina.net/news/503729</link><description>拾趣 Magpie 发布 v0.2.0 版本，内容称此次更新包含更准确的模型视图、新增词典功能，并进行了多项细节优化。</description><content:encoded><![CDATA[<section>
+<h2>拾趣 Magpie v0.2.0 版本发布与功能更新</h2>
+<p><strong>核心实体</strong>：拾趣 Magpie</p>
+<p><strong>主题</strong>：软件版本发布与功能更新</p>
+<p><strong>范围</strong>：拾趣 Magpie 跨平台 AI 划词工具的版本发布、模型视图改进及词典等功能优化</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>拾趣 Magpie 发布 v0.2.0 版本，内容称此次更新包含更准确的模型视图、新增词典功能，并进行了多项细节优化。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503729">https://www.oschina.net/news/503729</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:7636e31b-5379-4770-aafb-26e2d1b52b56</guid><pubDate>Mon, 23 Nov 2026 05:18:50 GMT</pubDate></item><item><title>MrDoc v1.1.2 版本发布</title><link>https://www.oschina.net/news/503733</link><description>内容标题称 MrDoc v1.1.2 已发布，并将其描述为全平台、多终端的私有部署 AI 知识库系统。正文概述该产品通过“文集 + 文档”组织内容，支持 Markdown、富文本、Office 文档、表格、图表、权限控制与协作，但未提供本次版本的具体更新项或确切发布日期。</description><content:encoded><![CDATA[<section>
 <h2>MrDoc v1.1.2 版本发布</h2>
 <p><strong>核心实体</strong>：MrDoc</p>
 <p><strong>主题</strong>：v1.1.2 版本发布</p>
