@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Receita Federal 首次开源税务计算器并采用 MIT 许可证</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>2026 年 11 月 12 日，Receita Federal 通过 Cotec 第 342 号法令，首次把自有软件源代码发布到 GitHub，并采用 MIT 许可证。发布的 Calculadora de Tributos 分为常规税制、Simples Nacional 和 DANFSe 三个仓库，以 Java 编写；法令记录初始版本哈希值，供外部校验。该计算器把 CBS 等消费税改革后税种的计算规则实现为可执行代码。税务局称其用途是提供官方、可审计、可互操作的组件，而非…</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>资深软件工程师连续两年未获 offer 后发帖求助</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>用户 LetThingsBeDiff 自述具有 15 年 C#、.NET 和 AWS 经验，2025 年 1 月从千人规模保险科技公司离职，此后两年未获得任何软件工程 offer，多年积蓄据估计仅够支撑家庭 4 至 5 个月；其目前教授数学，并即将到披萨店担任经理。帖子就如何向招聘方解释两年简历空白征求意见，共有 621 条评论。部分评论者建议把空窗包装为 AI SaaS 创业经历，另一些人反对虚构经历；更多人建议如实说明空窗期间的活动、联系前同事和招聘经理，并认为真人推荐…</description><content:encoded><![CDATA[<section>
+<h2>资深软件工程师连续两年未获 offer 后发帖求助</h2>
+<p><strong>核心实体</strong>：LetThingsBeDiff</p>
+<p><strong>主题</strong>：软件工程师长期失业后的简历空窗解释与求职策略</p>
+<p><strong>范围</strong>：发帖人的两年就业空窗、经济压力，以及社区对简历包装、人脉求职和转岗的建议。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>用户 LetThingsBeDiff 自述具有 15 年 C#、.NET 和 AWS 经验，2025 年 1 月从千人规模保险科技公司离职，此后两年未获得任何软件工程 offer，多年积蓄据估计仅够支撑家庭 4 至 5 个月；其目前教授数学，并即将到披萨店担任经理。帖子就如何向招聘方解释两年简历空白征求意见，共有 621 条评论。部分评论者建议把空窗包装为 AI SaaS 创业经历，另一些人反对虚构经历；更多人建议如实说明空窗期间的活动、联系前同事和招聘经理，并认为真人推荐比直接投递更有效。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:073c2c14-f77f-4a25-b3e4-4253406b4e15</guid><pubDate>Mon, 23 Nov 2026 05:42:10 GMT</pubDate></item><item><title>ClawDOS 在 IBM PC XT 上运行 Claude 编程 agent</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>Ricapar 开发了运行于 IBM PC XT 5160 的 DOS 编程代理 ClawDOS，硬件为 4.77 MHz 的 8088 处理器、640K 内存和 CGA 显卡。在 DOS 提示符下输入 CLAWDOS 后可与 Claude 对话，代理能够读写磁盘文件、调用 Turbo C 编译和运行程序、查看屏幕绘制结果并返回截图。176 KB 的 HARNESS.EXE 自行构造 API 请求、解析流式回复、执行工具并保存对话状态；除 TLS 隧道外，8088 执行其余…</description><content:encoded><![CDATA[<section>
+<h2>ClawDOS 在 IBM PC XT 上运行 Claude 编程 agent</h2>
+<p><strong>核心实体</strong>：ClawDOS</p>
+<p><strong>主题</strong>：DOS 环境下 Claude 编程代理的实现与运行演示</p>
+<p><strong>范围</strong>：ClawDOS 的硬件环境、代理 harness、工具执行、安全确认机制及演示性能。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Ricapar 开发了运行于 IBM PC XT 5160 的 DOS 编程代理 ClawDOS，硬件为 4.77 MHz 的 8088 处理器、640K 内存和 CGA 显卡。在 DOS 提示符下输入 CLAWDOS 后可与 Claude 对话，代理能够读写磁盘文件、调用 Turbo C 编译和运行程序、查看屏幕绘制结果并返回截图。176 KB 的 HARNESS.EXE 自行构造 API 请求、解析流式回复、执行工具并保存对话状态；除 TLS 隧道外，8088 执行其余工作。项目约有 13000 行 C 和 C++ 代码，使用 Open Watcom 编译到 8086 指令集，作者称除回忆文字外仓库代码全部由 Claude 编写。演示中，编写并运行打印 100 以内质数的 Turbo C 程序耗时 64 秒，其中编译、链接和运行占 26 秒；默认开启的安全模式会在修改文件、内存或端口前请求确认。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:e1ef8ec4-775e-499e-bf90-e5244274ea37</guid><pubDate>Mon, 23 Nov 2026 05:41:54 GMT</pubDate></item><item><title>GPGME 2.3.1 修复超长 user ID 触发的 double free</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>2026 年 11 月 20 日，Werner Koch 在 gnupg-announce 邮件列表发布公告，称 GPGME 2.3.1 修复了存在于此前所有版本中的严重漏洞，内部编号 T8557、CVE 编号 CVE-2026-129975。攻击者构造带超长 user ID 的 OpenPGP 密钥即可触发 double free；公告称漏洞可能用于从应用程序带出数据，同时表示不能排除利用它发起远程代码执行攻击。漏洞由 Johan Carlsson 发现，GitLab 于…</description><content:encoded><![CDATA[<section>
+<h2>GPGME 2.3.1 修复超长 user ID 触发的 double free</h2>
+<p><strong>核心实体</strong>：GPGME</p>
+<p><strong>主题</strong>：超长 OpenPGP user ID 导致的内存重复释放漏洞及修复</p>
+<p><strong>范围</strong>：GPGME 漏洞根因、受影响版本、潜在后果、披露时间线、暴露软件及升级修复方式。</p>
+<p><strong>发生时间</strong>：2026-11-20T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>2026 年 11 月 20 日，Werner Koch 在 gnupg-announce 邮件列表发布公告，称 GPGME 2.3.1 修复了存在于此前所有版本中的严重漏洞，内部编号 T8557、CVE 编号 CVE-2026-129975。攻击者构造带超长 user ID 的 OpenPGP 密钥即可触发 double free；公告称漏洞可能用于从应用程序带出数据，同时表示不能排除利用它发起远程代码执行攻击。漏洞由 Johan Carlsson 发现，GitLab 于 2026 年 11 月 12 日通知 GnuPG 团队，并因 Ruby2Shell 漏洞的披露安排而提前公开。根因是两个读取 GPG 状态和密钥列表的函数在缓冲区重分配后提前返回，导致 context 保留已释放的旧指针并在销毁时再次释放。公告点名 Gpg4win、GnuPG Desktop、多数邮件客户端、许多 XMPP 客户端、Samba 和 Flatpak 等受影响软件，建议升级至 2.3.1。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b267650a-41f0-4a48-8fdf-558761aa3fe9</guid><pubDate>Mon, 23 Nov 2026 05:41:36 GMT</pubDate></item><item><title>Clojure 2017 年旧文重新引发编程范式讨论</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>内容重新介绍一篇发表于 2017 年的文章，作者认为 Clojure 正属于会改变编程思考方式的语言，并将其概括为 2007 年出现的 Lisp 家族动态类型语言，使用内置 list、map、vector，围绕 REPL 交互式构建功能。文章重点讨论以数据作为代码的宏和元循环，以及不可变性、动态类型和向后兼容之间的取舍。评论区进一步讨论 Clojure、Elixir 的运行时交互能力对 agent 的潜在优势，同时有人认为强类型系统和清晰错误信息对 LLM 更有帮助。</description><content:encoded><![CDATA[<section>
+<h2>Clojure 2017 年旧文重新引发编程范式讨论</h2>
+<p><strong>核心实体</strong>：Clojure</p>
+<p><strong>主题</strong>：Clojure 的数据导向、宏、不可变性与动态类型实践</p>
+<p><strong>范围</strong>：2017 年文章重新传播后，围绕 Clojure 编程方式、REPL、宏与元循环、类型系统及 LLM 时代学习价值的讨论。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容重新介绍一篇发表于 2017 年的文章，作者认为 Clojure 正属于会改变编程思考方式的语言，并将其概括为 2007 年出现的 Lisp 家族动态类型语言，使用内置 list、map、vector，围绕 REPL 交互式构建功能。文章重点讨论以数据作为代码的宏和元循环，以及不可变性、动态类型和向后兼容之间的取舍。评论区进一步讨论 Clojure、Elixir 的运行时交互能力对 agent 的潜在优势，同时有人认为强类型系统和清晰错误信息对 LLM 更有帮助。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:bf1900e3-c920-4192-a1af-9177d04a8f88</guid><pubDate>Mon, 23 Nov 2026 05:41:29 GMT</pubDate></item><item><title>antirez 的 Redis B+ 树有序集合实现经基准测试获选</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>Redis 作者 antirez 在 Hacker News 表示，他此前曾为 Redis 开发过类似但技术不同的有序集合优化。提交 PR 时，同事告知 Valkey 和另一个 Redis 团队也在推进同类工作，他此前并不知情；据其说法，三份实现经过大量基准测试后选用了他的版本。他的方案同样以 B+ 树替代跳表，并让哈希表只保存指向 B+ 树叶子的指针、不保存元素本身，还使用单字节标签进行乐观查找；他称该实现有时可再降低几十个百分点内存，并在许多场景速度更快。</description><content:encoded><![CDATA[<section>
+<h2>antirez 的 Redis B+ 树有序集合实现经基准测试获选</h2>
+<p><strong>核心实体</strong>：antirez</p>
+<p><strong>主题</strong>：Redis 大有序集合由跳表转向 B+ 树的优化实现</p>
+<p><strong>范围</strong>：antirez 提交的 Redis B+ 树实现、哈希表专化设计、并行方案比较及 PR 选型结果。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Redis 作者 antirez 在 Hacker News 表示，他此前曾为 Redis 开发过类似但技术不同的有序集合优化。提交 PR 时，同事告知 Valkey 和另一个 Redis 团队也在推进同类工作，他此前并不知情；据其说法，三份实现经过大量基准测试后选用了他的版本。他的方案同样以 B+ 树替代跳表，并让哈希表只保存指向 B+ 树叶子的指针、不保存元素本身，还使用单字节标签进行乐观查找；他称该实现有时可再降低几十个百分点内存，并在许多场景速度更快。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b42f8977-c0b3-4dff-acef-fb37cd923939</guid><pubDate>Mon, 23 Nov 2026 05:41:08 GMT</pubDate></item><item><title>Valkey 9.2 用 fbtree 替换大有序集合跳表</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>Valkey 9.2 将大有序集合的跳表替换为高扇出 B+ 树变体 fbtree。在 500 万个 20 字节成员的测试中，每成员开销由 50.3 字节降至 28.5 或 32.0 字节，下降 43% 或 36%，最多节省约 109 MB。fbtree 使用 61 路扇出，并在部分查询中以 SIMD 并行比较特征；叶子节点之间双向链接以支持范围扫描。64 核 Graviton3 环境下的测试显示，ZADD、ZREM、ZCOUNT、ZRANK 和 ZRANGE 分别提升 10…</description><content:encoded><![CDATA[<section>
+<h2>Valkey 9.2 用 fbtree 替换大有序集合跳表</h2>
+<p><strong>核心实体</strong>：Valkey</p>
+<p><strong>主题</strong>：大有序集合的内存与命令性能优化</p>
+<p><strong>范围</strong>：Valkey 9.2 中有序集合索引结构变更、内存及命令基准数据、OBJECT ENCODING 兼容性和功能影响。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Valkey 9.2 将大有序集合的跳表替换为高扇出 B+ 树变体 fbtree。在 500 万个 20 字节成员的测试中，每成员开销由 50.3 字节降至 28.5 或 32.0 字节，下降 43% 或 36%，最多节省约 109 MB。fbtree 使用 61 路扇出，并在部分查询中以 SIMD 并行比较特征；叶子节点之间双向链接以支持范围扫描。64 核 Graviton3 环境下的测试显示，ZADD、ZREM、ZCOUNT、ZRANK 和 ZRANGE 分别提升 105%、76%、27%、19% 和 6%，ZSCORE 与 ZRANDMEMBER 基本不变。功能没有变化，但大有序集合的 OBJECT ENCODING 将返回 btree 而非 skiplist，检查该字面值的监控或工具需要更新。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:751e844f-1610-42d9-a754-cf928082ebb7</guid><pubDate>Mon, 23 Nov 2026 05:41:04 GMT</pubDate></item><item><title>RTL8156B 经显示器连接时下载速度降至 600 Mbps</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>Oscar Molnar 的 2.5 Gbps 对称宽带线路下载速度只有 600 Mbps，上传仍有 2.4 Gbps；测试显示适配器直连 Mac 时可达到 2.3 Gbps，经过 Studio Display XDR 后则降至 600 Mbps。Realtek RTL8156B 在 macOS 下使用苹果通用 USB 网络驱动，换装 Realtek 官方驱动后达到 1.1 Gbps；在 UniFi 开启以太网流控后约为 2 Gbps，但会持续给其他设备增加延迟。进一步测试…</description><content:encoded><![CDATA[<section>
+<h2>RTL8156B 经显示器连接时下载速度降至 600 Mbps</h2>
+<p><strong>核心实体</strong>：Realtek RTL8156B</p>
+<p><strong>主题</strong>：USB 以太网适配器经显示器集线器连接时的吞吐量下降</p>
+<p><strong>范围</strong>：2.5 Gbps 链路在直连与经显示器连接时的速度差异、突发传输机制诊断及替换适配器的结果。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Oscar Molnar 的 2.5 Gbps 对称宽带线路下载速度只有 600 Mbps，上传仍有 2.4 Gbps；测试显示适配器直连 Mac 时可达到 2.3 Gbps，经过 Studio Display XDR 后则降至 600 Mbps。Realtek RTL8156B 在 macOS 下使用苹果通用 USB 网络驱动，换装 Realtek 官方驱动后达到 1.1 Gbps；在 UniFi 开启以太网流控后约为 2 Gbps，但会持续给其他设备增加延迟。进一步测试发现，显示器集线器将确认信号往返延迟拉长至约 7.6 微秒，而 4 KB 数据发送约需 8.2 微秒；RTL8156B 每次仅突发发送 4 个数据包，理论排空上限约为 2 Gbps，缓冲区溢出和丢包继而触发 TCP 拥塞控制回退。作者改用每次突发发送 8 个 1 KB 包的 UGREEN RTL8157 5G 适配器后，理论排空上限约 4.5 Gbps，丢帧归零。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2433b744-e5e0-445b-aae8-0088210ae287</guid><pubDate>Mon, 23 Nov 2026 05:41:02 GMT</pubDate></item><item><title>Lean 与 Mathlib 社区确认 Alpöge 的黎曼猜想证明</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>2026 年 11 月 20 日，Levent Alpöge 发布了一份用 Lean 编写、约 1700 万行且仅直接依赖 Mathlib 的黎曼猜想证明。Lean 与 Mathlib 社区随后发布联合声明，称陈述和证明均正确，四项验证标准全部满足：Mathlib 中的 RiemannHypothesis 陈述已经 Lean 和数论专家审查；代码库可以编译，数十人复现了同一份原始证明导出文件；社区使用只导入 Mathlib 的隔离文件及 con-leche、con-lech…</description><content:encoded><![CDATA[<section>
+<h2>Lean 与 Mathlib 社区确认 Alpöge 的黎曼猜想证明</h2>
+<p><strong>核心实体</strong>：Lean FRO 和 Mathlib Initiative</p>
+<p><strong>主题</strong>：Levent Alpöge 的黎曼猜想 Lean 证明之独立验证</p>
+<p><strong>范围</strong>：该证明的数学陈述、编译与复现、导出文件核验、多个独立检查器结果及社区正式背书。</p>
+<p><strong>发生时间</strong>：2026-11-20T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>2026 年 11 月 20 日，Levent Alpöge 发布了一份用 Lean 编写、约 1700 万行且仅直接依赖 Mathlib 的黎曼猜想证明。Lean 与 Mathlib 社区随后发布联合声明，称陈述和证明均正确，四项验证标准全部满足：Mathlib 中的 RiemannHypothesis 陈述已经 Lean 和数论专家审查；代码库可以编译，数十人复现了同一份原始证明导出文件；社区使用只导入 Mathlib 的隔离文件及 con-leche、con-leche --compare 确认证明目标确为 Mathlib 的黎曼猜想；原始证明导出文件还由 Lean 官方内核及多个独立检查器验证，且验证过程不执行 Lean 源码。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:e14600ec-3e15-4aed-b4a0-bb809b05ae5c</guid><pubDate>Mon, 23 Nov 2026 05:40:55 GMT</pubDate></item><item><title>Receita Federal 首次开源税务计算器并采用 MIT 许可证</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>2026 年 11 月 12 日，Receita Federal 通过 Cotec 第 342 号法令，首次把自有软件源代码发布到 GitHub，并采用 MIT 许可证。发布的 Calculadora de Tributos 分为常规税制、Simples Nacional 和 DANFSe 三个仓库，以 Java 编写；法令记录初始版本哈希值，供外部校验。该计算器把 CBS 等消费税改革后税种的计算规则实现为可执行代码。税务局称其用途是提供官方、可审计、可互操作的组件，而非…</description><content:encoded><![CDATA[<section>
 <h2>Receita Federal 首次开源税务计算器并采用 MIT 许可证</h2>
 <p><strong>核心实体</strong>：Receita Federal</p>
 <p><strong>主题</strong>：税务计算器源代码在 GitHub 的公开发布</p>
