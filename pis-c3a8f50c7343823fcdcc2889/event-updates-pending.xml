@@ -46,4 +46,12 @@
 <p><strong>发生时间</strong>：时间未确定</p>
 <h3>初始事实</h3>
 <p>微软CEO纳德拉在《The Pragmatic Engineer》播客接受Gergely Orosz采访时表示：“Code went from input to output… In six months or so… IDEs kind of faded away.” 文章将此概括为代码由开发者主动输入转向由系统输出，约六个月后IDE逐渐淡出，并称VS Code此前建立的开发者工作台优势被从终端路径绕过。当前内容为部分摘录，相关判断应保留为纳德拉或文章的表述，并非独立核实结论。</p>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months">https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:de8753a1-cf8a-44b9-bb50-66fca70e1892</guid><pubDate>Mon, 23 Nov 2026 05:15:59 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months">https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:de8753a1-cf8a-44b9-bb50-66fca70e1892</guid><pubDate>Mon, 23 Nov 2026 05:15:59 GMT</pubDate></item><item><title>MakuBoot版本发布与能力演进</title><link>https://www.oschina.net/news/503738</link><description>内容标题称MakuBoot 5.3已经发布。正文介绍MakuBoot是采用SpringBoot4.0、SpringSecurity7.0、Flowable8.0、Mybatis-Plus、Vue3、Element-plus等技术开发的低代码开发平台，并称其支持国密加密、达梦数据库及组件式业务功能扩展。给定内容未说明具体发布日期，也未提供5.3版本的具体变更清单。</description><content:encoded><![CDATA[<section>
+<h2>MakuBoot版本发布与能力演进</h2>
+<p><strong>核心实体</strong>：MakuBoot</p>
+<p><strong>主题</strong>：版本发布与产品能力演进</p>
+<p><strong>范围</strong>：MakuBoot低代码开发平台的版本发布、版本变化及相关技术与功能能力</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容标题称MakuBoot 5.3已经发布。正文介绍MakuBoot是采用SpringBoot4.0、SpringSecurity7.0、Flowable8.0、Mybatis-Plus、Vue3、Element-plus等技术开发的低代码开发平台，并称其支持国密加密、达梦数据库及组件式业务功能扩展。给定内容未说明具体发布日期，也未提供5.3版本的具体变更清单。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503738">https://www.oschina.net/news/503738</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0a8514e6-3f9c-421e-ba70-eb5b0d5196d5</guid><pubDate>Mon, 23 Nov 2026 05:16:28 GMT</pubDate></item></channel></rss>
