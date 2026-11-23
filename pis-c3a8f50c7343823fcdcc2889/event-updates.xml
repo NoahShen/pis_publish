@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>ApiGo 软件版本发布与功能演进</title><link>https://www.oschina.net/news/503663</link><description>ApiGo v6.5.1 发布。ApiGo 是一款在线接口开发和管理平台，提供多数据库插件化数据源框架及 SQL2API 功能，支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台的 MCP 接入，并支持 MySQL、Oracle、达梦、TiDB、DolphinDB、Hive、DuckDB 等 SQL 或 NoSQL 数据源。用户可通过可视化方式编写 SQL 并发布接口，平台还提供接口上下线、接口管理、接口限流和权限管理功能。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Apache SeaTunnel 3.1.0 发布并强化生产部署与数据正确性</title><link>https://www.oschina.net/news/503658</link><description>Apache SeaTunnel 社区发布 3.1.0 版本，官方发布说明汇总了 395 个 PR 和 11 个新连接器。本次版本的主要方向是加强 Zeta 引擎稳定性、提升 Connector-V2 数据正确性，并补齐生产部署与排障能力，以降低生产数据集成任务部署和运维中的数据丢失及错误变更风险。</description><content:encoded><![CDATA[<section>
+<h2>Apache SeaTunnel 3.1.0 发布并强化生产部署与数据正确性</h2>
+<p><strong>核心实体</strong>：Apache SeaTunnel</p>
+<p><strong>主题</strong>：Apache SeaTunnel 3.1.0 版本发布及其稳定性、数据正确性和生产部署能力改进</p>
+<p><strong>范围</strong>：Apache SeaTunnel 3.1.0 版本发布，重点覆盖 Zeta 引擎稳定性、Connector-V2 数据正确性，以及生产部署和排障能力建设</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Apache SeaTunnel 社区发布 3.1.0 版本，官方发布说明汇总了 395 个 PR 和 11 个新连接器。本次版本的主要方向是加强 Zeta 引擎稳定性、提升 Connector-V2 数据正确性，并补齐生产部署与排障能力，以降低生产数据集成任务部署和运维中的数据丢失及错误变更风险。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503658">https://www.oschina.net/news/503658</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4a14dcba-e466-449b-aabd-4d5208a5f05c</guid><pubDate>Mon, 23 Nov 2026 05:27:22 GMT</pubDate></item><item><title>CyreneAdmin v1.6.0 正式发布</title><link>https://www.oschina.net/news/503659</link><description>CyreneAdmin v1.6.0 已正式发布，主要更新包括启动时自动建表、收敛 RBAC 授权边界和标签页右键最大化，并通过依赖管理锁定 Spring Boot 与 Spring Framework 版本。</description><content:encoded><![CDATA[<section>
+<h2>CyreneAdmin v1.6.0 正式发布</h2>
+<p><strong>核心实体</strong>：CyreneAdmin</p>
+<p><strong>主题</strong>：v1.6.0 版本发布</p>
+<p><strong>范围</strong>：CyreneAdmin 后台管理系统脚手架的版本发布、功能更新与缺陷修复</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>CyreneAdmin v1.6.0 已正式发布，主要更新包括启动时自动建表、收敛 RBAC 授权边界和标签页右键最大化，并通过依赖管理锁定 Spring Boot 与 Spring Framework 版本。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503659">https://www.oschina.net/news/503659</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:888910e9-11ce-4d2f-a2b1-2c6253264043</guid><pubDate>Mon, 23 Nov 2026 05:27:19 GMT</pubDate></item><item><title>Jync v2.4.0推出只读型AI运维助手</title><link>https://www.oschina.net/news/503660</link><description>Jync 捷同 v2.4.0发布，新增面向ADMIN和OPS角色的内嵌AI运维助手。接入大模型后，用户可用自然语言只读查询任务状态、进度与吞吐、源/目标行数、数据库性能、当前告警及ETL最近结果。变更日志断流时，助手可逐项检查连接、权限、位点和跳过计数等前提，该操作会连接源库，单次对话最多执行两次；助手共提供11个只读工具。此次发布还引入多角色权限，并采用Apache-2.0开源协议。</description><content:encoded><![CDATA[<section>
+<h2>Jync v2.4.0推出只读型AI运维助手</h2>
+<p><strong>核心实体</strong>：Jync v2.4.0</p>
+<p><strong>主题</strong>：AI运维助手的只读查询与断流自检机制</p>
+<p><strong>范围</strong>：Jync v2.4.0版本发布，包括面向ADMIN/OPS的内嵌AI运维助手、自然语言只读查询、变更日志断流自检、多角色权限及Apache-2.0开源协议</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Jync 捷同 v2.4.0发布，新增面向ADMIN和OPS角色的内嵌AI运维助手。接入大模型后，用户可用自然语言只读查询任务状态、进度与吞吐、源/目标行数、数据库性能、当前告警及ETL最近结果。变更日志断流时，助手可逐项检查连接、权限、位点和跳过计数等前提，该操作会连接源库，单次对话最多执行两次；助手共提供11个只读工具。此次发布还引入多角色权限，并采用Apache-2.0开源协议。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503660">https://www.oschina.net/news/503660</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0e8151a8-6ce7-4b87-8fd9-a4c19332fcdf</guid><pubDate>Mon, 23 Nov 2026 05:27:03 GMT</pubDate></item><item><title>拾趣新增 Anki 应用与一键导入功能</title><link>https://www.oschina.net/news/503662</link><description>内容称拾趣 Magpie 发布新版本，新增 Anki 应用支持，可将划词所得单词一键导入 Anki，用于背英语；标题标注版本为 v0.1.23，而正文及摘要标注为 v0.1.22，版本号存在不一致。</description><content:encoded><![CDATA[<section>
+<h2>拾趣新增 Anki 应用与一键导入功能</h2>
+<p><strong>所属主线</strong>：拾趣 Magpie v0.2.0 版本发布与功能更新</p>
+<p><strong>核心实体</strong>：拾趣 Magpie</p>
+<p><strong>主题</strong>：软件版本发布与功能更新</p>
+<p><strong>范围</strong>：拾趣 Magpie 跨平台 AI 划词工具的版本发布、模型视图改进及词典等功能优化</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>本次进展</h3>
+<p>内容称拾趣 Magpie 发布新版本，新增 Anki 应用支持，可将划词所得单词一键导入 Anki，用于背英语；标题标注版本为 v0.1.23，而正文及摘要标注为 v0.1.22，版本号存在不一致。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503662">https://www.oschina.net/news/503662</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:321233a3-b22c-4880-a117-395967752930</guid><pubDate>Mon, 23 Nov 2026 05:26:28 GMT</pubDate></item><item><title>ApiGo 软件版本发布与功能演进</title><link>https://www.oschina.net/news/503663</link><description>ApiGo v6.5.1 发布。ApiGo 是一款在线接口开发和管理平台，提供多数据库插件化数据源框架及 SQL2API 功能，支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台的 MCP 接入，并支持 MySQL、Oracle、达梦、TiDB、DolphinDB、Hive、DuckDB 等 SQL 或 NoSQL 数据源。用户可通过可视化方式编写 SQL 并发布接口，平台还提供接口上下线、接口管理、接口限流和权限管理功能。</description><content:encoded><![CDATA[<section>
 <h2>ApiGo 软件版本发布与功能演进</h2>
 <p><strong>核心实体</strong>：ApiGo</p>
 <p><strong>主题</strong>：ApiGo 版本发布与功能更新</p>
