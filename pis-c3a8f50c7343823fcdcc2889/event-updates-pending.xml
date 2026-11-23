@@ -54,4 +54,28 @@
 <p><strong>发生时间</strong>：时间未确定</p>
 <h3>初始事实</h3>
 <p>内容标题称MakuBoot 5.3已经发布。正文介绍MakuBoot是采用SpringBoot4.0、SpringSecurity7.0、Flowable8.0、Mybatis-Plus、Vue3、Element-plus等技术开发的低代码开发平台，并称其支持国密加密、达梦数据库及组件式业务功能扩展。给定内容未说明具体发布日期，也未提供5.3版本的具体变更清单。</p>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503738">https://www.oschina.net/news/503738</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0a8514e6-3f9c-421e-ba70-eb5b0d5196d5</guid><pubDate>Mon, 23 Nov 2026 05:16:28 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503738">https://www.oschina.net/news/503738</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0a8514e6-3f9c-421e-ba70-eb5b0d5196d5</guid><pubDate>Mon, 23 Nov 2026 05:16:28 GMT</pubDate></item><item><title>qData 主数据平台开源版版本发布与能力优化</title><link>https://www.oschina.net/news/503735</link><description>qData 主数据平台开源版 v1.0.1 已发布。本次更新以问题修复和产品体验优化为主，覆盖全局提示、删除校验、重复检测、审批执行、数据分发和授权管理，并提到支持来源数据批量删除及问题数据批量处理；由于内容不完整，后一项能力的具体细节无法确认。</description><content:encoded><![CDATA[<section>
+<h2>qData 主数据平台开源版版本发布与能力优化</h2>
+<p><strong>核心实体</strong>：qData 主数据平台</p>
+<p><strong>主题</strong>：开源版本发布与产品能力优化</p>
+<p><strong>范围</strong>：qData 主数据平台开源版的版本发布、问题修复、功能优化及相关产品体验改进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>qData 主数据平台开源版 v1.0.1 已发布。本次更新以问题修复和产品体验优化为主，覆盖全局提示、删除校验、重复检测、审批执行、数据分发和授权管理，并提到支持来源数据批量删除及问题数据批量处理；由于内容不完整，后一项能力的具体细节无法确认。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503735">https://www.oschina.net/news/503735</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d6c65757-3d90-47ca-ae8c-e162ef9b6919</guid><pubDate>Mon, 23 Nov 2026 05:17:09 GMT</pubDate></item><item><title>Vint Cerf解释TCP/IP未申请专利的原因</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description>Vint Cerf在João Tomé的新播客《Future Stories》中表示，他与Bob Kahn在20世纪70年代共同编写了TCP/IP规则。谈及未申请专利的原因时，他称当时无法知道25年后的盟友是谁，因此认为只有一种办法可以确保未来所需；提供的引文在“the only way we can be assured that the...”处截断。</description><content:encoded><![CDATA[<section>
+<h2>Vint Cerf解释TCP/IP未申请专利的原因</h2>
+<p><strong>核心实体</strong>：TCP/IP</p>
+<p><strong>主题</strong>：未申请专利的决策理由</p>
+<p><strong>范围</strong>：Vint Cerf关于TCP/IP未申请专利原因所作的公开解释</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Vint Cerf在João Tomé的新播客《Future Stories》中表示，他与Bob Kahn在20世纪70年代共同编写了TCP/IP规则。谈及未申请专利的原因时，他称当时无法知道25年后的盟友是谁，因此认为只有一种办法可以确保未来所需；提供的引文在“the only way we can be assured that the...”处截断。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never">https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:7ca32367-39bf-4e68-a1f9-ca766e7d20e0</guid><pubDate>Mon, 23 Nov 2026 05:17:24 GMT</pubDate></item><item><title>MrDoc v1.1.2 版本发布</title><link>https://www.oschina.net/news/503733</link><description>内容标题称 MrDoc v1.1.2 已发布，并将其描述为全平台、多终端的私有部署 AI 知识库系统。正文概述该产品通过“文集 + 文档”组织内容，支持 Markdown、富文本、Office 文档、表格、图表、权限控制与协作，但未提供本次版本的具体更新项或确切发布日期。</description><content:encoded><![CDATA[<section>
+<h2>MrDoc v1.1.2 版本发布</h2>
+<p><strong>核心实体</strong>：MrDoc</p>
+<p><strong>主题</strong>：v1.1.2 版本发布</p>
+<p><strong>范围</strong>：MrDoc v1.1.2 的公开发布及版本功能信息</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容标题称 MrDoc v1.1.2 已发布，并将其描述为全平台、多终端的私有部署 AI 知识库系统。正文概述该产品通过“文集 + 文档”组织内容，支持 Markdown、富文本、Office 文档、表格、图表、权限控制与协作，但未提供本次版本的具体更新项或确切发布日期。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503733">https://www.oschina.net/news/503733</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:00d816f9-6bea-4a5e-9b58-9ec0f6fb4b13</guid><pubDate>Mon, 23 Nov 2026 05:17:29 GMT</pubDate></item></channel></rss>
