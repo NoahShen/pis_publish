@@ -323,4 +323,46 @@
 <li><strong>代码产出增长不等于交付结果改善</strong><p>文章指出，代码行数、提交数和Pull Request均明显增长，但“活”没有相应完成，并将Code Review描述为当前瓶颈。这提示评估Agent效果时，不能把代码活动量直接视为项目交付能力或生产率。</p></li>
 <li><strong>研究结论仍需结合完整方法理解</strong><p>该研究被描述为工作论文，现有内容未提供样本选择、基线组、混杂因素控制、Jira指标的完整结果及统计显著性。截断段落恰好开始介绍Jira数据，因此只能将上述结论视为待核验的研究发现，不能据此断言Agent对交付效率存在确定因果影响。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted">https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2ee01830-e63e-466c-8338-e89fdbe36697</guid><pubDate>Mon, 23 Nov 2026 05:19:58 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted">https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2ee01830-e63e-466c-8338-e89fdbe36697</guid><pubDate>Mon, 23 Nov 2026 05:19:58 GMT</pubDate></item><item><title>Ruby 正则引擎与字符串大小写转换漏洞的修复信息</title><link>https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string</link><description>Ruby 团队披露了正则引擎和字符串大小写转换相关的 7 个漏洞，官方安全公告称已有 PoC 可证明其中一些能够触发远程代码执行。其中，字符串大小写转换存在一个一字节堆溢出、一个由整数溢出引发的堆溢出，以及一个可导致 RCE 的漏洞；给出的修复版本为 Ruby 4.0.10、3.4.13 和 3.3.14。当前节选未提供完整漏洞编号、触发条件、正则引擎漏洞细节及受影响版本范围。</description><content:encoded><![CDATA[<section>
+<h2>Ruby 正则引擎与字符串大小写转换漏洞的修复信息</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：Ruby 团队披露了正则引擎和字符串大小写转换相关的 7 个漏洞，官方安全公告称已有 PoC 可证明其中一些能够触发远程代码执行。其中，字符串大小写转换存在一个一字节堆溢出、一个由整数溢出引发的堆溢出，以及一个可导致 RCE 的漏洞；给出的修复版本为 Ruby 4.0.10、3.4.13 和 3.3.14。当前节选未提供完整漏洞编号、触发条件、正则引擎漏洞细节及受影响版本范围。</p>
+<p><strong>价值</strong>：对用户关注的软件工程与 AI 自动化实践，这是一份可操作的 Ruby 补丁管理信息：若技术栈、工具链或依赖组件使用 Ruby，可直接核对这三个修复版本，降低已知 RCE 和内存破坏风险。它也提示审计 Ruby 中正则处理及字符串大小写转换相关调用面的必要性。不过，节选缺少 CVE 编号、触发条件和受影响版本清单，尚不足以用于漏洞复现、暴露面评估或精细风险排序。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>7 个漏洞覆盖正则引擎与字符串大小写转换</strong><p>Ruby 官方将此次披露的 7 个漏洞分为两类，分别涉及正则引擎和字符串大小写转换。官方公告称，已有 PoC 能证明其中一些漏洞可触发远程代码执行，但现有内容没有说明具体是哪些漏洞。</p></li>
+<li><strong>大小写转换路径包含两类堆溢出和一条 RCE 路径</strong><p>在字符串大小写转换相关的 3 个漏洞中，一个属于一字节堆溢出，另一个由整数溢出导致堆溢出，第三个被公告描述为可引发 RCE。内容未给出触发输入、利用前提或沙箱逃逸条件。</p></li>
+<li><strong>修复版本可直接用于补丁核查</strong><p>内容给出的修复版本为 Ruby 4.0.10、3.4.13 和 3.3.14。使用这些版本分支的团队可据此核查部署环境并安排升级，但在缺少完整公告与版本范围信息时，不宜自行推断其他版本是否受影响。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string">https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:aba0a5db-8489-4579-88bf-765c7e5bf491</guid><pubDate>Mon, 23 Nov 2026 05:20:40 GMT</pubDate></item><item><title>随机实验：Google AI Overviews 使外部网站点击量下降 40%</title><link>https://www.oschina.net/news/503698</link><description>内容援引一项随机实验：研究者对一部分美国桌面用户隐藏 Google AI Overviews，并与仍能看到该功能的对照组比较，结果显示 AI Overviews 使从 Google 搜索结果指向外部网站的点击量下降约 40%。相较于相关性统计，这一实验为 AI 摘要对网站导流的影响提供了因果证据。不过，结论仅适用于所述美国桌面用户样本和点击量指标，不能直接外推到移动端、其他地区、网站收入或整体网页需求。</description><content:encoded><![CDATA[<section>
+<h2>随机实验：Google AI Overviews 使外部网站点击量下降 40%</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：内容援引一项随机实验：研究者对一部分美国桌面用户隐藏 Google AI Overviews，并与仍能看到该功能的对照组比较，结果显示 AI Overviews 使从 Google 搜索结果指向外部网站的点击量下降约 40%。相较于相关性统计，这一实验为 AI 摘要对网站导流的影响提供了因果证据。不过，结论仅适用于所述美国桌面用户样本和点击量指标，不能直接外推到移动端、其他地区、网站收入或整体网页需求。</p>
+<p><strong>价值</strong>：对关注 AI 平台、搜索生态和内容商业模式的用户，这一结果可作为研究网站流量对 AI 摘要功能敏感度的量化起点，也可用于分析 Google 生态变化、内容获客成本及广告经济的潜在传导路径。但它更适合作为后续研究的情景参数，而不是直接用于预测营收或估值；还需查阅原实验，核验样本、周期、统计不确定性及具体作用机制。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>AI Overviews 显著减少搜索结果的外链点击</strong><p>在所述随机实验中，Google AI Overviews 的可见性与从搜索结果流向外部网站的点击量下降约 40% 相联系，显示 AI 答案可能替代用户继续点击结果页链接。</p></li>
+<li><strong>随机对照设计增强了因果解释力</strong><p>研究者分别向部分美国桌面用户隐藏和展示 AI Overviews，再比较两组行为；该设计排除了部分用户自选择造成的混杂，比根据前后流量变化或群体相关性推断更可靠。</p></li>
+<li><strong>实验结论受样本范围和指标限制</strong><p>现有内容报告的是美国桌面用户中的外部网站点击量变化，没有提供样本规模、实验周期、置信区间，也没有覆盖移动端、收入、转化或用户满意度，因此不能据此量化所有市场或具体公司的损失。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503698">https://www.oschina.net/news/503698</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0bc03c85-bf49-461c-a9e8-79c6a1599e96</guid><pubDate>Mon, 23 Nov 2026 05:21:02 GMT</pubDate></item><item><title>PHP 8.6 的部分函数应用：预绑定参数并延迟调用</title><link>https://www.oschina.net/news/503695/php-8-6</link><description>当前摘录称，PHP 8.6 于 11 月 19 日发布，头号新特性是部分函数应用（Partial Function Application）：可提前填入部分参数，以占位符保留其余参数位置并返回 Closure，待剩余参数传入后再执行调用。摘录在此处截断，未提供具体语法、其他变更或相关证据。</description><content:encoded><![CDATA[<section>
+<h2>PHP 8.6 的部分函数应用：预绑定参数并延迟调用</h2>
+<p><strong>分类</strong>：Method</p>
+<p><strong>摘要</strong>：当前摘录称，PHP 8.6 于 11 月 19 日发布，头号新特性是部分函数应用（Partial Function Application）：可提前填入部分参数，以占位符保留其余参数位置并返回 Closure，待剩余参数传入后再执行调用。摘录在此处截断，未提供具体语法、其他变更或相关证据。</p>
+<p><strong>价值</strong>：这项机制为用户的软件工程与 AI 工具链开发提供了一个值得跟进的语言能力：在固定参数与动态参数需要分阶段组合的场景中，可以考虑用占位符和 Closure 表达延迟调用。由于当前内容不完整，且没有代码示例、兼容性说明或性能数据，现阶段更适合作为查阅 PHP 官方文档的技术线索，不宜据此判断迁移收益。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>部分函数应用可分离固定参数与后续参数</strong><p>PHP 8.6 引入的部分函数应用允许先提供函数的部分参数，用占位符标记尚待补充的位置，并返回 Closure；只有剩余参数传入后才会真正调用目标函数。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503695/php-8-6">https://www.oschina.net/news/503695/php-8-6</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b5166dbf-8983-4a2d-a328-f507559a84d7</guid><pubDate>Mon, 23 Nov 2026 05:21:14 GMT</pubDate></item><item><title>Jync v2.4.1 的 TDengine 3.x 轮询接入与元数据设计</title><link>https://www.oschina.net/news/503686</link><description>Jync v2.4.1 新增 35 种 TDengine 3.x 预设，通过官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口读取数据，使用 6041 端口，驱动 JAR 需由部署方自行提供。元数据通过 information_schema 与 DESCRIBE 获取，超级表进入同步清单，子表不重复列举；分块键支持 ts + 声明主键，或声明主键 + TAG 复合主键。当前内容为截断版，标题提到的布尔与改列修复未展开，分块同步的完整语义也未展示。</description><content:encoded><![CDATA[<section>
+<h2>Jync v2.4.1 的 TDengine 3.x 轮询接入与元数据设计</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：Jync v2.4.1 新增 35 种 TDengine 3.x 预设，通过官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口读取数据，使用 6041 端口，驱动 JAR 需由部署方自行提供。元数据通过 information_schema 与 DESCRIBE 获取，超级表进入同步清单，子表不重复列举；分块键支持 ts + 声明主键，或声明主键 + TAG 复合主键。当前内容为截断版，标题提到的布尔与改列修复未展开，分块同步的完整语义也未展示。</p>
+<p><strong>价值</strong>：对量化交易或时序数据管道相关的软件工程实践，这则更新提供了可直接核对的接入条件：驱动依赖、WebSocket 端口、元数据来源以及主键与 TAG 的组合方式，有助于评估 TDengine 到 Jync 的集成成本和数据建模方案；避免重复列举子表的思路也可用于其他时序数据同步工具。由于内容不完整，它不足以支持生产部署决策或完整复现，仍需结合完整发布说明与实际文档确认布尔、改列修复和分块同步细节。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>TDengine 轮询源的依赖与网络配置</strong><p>TDengine 3.x 接入基于官方驱动 taos-jdbcdriver-3.10.0 的 WebSocket 接口，端口为 6041；应用不内置 taos-jdbcdriver-3.10.0-dist.jar，部署时必须单独准备。</p></li>
+<li><strong>基于数据库元数据构建同步清单</strong><p>同步元数据取自 information_schema 和 DESCRIBE。超级表会被纳入同步清单，其子表不会被重复列举，可用于避免时序表结构展开时造成清单重复。</p></li>
+<li><strong>分块键可包含时间戳、声明主键与 TAG</strong><p>正文明确提到 ts + 声明主键，以及声明主键 + TAG 复合主键两种分块键形式。文本在“分块全…”处截断，因此无法确认完整同步方式、边界条件及具体实现。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503686">https://www.oschina.net/news/503686</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:5c88164e-fa6e-424e-a1e8-1568d5012a90</guid><pubDate>Mon, 23 Nov 2026 05:21:50 GMT</pubDate></item></channel></rss>
