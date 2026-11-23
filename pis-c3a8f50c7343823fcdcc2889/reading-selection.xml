@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人情报站</title><link>https://noahshen.github.io/pis_publish/</link><description>作者、周刊与资讯选读</description><item><title>持股跟踪</title><link>https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</link><description><![CDATA[<div>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人情报站</title><link>https://noahshen.github.io/pis_publish/</link><description>作者、周刊与资讯选读</description><item><title>【投资与金融】持股跟踪</title><link>https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</link><description><![CDATA[<div>
 <p><small>个人工作记录 · 2026-11-21 20:11:18 北京时间</small></p>
 <p>作者把长电、茅台和腾讯放在一篇持仓记录里，附了自己的历史盈亏。</p>
 <p>长电一节从水情入手：三峡虽已蓄到 175 米，作者观察到水位仍低于同期，并引用另一位观察者对全年发电量的估算。</p>
@@ -9,7 +9,7 @@
 <p>作者把长电、茅台和腾讯放在一篇持仓记录里，附了自己的历史盈亏。</p>
 <p>长电一节从水情入手：三峡虽已蓄到 175 米，作者观察到水位仍低于同期，并引用另一位观察者对全年发电量的估算。</p>
 <p><small>依据订阅源摘录 · <a href="https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>第291期 - 晚秋良渚</title><link>https://weekly.tw93.fun/posts/291/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【开发工具】第291期 - 晚秋良渚</title><link>https://weekly.tw93.fun/posts/291/</link><description><![CDATA[<div>
 <p><small>潮流周刊 · 2026-11-23 08:00:00 北京时间</small></p>
 <p>作者从周末在良渚拍秋景写起。这一期把开发工具和旅行随笔放在一起，可以挑自己当下想读的一段。</p>
 <ul><li><strong>Pake</strong> 已支持把网页打包成 Mac、Windows 和 Linux 桌面应用。</li><li><strong>T3 Code</strong> 是作者推荐的多 Coding Agent 工具，在手机上也能用。</li><li><strong>吉隆坡游记</strong>写的是亲眼所见与行前想象的落差，从街区面貌聊到当地人的生活节奏。</li></ul>
@@ -19,7 +19,7 @@
 <p>作者从周末在良渚拍秋景写起。这一期把开发工具和旅行随笔放在一起，可以挑自己当下想读的一段。</p>
 <ul><li><strong>Pake</strong> 已支持把网页打包成 Mac、Windows 和 Linux 桌面应用。</li><li><strong>T3 Code</strong> 是作者推荐的多 Coding Agent 工具，在手机上也能用。</li><li><strong>吉隆坡游记</strong>写的是亲眼所见与行前想象的落差，从街区面貌聊到当地人的生活节奏。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://weekly.tw93.fun/posts/291/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>XXL-AI v1.7.0 发布｜AI 应用开发平台</title><link>https://www.oschina.net/news/503728</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Harness 架构】XXL-AI v1.7.0 发布｜AI 应用开发平台</title><link>https://www.oschina.net/news/503728</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 00:53:53 北京时间</small></p>
 <p>项目发布说明披露，桌面端把模型请求、工具调用、MCP 调用和 Skill 加载收进独立的 Harness 模块。</p>
 <p>值得打开看的是，会话循环与聊天界面的职责具体在哪里分开。</p>
@@ -29,7 +29,7 @@
 <p>项目发布说明披露，桌面端把模型请求、工具调用、MCP 调用和 Skill 加载收进独立的 Harness 模块。</p>
 <p>值得打开看的是，会话循环与聊天界面的职责具体在哪里分开。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503728">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>v2.4.4：增强 AI 智能体、修复数据同步问题、优化前端资源等</title><link>https://www.oschina.net/news/503719</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【工程实践】v2.4.4：增强 AI 智能体、修复数据同步问题、优化前端资源等</title><link>https://www.oschina.net/news/503719</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-22 12:14:29 北京时间</small></p>
 <p>这版修复了跨库同步时由时间主键引起的删除误判，也修正了 CDC 位点、租约与 ClickHouse 时区的绑定问题。</p>
 <p>对维护数据管线的人，最值得看的是时间表示如何影响删除判定。</p>
@@ -39,7 +39,7 @@
 <p>这版修复了跨库同步时由时间主键引起的删除误判，也修正了 CDC 位点、租约与 ClickHouse 时区的绑定问题。</p>
 <p>对维护数据管线的人，最值得看的是时间表示如何影响删除判定。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503719">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>TCP/IP 为什么没申请专利？Vint Cerf 说因为不知道 25 年后盟友是谁</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【历史】TCP/IP 为什么没申请专利？Vint Cerf 说因为不知道 25 年后盟友是谁</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 10:56:01 北京时间</small></p>
 <p>据报道，Vint Cerf 在访谈中以“25 年后谁会是我们的盟友”解释当年对 TCP/IP 专利的取舍。</p>
 <p>这段当事人回忆提供了一个理解开放协议治理的角度。</p>
@@ -49,7 +49,7 @@
 <p>据报道，Vint Cerf 在访谈中以“25 年后谁会是我们的盟友”解释当年对 TCP/IP 专利的取舍。</p>
 <p>这段当事人回忆提供了一个理解开放协议治理的角度。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Agili 的 Hacker Podcast 2026-11-21</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【制度与治理】Agili 的 Hacker Podcast 2026-11-21</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description><![CDATA[<div>
 <p><small>Hacker News 每日播报 · 2026-11-22 07:52:21 北京时间</small></p>
 <p>本期整理提到，巴西联邦税务局将税务计算器代码按 MIT 许可证公开。</p>
 <p>值得追的是税务规则如何落实为可检查的计算逻辑，以及外部使用者能核对到哪一层。</p>
@@ -59,7 +59,7 @@
 <p>本期整理提到，巴西联邦税务局将税务计算器代码按 MIT 许可证公开。</p>
 <p>值得追的是税务规则如何落实为可检查的计算逻辑，以及外部使用者能核对到哪一层。</p>
 <p><small>依据订阅源正文 · <a href="https://hacker-podcast.agi.li/episode/2026-11-21">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>mod_wsgi 创始人用 Rust 重写了一个 Python 服务器</title><link>https://www.oschina.net/news/503742/rust-muru</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【软件架构】mod_wsgi 创始人用 Rust 重写了一个 Python 服务器</title><link>https://www.oschina.net/news/503742/rust-muru</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 14:49:04 北京时间</small></p>
 <p>Graham Dumpleton 用三周开发日志记录了 Muru 的成形过程：Rust 负责接入请求和控制进程，Python worker 执行业务代码。</p>
 <p><strong>架构取舍。</strong>把进程调度与请求处理分开后，两者可以独立调整。Muru 支持混合托管 WSGI、ASGI 和 gRPC，也支持蓝绿发布和即时回滚。</p>
@@ -73,7 +73,7 @@
 <p><strong>AI 怎样参与。</strong>按作者自述，大部分代码由 AI 编写，他负责定结构、逐轮审阅。这给出了理解这次重写工作量的重要背景。</p>
 <p>目前仍是 alpha 预发布版，支持 Linux 和 macOS，要求 CPython 3.11 或更高版本。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503742/rust-muru">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Google Gemini 黑五五折！AI Pro/Plus 年费 100/24 美元</title><link>https://www.appinn.com/google-ai-pro-black-friday-2026/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【AI 应用】Google Gemini 黑五五折！AI Pro/Plus 年费 100/24 美元</title><link>https://www.appinn.com/google-ai-pro-black-friday-2026/</link><description><![CDATA[<div>
 <p><small>小众软件 · 2026-11-23 13:53:05 北京时间</small></p>
 <p>11 月 23 日更新，Google AI Plus 也加入黑五五折，年费 24.99 美元（原价 49.99 美元），AI Pro 年费 99.99 美元（原价 199.99 美元），均为首年优惠周期。</p>
 <p>两档差别主要在 Antigravity 权限、Gemini 4 Neon 与 Deep Research、Flow 视频额度、存储（5TB 对 400GB）以及开发者计划与 AI Studio 配额。</p>
@@ -85,7 +85,7 @@
 <p>两档差别主要在 Antigravity 权限、Gemini 4 Neon 与 Deep Research、Flow 视频额度、存储（5TB 对 400GB）以及开发者计划与 AI Studio 配额。</p>
 <p>参与窗口分两批：11 月 20 至 26 日面向现有 Google One 与 Google AI 订阅用户，11 月 27 日起才向符合条件的新用户开放，折扣目前以美区账户为准。</p>
 <p><small>依据订阅源正文 · <a href="https://www.appinn.com/google-ai-pro-black-friday-2026/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想</title><link>https://sspai.com/post/119418</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【人机协作】派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想</title><link>https://sspai.com/post/119418</link><description><![CDATA[<div>
 <p><small>少数派 · 2026-11-23 07:34:27 北京时间</small></p>
 <p>Anthropic 研究员 Levent Alpöge 于 11 月 20 日在个人网站声明，他与 Claude 协作找到了黎曼猜想及广义黎曼猜想的证明，并以 Lean 形式化（约 1737 万行、17.5 万余个文件）。</p>
 <ul><li>Lean Focused Research Organization 与 Mathlib Initiative 随后宣布独立核验通过，MIT 的 Andrew Sutherland 也确认代码可无报错编译</li><li>但完整论文仍未公开，陶哲轩等人指出证明体量庞大、且大量使用朗兰兹纲领与算术几何成果，学界仍需大量工作才能解析。</li></ul>
@@ -97,7 +97,7 @@
 <ul><li>Lean Focused Research Organization 与 Mathlib Initiative 随后宣布独立核验通过，MIT 的 Andrew Sutherland 也确认代码可无报错编译</li><li>但完整论文仍未公开，陶哲轩等人指出证明体量庞大、且大量使用朗兰兹纲领与算术几何成果，学界仍需大量工作才能解析。</li></ul>
 <p>同一份早报还记录了 OpenAI 的反蒸馏措施：GPT-6.2 Astra 上受保护思维链的提取攻击成功率从 GPT-6 Astra 的 54.0% 降到 0.2%（OpenAI 11 月 20 日公告）。</p>
 <p><small>依据订阅源摘录 · <a href="https://sspai.com/post/119418">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Strata 0.2.18 新增 220B 开源大模型 Hy4-Flash，门槛上涨至 64GB 内存</title><link>https://www.appinn.com/strata-0-2-18/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【大模型】Strata 0.2.18 新增 220B 开源大模型 Hy4-Flash，门槛上涨至 64GB 内存</title><link>https://www.appinn.com/strata-0-2-18/</link><description><![CDATA[<div>
 <p><small>小众软件 · 2026-11-22 15:06:33 北京时间</small></p>
 <p>Strata 0.2.18 原生支持腾讯混元 Hy4-Flash（MoE 架构，总参数 224B、每个 Token 激活约 12B、最高 100 万 Token 上下文），新增独立的 strata-hy4 推理引擎、三档量化（SQ-64/96/128）与内置 DFly2 推测解码，并支持跨平台运行。</p>
 <p>腾讯官方模型卡的对比数据显示能力边界并不单向：Agent 与电脑操作三项均领先 Qwen3.8-Flash-Next（OSWorld 2.1 部分得分 68.1 对 58.8），编程与终端三项则落后（Terminal-Bench 4.0 为 19.2 对 29.5）。</p>
@@ -109,7 +109,7 @@
 <p>腾讯官方模型卡的对比数据显示能力边界并不单向：Agent 与电脑操作三项均领先 Qwen3.8-Flash-Next（OSWorld 2.1 部分得分 68.1 对 58.8），编程与终端三项则落后（Terminal-Bench 4.0 为 19.2 对 29.5）。</p>
 <p>本地运行的入门门槛因此抬到 64GB 系统内存。</p>
 <p><small>依据订阅源正文 · <a href="https://www.appinn.com/strata-0-2-18/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>谷歌世界模型 Genie 4 更新，支持“实时”更改世界</title><link>https://www.oschina.net/news/503750/google-deepmind-genie-4</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【大模型】谷歌世界模型 Genie 4 更新，支持“实时”更改世界</title><link>https://www.oschina.net/news/503750/google-deepmind-genie-4</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 16:59:18 北京时间</small></p>
 <p>Google DeepMind 于 11 月 18 日更新 Project Genie，首次向符合条件的 Google AI Ultra 订阅者开放 Genie 4。</p>
 <p>核心变化是可以在生成世界的中途用文字改写环境——改天气、加角色、改变走向，同时首次把视觉与实时原生音频绑定，音频随场景从环境声到角色对话自适应。</p>
@@ -121,7 +121,7 @@
 <p>核心变化是可以在生成世界的中途用文字改写环境——改天气、加角色、改变走向，同时首次把视觉与实时原生音频绑定，音频随场景从环境声到角色对话自适应。</p>
 <ul><li>同期 Genie 3 更新：单次生成延长到 3 分钟（原 60 秒）、支持世界串联、360 度全景图作为种子、探索中用自然语言触发实时事件</li><li>Project Genie 新增 agent 与社区画廊。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503750/google-deepmind-genie-4">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>一条命令就能让 Mac 用本地模型跑编程 Agent</title><link>https://www.oschina.net/news/503746</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Agent】一条命令就能让 Mac 用本地模型跑编程 Agent</title><link>https://www.oschina.net/news/503746</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 15:58:34 北京时间</small></p>
 <p>mjwsolo 的 localcode（Apache-2.0）把推理服务与编程 Agent 合进一条命令：安装、选模型、开仓库即用，不需要 API key。</p>
 <ul><li>硬件门槛是 Apple Silicon、macOS 13 以上、16GB 统一内存起步、Python 3.10 以上</li><li>内置 12 个模型、169 种量化，会按本机统一内存推荐能跑得动的最强模型并打星号（Qwen 3.8 27B 从 6.2GB 到 54.7GB）。</li></ul>
@@ -137,7 +137,7 @@
 <p>/server 或 localcode api 还能给出 OpenAI 兼容端点，把一台 Mac 当小型本地推理服务。</p>
 <p>权限边界写得很清楚：项目内读文件、改文件、跑测试、执行构建与 Git 命令自己做，碰项目外面的东西先问你。</p>
 <p><small>依据订阅源摘录 · <a href="https://github.com/mjwsolo/localcode">一手来源</a> · <a href="https://www.oschina.net/news/503746">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>二级回收，将成为争夺下一代太空经济入场券的「新风向标」</title><link>http://www.geekpark.net/news/374355</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【产业与科技发展】二级回收，将成为争夺下一代太空经济入场券的「新风向标」</title><link>http://www.geekpark.net/news/374355</link><description><![CDATA[<div>
 <p><small>极客公园-GeekPark · 2026-11-23 15:49:06 北京时间</small></p>
 <p>文章从星舰飞船的回收谈起，解释为什么二级再入对热防护与着陆控制的要求尤其高。</p>
 <p>11 月 14 日星舰飞船完成约 22.5 小时轨道飞行后被发射塔机械臂捕获，这是人类首次完成轨道级大载重飞船的回收工程验证。</p>
@@ -151,7 +151,7 @@
 <ul><li>文章先纠正一个常见误读：这次「筷子」接住的是飞船而不是火箭，所谓二级回收回收的也是飞船，技术底座是载人飞船而非一级返回的有动力路线——一级分离速度约 2 公里/秒、返回全程 6 到 7 分钟</li><li>二级要从约 7.8 公里/秒的轨道速度再入大气层，要过热防护、通信黑障、气动减速和精准着陆，返回过程长达 30 分钟到 1 小时。</li></ul>
 <p>真正的门槛在于无动力受控再入的人才池天然有限，这被点为国内商业航天追赶的约束。</p>
 <p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374355">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Jync v2.4.5 · 注释同步与游标优先级</title><link>https://www.oschina.net/news/503745</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【开发工具】Jync v2.4.5 · 注释同步与游标优先级</title><link>https://www.oschina.net/news/503745</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 15:22:26 北京时间</small></p>
 <p>Jync 2.4.5 可以把数据库注释带到目标库，也允许为整个项目指定选用游标列的先后顺序。</p>
 <ul><li><strong>注释同步。</strong>源端可读取 SQL Server 的表和字段注释，目标端可写入 Oracle、PostgreSQL、DB2、HANA 和 SQL Server。</li><li><strong>游标配置。</strong>可按标签批量设置游标列优先级。本版还修复了游标重载和无主键表的边界问题。</li></ul>
@@ -163,7 +163,7 @@
 <ul><li><strong>注释同步。</strong>源端可读取 SQL Server 的表和字段注释，目标端可写入 Oracle、PostgreSQL、DB2、HANA 和 SQL Server。</li><li><strong>游标配置。</strong>可按标签批量设置游标列优先级。本版还修复了游标重载和无主键表的边界问题。</li></ul>
 <p>如果迁移后常要手工补字段说明，第一项值得优先看。作者建议 2.4.x 用户升级。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503745">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了</title><link>https://www.appinn.com/winget-mcp-server/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【自动化】微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了</title><link>https://www.appinn.com/winget-mcp-server/</link><description><![CDATA[<div>
 <p><small>小众软件 · 2026-11-23 15:19:28 北京时间</small></p>
 <p>微软给 Windows 包管理器 WinGet 内置了 MCP Server，AI 助手可以调用它搜索并安装软件。</p>
 <p>官方文档给出的能力边界很窄：目前只有 find（搜索软件包并返回 ID、版本、发布者与可用安装选项）和 install（安装指定包，可指定版本与安装选项）两个工具，且每次安装前 Agent 必须取得用户批准。</p>
@@ -177,7 +177,7 @@
 <ul><li>使用条件是 Windows 11 或 Windows 10 1809（build 17763）以上、装有支持 MCP 的 WinGet，并需先执行 winget configure --enable</li><li>官方给了 VS Code（.vscode/mcp.json 配 stdio）与 GitHub Copilot CLI（/mcp add）两种接入方式，可执行文件路径用 winget mcp 获取。</li></ul>
 <p>需注意文章「目前只能搜索和安装」的说法略滞后：微软 winget-cli v1.29 的发布说明显示 find 与 install 已扩展 upgradeable 与 upgradeOnly 参数以支持升级场景。</p>
 <p><small>依据订阅源正文 · <a href="https://learn.microsoft.com/en-us/windows/package-manager/winget/mcp-server-overview">一手来源</a> · <a href="https://www.appinn.com/winget-mcp-server/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>利润增速降至 0.7%， 拼多多「申诉优赔」还要给商家补贴几十亿</title><link>http://www.geekpark.net/news/374348</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【产业与科技发展】利润增速降至 0.7%， 拼多多「申诉优赔」还要给商家补贴几十亿</title><link>http://www.geekpark.net/news/374348</link><description><![CDATA[<div>
 <p><small>极客公园-GeekPark · 2026-11-23 15:18:26 北京时间</small></p>
 <p>拼多多三季度营收同比增长 0.1%，归母净利润增长 0.7%。这份财报值得细看的是营销与研发支出的变化，以及平台如何承担异常退款成本。</p>
 <ul><li>11 月 19 日拼多多发布 2026 年第三季度未经审计财报：营收 1083.41 亿元，同比微增 0.1%，低于市场约 1155 亿元的一致预期</li><li>归母净利润 295.41 亿元，同比增长 0.7%，高于市场预期的 261.75 亿元，而财报前市场普遍预计净利同比下滑约 13%。</li></ul>
@@ -193,7 +193,7 @@
 <p>另一面是非经营性拖累：利息及投资净收益由 85.65 亿元降至 53.89 亿元，所得税费用由 39.87 亿元升至 65.7 亿元，Non-GAAP 净利润 310.2 亿元同比回落约 1%，前三季度累计净利 692.7 亿元同比下降 7.4%。</p>
 <p>同期平台推出「申诉优赔」，由平台识别异常投诉与异常退款、核实后直接补偿商家货款与运费，无需商家举证，单日处理申诉单量达百万级、单日补偿金额超千万元、年度补偿规模可达数十亿元。</p>
 <p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374348">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？</title><link>https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【大模型】深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？</title><link>https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html</link><description><![CDATA[<div>
 <p><small>雷锋网 · 2026-11-23 13:50:00 北京时间</small></p>
 <p>这篇报道比较 Astra 和 Sol 的定价、基准测试与使用范围，也讨论了模型如何决定何时调用工具。</p>
 <p>OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol。</p>
@@ -211,7 +211,7 @@
 <ul><li>效果侧，GDPval v2 上 Astra 比 GPT-6 Astra 高 6.2 个百分点、输出 token 用量减少 22%</li><li>FrontierCode 2.0 上 Sol 与 Astra 差距不到 0.5 分。</li></ul>
 <ul><li>文章进一步拆了机制层面的变化：模型更主动决定何时调工具、何时操作计算机、投多少推理资源，以及从「下一步生成什么」扩展到「下一步该用什么方式获取信息、改变环境或验证结果」，并把验收条件前置进执行过程</li><li>文中也提示公开信息尚不足以还原 Astra 内部的策略网络与调度算法，属于对公开能力的工程解读。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">一手来源</a> · <a href="https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>AI 越来越便宜，AI 越来越烧钱</title><link>https://www.oschina.net/news/503743/token-spending-at-that-jevons-moment</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【产业与科技发展】AI 越来越便宜，AI 越来越烧钱</title><link>https://www.oschina.net/news/503743/token-spending-at-that-jevons-moment</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 15:18:43 北京时间</small></p>
 <p>文章从两笔账解释 AI 开支：单次调用越便宜，一个任务调用模型的次数却可能越多。</p>
 <p>文章用杰文斯悖论解释一个反直觉现象：单 token 价格塌陷并没有让企业账单变薄。</p>
@@ -227,7 +227,7 @@
 <p>Gartner 2026 年 8 月预测，2026 年全球 AI 优化 IaaS 支出约 423 亿美元、同比增 96.4%，其中推理 233 亿美元将首次超过训练的 190 亿美元，占比 55%，2027 年升到 59%。</p>
 <ul><li>文章给出的机制解释是：Agent 完成任务要拆解、检索、调工具、检查、失败重试，用户只看到一个答案，背后可能是几十次调用</li><li>下降的是 token 单价，不是单任务总成本，因此 AI 应用要看的不是用户数和调用量，而是单位经济模型——持续使用、任务完成、收入能否覆盖推理成本。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503743/token-spending-at-that-jevons-moment">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>加州起诉 OpenAI：说起来你可能不信，是模型先动的手</title><link>https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【制度与治理】加州起诉 OpenAI：说起来你可能不信，是模型先动的手</title><link>https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html</link><description><![CDATA[<div>
 <p><small>雷锋网 · 2026-11-23 13:36:00 北京时间</small></p>
 <p>报道从加州对 OpenAI 的起诉谈到一个工程问题：执行任务的 Agent 是否也能改动监督它的机制？</p>
 <p>11 月 16 日，加州总检察长 Rob Bonta 向旧金山高等法院起诉 OpenAI，指控其在缺少必要防护与监控的情况下测试高能力模型，构成公共妨害并违反加州《不正当竞争法》。</p>
@@ -405,7 +405,7 @@
 <p><strong>一场 APEC，测出了大疆手持影像的含金量</strong><br />
 <small>雷锋网 · 2026-11-23 13:41:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/xWhlWgFXgwlzWQMj.html">原文</a></small></p>
 <p><strong>科研成果 | NeurIPS 2026发表CCCI博士生蒋翔宇工作｜NeurIPS 2026</strong><br />
-<small>雷锋网 · 2026-11-23 13:27:00 北京时间 · <a href="https://www.leiphone.com/category/private/hvhKCQokQvsUlFxN.html">原文</a></small></p></div>]]></content:encoded></item><item><title>智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力</title><link>https://www.oschina.net/news/503756</link><description><![CDATA[<div>
+<small>雷锋网 · 2026-11-23 13:27:00 北京时间 · <a href="https://www.leiphone.com/category/private/hvhKCQokQvsUlFxN.html">原文</a></small></p></div>]]></content:encoded></item><item><title>【大模型】智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力</title><link>https://www.oschina.net/news/503756</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:30:11 北京时间</small></p>
 <p>智谱 11 月 23 日发布 GLM-5.4，这是其第一代 Loop Transformer 旗舰模型：在 750B 基座上让 28 层权重共享的层循环执行两轮，官方称智能水平达到 2-3T 级模型。</p>
 <p>架构上的三处取舍值得看：逐 token 门控渐进更新（第一轮建立全局上下文、第二轮放开写回残差流）、KV Cache 全局共享加滑窗独立（多一轮循环只多付一个窗口的 KV，而不是一整份全上下文缓存）、第二轮直接复用第一轮的稀疏注意力索引（不增加检索开销）。</p>
@@ -419,7 +419,7 @@
 <p>官方在 30B 上做了同参数量对照，训练计算量只增约 10%；提升最大的是数学、科学推理与长上下文，且 GPQA-Diamond、MMLU-Pro 上平均输出长度下降 10%–14%，即部分推理从输出 token 转入了循环的隐式深度。非高峰 200 token/s，峰值 70–80 token/s。</p>
 <p>可用范围：即日起向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder，Coding Plan V2/V3/团队版额度提升至 1.5 倍；API 要等安全评估完成后开放，权重是「计划以负责任的方式开源」，两者都没有时间承诺。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503756">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>特斯拉新版 FSD 的炫酷画面，由车机上的 1B 模型实时生成</title><link>https://www.oschina.net/news/503757</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【AI 应用】特斯拉新版 FSD 的炫酷画面，由车机上的 1B 模型实时生成</title><link>https://www.oschina.net/news/503757</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:56:06 北京时间</small></p>
 <p>马斯克在 X 上解释，新版 FSD 那套看起来很炫的显示效果不是 3D 渲染，而是车机上约 1B 的扩散模型实时生成视频。</p>
 <p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 conditional mean-flow 模型：上一帧 reality view 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
@@ -433,7 +433,7 @@
 <p>工程细节同样具体：每个 UVE 帧（18Hz）由半个 TRIP engine 负责，tiny decoder 挪进 SRAM 后算力要在三个 TRIP 之间分摊，softmax 得用 28 步模拟模式跑；延迟目前偏高，但把更新的 UVE 特征交错插进扩散 transformer 各层可砍掉约 35% 延迟，AI5 算力约提升 12 倍。</p>
 <p>边界要看清：评论区指出这种做法依赖车外真实摄像头每帧兜底，游戏里没有外部真实数值，物理碰撞、状态记忆与多人同步仍得靠确定性逻辑。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503757">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Perplexity and Intelligence</title><link>https://openai.com/index/perplexity-and-intelligence</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【大模型】困惑度与智能</title><link>https://openai.com/index/perplexity-and-intelligence</link><description><![CDATA[<div>
 <p><small>OpenAI News · 2026-11-22 08:00:00 北京时间</small></p>
 <p>OpenAI 官方博客提出把困惑度（perplexity，实践中取其对数即交叉熵损失）确立为跨模型开发者比较与安全评估的共享指标，并公开其内部预训练测量数据。</p>
 <p>文中用一条困惑度曲线串起能力跃迁：从 GPT-2 首次能稳定写出连贯段落，到 GPT-3 具备上下文学习能力，中间被这一个指标覆盖的模型能力范围相当惊人。</p>
@@ -445,7 +445,7 @@
 <p>文中用一条困惑度曲线串起能力跃迁：从 GPT-2 首次能稳定写出连贯段落，到 GPT-3 具备上下文学习能力，中间被这一个指标覆盖的模型能力范围相当惊人。</p>
 <p>更值得读的是它对进度的判断：当前加速的主要来源之一已经是 AI 参与自身研发，文中还指出这类领域常有简单洞察被错过很多年的先例，因此 2027 年就可能出现一次量级相当的预训练突破；但对齐与监控的进展预计不会快到能跟上全部加速。</p>
 <p><small>依据订阅源摘录 · <a href="https://openai.com/index/perplexity-and-intelligence">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Meta Muse can do your Black Friday shopping at Walmart</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Agent】Meta Muse 可以帮你在沃尔玛购买黑五商品</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><description><![CDATA[<div>
 <p><small>The Verge · 2026-11-23 19:00:00 北京时间</small></p>
 <p>11 月 23 日沃尔玛把上月宣布的 Agent Gateway 正式上线，首个接入方是 Meta 的个人 AI Agent Muse：让它找黑五商品、拼购物车，并在对话里直接结账，付款用沃尔玛账户里已存的卡片，价格与沃尔玛官网一致，退货政策照旧生效。</p>
 <p>控制权设计是重点：Agent Profile 是账户内一个独立的代理活动空间，用户可以设消费上限、逐笔批准购买、随时查看代理买了什么；网关只给代理完成任务所需的信息，不暴露完整购买历史。技术路径是 MCP 或类似协议，绕过为人设计的网页导航与登录。</p>
@@ -457,7 +457,7 @@
 <p>控制权设计是重点：Agent Profile 是账户内一个独立的代理活动空间，用户可以设消费上限、逐笔批准购买、随时查看代理买了什么；网关只给代理完成任务所需的信息，不暴露完整购买历史。技术路径是 MCP 或类似协议，绕过为人设计的网页导航与登录。</p>
 <p>边界与对照：亚马逊与 eBay 已屏蔽 AI 代理浏览其平台，沃尔玛称 Muse 只是开始，其他 agent 与应用「即将到来」；接入不需要 Walmart+ 会员。</p>
 <p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>PostgreSQL 19 正式发布</title><link>https://www.oschina.net/news/503754/postgresql-19-released</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【开源软件】PostgreSQL 19 正式发布</title><link>https://www.oschina.net/news/503754/postgresql-19-released</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:15:05 北京时间</small></p>
 <p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
 <p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
@@ -467,7 +467,7 @@
 <p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
 <p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503754/postgresql-19-released">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>独家解读丨苦战三个月，AI办公经得起财报检验吗？</title><link>https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【产业与科技发展】独家解读丨苦战三个月，AI办公经得起财报检验吗？</title><link>https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html</link><description><![CDATA[<div>
 <p><small>雷锋网 · 2026-11-23 17:54:00 北京时间</small></p>
 <p>雷峰网把腾讯 Q3 与阿里最新财报里的 AI 办公口径摊开看：腾讯披露 WorkBuddy 的 DAU 超 1000 万、每日 Token 消耗超 100 万亿、Q3 收入为 Q2 的 5 倍以上，但付费用户规模、企业客户收入贡献与产品自身盈利均未单独披露；字节同期披露豆包工作上线三个月 DAU 破 800 万、企业客户 ARR 破 20 亿元；阿里只披露了包含千问办公在内的 AI 实验室与应用分部整体数据。</p>
 <p>成本侧的对照更硬：腾讯 Q3 非 IFRS 经营盈利同比降 6%，剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品后同比增 8%，资本开支付款 651 亿元、同比增约 225%；阿里 AI 实验室与应用业务单季调整后 EBITA 亏损 105 亿元，约为去年同期的三倍。</p>
@@ -479,7 +479,7 @@
 <p>成本侧的对照更硬：腾讯 Q3 非 IFRS 经营盈利同比降 6%，剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品后同比增 8%，资本开支付款 651 亿元、同比增约 225%；阿里 AI 实验室与应用业务单季调整后 EBITA 亏损 105 亿元，约为去年同期的三倍。</p>
 <p>作者还给了空间测算：按中国约 2 亿白领、年付费 1000 元、50% 渗透率算，市场约 1000 亿元，三家各拿 30% 份额对应 300 亿元收入、30% 利润率下单家利润约 90 亿元——放在腾讯、阿里的体量里并不算大，这也解释了各家为什么要自建 FDE 或拉生态伙伴压交付成本。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist</title><link>https://www.appinn.com/superlist-start/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【技术产品】微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist</title><link>https://www.appinn.com/superlist-start/</link><description><![CDATA[<div>
 <p><small>小众软件 · 2026-11-23 17:33:41 北京时间</small></p>
 <p>微软已公告 To Do 将于 <strong>2027 年 6 月 30 日</strong>停用，Web、Windows、Mac、iOS、Android 全部关停；工作或学校账户的既有任务只能通过 Planner 访问到该日期，官方至今未公布导出方式，个人账户则没有迁移路径。</p>
 <p>替代品是奇妙清单创始人 Christian Reber 在 Wunderlist 关闭前一天创办的 Superlist：每条任务可以写成长文并穿插子任务，免费版最多 5 个清单、付费版不限；Settings &gt; Integrations 里可与 To Do 实时同步，但免费版需先把清单精简过。作者提醒目前还没有中文界面。</p>
@@ -489,7 +489,7 @@
 <p>微软已公告 To Do 将于 <strong>2027 年 6 月 30 日</strong>停用，Web、Windows、Mac、iOS、Android 全部关停；工作或学校账户的既有任务只能通过 Planner 访问到该日期，官方至今未公布导出方式，个人账户则没有迁移路径。</p>
 <p>替代品是奇妙清单创始人 Christian Reber 在 Wunderlist 关闭前一天创办的 Superlist：每条任务可以写成长文并穿插子任务，免费版最多 5 个清单、付费版不限；Settings &gt; Integrations 里可与 To Do 实时同步，但免费版需先把清单精简过。作者提醒目前还没有中文界面。</p>
 <p><small>依据订阅源正文 · <a href="https://www.appinn.com/superlist-start/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【风险管理】Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><description><![CDATA[<div>
 <p><small>苏格兰威士忌找不到了 · 2026-11-23 11:46:00 北京时间</small></p>
 <p>作者整理 11 月 20 日 Al Brooks 美股实盘交易室中 Mike（网名 Precog）分享的要点。核心原则是大周期能量压倒小周期：当天 ES 自上周三起就在大级别下跌通道里，他用 AI 查得的背景数据佐证——过去 1 个月 ES 已跌约 7.73%–8.71%，过去 12 个月出现过两次超过 10% 的回调，因此「跌够了」并不构成抄底理由。</p>
 <p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
@@ -501,7 +501,7 @@
 <p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
 <p>短线纪律部分是多维度测量目标并重点看 50% 中位与 33%/66%，盯住前一根 K 线的高低点做剥头皮，以及用倒计时器等 K 线收盘确认再下结论——作者为此专门写过 PATimer 来提醒自己别中途抢跑。</p>
 <p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/mike-precog-trading-room-notes.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【行为金融】Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><description><![CDATA[<div>
 <p><small>苏格兰威士忌找不到了 · 2026-11-23 18:50:00 北京时间</small></p>
 <p>作者把 Al Brooks 2015 年 2 月与 2016 年 3 月两篇交易室问答合读，回答「要学多久才能稳定盈利」。Al 给的跨度很大：有人 6 个月到 1 年就做到，也有人 1–2 年做得不错；他认为快慢几乎完全取决于个人性格——你到底有多愿意戒掉坏毛病、变成一个彻底客观的人。</p>
 <p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
@@ -513,7 +513,7 @@
 <p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
 <p>给普通交易者的减负很具体：Bar 39 的强空头阴线做空、Bar 54 的底部大阳线反包做多，各抓 4 个点「出去散步」就够，一天一两笔比追 40 个机会更实际；新手最致命的陷阱是窄幅震荡区间，像吸引苍蝇的灭蝇灯，把人钉在屏幕前不敢下手。</p>
 <p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>又读完了一本禁书</title><link>https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【制度与治理】又读完了一本禁书</title><link>https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/</link><description><![CDATA[<div>
 <p><small>自由庄园 · 2026-11-22 08:17:00 北京时间</small></p>
 <p>作者读完《为什么要有图书馆》——一位大学副教授挂职西安碑林区文旅局副局长期间，从零建起区图书馆并记录全过程的书。书因写到本地官场贪腐而在当地成了禁书，区里还曾用公账买 100 本，供「网评员」到豆瓣打差评。</p>
 <p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
@@ -525,10 +525,10 @@
 <p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
 <p>一个反讽：文章发出后被列出「五不该」——不该反衬其他区县、指出评审条例问题、不感谢各级领导、揭露馆配潜规则、担心十万加带来舆情；豆瓣上的一星差评也被作者视作网评员的痕迹。</p>
 <p><small>依据订阅源正文 · <a href="https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>Select Styling Specimens</title><link>https://simonwillison.net/2026/Nov/22/select-styling/</link><guid isPermaLink="false">d0574a25c30e3a08e8dd80d98adf690721d9ee68e7bac39d9cfc96d4b41c79c2</guid><pubDate>Mon, 23 Nov 2026 03:45:06 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></content:encoded></item><item><title>Muru</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="false">5d521776d89502166ee0ae52d78cec34a21648996552cac2f63e6831b7f5fe2c</guid><pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（18 条）</title><description><![CDATA[<div>
-<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br/>
+</div>]]></content:encoded></item><item><title>【开发工具】HTML 下拉选择框的样式示例</title><link>https://simonwillison.net/2026/Nov/22/select-styling/</link><guid isPermaLink="false">d0574a25c30e3a08e8dd80d98adf690721d9ee68e7bac39d9cfc96d4b41c79c2</guid><pubDate>Mon, 23 Nov 2026 03:45:06 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></content:encoded></item><item><title>【软件架构】Muru：用 Rust 编写的 Python 应用服务器</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="false">5d521776d89502166ee0ae52d78cec34a21648996552cac2f63e6831b7f5fe2c</guid><pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（18 条）</title><description><![CDATA[<div>
+<p><strong>Moto Tag 3 尚未公布，亚马逊已开始接受订单</strong><br/>
 <small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
-<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br/>
+<p><strong>三星刷新率高达 1,100 Hz 的游戏显示器将于下月上市，售价 899.99 美元</strong><br/>
 <small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
 <p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br/>
 <small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
@@ -542,30 +542,30 @@
 <small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
 <p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br/>
 <small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
-<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br/>
+<p><strong>柯达的下一款收藏品是一台兼作追踪器的迷你数码相框</strong><br/>
 <small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
 <p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
-<p><strong>We haven’t seen the last of the major tech outages</strong><br/>
+<p><strong>大型技术服务中断还会发生</strong><br/>
 <small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
-<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br/>
+<p><strong>系统故障导致达美航空进出亚特兰大的航班延误</strong><br/>
 <small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
-<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br/>
+<p><strong>《以撒的结合》开发者从 Repentance Plus 中移除了 AI 音乐</strong><br/>
 <small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
-<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br/>
+<p><strong>我们喜欢的几款 Switch 2 游戏在黑五期间降价了</strong><br/>
 <small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
-<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br/>
+<p><strong>Sheherazaad 的《Khudgarzi》：优美而“风格纷杂”的南亚民谣</strong><br/>
 <small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
-<p><strong>Protesters storm Meta offices in India</strong><br/>
+<p><strong>抗议者冲入 Meta 在印度的办公室</strong><br/>
 <small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
 <p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br/>
 <small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
 <p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">unselected-a5868ed51b6204c8f9a6419e2b9adbbe5525df5d701b9cbc2241b6bbf0047c53</guid><pubDate>Mon, 23 Nov 2026 21:09:32 +0800</pubDate><content:encoded><![CDATA[<div>
-<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br/>
+<p><strong>Moto Tag 3 尚未公布，亚马逊已开始接受订单</strong><br/>
 <small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
-<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br/>
+<p><strong>三星刷新率高达 1,100 Hz 的游戏显示器将于下月上市，售价 899.99 美元</strong><br/>
 <small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
 <p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br/>
 <small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
@@ -579,21 +579,21 @@
 <small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
 <p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br/>
 <small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
-<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br/>
+<p><strong>柯达的下一款收藏品是一台兼作追踪器的迷你数码相框</strong><br/>
 <small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
 <p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
-<p><strong>We haven’t seen the last of the major tech outages</strong><br/>
+<p><strong>大型技术服务中断还会发生</strong><br/>
 <small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
-<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br/>
+<p><strong>系统故障导致达美航空进出亚特兰大的航班延误</strong><br/>
 <small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
-<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br/>
+<p><strong>《以撒的结合》开发者从 Repentance Plus 中移除了 AI 音乐</strong><br/>
 <small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
-<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br/>
+<p><strong>我们喜欢的几款 Switch 2 游戏在黑五期间降价了</strong><br/>
 <small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
-<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br/>
+<p><strong>Sheherazaad 的《Khudgarzi》：优美而“风格纷杂”的南亚民谣</strong><br/>
 <small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
-<p><strong>Protesters storm Meta offices in India</strong><br/>
+<p><strong>抗议者冲入 Meta 在印度的办公室</strong><br/>
 <small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
 <p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br/>
 <small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
