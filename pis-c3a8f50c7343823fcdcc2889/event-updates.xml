@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>XXL-AI v1.7.0 发布及会话架构升级</title><link>https://www.oschina.net/news/503728</link><description>XXL-AI v1.7.0 本地版（Desk 桌面端）发布。Release Notes 显示，本次版本将包含模型请求、工具调用、MCP 调用和 SKILL 加载等环节的会话 Loop 整合为 chat 模块下独立的 Harness 模块，以提升可维护性和扩展性；同时对会话模型进行标准化，并将会话 Loop 的差异化行为统一通过“会话属性”扩展设置。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>qData 数据中台开源版版本发布与敏感等级管理优化</title><link>https://www.oschina.net/news/503708</link><description>qData 数据中台开源版 v1.6.8 发布，围绕数据资产维护中的敏感等级管理场景更新，资产字段编辑界面支持绑定敏感等级，以支持手机号、客户编号等字段按要求进行分类分级管理。</description><content:encoded><![CDATA[<section>
+<h2>qData 数据中台开源版版本发布与敏感等级管理优化</h2>
+<p><strong>核心实体</strong>：qData 数据中台</p>
+<p><strong>主题</strong>：开源版版本发布与敏感等级管理能力优化</p>
+<p><strong>范围</strong>：qData 数据中台开源版的版本发布、资产字段敏感等级绑定及数据分类分级管理相关优化</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>qData 数据中台开源版 v1.6.8 发布，围绕数据资产维护中的敏感等级管理场景更新，资产字段编辑界面支持绑定敏感等级，以支持手机号、客户编号等字段按要求进行分类分级管理。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503708">https://www.oschina.net/news/503708</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d30e5cd4-9987-4185-824e-1b8765c6a809</guid><pubDate>Mon, 23 Nov 2026 05:21:08 GMT</pubDate></item><item><title>Jync v2.4.3引入人工确认的AI运维执行机制</title><link>https://www.oschina.net/news/503710</link><description>Jync v2.4.3新增AI运维助手，可发起同步任务的启动或停止、立即同步一次，启用、停用或立即运行ETL任务，启动、停止、立即运行或取消专属迁移，以及重建CDC基线等运行态操作。助手仅生成确认卡；用户点击“确认执行”后，服务端会按照当前账号的角色与资源归属重新校验，校验通过后操作才生效。</description><content:encoded><![CDATA[<section>
+<h2>Jync v2.4.3引入人工确认的AI运维执行机制</h2>
+<p><strong>核心实体</strong>：Jync v2.4.3</p>
+<p><strong>主题</strong>：AI运维助手的运行态操作与执行确认机制</p>
+<p><strong>范围</strong>：Jync v2.4.3中由AI运维助手发起、经用户人工确认并由服务端复核权限后执行的运行态操作</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Jync v2.4.3新增AI运维助手，可发起同步任务的启动或停止、立即同步一次，启用、停用或立即运行ETL任务，启动、停止、立即运行或取消专属迁移，以及重建CDC基线等运行态操作。助手仅生成确认卡；用户点击“确认执行”后，服务端会按照当前账号的角色与资源归属重新校验，校验通过后操作才生效。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503710">https://www.oschina.net/news/503710</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d103911c-07f7-4bca-b936-fc7020e594f8</guid><pubDate>Mon, 23 Nov 2026 05:20:54 GMT</pubDate></item><item><title>xbatis 版本发布及 mybatis 兼容进展</title><link>https://www.oschina.net/news/503711</link><description>内容标题称 xbatis 1.10.11 已正式发版；正文同时列出“1.10.15 - 2026-11-05”，称该版本修复了一些问题、优化代码，并提前部分兼容 mybatis 3.6.0。标题与正文所列版本号不一致，且正文内容不完整。</description><content:encoded><![CDATA[<section>
+<h2>xbatis 版本发布及 mybatis 兼容进展</h2>
+<p><strong>核心实体</strong>：xbatis</p>
+<p><strong>主题</strong>：版本发布、维护与兼容性</p>
+<p><strong>范围</strong>：xbatis 各版本的发布记录、问题修复、代码优化及对 mybatis 版本的兼容进展</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容标题称 xbatis 1.10.11 已正式发版；正文同时列出“1.10.15 - 2026-11-05”，称该版本修复了一些问题、优化代码，并提前部分兼容 mybatis 3.6.0。标题与正文所列版本号不一致，且正文内容不完整。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503711">https://www.oschina.net/news/503711</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:0b35d406-c08c-4306-8cd3-aac7349dae49</guid><pubDate>Mon, 23 Nov 2026 05:20:47 GMT</pubDate></item><item><title>gpress 版本发布与功能演进</title><link>https://www.oschina.net/news/503718</link><description>gpress 发布 v1.2.6，新增 search 接口。文中介绍该项目是 Web3 内容平台，基于 Hertz、Go template 和 FTS5 全文检索，支持以太坊和百度超级链，并兼容 Hugo、WordPress 生态及 Wasm 插件扩展。</description><content:encoded><![CDATA[<section>
+<h2>gpress 版本发布与功能演进</h2>
+<p><strong>核心实体</strong>：gpress</p>
+<p><strong>主题</strong>：版本发布及功能新增</p>
+<p><strong>范围</strong>：gpress 各版本发布、search 等功能新增及兼容性演进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>gpress 发布 v1.2.6，新增 search 接口。文中介绍该项目是 Web3 内容平台，基于 Hertz、Go template 和 FTS5 全文检索，支持以太坊和百度超级链，并兼容 Hugo、WordPress 生态及 Wasm 插件扩展。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503718">https://www.oschina.net/news/503718</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:61d69185-b2fe-43e6-9495-41d0bd467a0f</guid><pubDate>Mon, 23 Nov 2026 05:20:28 GMT</pubDate></item><item><title>v2.4.4 版本发布并改进数据同步与运维能力</title><link>https://www.oschina.net/news/503719</link><description>v2.4.4 版本以数据正确性和日常运维体验为重点：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关的数据问题；新增变更日志、审计日志和系统日志的按日期清理功能及三档保留期；重做看板资源环和底部双卡；AI 智能体新增日志保留期查询，并明确诊断边界。内容建议所有 2.4.x 用户升级。</description><content:encoded><![CDATA[<section>
+<h2>v2.4.4 版本发布并改进数据同步与运维能力</h2>
+<p><strong>核心实体</strong>：v2.4.4</p>
+<p><strong>主题</strong>：v2.4.4 版本更新</p>
+<p><strong>范围</strong>：v2.4.4 版本的数据同步与一致性、日志清理与保留、AI 智能体诊断能力及前端界面改进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>v2.4.4 版本以数据正确性和日常运维体验为重点：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关的数据问题；新增变更日志、审计日志和系统日志的按日期清理功能及三档保留期；重做看板资源环和底部双卡；AI 智能体新增日志保留期查询，并明确诊断边界。内容建议所有 2.4.x 用户升级。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503719">https://www.oschina.net/news/503719</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:e86205c0-a8cc-444e-978d-a296972d7363</guid><pubDate>Mon, 23 Nov 2026 05:20:23 GMT</pubDate></item><item><title>智慧党支部 v1.3 发布</title><link>https://www.oschina.net/news/503721</link><description>开源项目“智慧党支部”发布 v1.3。该版本采用 Flask 与 SQLite 单容器部署，基于 MIT 协议，数据全部保存在本地且不依赖云服务；新增或整合 16 个业务模块、五档权限、五类自动预警及一键生成工作报告功能，覆盖支部日常“人、钱、会、事”管理。</description><content:encoded><![CDATA[<section>
+<h2>智慧党支部 v1.3 发布</h2>
+<p><strong>核心实体</strong>：智慧党支部</p>
+<p><strong>主题</strong>：v1.3 版本发布</p>
+<p><strong>范围</strong>：面向基层党支部的日常办公管理系统版本发布与功能迭代</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>开源项目“智慧党支部”发布 v1.3。该版本采用 Flask 与 SQLite 单容器部署，基于 MIT 协议，数据全部保存在本地且不依赖云服务；新增或整合 16 个业务模块、五档权限、五类自动预警及一键生成工作报告功能，覆盖支部日常“人、钱、会、事”管理。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503721">https://www.oschina.net/news/503721</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:75947ab9-bcfa-4507-8575-807ac3090558</guid><pubDate>Mon, 23 Nov 2026 05:19:55 GMT</pubDate></item><item><title>XXL-AI v1.7.0 发布及会话架构升级</title><link>https://www.oschina.net/news/503728</link><description>XXL-AI v1.7.0 本地版（Desk 桌面端）发布。Release Notes 显示，本次版本将包含模型请求、工具调用、MCP 调用和 SKILL 加载等环节的会话 Loop 整合为 chat 模块下独立的 Harness 模块，以提升可维护性和扩展性；同时对会话模型进行标准化，并将会话 Loop 的差异化行为统一通过“会话属性”扩展设置。</description><content:encoded><![CDATA[<section>
 <h2>XXL-AI v1.7.0 发布及会话架构升级</h2>
 <p><strong>核心实体</strong>：XXL-AI</p>
 <p><strong>主题</strong>：v1.7.0 版本发布与 Desk 桌面端会话架构升级</p>
