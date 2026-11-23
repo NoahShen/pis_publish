@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>CloudDM 新增 Kafka 单条消息发送命令</title><link>https://www.oschina.net/news/503651</link><description>CloudDM 新增 Kafka 单条消息发送命令 kafka-console-producer。所给正文提及该命令支持 Key、Val...，但相关说明在文本中被截断。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Receita Federal 首次开源税务计算器并采用 MIT 许可证</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description>2026 年 11 月 12 日，Receita Federal 通过 Cotec 第 342 号法令，首次把自有软件源代码发布到 GitHub，并采用 MIT 许可证。发布的 Calculadora de Tributos 分为常规税制、Simples Nacional 和 DANFSe 三个仓库，以 Java 编写；法令记录初始版本哈希值，供外部校验。该计算器把 CBS 等消费税改革后税种的计算规则实现为可执行代码。税务局称其用途是提供官方、可审计、可互操作的组件，而非…</description><content:encoded><![CDATA[<section>
+<h2>Receita Federal 首次开源税务计算器并采用 MIT 许可证</h2>
+<p><strong>核心实体</strong>：Receita Federal</p>
+<p><strong>主题</strong>：税务计算器源代码在 GitHub 的公开发布</p>
+<p><strong>范围</strong>：Receita Federal 税务计算器的仓库组成、许可、代码校验及其面向企业和开发者的合规复用。</p>
+<p><strong>发生时间</strong>：2026-11-12T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>2026 年 11 月 12 日，Receita Federal 通过 Cotec 第 342 号法令，首次把自有软件源代码发布到 GitHub，并采用 MIT 许可证。发布的 Calculadora de Tributos 分为常规税制、Simples Nacional 和 DANFSe 三个仓库，以 Java 编写；法令记录初始版本哈希值，供外部校验。该计算器把 CBS 等消费税改革后税种的计算规则实现为可执行代码。税务局称其用途是提供官方、可审计、可互操作的组件，而非替代企业现有系统；项目由税务局与 Serpro 共同完成。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://hacker-podcast.agi.li/episode/2026-11-21">https://hacker-podcast.agi.li/episode/2026-11-21</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:c0951bc5-c1fe-4ff8-9e06-15fa5e89aa94</guid><pubDate>Mon, 23 Nov 2026 05:40:52 GMT</pubDate></item><item><title>CloudDM 新增 Kafka 单条消息发送命令</title><link>https://www.oschina.net/news/503651</link><description>CloudDM 新增 Kafka 单条消息发送命令 kafka-console-producer。所给正文提及该命令支持 Key、Val...，但相关说明在文本中被截断。</description><content:encoded><![CDATA[<section>
 <h2>CloudDM 新增 Kafka 单条消息发送命令</h2>
 <p><strong>核心实体</strong>：CloudDM</p>
 <p><strong>主题</strong>：Kafka 单条消息发送命令</p>
