@@ -120,4 +120,18 @@
 <li><strong>产品竞争焦点被表述为由对话转向事务托管</strong><p>文章提出，AI助手的竞争正在从模型能力和对话体验扩展到真实场景中的事务托管，连接器被视为支撑需求理解、跨服务连接和任务执行的基础设施。这是作者对产品趋势的判断，而非文中经过验证的普遍结论。</p></li>
 <li><strong>任务执行规模已有披露，但指标口径与可靠性未说明</strong><p>据文中数据，灵光2.0截至11月11日累计托管事务量突破300万项，累计执行任务超过1100万次，并被称为行业关注的个人智能体指标。文章没有解释两类指标的定义、去重方式、统计周期、失败任务处理或数据来源，因而这些数字适合用于产品跟踪，不宜直接视为独立验证的效能指标。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html">https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f38bbfc0-5631-4ffd-8e72-ec8b9a54bd47</guid><pubDate>Mon, 23 Nov 2026 01:36:21 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html">https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f38bbfc0-5631-4ffd-8e72-ec8b9a54bd47</guid><pubDate>Mon, 23 Nov 2026 01:36:21 GMT</pubDate></item><item><title>从 ACM MM 最佳论文争议看 AI 论文尽调与评审体系风险</title><link>https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html</link><description>文章梳理了 ACM MM 2026 一篇低照度图像增强 Best Paper 引发的争议：数据来源、基线选择和用户评分设计被质疑，三条参考文献存在不存在或元数据错误；由于论文未开源，技术层面的争议仍无法独立核实。通讯作者否认算法造假和不当获利，承认监管失职并与作者团队申请撤稿，但会议尚未公布最终处理结果。文章进一步将此案置于 AI 投稿激增、评审负荷上升、批量颁发最佳论文及评奖流程缺少明确引用核验的制度背景中。其主要知识价值是提供一套论文诚信与可复现性审查框架，而不是对“学术造假”作出终局裁决。</description><content:encoded><![CDATA[<section>
+<h2>从 ACM MM 最佳论文争议看 AI 论文尽调与评审体系风险</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：文章梳理了 ACM MM 2026 一篇低照度图像增强 Best Paper 引发的争议：数据来源、基线选择和用户评分设计被质疑，三条参考文献存在不存在或元数据错误；由于论文未开源，技术层面的争议仍无法独立核实。通讯作者否认算法造假和不当获利，承认监管失职并与作者团队申请撤稿，但会议尚未公布最终处理结果。文章进一步将此案置于 AI 投稿激增、评审负荷上升、批量颁发最佳论文及评奖流程缺少明确引用核验的制度背景中。其主要知识价值是提供一套论文诚信与可复现性审查框架，而不是对“学术造假”作出终局裁决。</p>
+<p><strong>价值</strong>：对用户最有用的并非判断当事人最终是否有责，而是获得一套可用于 AI 研究成果、技术团队和公司尽调的核查框架：逐条验真参考文献，核对数据来源与训练协议，要求强基线和独立复现，检查用户研究原始分布，并确认“最佳论文”的评选规则与获奖比例。它也可用于理解 AI 科研评价体系在投稿激增下可能出现的治理瓶颈，对关注论文产出、技术团队和研究机构信誉的投资者具有风险识别价值。由于文章缺少源码、完整原始实验和官方最终结论，且若干核心指控尚未证实，因此适合作为核查清单与风险信号，不宜直接用作投资判断或学术造假的最终证据。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>应按证据等级拆分争议结论</strong><p>文中相对明确的完整性问题是参考文献：第 12 条指向不存在的文献，第 47、51 条的作者信息与真实文献不符。这足以说明文献核验失守，但不能单凭错误数量推断伪造实验的主观意图。数据标注、基线选择和用户评分等更严重指控因论文未开源而仍未决；通讯作者也否认算法造假。团队提出撤稿、会议确认收到申请，只代表问责程序启动，并不等于官方已认定造假或完成撤稿。</p></li>
+<li><strong>四类技术质疑可以转化为可验证任务</strong><p>文章提供了四类具体核查信号：论文对测试数据“实拍还是合成”的描述与数据集作者说法冲突；未纳入更强基线，且文中所报 20.56 的得分低于一个 2018 年方法的 21.67；48 个用户研究分项均落在 .x0 或 .x5、其中 5 项完全相同；标题所称 Clifford Algebra 与公式实际复杂度可能不相称。合理的处理方式不是直接接受“造假”结论，而是分别核验原始数据说明、统一协议下的强基线、用户评分的原始分布及公式推导。</p></li>
+<li><strong>缺少代码和实验材料会使合理质疑悬置</strong><p>论文未开源使复现者无法检查数据划分、训练与测试流程、模型权重及手机端实时部署条件，因而无法确认或排除部分技术指控。缺少代码不等于算法必然有问题，但会显著降低实验主张的可信度。更稳妥的尽调要求是获得代码、配置、随机种子、评测脚本和原始结果，并要求独立团队在相同协议下复现性能、参数量及移动端表现。</p></li>
+<li><strong>导师制合作需要明确的利益与责任边界</strong><p>文章披露了通讯作者曾发布按录用结果收取费用的论文指导服务，虽有截图，但当事人否认本次合作存在利益往来，并称是友情指导。该争议尚无最终事实结论，却揭示了外部导师合作中应预先书面明确的事项：服务范围、作者贡献、代码与知识产权归属、是否参与核心执行、付款是否与录用挂钩、利益冲突披露，以及通讯作者对引用和实验材料的最终核验责任。</p></li>
+<li><strong>投稿规模增长可能使形式审查被容量问题冲淡</strong><p>文章援引的数据称，ICLR 投稿量从 2018 年的 1013 篇增至接近两万篇，审稿负荷由过去每人两三篇升至最高约十篇；其还称 ICML 对 168 篇口头报告论文的审计中，只有 8 篇能复现八成以上结论。这些数字在本文中属于媒体转述，但与虚构引用轻易通过多轮审核的事实共同提示：当审稿容量、评审标准与检查工具未同步扩张时，高水平会议标签的筛选能力可能下降。</p></li>
+<li><strong>批量颁发“最佳论文”会改变奖项的信号含义</strong><p>ACM MM 在 2024、2025 年各评一篇 Best Paper，2026 年则在 1703 篇录用论文中评出 17 篇，约占 1%。文章还指出，评奖指南没有明确要求奖项委员会核查候选论文的引用真实性。因而面对 Best Paper 标签，应先确认当年的评选比例、赛道和流程，再把它视为强弱信号；奖项数量扩大和核查环节缺位，可能同时稀释“最佳”的稀缺性及其筛选含义。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html">https://www.leiphone.com/category/private/fTZ8RbFMcD34HieP.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:5d482a48-7429-4319-b9f6-43c0b85a7ae7</guid><pubDate>Mon, 23 Nov 2026 01:39:17 GMT</pubDate></item></channel></rss>
