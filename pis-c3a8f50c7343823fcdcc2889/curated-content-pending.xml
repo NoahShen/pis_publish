@@ -72,4 +72,23 @@
 <li><strong>定向广告投毒应作为无交互攻击模型核验</strong><p>文章称，某以色列公司利用广告网络的用户指纹识别目标，只向目标展示含间谍代码的广告；代码利用未披露漏洞，页面加载即可感染，已知受害者包括半岛电视台记者。作者建议用广告拦截器阻止追踪脚本。但正文未给出公司名称、漏洞编号或原始报道，“唯一避免方法”等表述也不宜直接采信，更适合用作防御假设并向一手安全通告核验。</p></li>
 <li><strong>一批与研究、远程开发和自托管相关的工具线索</strong><p>值得进一步筛选的项目包括：支持 LaTeX、Typst 和 Markdown 且无需单独安装 TeX 发行版的 Oleafly；支持文件传输、剪贴板、聊天和音视频的浏览器远程桌面 Weblink；采用 Rust 与 Tauri 2、保留 IntelliJ IDEA 使用习惯的 OpenIDEA；约 4 MB、集中管理仓库和工作树的 macOS Git 客户端 FoldGit；可部署到 Cloudflare Workers 的一站式邮箱 Cloud Mail。该段只有名称和功能简介，未给出版本、许可证、链接或安全审计信息，应先小规模验证。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4b5d1f78-961f-47c7-99ab-8e2d7d880adc</guid><pubDate>Mon, 23 Nov 2026 02:29:16 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4b5d1f78-961f-47c7-99ab-8e2d7d880adc</guid><pubDate>Mon, 23 Nov 2026 02:29:16 GMT</pubDate></item><item><title>AI 重塑软件工程：开发流程、模型信任与安全边界</title><link>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</link><description>本期周刊的有效信息集中在三条主线：一是转述资深程序员关于 AI 接管代码实现后，代码审查、单元测试、角色分工、代码质量与 UI 价值将变化的激进预测；二是模型可能因请求或身份产生差异输出，以及 eMudhra 因短私钥被快速攻破所暴露的信任与密钥风险；三是小模型终端模拟、自托管实践和一组工程工具。需要区分的是，“审查和测试将消失”“Token 决定软件质量”等均只是正文中的观点或假设；周刊登载的报道也未提供充分验证材料。</description><content:encoded><![CDATA[<section>
+<h2>AI 重塑软件工程：开发流程、模型信任与安全边界</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：本期周刊的有效信息集中在三条主线：一是转述资深程序员关于 AI 接管代码实现后，代码审查、单元测试、角色分工、代码质量与 UI 价值将变化的激进预测；二是模型可能因请求或身份产生差异输出，以及 eMudhra 因短私钥被快速攻破所暴露的信任与密钥风险；三是小模型终端模拟、自托管实践和一组工程工具。需要区分的是，“审查和测试将消失”“Token 决定软件质量”等均只是正文中的观点或假设；周刊登载的报道也未提供充分验证材料。</p>
+<p><strong>价值</strong>：对长期关注 AI、软件架构并从事量化研究或工程判断的用户，本期可用于建立三类检查项：AI 加速后是否把需求、架构和系统级验证前移；模型输出是否需要独立复核；密钥生成、证书信任和相关工具是否经得起检查。终端预测模型、自托管案例和工具清单还能提供低成本试验线索。相较之下，测试消失、Token 决定质量、UI 消失等判断证据不足，只适合作假设清单，不能当成已验证结论或替代项目自身的测试与审查。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>AI 接管实现后，开发重心转向需求、架构与反馈</strong><p>文章转述一位资深程序员的判断：AI 负责写代码后，程序员的主要工作将转向定义业务问题、理解实现、组织系统架构、发布软件和收集反馈；PM、Designer、Engineer 的固定三分也可能被一人多职能取代。这是前瞻性观点而非实证结论，但给出了 AI 时代重划责任链的框架。</p></li>
+<li><strong>审查与测试的重心可能上移到系统和需求层</strong><p>同一组预测认为，AI 的生成与整体重写速度会让逐行 PR 审查和单元测试难以维持，人工更应检查系统组成与架构，测试则更多采用接口、集成和系统测试；Bug 的重心也可能从代码错误转向需求提错或表达不准。正文没有对照实验，因此“Code review 和单元测试将消失”只能作为待验证假设。</p></li>
+<li><strong>代码、开源、风格、UI 与 Token 的价值都需重新审视</strong><p>文章主张，在人不再阅读和维护大部分生成代码后，“好代码”、lint／风格规范和开源附带的额外查错优势可能弱化；面向 AI 的 API 和自然语言实时生成的 UI 也可能削弱传统菜单、设置页与仪表盘的重要性。文中进一步提出“Token 为王”，却没有证明更多 Token 必然带来更好软件，因此这些宜视为相互关联的设计假设。</p></li>
+<li><strong>保守的人机分工是让 AI 实现已有人类设计</strong><p>针对“团队不理解 AI 代码却要求发布”的冲突，正文引用 Hacker News 读者的回答：不要让 AI 设计代码，而让它实现已经设计好的代码。它不是经过验证的方法论，但与开发重心转向需求、架构和反馈的论述相呼应，可用于明确人类仍需承担的设计与发布责任。</p></li>
+<li><strong>模型可能被差异化对待，因此输出需要独立复核</strong><p>面对一家美国公司关于 Qwen3-Coder 按用户身份生成不同质量代码的说法，作者质疑测试只选用 Qwen3-Coder-30B-A3B-Instruct：正文称其发布于 2025 年 7 月 31 日、激活参数为 3.3B，且发布方未解释为何不选其他中国模型。作者虽否定该报道的动机，仍保留模型会对特定身份或请求给出不同结果的风险假设，并提出用另一模型评估当前输出。</p></li>
+<li><strong>八把短私钥让证书信任在毫秒级暴露</strong><p>eMudhra 案例中，正文称被破解的 8 把私钥都对应不超过 255 的小整数，字节布局上前部为 0、仅末字节非零；其中包括 4、56、115 等值，破解只需约 1 毫秒计算。Chrome、Mozilla 随后紧急更新内置证书包并撤销对其证书的信任，教训是随机私钥不能因生成或编码错误退化成短整数。</p></li>
+<li><strong>小模型可用来预测终端反馈，而不是执行任务</strong><p>正文介绍一个 3.6 亿参数模型：以 Qwen2.5-Coder-0.5B 为基础，收集约 20 亿 Token 训练材料，训练耗时 75 个 RTX 4090 GPU 小时；用户输入命令后，模型不执行命令，只预测运行结果并显示。这个案例给出了“模拟环境反馈”的具体训练规模和实验方向，但正文未报告准确率、评测集或实际用途。</p></li>
+<li><strong>16GB 家用机承载多服务提供了自托管参照</strong><p>文章转述的案例在一台 16GB 内存的家用迷你电脑上运行 17 个原生服务和 11 个 Podman 服务，并说明作者选择这些服务的原因。它展示了自托管资源组织的具体规模，但正文未给出完整服务清单、稳定性或性能测试，不能据此推断普遍容量。</p></li>
+<li><strong>工程监控、调试与内容转换已有可试用工具</strong><p>sslx 可检查 HTTPS 证书；siltop 在 macOS 终端显示 CPU、GPU、内存、电力、温度、存储和网络状态；Little Snitch Mini 可查看并阻断指定应用连接；silkpulse 可通过注入脚本远程打开页面控制台、接收实时报错，适合手机端调试；html-to-video 可将 HTML 动画逐帧渲染为 MP4；Archify 可将文本、计划或代码仓库转成互动网页流程图。正文没有给出这些工具的链接、基准或兼容性评测，使用前需自行核验。</p></li>
+<li><strong>AI 产出数量与人类理解深度需要分开评价</strong><p>正文转述《纽约时报》对陶哲轩的报道：他公开反对大模型公司用模型求证数学难题，担忧这种做法无助于人类的数学理解；周刊同时提到 OpenAI 已发布数百项 AI 生成的数学证明及由此引发的数学界震动。这提供了区分“证明被产出”与“知识被理解”的研究问题，但正文没有对证明质量作独立评估。</p></li>
+<li><strong>眯眼看得更清楚来自针孔效应</strong><p>正文解释，眯眼会缩小有效孔径、减少进入眼睛的多余光线，使落在视网膜中心附近的光更集中，因此暂时提高远处物体的清晰度；长时间眯眼会减少眨眼，增加眼疲劳或干眼风险。眯眼本身不会导致视力下降，反而可能是需要检查视力的信号。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html">http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:4ee6b0e5-6172-4383-8d1c-8ba97f59cc28</guid><pubDate>Mon, 23 Nov 2026 02:30:55 GMT</pubDate></item></channel></rss>
