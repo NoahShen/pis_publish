@@ -422,4 +422,27 @@
 <li><strong>v1.6.0 改进初始化、权限边界和标签页交互</strong><p>本次发布包含启动时自动建表、RBAC 授权边界收敛，以及标签页右键最大化，分别对应部署初始化简化、权限控制收紧和后台界面操作优化。</p></li>
 <li><strong>通过依赖管理固定 Spring 技术栈版本</strong><p>更新使用依赖管理锁定 Spring Boot 与 Spring Framework 版本，意在降低框架组件版本漂移带来的兼容风险；原文未给出所锁定的具体版本。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503659">https://www.oschina.net/news/503659</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ff0d5b35-3c74-4bdd-ba7b-af7617bfe86b</guid><pubDate>Mon, 23 Nov 2026 05:24:08 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503659">https://www.oschina.net/news/503659</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ff0d5b35-3c74-4bdd-ba7b-af7617bfe86b</guid><pubDate>Mon, 23 Nov 2026 05:24:08 GMT</pubDate></item><item><title>伏羲智能决策平台 v1.0.0：连接自然语言建模、确定性执行与运营反馈</title><link>https://www.oschina.net/news/503652</link><description>开源项目伏羲智能决策平台发布 v1.0.0，重点升级多智能体编排与知识检索，并引入测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估，试图形成从自然语言建模、确定性决策执行到发布后运营的闭环。项目采用 Rust 技术栈，支持标准 DMN 决策模型和项目级治理。当前内容仅为截断摘要，未提供具体实现、接口、基准测试或应用效果。</description><content:encoded><![CDATA[<section>
+<h2>伏羲智能决策平台 v1.0.0：连接自然语言建模、确定性执行与运营反馈</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：开源项目伏羲智能决策平台发布 v1.0.0，重点升级多智能体编排与知识检索，并引入测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估，试图形成从自然语言建模、确定性决策执行到发布后运营的闭环。项目采用 Rust 技术栈，支持标准 DMN 决策模型和项目级治理。当前内容仅为截断摘要，未提供具体实现、接口、基准测试或应用效果。</p>
+<p><strong>价值</strong>：为用户设计 Agent、决策系统及量化研究流程提供了一个可跟踪的开源项目样本，尤其可借鉴其将自然语言建模、确定性执行和上线后监测评估分层连接的思路，并据此检查自身系统是否缺少回归测试、结果回传、偏差归因和漂移监测。当前摘录没有仓库链接、基准、案例或金融场景验证，因而只能用于架构启发和项目初筛，不能据此判断生产可用性或投资决策收益。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>以分层方式连接生成式建模与确定性执行</strong><p>项目将自然语言建模与确定性决策执行分开组织，再把执行后的业务结果接入运营环节，形成“建模—执行—反馈”的设计链路。这是平台提出的架构目标，当前摘要没有证明其实际效果。</p></li>
+<li><strong>覆盖决策模型全生命周期的评测与运营环节</strong><p>v1.0.0 包含测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估等流程。其具体方法、指标和实现均未在现有内容中展开，但这些环节可作为构建多智能体决策系统时的评测与运维检查清单。</p></li>
+<li><strong>强化多智能体编排与知识检索</strong><p>本次升级同时涉及多智能体编排和知识检索，表明平台不仅面向单次决策调用，还试图协调多个智能体及其所需知识；摘要未说明协作拓扑、检索机制、故障处理或可观测性。</p></li>
+<li><strong>采用 Rust、DMN 与项目级治理</strong><p>平台以 Rust 为技术栈，支持标准 DMN 决策模型，并提供项目级治理能力。这使其可作为传统决策规则系统与智能体系统结合的开源参考，但现有内容不足以判断其部署成本、性能和规则迁移能力。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503652">https://www.oschina.net/news/503652</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f7f06c43-f7ec-438f-af66-b98753ca3eab</guid><pubDate>Mon, 23 Nov 2026 05:26:17 GMT</pubDate></item><item><title>CloudDM 新增 GreptimeDB 数据源与 Kafka 单条消息发送能力</title><link>https://www.oschina.net/news/503651</link><description>版本更新说明称，开源数据库管理工具 CloudDM 新增 GreptimeDB 数据源，支持连接配置、元数据浏览、SQL 查询、DDL/DML 执行及查询条数限制；同时新增 Kafka 单条消息发送命令 kafka-console-producer。当前摘录未提供版本号、配置步骤、兼容性、完整命令参数或效果验证，Kafka 命令的说明也被截断。</description><content:encoded><![CDATA[<section>
+<h2>CloudDM 新增 GreptimeDB 数据源与 Kafka 单条消息发送能力</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：版本更新说明称，开源数据库管理工具 CloudDM 新增 GreptimeDB 数据源，支持连接配置、元数据浏览、SQL 查询、DDL/DML 执行及查询条数限制；同时新增 Kafka 单条消息发送命令 kafka-console-producer。当前摘录未提供版本号、配置步骤、兼容性、完整命令参数或效果验证，Kafka 命令的说明也被截断。</p>
+<p><strong>价值</strong>：对有软件工程、数据库自动化和开源工具选型背景的用户，这提供了评估 CloudDM 及其 GreptimeDB、Kafka 接入能力的具体信息点：若技术栈包含相关组件，可进一步考察其统一权限、SQL 审核、流程协同和数据库 CI/CD 能力是否匹配团队需求。由于当前内容是截断的版本说明，缺少可复现步骤、版本兼容性和验证证据，不能据此直接部署或判断生产适用性。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>CloudDM 可作为团队化数据库管理与自动化入口</strong><p>文中将 CloudDM 描述为免费开源的团队数据库管理工具，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力，适合用于评估集中式数据库访问与研发流程管控方案。</p></li>
+<li><strong>新增 GreptimeDB 数据源支持</strong><p>CloudDM 新增 GreptimeDB 数据源，可配置连接并浏览元数据、执行 SQL 查询以及 DDL/DML 操作，同时支持设置查询条数限制。这为已有 GreptimeDB 接入需求的团队提供了统一管理入口，但摘录中没有给出配置方法、兼容版本或生产使用限制。</p></li>
+<li><strong>新增 Kafka 单条消息发送命令</strong><p>CloudDM 新增 kafka-console-producer 命令，用于发送 Kafka 单条消息；可见正文仅明确提到 Key，相关 Value 等参数因内容截断而无法确认，因此完整语法和适用限制尚不可判断。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503651">https://www.oschina.net/news/503651</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:939363fe-e63a-4a96-8c6d-9b7f5583ae9f</guid><pubDate>Mon, 23 Nov 2026 05:26:30 GMT</pubDate></item></channel></rss>
