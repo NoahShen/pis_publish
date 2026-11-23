@@ -405,4 +405,206 @@
 <p><strong>一场 APEC，测出了大疆手持影像的含金量</strong><br />
 <small>雷锋网 · 2026-11-23 13:41:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/xWhlWgFXgwlzWQMj.html">原文</a></small></p>
 <p><strong>科研成果 | NeurIPS 2026发表CCCI博士生蒋翔宇工作｜NeurIPS 2026</strong><br />
-<small>雷锋网 · 2026-11-23 13:27:00 北京时间 · <a href="https://www.leiphone.com/category/private/hvhKCQokQvsUlFxN.html">原文</a></small></p></div>]]></content:encoded></item></channel></rss>
+<small>雷锋网 · 2026-11-23 13:27:00 北京时间 · <a href="https://www.leiphone.com/category/private/hvhKCQokQvsUlFxN.html">原文</a></small></p></div>]]></content:encoded></item><item><title>智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力</title><link>https://www.oschina.net/news/503756</link><description><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:30:11 北京时间</small></p>
+<p>智谱 11 月 23 日发布 GLM-5.4，这是其第一代 Loop Transformer 旗舰模型：在 750B 基座上让 28 层权重共享的层循环执行两轮，官方称智能水平达到 2-3T 级模型。</p>
+<p>架构上的三处取舍值得看：逐 token 门控渐进更新（第一轮建立全局上下文、第二轮放开写回残差流）、KV Cache 全局共享加滑窗独立（多一轮循环只多付一个窗口的 KV，而不是一整份全上下文缓存）、第二轮直接复用第一轮的稀疏注意力索引（不增加检索开销）。</p>
+<p>官方在 30B 上做了同参数量对照，训练计算量只增约 10%；提升最大的是数学、科学推理与长上下文，且 GPQA-Diamond、MMLU-Pro 上平均输出长度下降 10%–14%，即部分推理从输出 token 转入了循环的隐式深度。非高峰 200 token/s，峰值 70–80 token/s。</p>
+<p>可用范围：即日起向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder，Coding Plan V2/V3/团队版额度提升至 1.5 倍；API 要等安全评估完成后开放，权重是「计划以负责任的方式开源」，两者都没有时间承诺。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503756">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">9751f88ccf4a2ab71bfbc60e4e9681a7c479eba8ed2cb934f1f011b0fcd3a5da</guid><pubDate>Mon, 23 Nov 2026 18:30:11 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:30:11 北京时间</small></p>
+<p>智谱 11 月 23 日发布 GLM-5.4，这是其第一代 Loop Transformer 旗舰模型：在 750B 基座上让 28 层权重共享的层循环执行两轮，官方称智能水平达到 2-3T 级模型。</p>
+<p>架构上的三处取舍值得看：逐 token 门控渐进更新（第一轮建立全局上下文、第二轮放开写回残差流）、KV Cache 全局共享加滑窗独立（多一轮循环只多付一个窗口的 KV，而不是一整份全上下文缓存）、第二轮直接复用第一轮的稀疏注意力索引（不增加检索开销）。</p>
+<p>官方在 30B 上做了同参数量对照，训练计算量只增约 10%；提升最大的是数学、科学推理与长上下文，且 GPQA-Diamond、MMLU-Pro 上平均输出长度下降 10%–14%，即部分推理从输出 token 转入了循环的隐式深度。非高峰 200 token/s，峰值 70–80 token/s。</p>
+<p>可用范围：即日起向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder，Coding Plan V2/V3/团队版额度提升至 1.5 倍；API 要等安全评估完成后开放，权重是「计划以负责任的方式开源」，两者都没有时间承诺。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503756">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>特斯拉新版 FSD 的炫酷画面，由车机上的 1B 模型实时生成</title><link>https://www.oschina.net/news/503757</link><description><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:56:06 北京时间</small></p>
+<p>马斯克在 X 上解释，新版 FSD 那套看起来很炫的显示效果不是 3D 渲染，而是车机上约 1B 的扩散模型实时生成视频。</p>
+<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 conditional mean-flow 模型：上一帧 reality view 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
+<p>工程细节同样具体：每个 UVE 帧（18Hz）由半个 TRIP engine 负责，tiny decoder 挪进 SRAM 后算力要在三个 TRIP 之间分摊，softmax 得用 28 步模拟模式跑；延迟目前偏高，但把更新的 UVE 特征交错插进扩散 transformer 各层可砍掉约 35% 延迟，AI5 算力约提升 12 倍。</p>
+<p>边界要看清：评论区指出这种做法依赖车外真实摄像头每帧兜底，游戏里没有外部真实数值，物理碰撞、状态记忆与多人同步仍得靠确定性逻辑。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503757">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">2125f69e661a6e632797a0c26ed5775d6cebf05104339e94919d9323e80f1148</guid><pubDate>Mon, 23 Nov 2026 18:56:06 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:56:06 北京时间</small></p>
+<p>马斯克在 X 上解释，新版 FSD 那套看起来很炫的显示效果不是 3D 渲染，而是车机上约 1B 的扩散模型实时生成视频。</p>
+<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 conditional mean-flow 模型：上一帧 reality view 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
+<p>工程细节同样具体：每个 UVE 帧（18Hz）由半个 TRIP engine 负责，tiny decoder 挪进 SRAM 后算力要在三个 TRIP 之间分摊，softmax 得用 28 步模拟模式跑；延迟目前偏高，但把更新的 UVE 特征交错插进扩散 transformer 各层可砍掉约 35% 延迟，AI5 算力约提升 12 倍。</p>
+<p>边界要看清：评论区指出这种做法依赖车外真实摄像头每帧兜底，游戏里没有外部真实数值，物理碰撞、状态记忆与多人同步仍得靠确定性逻辑。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503757">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>Perplexity and Intelligence</title><link>https://openai.com/index/perplexity-and-intelligence</link><description><![CDATA[<div>
+<p><small>OpenAI News · 2026-11-22 08:00:00 北京时间</small></p>
+<p>OpenAI 官方博客提出把困惑度（perplexity，实践中取其对数即交叉熵损失）确立为跨模型开发者比较与安全评估的共享指标，并公开其内部预训练测量数据。</p>
+<p>文中用一条困惑度曲线串起能力跃迁：从 GPT-2 首次能稳定写出连贯段落，到 GPT-3 具备上下文学习能力，中间被这一个指标覆盖的模型能力范围相当惊人。</p>
+<p>更值得读的是它对进度的判断：当前加速的主要来源之一已经是 AI 参与自身研发，文中还指出这类领域常有简单洞察被错过很多年的先例，因此 2027 年就可能出现一次量级相当的预训练突破；但对齐与监控的进展预计不会快到能跟上全部加速。</p>
+<p><small>依据订阅源摘录 · <a href="https://openai.com/index/perplexity-and-intelligence">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">0cef93e20fa8904b6d10c4a66c9b0cb6dc230556241f34400afa76cd7ea65226</guid><pubDate>Sun, 22 Nov 2026 08:00:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>OpenAI News · 2026-11-22 08:00:00 北京时间</small></p>
+<p>OpenAI 官方博客提出把困惑度（perplexity，实践中取其对数即交叉熵损失）确立为跨模型开发者比较与安全评估的共享指标，并公开其内部预训练测量数据。</p>
+<p>文中用一条困惑度曲线串起能力跃迁：从 GPT-2 首次能稳定写出连贯段落，到 GPT-3 具备上下文学习能力，中间被这一个指标覆盖的模型能力范围相当惊人。</p>
+<p>更值得读的是它对进度的判断：当前加速的主要来源之一已经是 AI 参与自身研发，文中还指出这类领域常有简单洞察被错过很多年的先例，因此 2027 年就可能出现一次量级相当的预训练突破；但对齐与监控的进展预计不会快到能跟上全部加速。</p>
+<p><small>依据订阅源摘录 · <a href="https://openai.com/index/perplexity-and-intelligence">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>Meta Muse can do your Black Friday shopping at Walmart</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><description><![CDATA[<div>
+<p><small>The Verge · 2026-11-23 19:00:00 北京时间</small></p>
+<p>11 月 23 日沃尔玛把上月宣布的 Agent Gateway 正式上线，首个接入方是 Meta 的个人 AI Agent Muse：让它找黑五商品、拼购物车，并在对话里直接结账，付款用沃尔玛账户里已存的卡片，价格与沃尔玛官网一致，退货政策照旧生效。</p>
+<p>控制权设计是重点：Agent Profile 是账户内一个独立的代理活动空间，用户可以设消费上限、逐笔批准购买、随时查看代理买了什么；网关只给代理完成任务所需的信息，不暴露完整购买历史。技术路径是 MCP 或类似协议，绕过为人设计的网页导航与登录。</p>
+<p>边界与对照：亚马逊与 eBay 已屏蔽 AI 代理浏览其平台，沃尔玛称 Muse 只是开始，其他 agent 与应用「即将到来」；接入不需要 Walmart+ 会员。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">e4dbdce0085cdc99cca4e1b78b4dcc3f09aadd59f18ef8d93268f6853ca2806b</guid><pubDate>Mon, 23 Nov 2026 19:00:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>The Verge · 2026-11-23 19:00:00 北京时间</small></p>
+<p>11 月 23 日沃尔玛把上月宣布的 Agent Gateway 正式上线，首个接入方是 Meta 的个人 AI Agent Muse：让它找黑五商品、拼购物车，并在对话里直接结账，付款用沃尔玛账户里已存的卡片，价格与沃尔玛官网一致，退货政策照旧生效。</p>
+<p>控制权设计是重点：Agent Profile 是账户内一个独立的代理活动空间，用户可以设消费上限、逐笔批准购买、随时查看代理买了什么；网关只给代理完成任务所需的信息，不暴露完整购买历史。技术路径是 MCP 或类似协议，绕过为人设计的网页导航与登录。</p>
+<p>边界与对照：亚马逊与 eBay 已屏蔽 AI 代理浏览其平台，沃尔玛称 Muse 只是开始，其他 agent 与应用「即将到来」；接入不需要 Walmart+ 会员。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>PostgreSQL 19 正式发布</title><link>https://www.oschina.net/news/503754/postgresql-19-released</link><description><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:15:05 北京时间</small></p>
+<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
+<p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503754/postgresql-19-released">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">1c28638c04e66794590771586df0789ec0495f407660c67f6763f69050f5b9b4</guid><pubDate>Mon, 23 Nov 2026 18:15:05 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-23 18:15:05 北京时间</small></p>
+<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
+<p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503754/postgresql-19-released">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>独家解读丨苦战三个月，AI办公经得起财报检验吗？</title><link>https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html</link><description><![CDATA[<div>
+<p><small>雷锋网 · 2026-11-23 17:54:00 北京时间</small></p>
+<p>雷峰网把腾讯 Q3 与阿里最新财报里的 AI 办公口径摊开看：腾讯披露 WorkBuddy 的 DAU 超 1000 万、每日 Token 消耗超 100 万亿、Q3 收入为 Q2 的 5 倍以上，但付费用户规模、企业客户收入贡献与产品自身盈利均未单独披露；字节同期披露豆包工作上线三个月 DAU 破 800 万、企业客户 ARR 破 20 亿元；阿里只披露了包含千问办公在内的 AI 实验室与应用分部整体数据。</p>
+<p>成本侧的对照更硬：腾讯 Q3 非 IFRS 经营盈利同比降 6%，剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品后同比增 8%，资本开支付款 651 亿元、同比增约 225%；阿里 AI 实验室与应用业务单季调整后 EBITA 亏损 105 亿元，约为去年同期的三倍。</p>
+<p>作者还给了空间测算：按中国约 2 亿白领、年付费 1000 元、50% 渗透率算，市场约 1000 亿元，三家各拿 30% 份额对应 300 亿元收入、30% 利润率下单家利润约 90 亿元——放在腾讯、阿里的体量里并不算大，这也解释了各家为什么要自建 FDE 或拉生态伙伴压交付成本。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">a308f931661f3d3f8a3f8b9055475034224d79f7390d4a3cae10bf509382dbbb</guid><pubDate>Mon, 23 Nov 2026 17:54:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>雷锋网 · 2026-11-23 17:54:00 北京时间</small></p>
+<p>雷峰网把腾讯 Q3 与阿里最新财报里的 AI 办公口径摊开看：腾讯披露 WorkBuddy 的 DAU 超 1000 万、每日 Token 消耗超 100 万亿、Q3 收入为 Q2 的 5 倍以上，但付费用户规模、企业客户收入贡献与产品自身盈利均未单独披露；字节同期披露豆包工作上线三个月 DAU 破 800 万、企业客户 ARR 破 20 亿元；阿里只披露了包含千问办公在内的 AI 实验室与应用分部整体数据。</p>
+<p>成本侧的对照更硬：腾讯 Q3 非 IFRS 经营盈利同比降 6%，剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品后同比增 8%，资本开支付款 651 亿元、同比增约 225%；阿里 AI 实验室与应用业务单季调整后 EBITA 亏损 105 亿元，约为去年同期的三倍。</p>
+<p>作者还给了空间测算：按中国约 2 亿白领、年付费 1000 元、50% 渗透率算，市场约 1000 亿元，三家各拿 30% 份额对应 300 亿元收入、30% 利润率下单家利润约 90 亿元——放在腾讯、阿里的体量里并不算大，这也解释了各家为什么要自建 FDE 或拉生态伙伴压交付成本。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist</title><link>https://www.appinn.com/superlist-start/</link><description><![CDATA[<div>
+<p><small>小众软件 · 2026-11-23 17:33:41 北京时间</small></p>
+<p>微软已公告 To Do 将于 <strong>2027 年 6 月 30 日</strong>停用，Web、Windows、Mac、iOS、Android 全部关停；工作或学校账户的既有任务只能通过 Planner 访问到该日期，官方至今未公布导出方式，个人账户则没有迁移路径。</p>
+<p>替代品是奇妙清单创始人 Christian Reber 在 Wunderlist 关闭前一天创办的 Superlist：每条任务可以写成长文并穿插子任务，免费版最多 5 个清单、付费版不限；Settings &gt; Integrations 里可与 To Do 实时同步，但免费版需先把清单精简过。作者提醒目前还没有中文界面。</p>
+<p><small>依据订阅源正文 · <a href="https://www.appinn.com/superlist-start/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">345cb709e8db8f5e7c71882d23dd8040e676c44174c7cecfc6b4dfdeacb8ebbe</guid><pubDate>Mon, 23 Nov 2026 17:33:41 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>小众软件 · 2026-11-23 17:33:41 北京时间</small></p>
+<p>微软已公告 To Do 将于 <strong>2027 年 6 月 30 日</strong>停用，Web、Windows、Mac、iOS、Android 全部关停；工作或学校账户的既有任务只能通过 Planner 访问到该日期，官方至今未公布导出方式，个人账户则没有迁移路径。</p>
+<p>替代品是奇妙清单创始人 Christian Reber 在 Wunderlist 关闭前一天创办的 Superlist：每条任务可以写成长文并穿插子任务，免费版最多 5 个清单、付费版不限；Settings &gt; Integrations 里可与 To Do 实时同步，但免费版需先把清单精简过。作者提醒目前还没有中文界面。</p>
+<p><small>依据订阅源正文 · <a href="https://www.appinn.com/superlist-start/">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>Al Brooks 交易室笔记：Mike Precog 的多周期逻辑、资金管理与学习方法</title><link>https://blog.forecho.com/mike-precog-trading-room-notes.html</link><description><![CDATA[<div>
+<p><small>苏格兰威士忌找不到了 · 2026-11-23 11:46:00 北京时间</small></p>
+<p>作者整理 11 月 20 日 Al Brooks 美股实盘交易室中 Mike（网名 Precog）分享的要点。核心原则是大周期能量压倒小周期：当天 ES 自上周三起就在大级别下跌通道里，他用 AI 查得的背景数据佐证——过去 1 个月 ES 已跌约 7.73%–8.71%，过去 12 个月出现过两次超过 10% 的回调，因此「跌够了」并不构成抄底理由。</p>
+<p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
+<p>短线纪律部分是多维度测量目标并重点看 50% 中位与 33%/66%，盯住前一根 K 线的高低点做剥头皮，以及用倒计时器等 K 线收盘确认再下结论——作者为此专门写过 PATimer 来提醒自己别中途抢跑。</p>
+<p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/mike-precog-trading-room-notes.html">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">799dc2b408c140cb1eae183097ff0cfb473fc7ee186508e050df9b117f8041e7</guid><pubDate>Mon, 23 Nov 2026 11:46:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>苏格兰威士忌找不到了 · 2026-11-23 11:46:00 北京时间</small></p>
+<p>作者整理 11 月 20 日 Al Brooks 美股实盘交易室中 Mike（网名 Precog）分享的要点。核心原则是大周期能量压倒小周期：当天 ES 自上周三起就在大级别下跌通道里，他用 AI 查得的背景数据佐证——过去 1 个月 ES 已跌约 7.73%–8.71%，过去 12 个月出现过两次超过 10% 的回调，因此「跌够了」并不构成抄底理由。</p>
+<p>三个具体的坑：强空头里的长下影线往往是空头获利了结而不是多头进场；连续 3 根空头 K 线（其中 2 根实体强）被他称作「尖叫的红旗警告」，此时只剩做空或空仓两个选择；扩张三角形尽量少碰，放到大周期图上通常表现为外包线。</p>
+<p>短线纪律部分是多维度测量目标并重点看 50% 中位与 33%/66%，盯住前一根 K 线的高低点做剥头皮，以及用倒计时器等 K 线收盘确认再下结论——作者为此专门写过 PATimer 来提醒自己别中途抢跑。</p>
+<p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/mike-precog-trading-room-notes.html">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>Al Brooks 问答笔记：练出稳定盈利到底要多久？</title><link>https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html</link><description><![CDATA[<div>
+<p><small>苏格兰威士忌找不到了 · 2026-11-23 18:50:00 北京时间</small></p>
+<p>作者把 Al Brooks 2015 年 2 月与 2016 年 3 月两篇交易室问答合读，回答「要学多久才能稳定盈利」。Al 给的跨度很大：有人 6 个月到 1 年就做到，也有人 1–2 年做得不错；他认为快慢几乎完全取决于个人性格——你到底有多愿意戒掉坏毛病、变成一个彻底客观的人。</p>
+<p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
+<p>给普通交易者的减负很具体：Bar 39 的强空头阴线做空、Bar 54 的底部大阳线反包做多，各抓 4 个点「出去散步」就够，一天一两笔比追 40 个机会更实际；新手最致命的陷阱是窄幅震荡区间，像吸引苍蝇的灭蝇灯，把人钉在屏幕前不敢下手。</p>
+<p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">1e96ba2ce977457c1b844778d6bcf90c99a209d885cd5c4fa34a22b26645c213</guid><pubDate>Mon, 23 Nov 2026 18:50:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>苏格兰威士忌找不到了 · 2026-11-23 18:50:00 北京时间</small></p>
+<p>作者把 Al Brooks 2015 年 2 月与 2016 年 3 月两篇交易室问答合读，回答「要学多久才能稳定盈利」。Al 给的跨度很大：有人 6 个月到 1 年就做到，也有人 1–2 年做得不错；他认为快慢几乎完全取决于个人性格——你到底有多愿意戒掉坏毛病、变成一个彻底客观的人。</p>
+<p>他摊开自己的弯路：学医出身，默认「出来教的人都诚实且懂行」，前后亏了约 10 年；后来发现自己不是不够聪明反而是「太聪明」，照单全收指标背离、均线金叉死叉，删掉所有指标只看裸 K 线、回测约 10,000 小时才建立起信心。所谓客观是一串「我不在乎」：不在乎主观觉得该涨，也不在乎盘前新闻说该涨，盘面在跌就做空。</p>
+<p>给普通交易者的减负很具体：Bar 39 的强空头阴线做空、Bar 54 的底部大阳线反包做多，各抓 4 个点「出去散步」就够，一天一两笔比追 40 个机会更实际；新手最致命的陷阱是窄幅震荡区间，像吸引苍蝇的灭蝇灯，把人钉在屏幕前不敢下手。</p>
+<p><small>依据订阅源摘录 · <a href="https://blog.forecho.com/al-brooks-how-long-to-become-profitable.html">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>又读完了一本禁书</title><link>https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/</link><description><![CDATA[<div>
+<p><small>自由庄园 · 2026-11-22 08:17:00 北京时间</small></p>
+<p>作者读完《为什么要有图书馆》——一位大学副教授挂职西安碑林区文旅局副局长期间，从零建起区图书馆并记录全过程的书。书因写到本地官场贪腐而在当地成了禁书，区里还曾用公账买 100 本，供「网评员」到豆瓣打差评。</p>
+<p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
+<p>一个反讽：文章发出后被列出「五不该」——不该反衬其他区县、指出评审条例问题、不感谢各级领导、揭露馆配潜规则、担心十万加带来舆情；豆瓣上的一星差评也被作者视作网评员的痕迹。</p>
+<p><small>依据订阅源正文 · <a href="https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">65ed7b118b05d4800f8adc386e6353f392ba376e781740beedfbe185105c9d2f</guid><pubDate>Sun, 22 Nov 2026 08:17:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>自由庄园 · 2026-11-22 08:17:00 北京时间</small></p>
+<p>作者读完《为什么要有图书馆》——一位大学副教授挂职西安碑林区文旅局副局长期间，从零建起区图书馆并记录全过程的书。书因写到本地官场贪腐而在当地成了禁书，区里还曾用公账买 100 本，供「网评员」到豆瓣打差评。</p>
+<p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
+<p>一个反讽：文章发出后被列出「五不该」——不该反衬其他区县、指出评审条例问题、不感谢各级领导、揭露馆配潜规则、担心十万加带来舆情；豆瓣上的一星差评也被作者视作网评员的痕迹。</p>
+<p><small>依据订阅源正文 · <a href="https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>本轮简讯（20 条）</title><description><![CDATA[<div>
+<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br />
+<small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
+<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br />
+<small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
+<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br />
+<small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
+<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br />
+<small>雷锋网 · 2026-11-23 18:44:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/wXdEB0qbbYQ2PfPH.html">原文</a></small></p>
+<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br />
+<small>雷锋网 · 2026-11-23 18:40:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html">原文</a></small></p>
+<p><strong>派评 | 近期值得关注的 App</strong><br />
+<small>少数派 · 2026-11-23 18:08:29 北京时间 · <a href="https://sspai.com/post/119438">原文</a></small></p>
+<p><strong>怪手机们要回来了吗？</strong><br />
+<small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
+<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br />
+<small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
+<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br />
+<small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
+<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br />
+<small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
+<p><strong>We haven’t seen the last of the major tech outages</strong><br />
+<small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
+<p><strong>Select Styling Specimens</strong><br />
+<small>Simon Willison · 2026-11-23 03:45:06 北京时间 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p>
+<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br />
+<small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
+<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br />
+<small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
+<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br />
+<small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
+<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br />
+<small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
+<p><strong>Protesters storm Meta offices in India</strong><br />
+<small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
+<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br />
+<small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
+<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br />
+<small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
+<p><strong>Muru</strong><br />
+<small>Simon Willison · 2026-11-22 07:56:28 北京时间 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">unselected-a5868ed51b6204c8f9a6419e2b9adbbe5525df5d701b9cbc2241b6bbf0047c53</guid><pubDate>Mon, 23 Nov 2026 21:09:32 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br />
+<small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
+<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br />
+<small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
+<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br />
+<small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
+<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br />
+<small>雷锋网 · 2026-11-23 18:44:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/wXdEB0qbbYQ2PfPH.html">原文</a></small></p>
+<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br />
+<small>雷锋网 · 2026-11-23 18:40:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html">原文</a></small></p>
+<p><strong>派评 | 近期值得关注的 App</strong><br />
+<small>少数派 · 2026-11-23 18:08:29 北京时间 · <a href="https://sspai.com/post/119438">原文</a></small></p>
+<p><strong>怪手机们要回来了吗？</strong><br />
+<small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
+<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br />
+<small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
+<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br />
+<small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
+<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br />
+<small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
+<p><strong>We haven’t seen the last of the major tech outages</strong><br />
+<small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
+<p><strong>Select Styling Specimens</strong><br />
+<small>Simon Willison · 2026-11-23 03:45:06 北京时间 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p>
+<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br />
+<small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
+<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br />
+<small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
+<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br />
+<small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
+<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br />
+<small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
+<p><strong>Protesters storm Meta offices in India</strong><br />
+<small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
+<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br />
+<small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
+<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br />
+<small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
+<p><strong>Muru</strong><br />
+<small>Simon Willison · 2026-11-22 07:56:28 北京时间 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p>
+</div>]]></content:encoded></item></channel></rss>
