@@ -13,4 +13,18 @@
 <li><strong>品牌区隔依赖清晰定位与持续的文化表达</strong><p>文章所述品牌分工为：仰望面向顶级市场，腾势定位豪华，方程豹强调个性化，王朝和海洋服务大众市场。在刀片电池、易四方和云辇等集团技术已被认知后，各品牌仍需通过设计、代言人、展览、电影及门店仪式形成可识别的风格和身份体验。</p></li>
 <li><strong>销量是积极信号，但不足以证明长期复购或盈利能力</strong><p>文章给出的数据为：2026年第三季度，比亚迪20万元以上车型国内零售销量为17.35万辆，文中称其位列中国品牌第一；前三季度腾势、方程豹、仰望合计销售40.87万辆，同比增长75.1%，占集团乘用车销量的13.3%。这些数据说明高端矩阵已有一定规模，但文章未充分说明统计口径，也未提供分品牌盈利、渠道成本、复购与留存数据，结尾关于长期信赖和持续复购的判断仍属于作者主张。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html">https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:cff5edeb-50c0-4a78-9e75-4242e5633907</guid><pubDate>Mon, 23 Nov 2026 01:28:53 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html">https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:cff5edeb-50c0-4a78-9e75-4242e5633907</guid><pubDate>Mon, 23 Nov 2026 01:28:53 GMT</pubDate></item><item><title>折叠驾驶舱从概念到量产的安全联锁与验证</title><link>https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html</link><description>文章以方程豹钛 9 折叠智舱版为例，说明折叠方向盘从概念展示走向量产时，如何通过挡位与车辆状态联锁、线控转向标准、耐久及碰撞测试来控制风险。其明确用途不是行驶中释放驾驶空间，而是在停车后为服务区休息、充电等候提供约 25 厘米的额外腿部空间。报道同时承认实际使用频率仍需市场验证，所列耐久结果主要来自厂商测试，缺少独立复核、详细试验规程和长期故障数据。</description><content:encoded><![CDATA[<section>
+<h2>折叠驾驶舱从概念到量产的安全联锁与验证</h2>
+<p><strong>分类</strong>：Experience</p>
+<p><strong>摘要</strong>：文章以方程豹钛 9 折叠智舱版为例，说明折叠方向盘从概念展示走向量产时，如何通过挡位与车辆状态联锁、线控转向标准、耐久及碰撞测试来控制风险。其明确用途不是行驶中释放驾驶空间，而是在停车后为服务区休息、充电等候提供约 25 厘米的额外腿部空间。报道同时承认实际使用频率仍需市场验证，所列耐久结果主要来自厂商测试，缺少独立复核、详细试验规程和长期故障数据。</p>
+<p><strong>价值</strong>：对用户的人机协作、软件架构和产业研究关注，这是一例较具体的安全关键系统案例：它展示了如何把操作前提写成不可绕过的状态约束，如何区分手动路径与自动化联动路径，以及如何用环境、故障和碰撞测试覆盖单一功能演示无法回答的问题。其可迁移启发是把“用户主动请求”与“系统安全许可”分层，并为高风险操作设置失效处理和可观测状态。文中列出的 9.6 万次测试及碰撞结果缺少独立复核和长期现场数据，8 年量产也不能直接证明市场需求，因此更适合作为工程与产品研究线索，而不宜单独作为投资判断依据。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>用状态联锁而非单一按键限制高风险操作</strong><p>手动折叠方向盘必须同时满足车辆停稳并挂入 P 挡，D 挡下即使因红灯静止也不能触发；离车泊入和泊出时，泊车系统另行协调方向盘折叠与展开。把操作条件编码为车辆状态机的硬约束，可以避免把高风险物理动作仅交给用户判断。</p></li>
+<li><strong>折叠方向盘依赖线控转向及整车级安全设计</strong><p>文章称，GB 17675—2025《汽车转向系基本要求》自 2026 年 7 月 1 日起适用于新申请型式批准、装有线控转向系统的车型，为方向盘与车轮机械解耦提供空间，同时要求在标准列明的部分故障下避免转向角突变、完成 25 次连续“8”字回转，并根据剩余转向能力报警。方向盘能否收起最终仍由整车功能联锁决定，而非标准单独规定。</p></li>
+<li><strong>概念功能量产需要覆盖耐久、环境与碰撞失效模式</strong><p>文中称折叠机构累计完成 9.6 万次耐久试验，其中常温 5.3 万次、−30℃和 85℃各 2.15 万次，并进行了防夹快速回弹、振动、折叠和展开状态下的驾驶员气囊点爆、滑台、人体模块及整车碰撞测试。这些项目分别覆盖机构寿命、异物介入、碰撞姿态和气囊有效性，而非仅验证一次演示动作。</p></li>
+<li><strong>产品价值取决于可频繁触发的具体停车场景</strong><p>方向盘收起后，主驾腿部空间增加约 25 厘米；座椅约 20 秒可切换至休息姿态，靠背最大躺角约 165°且无需拆头枕，适合独自长途出行者在服务区小憩或等待充电。报道对此并未提供使用率数据，而是明确指出实际效用仍需用户在真实场景中检验。</p></li>
+<li><strong>从概念到量产的核心不只是机构设计</strong><p>比亚迪从 2019 年展示可隐藏方向盘，到 2026 年实现量产，历时约八年。案例显示，消费级创新产品还要处理低温耐久性、异物回弹、不同折叠状态下的碰撞安全、用户状态感知以及手动与自动流程的一致性；文中将其作为 L3、L4 技术储备属于厂商战略表述，并非自动驾驶能力已经实现的证明。</p></li>
+<li><strong>市场判断应补充需求与可靠性指标</strong><p>文章以 V2L 外放电等配置被更多车企采用作为类比，但配置扩散本身不能证明折叠方向盘会形成普遍需求。后续更有判别力的指标包括车主实际使用频率、故障率和售后投诉、竞品跟进情况，以及服务区或充电场景是否足以支持新增机构成本。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html">https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d6f734da-6031-4e90-a479-b1ed3fa2ddd3</guid><pubDate>Mon, 23 Nov 2026 01:29:41 GMT</pubDate></item></channel></rss>
