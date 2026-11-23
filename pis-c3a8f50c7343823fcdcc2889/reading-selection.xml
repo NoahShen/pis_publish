@@ -525,86 +525,78 @@
 <p>作者最有兴趣的是书单怎么来的：书商按 1–3 折供货、负责人却按原价报账的潜规则被摆到台面上，而作者召集各领域师友历时数月共同编目。读后的判断是，作者并没有持批判者的视角，而是以误闯「天宫」的菜鸟之姿直叙，甚至可能为出版或保护前同事美化过某些经历。</p>
 <p>一个反讽：文章发出后被列出「五不该」——不该反衬其他区县、指出评审条例问题、不感谢各级领导、揭露馆配潜规则、担心十万加带来舆情；豆瓣上的一星差评也被作者视作网评员的痕迹。</p>
 <p><small>依据订阅源正文 · <a href="https://ramsayleung.github.io/zh/post/2026/%E5%8F%88%E8%AF%BB%E5%AE%8C%E4%BA%86%E4%B8%80%E6%9C%AC%E7%A6%81%E4%B9%A6/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>本轮简讯（20 条）</title><description><![CDATA[<div>
-<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br />
+</div>]]></content:encoded></item><item><title>Select Styling Specimens</title><link>https://simonwillison.net/2026/Nov/22/select-styling/</link><guid isPermaLink="false">d0574a25c30e3a08e8dd80d98adf690721d9ee68e7bac39d9cfc96d4b41c79c2</guid><pubDate>Mon, 23 Nov 2026 03:45:06 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-23 03:45:06 北京时间</small></p><p>Simon 想弄清同一个 HTML 下拉框为什么在不同浏览器里看起来差别这么大，于是让 Claude 制作样式对照页，方便在桌面和手机浏览器里逐一截图比较。</p><p>文中给出他试过后偏爱的 CSS：关闭系统默认外观，自己设置边框、留白和箭头图形。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p></div>]]></content:encoded></item><item><title>Muru</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="false">5d521776d89502166ee0ae52d78cec34a21648996552cac2f63e6831b7f5fe2c</guid><pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate><description><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><small>Simon Willison · 2026-11-22 07:56:28 北京时间</small></p><p>Simon Willison 梳理了 mod_wsgi 作者 Graham Dumpleton 开发 Muru 的三周日志。这套用 Rust 编写的服务器面向 Python 的 ASGI 和 WSGI 应用。</p><p>他特别推荐这些边开发边写的记录：从 worker 如何组织，到开发环境怎样处理 HTTPS，读者可以沿着日期还原作者的设计过程。</p><p><small>依据订阅源内容 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（18 条）</title><description><![CDATA[<div>
+<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br/>
 <small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
-<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br />
+<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br/>
 <small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
-<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br />
+<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br/>
 <small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
-<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br />
+<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br/>
 <small>雷锋网 · 2026-11-23 18:44:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/wXdEB0qbbYQ2PfPH.html">原文</a></small></p>
-<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br />
+<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br/>
 <small>雷锋网 · 2026-11-23 18:40:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html">原文</a></small></p>
-<p><strong>派评 | 近期值得关注的 App</strong><br />
+<p><strong>派评 | 近期值得关注的 App</strong><br/>
 <small>少数派 · 2026-11-23 18:08:29 北京时间 · <a href="https://sspai.com/post/119438">原文</a></small></p>
-<p><strong>怪手机们要回来了吗？</strong><br />
+<p><strong>怪手机们要回来了吗？</strong><br/>
 <small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
-<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br />
+<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br/>
 <small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
-<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br />
+<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br/>
 <small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
-<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br />
+<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
-<p><strong>We haven’t seen the last of the major tech outages</strong><br />
+<p><strong>We haven’t seen the last of the major tech outages</strong><br/>
 <small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
-<p><strong>Select Styling Specimens</strong><br />
-<small>Simon Willison · 2026-11-23 03:45:06 北京时间 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p>
-<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br />
+<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br/>
 <small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
-<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br />
+<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br/>
 <small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
-<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br />
+<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br/>
 <small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
-<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br />
+<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br/>
 <small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
-<p><strong>Protesters storm Meta offices in India</strong><br />
+<p><strong>Protesters storm Meta offices in India</strong><br/>
 <small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
-<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br />
+<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br/>
 <small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
-<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br />
+<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
-<p><strong>Muru</strong><br />
-<small>Simon Willison · 2026-11-22 07:56:28 北京时间 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">unselected-a5868ed51b6204c8f9a6419e2b9adbbe5525df5d701b9cbc2241b6bbf0047c53</guid><pubDate>Mon, 23 Nov 2026 21:09:32 +0800</pubDate><content:encoded><![CDATA[<div>
-<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br />
+<p><strong>Amazon is taking orders for the Moto Tag 3 before it’s even been announced</strong><br/>
 <small>The Verge · 2026-11-23 21:09:32 北京时间 · <a href="https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak">原文</a></small></p>
-<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br />
+<p><strong>Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99</strong><br/>
 <small>The Verge · 2026-11-23 21:00:00 北京时间 · <a href="https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor">原文</a></small></p>
-<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br />
+<p><strong>节日季全面开启，无论是犒劳自己还是馈赠亲友，这些“好东西”你可以留意</strong><br/>
 <small>理想生活实验室 · 2026-11-23 18:56:31 北京时间 · <a href="http://www.toodaylab.com/84301">原文</a></small></p>
-<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br />
+<p><strong>驭电飞驰，向车而行 | 光跃投资走进2026中国大学生方程式大赛合肥赛场</strong><br/>
 <small>雷锋网 · 2026-11-23 18:44:00 北京时间 · <a href="https://www.leiphone.com/category/weiwu/wXdEB0qbbYQ2PfPH.html">原文</a></small></p>
-<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br />
+<p><strong>华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报</strong><br/>
 <small>雷锋网 · 2026-11-23 18:40:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html">原文</a></small></p>
-<p><strong>派评 | 近期值得关注的 App</strong><br />
+<p><strong>派评 | 近期值得关注的 App</strong><br/>
 <small>少数派 · 2026-11-23 18:08:29 北京时间 · <a href="https://sspai.com/post/119438">原文</a></small></p>
-<p><strong>怪手机们要回来了吗？</strong><br />
+<p><strong>怪手机们要回来了吗？</strong><br/>
 <small>少数派 · 2026-11-23 18:00:30 北京时间 · <a href="https://sspai.com/prime/story/weird-phones-are-returning">原文</a></small></p>
-<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br />
+<p><strong>市场份额超90%！从康辉街头出镜到APEC，大疆Pocket为何被反复选择？</strong><br/>
 <small>雷锋网 · 2026-11-23 17:55:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/nZ7Wi4BaZP4Ej5G2.html">原文</a></small></p>
-<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br />
+<p><strong>Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker</strong><br/>
 <small>The Verge · 2026-11-23 11:00:00 北京时间 · <a href="https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink">原文</a></small></p>
-<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br />
+<p><strong>AIHOT 日报 · 2026-11-23 — OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-23 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-23">原文</a></small></p>
-<p><strong>We haven’t seen the last of the major tech outages</strong><br />
+<p><strong>We haven’t seen the last of the major tech outages</strong><br/>
 <small>The Verge · 2026-11-23 06:48:02 北京时间 · <a href="https://www.theverge.com/tech/1039851/major-tech-outages">原文</a></small></p>
-<p><strong>Select Styling Specimens</strong><br />
-<small>Simon Willison · 2026-11-23 03:45:06 北京时间 · <a href="https://simonwillison.net/2026/Nov/22/select-styling/">原文</a></small></p>
-<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br />
+<p><strong>Delta flights in and out of Atlanta delayed due to system outage</strong><br/>
 <small>The Verge · 2026-11-23 01:46:44 北京时间 · <a href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage">原文</a></small></p>
-<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br />
+<p><strong>Binding of Isaac developer removes AI music from Repentance Plus</strong><br/>
 <small>The Verge · 2026-11-23 01:25:20 北京时间 · <a href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">原文</a></small></p>
-<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br />
+<p><strong>Some of our favorite Switch 2 games are cheaper through Black Friday</strong><br/>
 <small>The Verge · 2026-11-23 01:00:00 北京时间 · <a href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale">原文</a></small></p>
-<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br />
+<p><strong>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</strong><br/>
 <small>The Verge · 2026-11-23 00:33:29 北京时间 · <a href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review">原文</a></small></p>
-<p><strong>Protesters storm Meta offices in India</strong><br />
+<p><strong>Protesters storm Meta offices in India</strong><br/>
 <small>The Verge · 2026-11-22 23:15:07 北京时间 · <a href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india">原文</a></small></p>
-<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br />
+<p><strong>横跨 135 年的德国现代设计发展史，都凝结在这本书里了 #每周一书</strong><br/>
 <small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
-<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br />
+<p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
-<p><strong>Muru</strong><br />
-<small>Simon Willison · 2026-11-22 07:56:28 北京时间 · <a href="https://simonwillison.net/2026/Nov/21/muru/">原文</a></small></p>
 </div>]]></content:encoded></item></channel></rss>
