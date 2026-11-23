@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content-pending.xml</link><description>PIS curated knowledge publications</description><fh:archive/></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content-pending.xml</link><description>PIS curated knowledge publications</description><fh:archive/><item><title>长江电力、茅台与腾讯持仓跟踪：从业绩—价格背离到仓位纪律</title><link>https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</link><description>作者以个人账户记录长江电力、茅台和腾讯的基本面、交易与持仓变化。其核心方法是把经营预期与市场定价同时纳入决策：当长江电力来水偏弱、业绩承压而股价因资金因素走强时，不沿用历史枯水期的加仓判断，而是减仓并预设回补条件和最低仓位；对腾讯则因业务复杂、AI投入回报不清晰而将其排除在退休计划之外。内容提供了具体仓位、价格和换仓结果，可作为个人投资决策日志，但发电量、每股收益及股价驱动因素多为作者或第三方判断，尚未独立验证。</description><content:encoded><![CDATA[<section>
+<h2>长江电力、茅台与腾讯持仓跟踪：从业绩—价格背离到仓位纪律</h2>
+<p><strong>分类</strong>：Experience</p>
+<p><strong>摘要</strong>：作者以个人账户记录长江电力、茅台和腾讯的基本面、交易与持仓变化。其核心方法是把经营预期与市场定价同时纳入决策：当长江电力来水偏弱、业绩承压而股价因资金因素走强时，不沿用历史枯水期的加仓判断，而是减仓并预设回补条件和最低仓位；对腾讯则因业务复杂、AI投入回报不清晰而将其排除在退休计划之外。内容提供了具体仓位、价格和换仓结果，可作为个人投资决策日志，但发电量、每股收益及股价驱动因素多为作者或第三方判断，尚未独立验证。</p>
+<p><strong>价值</strong>：对量化交易和资产配置用户，这篇内容可作为一页真实决策日志：它把经营跟踪、交易触发、仓位上下限、回补价格、现金停泊和事后复盘放进同一框架。长江电力“基本面转弱而股价走强”的减仓逻辑，以及腾讯换仓失败所暴露的锚定和复杂度风险，尤其适合转化为案例研究、策略假设和仓位规则检查项。不过它仍是单一个人的经验，关键预测、资金面解释和推荐工具均缺乏独立验证，不能直接作为策略有效性证据。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>利用业绩与股价背离确定减仓窗口</strong><p>作者认为长江电力当期来水偏弱、低蓄水不仅压低当年业绩，也可能拖累次年预期；但股价受到科技板块资金跷跷板效应及其所称的国家队ETF申购推动而走强。这与历史枯水期“业绩先下滑、股价后修复”的情形相反，因此他把价格上涨视为减持窗口。该因果归因属于作者判断，不能直接视为已验证的市场规律。</p></li>
+<li><strong>为减仓、回补和最低仓位预设规则</strong><p>长江电力持股由年初79万股降至55万股，合计减持24万股，减持均价31.59元；作者计划价格回到30元出头时买回，同时明确不会让该股仓位占比降到30%以下，若继续上涨还可能继续卖出。其价值在于将主观判断转化为可记录、可复盘的交易边界。</p></li>
+<li><strong>明确区分经营预测与已确认信息</strong><p>文中预计全年发电量约2900亿千瓦时、每股收益约1.3元，但明确注明来源为公众号预测；三峡水位和蓄水情况则是作者基于个人观察的跟踪。作者还推荐了据称由投资者制作的微信小程序“水电雷达”，可作为长江电力水文监测的工具线索，但正文没有验证预测准确性或工具的数据质量。</p></li>
+<li><strong>用现金管理工具保留回补选择权</strong><p>减持所得资金暂时放在平安银行R1“天天安心私行版本”，文中给出的收益口径为每万元每天0.4—0.45。资金停泊使作者能够在预设价格附近重新建仓，不过该收益率是当时的描述，不应外推为未来收益承诺。</p></li>
+<li><strong>以业务可理解性约束长期资金用途</strong><p>茅台方面，作者依据i茅台销售增加和已公布的前三季度业绩，推测利润有望超过或接近2024年历史峰值，并强调其相对其他白酒企业的韧性，但未提供具体利润数据。腾讯方面，因业务复杂、AI投入回报不清晰且可能影响回购，作者明确不把腾讯纳入退休计划，体现了按认知覆盖度分配长期资本的思路。</p></li>
+<li><strong>跨股票换仓会引入锚定与路径依赖</strong><p>作者曾把腾讯换成长江电力，后来又换回腾讯；该操作短期赚得几十万元，但自述最终亏损一百多万元，相比不换仓只是少亏几十万元。这个案例揭示，过去表现、当前市场风格以及“已经跌很多所以不愿卖”的判断可能共同影响换仓，切换成本和机会成本应被纳入交易复盘。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html">https://retire50blog.wang/invest/%e6%8c%81%e8%82%a1%e8%b7%9f%e8%b8%aa.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2a28e533-0db4-47b6-be88-446e9523af3b</guid><pubDate>Mon, 23 Nov 2026 02:22:48 GMT</pubDate></item></channel></rss>
