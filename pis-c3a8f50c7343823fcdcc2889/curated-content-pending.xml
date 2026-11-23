@@ -108,4 +108,16 @@
 <li><strong>后轮转向与数字底盘针对大型SUV的低速使用场景</strong><p>线控数字底盘可根据车速和场景调整转向响应，后轮转向则支持蟹行模式；满足相应条件时，豹式掉头功能的官方极致转弯半径为3.55米。这些配置主要改善约5.3米车长车型在狭窄道路、掉头和泊车时的机动性，不能直接等同于高速操控或越野能力提升。</p></li>
 <li><strong>第三排舒适性和装载能力是六座布局的核心指标</strong><p>钛9轴距3130毫米，后备厢常规容积655升，第三排完全放倒后可扩展至1245升，另有60升下沉储物空间。第三排提供独立通风、加热和10点按摩，并可调节第二排座椅。与屏幕数量相比，这些指标更直接关系到六人家庭出行和长途乘坐体验，但具体功能仍需按版本确认。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/Okzc1pyWcptuTh5J.html">https://www.leiphone.com/category/transportation/Okzc1pyWcptuTh5J.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:bea901ec-747e-41a4-9ac3-90dc4dbd53cb</guid><pubDate>Mon, 23 Nov 2026 01:34:48 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/Okzc1pyWcptuTh5J.html">https://www.leiphone.com/category/transportation/Okzc1pyWcptuTh5J.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:bea901ec-747e-41a4-9ac3-90dc4dbd53cb</guid><pubDate>Mon, 23 Nov 2026 01:34:48 GMT</pubDate></item><item><title>灵光扩展连接器生态，向跨应用事务托管演进</title><link>https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html</link><description>蚂蚁集团旗下AI助手灵光新增企业微信、腾讯文档、腾讯会议、飞常准等7项外部连接能力，支持能力由47项增至54项，覆盖手机系统操作、企业协作和航班信息查询等场景。文章将这一变化视为个人AI助手从“回答问题”转向“托管事务”的产品演进，并披露灵光2.0截至11月11日累计托管事务超过300万项、执行任务超过1100万次；但文中未说明事务与任务的统计口径，也未提供连接器的权限、安全性、成功率或延迟等实现与验证信息。</description><content:encoded><![CDATA[<section>
+<h2>灵光扩展连接器生态，向跨应用事务托管演进</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：蚂蚁集团旗下AI助手灵光新增企业微信、腾讯文档、腾讯会议、飞常准等7项外部连接能力，支持能力由47项增至54项，覆盖手机系统操作、企业协作和航班信息查询等场景。文章将这一变化视为个人AI助手从“回答问题”转向“托管事务”的产品演进，并披露灵光2.0截至11月11日累计托管事务超过300万项、执行任务超过1100万次；但文中未说明事务与任务的统计口径，也未提供连接器的权限、安全性、成功率或延迟等实现与验证信息。</p>
+<p><strong>价值</strong>：对关注Agent、软件架构和人机协作的用户，该更新提供了一个国内个人AI助手扩展跨应用执行能力的具体样本，可用于跟踪连接器生态、识别办公与出行工作流的接入方向，并为后续产品比较筛选候选指标。其实践价值目前主要停留在产品动态层面；由于缺少API机制、授权与安全模型、任务成功率、延迟、失败恢复及统计口径，不能据此判断连接器在生产环境中的可靠性，也不能把“事务托管”直接视为已验证的通用架构范式。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>外部连接能力由47项增至54项</strong><p>此次更新新增企业微信、腾讯文档、腾讯会议、飞常准等7项外部连接能力，灵光支持的外部服务及连接能力总数从47项增加至54项，反映其正继续扩大跨服务接入范围。</p></li>
+<li><strong>连接能力覆盖系统操作、办公协作与出行信息</strong><p>个人生活场景新增相册连接，并可通过快捷指令修改壁纸、备忘录等系统功能；办公场景接入企业微信、腾讯文档和腾讯会议；出行场景接入飞常准，以获取航班动态等信息。正文未进一步披露各连接器可执行的具体事务范围。</p></li>
+<li><strong>产品竞争焦点被表述为由对话转向事务托管</strong><p>文章提出，AI助手的竞争正在从模型能力和对话体验扩展到真实场景中的事务托管，连接器被视为支撑需求理解、跨服务连接和任务执行的基础设施。这是作者对产品趋势的判断，而非文中经过验证的普遍结论。</p></li>
+<li><strong>任务执行规模已有披露，但指标口径与可靠性未说明</strong><p>据文中数据，灵光2.0截至11月11日累计托管事务量突破300万项，累计执行任务超过1100万次，并被称为行业关注的个人智能体指标。文章没有解释两类指标的定义、去重方式、统计周期、失败任务处理或数据来源，因而这些数字适合用于产品跟踪，不宜直接视为独立验证的效能指标。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html">https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f38bbfc0-5631-4ffd-8e72-ec8b9a54bd47</guid><pubDate>Mon, 23 Nov 2026 01:36:21 GMT</pubDate></item></channel></rss>
