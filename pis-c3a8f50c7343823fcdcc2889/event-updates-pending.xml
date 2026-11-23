@@ -142,4 +142,84 @@
 <p><strong>发生时间</strong>：时间未确定</p>
 <h3>初始事实</h3>
 <p>qData 数据中台开源版 v1.6.8 发布，围绕数据资产维护中的敏感等级管理场景更新，资产字段编辑界面支持绑定敏感等级，以支持手机号、客户编号等字段按要求进行分类分级管理。</p>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503708">https://www.oschina.net/news/503708</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d30e5cd4-9987-4185-824e-1b8765c6a809</guid><pubDate>Mon, 23 Nov 2026 05:21:08 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503708">https://www.oschina.net/news/503708</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d30e5cd4-9987-4185-824e-1b8765c6a809</guid><pubDate>Mon, 23 Nov 2026 05:21:08 GMT</pubDate></item><item><title>Blueking Lite 平台功能更新</title><link>https://www.oschina.net/news/503707</link><description>Blueking Lite 本周更新内置常用智能体模板，以支持简单配置、快速启用；系统管理新增“超级审计员”角色，该角色可只读查看全部组织和应用数据。正文提及 CMDB 更新，但具体内容因文本截断无法确认。</description><content:encoded><![CDATA[<section>
+<h2>Blueking Lite 平台功能更新</h2>
+<p><strong>核心实体</strong>：Blueking Lite</p>
+<p><strong>主题</strong>：运维平台功能发布与迭代</p>
+<p><strong>范围</strong>：Blueking Lite 轻量运维平台的版本更新，包括智能体、系统管理及 CMDB 等模块。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Blueking Lite 本周更新内置常用智能体模板，以支持简单配置、快速启用；系统管理新增“超级审计员”角色，该角色可只读查看全部组织和应用数据。正文提及 CMDB 更新，但具体内容因文本截断无法确认。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503707">https://www.oschina.net/news/503707</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b6e74b97-0585-4e1e-8bd2-5cb4ae5dda5b</guid><pubDate>Mon, 23 Nov 2026 05:21:19 GMT</pubDate></item><item><title>哈佛大学工作论文评估AI编程Agent实际效果</title><link>https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</link><description>哈佛大学两名博士候选人完成一项工作论文，对AI编程Agent的实际效果进行测算。论文样本覆盖718家公司、725938名员工，报告称采用AI编程Agent后，人均每月新增代码行数从5017行增至6511行，约增长30%，提交数增长20%，Pull Request增长23%；内容将AI编程当前瓶颈概括为“Code Review”。</description><content:encoded><![CDATA[<section>
+<h2>哈佛大学工作论文评估AI编程Agent实际效果</h2>
+<p><strong>核心实体</strong>：哈佛大学</p>
+<p><strong>主题</strong>：AI编程Agent对软件开发产出与效率的影响研究</p>
+<p><strong>范围</strong>：一项基于718家公司、725938名员工样本的工作论文，评估采用AI编程Agent后的代码产出、提交与Pull Request增长，并分析软件开发瓶颈。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>哈佛大学两名博士候选人完成一项工作论文，对AI编程Agent的实际效果进行测算。论文样本覆盖718家公司、725938名员工，报告称采用AI编程Agent后，人均每月新增代码行数从5017行增至6511行，约增长30%，提交数增长20%，Pull Request增长23%；内容将AI编程当前瓶颈概括为“Code Review”。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted">https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:96b768e6-54a8-4934-bc51-8f15b55c0728</guid><pubDate>Mon, 23 Nov 2026 05:21:22 GMT</pubDate></item><item><title>蚂蚁 OceanBase 团队开源 PowerContext</title><link>https://www.oschina.net/news/503704/oceanbase-powercontex</link><description>蚂蚁 OceanBase 团队开源了 PowerContext 项目。该项目被定位为面向 AI agent 的开源上下文服务，旨在将决策、约束、证据和进度等需长期保留的信息从单次对话中移出，使后续会话、其他 agent 或接手人员能够基于当前状态继续工作，而不必重读聊天记录。</description><content:encoded><![CDATA[<section>
+<h2>蚂蚁 OceanBase 团队开源 PowerContext</h2>
+<p><strong>核心实体</strong>：PowerContext</p>
+<p><strong>主题</strong>：PowerContext 项目开源及跨对话 Agent 上下文服务</p>
+<p><strong>范围</strong>：跟踪 PowerContext 的开源发布、上下文外置以及跨会话、跨 Agent 和人员交接能力演进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>蚂蚁 OceanBase 团队开源了 PowerContext 项目。该项目被定位为面向 AI agent 的开源上下文服务，旨在将决策、约束、证据和进度等需长期保留的信息从单次对话中移出，使后续会话、其他 agent 或接手人员能够基于当前状态继续工作，而不必重读聊天记录。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503704/oceanbase-powercontex">https://www.oschina.net/news/503704/oceanbase-powercontex</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:56153384-f9d6-466e-8f8d-e37567dc5095</guid><pubDate>Mon, 23 Nov 2026 05:21:37 GMT</pubDate></item><item><title>GIMP引入自动化界面测试</title><link>https://www.oschina.net/news/503702/gimp-ui-tests</link><description>GIMP新引入一套自动化界面测试，通过模拟用户点击菜单和按钮并检查结果，在每次合并贡献者改动时自动运行，以发现界面变更可能引发的交互问题；GIMP原有的单元测试无法充分覆盖这类界面回归。</description><content:encoded><![CDATA[<section>
+<h2>GIMP引入自动化界面测试</h2>
+<p><strong>核心实体</strong>：GIMP</p>
+<p><strong>主题</strong>：自动化界面测试</p>
+<p><strong>范围</strong>：GIMP界面菜单、对话框和工具的交互测试，以及贡献者改动合并时的自动运行</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>GIMP新引入一套自动化界面测试，通过模拟用户点击菜单和按钮并检查结果，在每次合并贡献者改动时自动运行，以发现界面变更可能引发的交互问题；GIMP原有的单元测试无法充分覆盖这类界面回归。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503702/gimp-ui-tests">https://www.oschina.net/news/503702/gimp-ui-tests</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:cbb225bd-468e-4a24-9ca0-a06ec6c0da7f</guid><pubDate>Mon, 23 Nov 2026 05:21:40 GMT</pubDate></item><item><title>微软发布七款AI模型</title><link>https://www.oschina.net/news/503701</link><description>微软一次性发布七款被官方宣称具有“世界级”水平的AI模型，以模型矩阵覆盖不同价位和应用场景，而非仅推出一款最强模型。内容援引官方理由称，随着token开销上升，用户需要能够让agent全天候运行并执行实际工程任务的价位。现有正文仅明确列出MAI Cyber 2 Flash，其定位为支持7×24小时运行的前沿网络安全防御模型；其余六款模型的信息因正文截断而未提供。</description><content:encoded><![CDATA[<section>
+<h2>微软发布七款AI模型</h2>
+<p><strong>核心实体</strong>：Microsoft</p>
+<p><strong>主题</strong>：AI模型矩阵发布</p>
+<p><strong>范围</strong>：微软AI模型的批量发布、产品定位、适用场景及价格层级覆盖</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>微软一次性发布七款被官方宣称具有“世界级”水平的AI模型，以模型矩阵覆盖不同价位和应用场景，而非仅推出一款最强模型。内容援引官方理由称，随着token开销上升，用户需要能够让agent全天候运行并执行实际工程任务的价位。现有正文仅明确列出MAI Cyber 2 Flash，其定位为支持7×24小时运行的前沿网络安全防御模型；其余六款模型的信息因正文截断而未提供。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503701">https://www.oschina.net/news/503701</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:9f1b10e5-6f14-49d3-95cb-a68c8b993489</guid><pubDate>Mon, 23 Nov 2026 05:21:53 GMT</pubDate></item><item><title>Ruby 正则引擎及字符串大小写转换漏洞修复</title><link>https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string</link><description>Ruby 团队发布官方安全公告，披露其正则引擎和字符串大小写转换功能中存在7个漏洞。公告称，已知概念验证代码（PoC）可证明其中部分漏洞能够触发远程代码执行；字符串大小写转换相关漏洞包括一字节堆溢出、整数溢出导致的堆溢出及可引发远程代码执行的漏洞。修复版本为Ruby 4.0.10、3.4.13和3.3.14。</description><content:encoded><![CDATA[<section>
+<h2>Ruby 正则引擎及字符串大小写转换漏洞修复</h2>
+<p><strong>核心实体</strong>：Ruby</p>
+<p><strong>主题</strong>：Ruby 正则引擎与字符串大小写转换安全漏洞</p>
+<p><strong>范围</strong>：Ruby 官方披露的正则引擎和字符串大小写转换共7个安全漏洞、远程代码执行风险及对应修复版本</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Ruby 团队发布官方安全公告，披露其正则引擎和字符串大小写转换功能中存在7个漏洞。公告称，已知概念验证代码（PoC）可证明其中部分漏洞能够触发远程代码执行；字符串大小写转换相关漏洞包括一字节堆溢出、整数溢出导致的堆溢出及可引发远程代码执行的漏洞。修复版本为Ruby 4.0.10、3.4.13和3.3.14。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string">https://www.oschina.net/news/503699/ruby-lang-multiple-vulnerabilities-in-regexp-and-string</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:a058e5e5-2426-4066-b677-f828e7ba4cd9</guid><pubDate>Mon, 23 Nov 2026 05:21:56 GMT</pubDate></item><item><title>Google AI Overviews减少外部网站搜索点击量</title><link>https://www.oschina.net/news/503698</link><description>一项随机实验将部分看不到AI Overviews的美国桌面用户与仍可看到该功能的用户进行比较，实验结果显示，AI Overviews使从Google搜索结果指向外部网站的点击量下降了四成。</description><content:encoded><![CDATA[<section>
+<h2>Google AI Overviews减少外部网站搜索点击量</h2>
+<p><strong>核心实体</strong>：Google AI Overviews</p>
+<p><strong>主题</strong>：AI Overviews对Google搜索外部网站点击流量的影响</p>
+<p><strong>范围</strong>：Google搜索结果中AI Overviews对美国桌面用户向外部网站点击流量的影响</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>一项随机实验将部分看不到AI Overviews的美国桌面用户与仍可看到该功能的用户进行比较，实验结果显示，AI Overviews使从Google搜索结果指向外部网站的点击量下降了四成。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503698">https://www.oschina.net/news/503698</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:6a7c45ef-2640-4e15-8111-81c0bd70b592</guid><pubDate>Mon, 23 Nov 2026 05:21:58 GMT</pubDate></item><item><title>PHP 8.6 版本发布与核心语言特性更新</title><link>https://www.oschina.net/news/503695/php-8-6</link><description>PHP 8.6 于 11 月 19 日正式发布，官方将其概括为“更快、更安全、更强大”。本次版本的头号新特性是部分函数应用（Partial Function Application）：允许提前提供函数的部分参数，以占位符保留其余参数位置并返回 Closure，待剩余参数传入后再实际调用。</description><content:encoded><![CDATA[<section>
+<h2>PHP 8.6 版本发布与核心语言特性更新</h2>
+<p><strong>核心实体</strong>：PHP 8.6</p>
+<p><strong>主题</strong>：版本发布与语言特性演进</p>
+<p><strong>范围</strong>：PHP 8.6 的正式发布，以及该版本的核心语言特性、性能和安全改进</p>
+<p><strong>发生时间</strong>：2026-11-19T00:00:00+08:00</p>
+<h3>初始事实</h3>
+<p>PHP 8.6 于 11 月 19 日正式发布，官方将其概括为“更快、更安全、更强大”。本次版本的头号新特性是部分函数应用（Partial Function Application）：允许提前提供函数的部分参数，以占位符保留其余参数位置并返回 Closure，待剩余参数传入后再实际调用。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503695/php-8-6">https://www.oschina.net/news/503695/php-8-6</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:11a66e81-61b8-41d2-a1ea-9cec5ab1ed54</guid><pubDate>Mon, 23 Nov 2026 05:22:11 GMT</pubDate></item><item><title>Cpro 编程语言设计与定位</title><link>https://www.oschina.net/news/503694</link><description>内容介绍 Cpro 是一门通用型 C 系列编程语言：在兼容 C 语言基础生态思想的前提下，重新设计语法、编译模型和安全特性，并增加约束，以减少传统 C 语言中的内存越界、类型不严谨等问题；其应用场景包括后端服务、桌面程序、嵌入式和工具开发等。</description><content:encoded><![CDATA[<section>
+<h2>Cpro 编程语言设计与定位</h2>
+<p><strong>核心实体</strong>：Cpro</p>
+<p><strong>主题</strong>：Cpro 编程语言的设计特性与应用范围</p>
+<p><strong>范围</strong>：Cpro 的语法、编译模型、安全特性及适用开发场景</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容介绍 Cpro 是一门通用型 C 系列编程语言：在兼容 C 语言基础生态思想的前提下，重新设计语法、编译模型和安全特性，并增加约束，以减少传统 C 语言中的内存越界、类型不严谨等问题；其应用场景包括后端服务、桌面程序、嵌入式和工具开发等。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503694">https://www.oschina.net/news/503694</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:8576a029-78ed-4d5d-a2ba-9b7f32529b7f</guid><pubDate>Mon, 23 Nov 2026 05:22:25 GMT</pubDate></item><item><title>Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</title><link>https://www.oschina.net/news/503693/anthropics-historic-debut-put</link><description>该报道称，Anthropic于2026年11月19日在纳斯达克挂牌上市，股票代码为“ANT”。发行价为83美元，上市首日开盘价111.50美元，较发行价上涨34%，对应估值一度接近2万亿美元；随后股价回落，收于97美元，涨幅为17%，对应市值约1.3万亿美元。报道还称其开盘估值超过了SpaceX于2026年6月的上市纪录。</description><content:encoded><![CDATA[<section>
+<h2>Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</h2>
+<p><strong>核心实体</strong>：Anthropic</p>
+<p><strong>主题</strong>：纳斯达克IPO及上市首日表现</p>
+<p><strong>范围</strong>：Anthropic的首次公开募股、发行定价、纳斯达克挂牌及上市首日开盘与收盘价格、市值变化</p>
+<p><strong>发生时间</strong>：2026-11-19T00:00:00Z</p>
+<h3>初始事实</h3>
+<p>该报道称，Anthropic于2026年11月19日在纳斯达克挂牌上市，股票代码为“ANT”。发行价为83美元，上市首日开盘价111.50美元，较发行价上涨34%，对应估值一度接近2万亿美元；随后股价回落，收于97美元，涨幅为17%，对应市值约1.3万亿美元。报道还称其开盘估值超过了SpaceX于2026年6月的上市纪录。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503693/anthropics-historic-debut-put">https://www.oschina.net/news/503693/anthropics-historic-debut-put</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f1502add-34c0-417c-926f-2ece731499fe</guid><pubDate>Mon, 23 Nov 2026 05:22:39 GMT</pubDate></item></channel></rss>
