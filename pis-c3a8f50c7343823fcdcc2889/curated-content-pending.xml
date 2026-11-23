@@ -27,4 +27,18 @@
 <li><strong>从概念到量产的核心不只是机构设计</strong><p>比亚迪从 2019 年展示可隐藏方向盘，到 2026 年实现量产，历时约八年。案例显示，消费级创新产品还要处理低温耐久性、异物回弹、不同折叠状态下的碰撞安全、用户状态感知以及手动与自动流程的一致性；文中将其作为 L3、L4 技术储备属于厂商战略表述，并非自动驾驶能力已经实现的证明。</p></li>
 <li><strong>市场判断应补充需求与可靠性指标</strong><p>文章以 V2L 外放电等配置被更多车企采用作为类比，但配置扩散本身不能证明折叠方向盘会形成普遍需求。后续更有判别力的指标包括车主实际使用频率、故障率和售后投诉、竞品跟进情况，以及服务区或充电场景是否足以支持新增机构成本。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html">https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d6f734da-6031-4e90-a479-b1ed3fa2ddd3</guid><pubDate>Mon, 23 Nov 2026 01:29:41 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html">https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d6f734da-6031-4e90-a479-b1ed3fa2ddd3</guid><pubDate>Mon, 23 Nov 2026 01:29:41 GMT</pubDate></item><item><title>Kling Image 4.0 实测：从单图生成走向方案设计与可控编辑</title><link>https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</link><description>文章通过人像写真、创意海报、烤红薯电商详情页和十图电影分镜四个场景实测 Kling Image 4.0。其价值不只是提升画质，而是把局部文字与字体控制、基于笼统目标主动补全品牌和版式、跨图叙事与一致性纳入同一生成—编辑流程。官方还宣称支持原生 8K、单图最多 2000 字、最多 10 张关联图片及最高 15K Token 指令处理。实测同时暴露出明确边界：说明性小字清晰度不足，自动补充的产品或产地信息可能失真，人物面部和动作衔接仍会漂移，因此更适合作为可编辑草案而非免审成品。</description><content:encoded><![CDATA[<section>
+<h2>Kling Image 4.0 实测：从单图生成走向方案设计与可控编辑</h2>
+<p><strong>分类</strong>：Experience</p>
+<p><strong>摘要</strong>：文章通过人像写真、创意海报、烤红薯电商详情页和十图电影分镜四个场景实测 Kling Image 4.0。其价值不只是提升画质，而是把局部文字与字体控制、基于笼统目标主动补全品牌和版式、跨图叙事与一致性纳入同一生成—编辑流程。官方还宣称支持原生 8K、单图最多 2000 字、最多 10 张关联图片及最高 15K Token 指令处理。实测同时暴露出明确边界：说明性小字清晰度不足，自动补充的产品或产地信息可能失真，人物面部和动作衔接仍会漂移，因此更适合作为可编辑草案而非免审成品。</p>
+<p><strong>价值</strong>：对用户而言，这篇文章提供了一份面向真实工作流的 AI 视觉产品评测样本，可用于判断图像模型是否值得进入素材原型、广告草案、故事板或内部沟通环节。其测试场景尤其适合转化为产品评估清单：检查局部文字编辑是否真正隔离、参考字体是否可控、长文是否可读、补充事实是否准确，以及跨图人物和场景是否稳定。鉴于证据主要来自媒体的案例型实测，部分规格仍为官方口径，因此更适合作为版本能力基线和测试设计参考，而不是直接作为采购或自动化上线的依据。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>图像生成开始承担商业方案的构思工作</strong><p>在仅提供一张烤红薯照片和一句笼统目标、未提供完整商品信息的测试中，模型主动补充了品牌名称、广告语、配色与页面结构，并延展出品味展示、产地叙事、食用及保存说明等多张详情页。这表明其能力已超出单张商品美图，开始尝试把商品图、文案和版式组织成统一视觉方案。</p></li>
+<li><strong>局部文字编辑比整图重绘更可控</strong><p>实测中可以直接选中已有文字进行修改或新增文字，且指定区域之外的画面没有被重绘；这比重新描述整张海报更容易保留已确定的设计。模型还提供 70 多款预设字体，并支持上传字体参考图以模仿字形和笔画风格，把艺术字控制从提示词描述推进到了更明确的工具化操作。</p></li>
+<li><strong>长图文能力不能只看标题效果</strong><p>官方宣称单张图片最多支持 2000 字，但实测发现大标题的效果和清晰度明显优于说明性小字。文章还特别指出，模型自行生成的产地和产品信息未必准确。因此在电商、法律公告或产品说明等场景中，事实字段应由用户提供并逐项校验，不能依赖模型补全。</p></li>
+<li><strong>多图生成可作为分镜草案而非成片</strong><p>在给定故事梗概和参考剧照后，模型生成了最多十张关联图片，并主动使用远景、中景、特写推进叙事，同时延续了服装、海岸暮色和篩火色调。但人物面部存在细微变化，部分动作衔接不够自然，说明系列一致性已能支持前期构思，却尚未消除逐镜人工调整的需要。</p></li>
+<li><strong>官方技术指标与独立实测应分开看待</strong><p>8K 原生分辨率、单图 2000 字、最多十张关联图片，以及理解与生成统一的自回归架构、最高 15K Token 指令处理、结构化视觉语法和 Agentic 任务规划，均来自官方介绍。文章中的实际案例验证了其中部分工作流价值，但没有形成覆盖不同题材、提示词和复杂度的系统基准。</p></li>
+<li><strong>模糊构思与明确执行需要采用不同交互方式</strong><p>当需求尚未明确时，可让模型主动扩展品牌、场景、文案和页面组织；当设计已经确定时，则应使用参考图、局部编辑和字体选择等约束手段减少重绘。文章将这两种需求区分为“替用户多想”和“严格执行”，是评估其他生成式设计工具时也可复用的能力框架。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html">https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:c2e9bfb2-8279-49f5-a102-7fb5613ef61b</guid><pubDate>Mon, 23 Nov 2026 01:30:09 GMT</pubDate></item></channel></rss>
