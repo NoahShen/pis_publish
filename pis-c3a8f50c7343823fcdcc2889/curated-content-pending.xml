@@ -151,4 +151,18 @@
 <li><strong>人机协作需要在“主动补全”与“严格服从”之间切换</strong><p>想法模糊时，模型可补充品牌、叙事和版式等未确定内容；设计已确定时，则需要模型只修改指定文字或区域并保留其他图层。实践中可先把模型用于发散构思和草案生成，再把事实核验、排版精修、跨图一致性与最终审批留给人工。</p></li>
 <li><strong>产品宣传指标不能替代独立评测</strong><p>文章援引微软研究院的 BizGenEval，称其以 400 条提示词和 8000 道检查题测试商业视觉生成，发现模型虽能生成美观的页面，但在精确布局和多个对象的属性对应上仍有短板。Kling 的 8K、2000 字和 10 张关联图等数字主要来自官方介绍，作者体验也只是非受控案例，不足以证明其在标准化任务上的普遍优势。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html">https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:8d31df6c-5ee9-4466-8d6c-57e966e7d15a</guid><pubDate>Mon, 23 Nov 2026 02:39:24 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html">https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:8d31df6c-5ee9-4466-8d6c-57e966e7d15a</guid><pubDate>Mon, 23 Nov 2026 02:39:24 GMT</pubDate></item><item><title>真龙插混MAX的800V混动架构与车载边缘AI能量调度</title><link>https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html</link><description>文章报道上汽通用发布真龙插混MAX，并以其搭载的别克至境世家展示系统架构、动力性能、NVH、电池热管理及智能能量控制。技术上最值得关注的不是单项参数，而是800V插混平台、预测性SOC规划、路况感知与扭矩分配之间的协同。性能、噪声和电池安全数字主要来自厂商口径，正文未提供完整测试规程、算法细节或第三方验证，因此更适合作为工业技术案例和后续尽调线索。</description><content:encoded><![CDATA[<section>
+<h2>真龙插混MAX的800V混动架构与车载边缘AI能量调度</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：文章报道上汽通用发布真龙插混MAX，并以其搭载的别克至境世家展示系统架构、动力性能、NVH、电池热管理及智能能量控制。技术上最值得关注的不是单项参数，而是800V插混平台、预测性SOC规划、路况感知与扭矩分配之间的协同。性能、噪声和电池安全数字主要来自厂商口径，正文未提供完整测试规程、算法细节或第三方验证，因此更适合作为工业技术案例和后续尽调线索。</p>
+<p><strong>价值</strong>：对以软件工程、量化和AI为主的用户，较有价值的是这一车载边缘AI案例：它把导航预测、SOC轨迹、驾驶习惯学习、路况感知和实时动力控制连接成闭环，可用于研究嵌入式AI、跨域调度和人在回路控制系统的产品化方式。同时，文章可作为汽车技术尽调的样本，用以区分架构事实、厂商性能口径和仍待验证的安全、寿命及算法主张；它本身不构成已验证的技术优势或直接投资结论。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>满电与亏电动力保持依赖800V平台和电池放电能力</strong><p>真龙插混MAX由2.0T混动专用发动机、800V高压平台和支持6C充电的插混专用电池组成，系统综合最大功率550kW、峰值扭矩815N·m。厂商称电池在20% SOC时仍可释放460kW，满电和亏电状态下0—100km/h加速分别为5.7秒和5.8秒，并完成连续30次全油门加速无衰减测试；这些结果尚缺少测试规程和独立复现。</p></li>
+<li><strong>导航驱动的SOC轨迹体现预测性能量管理</strong><p>车端边缘AI统一调度能量域与动力域，结合导航信息规划SOC轨迹并自动分配油电比例。当系统判断当前电量不足以覆盖导航里程时会提前储电，并在到达目的地前约2公里切换为纯电。这展示了将路线级预测纳入能源控制的思路，但正文没有披露模型结构、实时延迟、异常处理或边界条件。</p></li>
+<li><strong>快充性能由液冷设计与BMS干预共同支撑</strong><p>厂商称混动专用电池采用多面液冷设计，冷却能力提升130%，快充时电芯温差小于5℃、日常工况小于2℃；新BMS可设定析锂边界并提前干预，n-Tau算法将SOC估算误差控制在2%以内。文章将“6C快充及全周期零析锂”表述为厂商主张，未披露循环寿命、测试标准和独立验证数据。</p></li>
+<li><strong>NVH治理采用源头、传播路径与隔离三层拆解</strong><p>发动机端采用PEEK双平衡轴齿轮，并从噪声源头、传递路径和隔离三个方向配置声学材料与结构；官方称PEEK齿轮最多降低5dBA噪声。电机端采用72槽V型斜槽设计，官方称同等工况下声学表现提升3dB、对应声学能量降低50%。正文未提供具体测试工况及主观乘坐噪声评价。</p></li>
+<li><strong>长途工况以机发电补能维持电池与动力</strong><p>搭载67度电池的至境世家纯电续航为402km；新发电机峰值功率为135kW，可稳定输出100kW，官方将其描述为行驶中具备2C充电能力。该设计意在长途行驶时同步补充电能，但文章未给出对应油耗、综合效率及不同SOC下的持续输出边界。</p></li>
+<li><strong>预瞄扭矩分配把多传感器感知接入底盘控制</strong><p>系统融合激光雷达与摄像头信息，提前识别前方路面并动态分配前后轮扭矩，以减少打滑；控制策略还根据驾驶风格、常用路线和工况分布持续修正。文章没有量化其防滑效果、识别条件、响应延迟或感知失效时的安全策略。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html">https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:1b73adf6-ead1-4a56-af6d-f0904c85ece7</guid><pubDate>Mon, 23 Nov 2026 02:43:34 GMT</pubDate></item></channel></rss>
