@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Apache SeaTunnel 3.1.0 发布并强化生产部署与数据正确性</title><link>https://www.oschina.net/news/503658</link><description>Apache SeaTunnel 社区发布 3.1.0 版本，官方发布说明汇总了 395 个 PR 和 11 个新连接器。本次版本的主要方向是加强 Zeta 引擎稳定性、提升 Connector-V2 数据正确性，并补齐生产部署与排障能力，以降低生产数据集成任务部署和运维中的数据丢失及错误变更风险。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>CloudDM 新增 Kafka 单条消息发送命令</title><link>https://www.oschina.net/news/503651</link><description>CloudDM 新增 Kafka 单条消息发送命令 kafka-console-producer。所给正文提及该命令支持 Key、Val...，但相关说明在文本中被截断。</description><content:encoded><![CDATA[<section>
+<h2>CloudDM 新增 Kafka 单条消息发送命令</h2>
+<p><strong>核心实体</strong>：CloudDM</p>
+<p><strong>主题</strong>：Kafka 单条消息发送命令</p>
+<p><strong>范围</strong>：CloudDM 中 Kafka 单条消息发送命令的提供及其参数支持</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>CloudDM 新增 Kafka 单条消息发送命令 kafka-console-producer。所给正文提及该命令支持 Key、Val...，但相关说明在文本中被截断。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503651">https://www.oschina.net/news/503651</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:6b8a311e-04f2-4c98-8b31-116a1dff4308</guid><pubDate>Mon, 23 Nov 2026 05:28:28 GMT</pubDate></item><item><title>CloudDM 新增 GreptimeDB 数据源支持</title><link>https://www.oschina.net/news/503651</link><description>CloudDM 新版本新增 GreptimeDB 数据源，可进行连接配置和元数据浏览，并支持 SQL 查询、DDL/DML 执行及查询条数限制。</description><content:encoded><![CDATA[<section>
+<h2>CloudDM 新增 GreptimeDB 数据源支持</h2>
+<p><strong>核心实体</strong>：CloudDM</p>
+<p><strong>主题</strong>：GreptimeDB 数据源接入与操作支持</p>
+<p><strong>范围</strong>：CloudDM 对 GreptimeDB 的连接配置、元数据浏览、SQL 查询、DDL/DML 执行及查询条数限制支持</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>CloudDM 新版本新增 GreptimeDB 数据源，可进行连接配置和元数据浏览，并支持 SQL 查询、DDL/DML 执行及查询条数限制。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503651">https://www.oschina.net/news/503651</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:797a75b4-9397-4aa3-8207-1595526116c2</guid><pubDate>Mon, 23 Nov 2026 05:28:21 GMT</pubDate></item><item><title>伏羲智能决策平台发布 v1.0.0</title><link>https://www.oschina.net/news/503652</link><description>开源项目伏羲智能决策平台发布 v1.0.0，升级多智能体编排与知识检索，并完善测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估流程，尝试连接自然语言建模、确定性决策执行与发布后运营。该平台采用 Rust 技术栈，支持标准 DMN 决策模型和项目级治理。</description><content:encoded><![CDATA[<section>
+<h2>伏羲智能决策平台发布 v1.0.0</h2>
+<p><strong>核心实体</strong>：伏羲智能决策平台</p>
+<p><strong>主题</strong>：v1.0.0 版本发布与功能升级</p>
+<p><strong>范围</strong>：伏羲智能决策平台的版本发布，以及多智能体编排、决策执行和发布后运营能力演进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>开源项目伏羲智能决策平台发布 v1.0.0，升级多智能体编排与知识检索，并完善测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估流程，尝试连接自然语言建模、确定性决策执行与发布后运营。该平台采用 Rust 技术栈，支持标准 DMN 决策模型和项目级治理。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503652">https://www.oschina.net/news/503652</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:8ed13251-83c4-4e5d-9a6e-ecb4ad12be2e</guid><pubDate>Mon, 23 Nov 2026 05:28:06 GMT</pubDate></item><item><title>上海推进AI开源平台与开发者支持建设</title><link>https://www.oschina.net/news/503653</link><description>内容称，上海近年来持续加强AI产业政策支持，将开源平台作为连接大模型、算力、工具链与应用场景的分发层及AI产业链建设重点，并连续出台措施，帮助开发者更便利地获取模型、算力和场景、提高作品产品化效率，目标是打造“最懂开发者的城市”。</description><content:encoded><![CDATA[<section>
+<h2>上海推进AI开源平台与开发者支持建设</h2>
+<p><strong>核心实体</strong>：上海市</p>
+<p><strong>主题</strong>：AI开源平台建设与开发者支持</p>
+<p><strong>范围</strong>：上海市AI产业中的开源平台建设，以及模型、算力、应用场景供给和开发者支持措施</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>内容称，上海近年来持续加强AI产业政策支持，将开源平台作为连接大模型、算力、工具链与应用场景的分发层及AI产业链建设重点，并连续出台措施，帮助开发者更便利地获取模型、算力和场景、提高作品产品化效率，目标是打造“最懂开发者的城市”。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503653">https://www.oschina.net/news/503653</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:af8e6cd8-ec3b-4386-8528-8fdd403f1a46</guid><pubDate>Mon, 23 Nov 2026 05:27:56 GMT</pubDate></item><item><title>内容标题称 xbatis 1.10.10 正式发版</title><link>https://www.oschina.net/news/503655</link><description>本次内容标题称“xbatis 1.10.10 正式发版”，与候选事件记录的标题版本“1.10.11”不同，属于新的版本发布表述。正文所列 1.10.15 于 2026-11-05 修复问题、优化代码并提前部分兼容 mybatis 3.6.0 的信息与已知内容重复；因内容不完整，未提供 1.10.10 的发布日期及具体变更。</description><content:encoded><![CDATA[<section>
+<h2>内容标题称 xbatis 1.10.10 正式发版</h2>
+<p><strong>所属主线</strong>：xbatis 版本发布及 mybatis 兼容进展</p>
+<p><strong>核心实体</strong>：xbatis</p>
+<p><strong>主题</strong>：版本发布、维护与兼容性</p>
+<p><strong>范围</strong>：xbatis 各版本的发布记录、问题修复、代码优化及对 mybatis 版本的兼容进展</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>本次进展</h3>
+<p>本次内容标题称“xbatis 1.10.10 正式发版”，与候选事件记录的标题版本“1.10.11”不同，属于新的版本发布表述。正文所列 1.10.15 于 2026-11-05 修复问题、优化代码并提前部分兼容 mybatis 3.6.0 的信息与已知内容重复；因内容不完整，未提供 1.10.10 的发布日期及具体变更。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503655">https://www.oschina.net/news/503655</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:d9db0662-8df1-4652-9b0b-923c6ca1ead0</guid><pubDate>Mon, 23 Nov 2026 05:27:42 GMT</pubDate></item><item><title>Manus成为Godot基金会白金赞助商</title><link>https://www.oschina.net/news/503657/manus-sponsorship-partners-godot-engine</link><description>Godot基金会宣布通用AI agent公司Manus成为其白金赞助商。根据Godot基金会官网公开信息，白金级赞助商的最低门槛为每年5万欧元，但本文未披露Manus实际赞助金额。</description><content:encoded><![CDATA[<section>
+<h2>Manus成为Godot基金会白金赞助商</h2>
+<p><strong>核心实体</strong>：Manus</p>
+<p><strong>主题</strong>：对Godot基金会的赞助合作</p>
+<p><strong>范围</strong>：Manus加入Godot基金会白金赞助商计划及相关赞助动态</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Godot基金会宣布通用AI agent公司Manus成为其白金赞助商。根据Godot基金会官网公开信息，白金级赞助商的最低门槛为每年5万欧元，但本文未披露Manus实际赞助金额。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503657/manus-sponsorship-partners-godot-engine">https://www.oschina.net/news/503657/manus-sponsorship-partners-godot-engine</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:b06d657b-a707-4965-b2e7-cba5772ce967</guid><pubDate>Mon, 23 Nov 2026 05:27:39 GMT</pubDate></item><item><title>Apache SeaTunnel 3.1.0 发布并强化生产部署与数据正确性</title><link>https://www.oschina.net/news/503658</link><description>Apache SeaTunnel 社区发布 3.1.0 版本，官方发布说明汇总了 395 个 PR 和 11 个新连接器。本次版本的主要方向是加强 Zeta 引擎稳定性、提升 Connector-V2 数据正确性，并补齐生产部署与排障能力，以降低生产数据集成任务部署和运维中的数据丢失及错误变更风险。</description><content:encoded><![CDATA[<section>
 <h2>Apache SeaTunnel 3.1.0 发布并强化生产部署与数据正确性</h2>
 <p><strong>核心实体</strong>：Apache SeaTunnel</p>
 <p><strong>主题</strong>：Apache SeaTunnel 3.1.0 版本发布及其稳定性、数据正确性和生产部署能力改进</p>
