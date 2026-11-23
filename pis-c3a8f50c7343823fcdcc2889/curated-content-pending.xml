@@ -258,4 +258,14 @@
 <li><strong>能力延展路径：从语音办理到质检与人工兜底</strong><p>下一步接入对话分析与在线客服能力，把 AI 服务延伸到语音质检、转人工服务等场景。这反映出客服类 Agent 的完整闭环通常包含三段：AI 自助办理、AI 对话数据分析/质检、以及人工兜底与转接编排；系统设计的难点往往在后两段的人工协同与质量可审计性。</p></li>
 <li><strong>厂商促销线索（信息不完整，需自行核验）</strong><p>阿里云伶鹊面向新客户提供“双十一 8 折”优惠，即日起至 11 月底，具体见千问 AI 平台、双 11 会场。正文未给出原价、折后绝对价格、适用产品范围（哪些功能/套餐）、新老客户判定标准与续费价格，也未提供明确链接，故折扣的实际成本优势无法从文中判断，需前往官方渠道核验。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html">https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3870faa8-d219-43e5-86fd-337a9611b599</guid><pubDate>Mon, 23 Nov 2026 04:42:03 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html">https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3870faa8-d219-43e5-86fd-337a9611b599</guid><pubDate>Mon, 23 Nov 2026 04:42:03 GMT</pubDate></item><item><title>TCP/IP 不申请专利背后的“未来盟友”不确定性</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description>内容转述了 Vint Cerf 在 João Tomé 的播客《Future Stories》中对 TCP/IP 未申请专利理由的回忆：1970 年代与 Bob Kahn 共同制定协议时，他们无法预知 25 年后哪些参与者会成为盟友，因此将未来利益相关者的不确定性纳入决策。现有正文是被截断的引语，只呈现了这一解释的开头，未包含完整论证。</description><content:encoded><![CDATA[<section>
+<h2>TCP/IP 不申请专利背后的“未来盟友”不确定性</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：内容转述了 Vint Cerf 在 João Tomé 的播客《Future Stories》中对 TCP/IP 未申请专利理由的回忆：1970 年代与 Bob Kahn 共同制定协议时，他们无法预知 25 年后哪些参与者会成为盟友，因此将未来利益相关者的不确定性纳入决策。现有正文是被截断的引语，只呈现了这一解释的开头，未包含完整论证。</p>
+<p><strong>价值</strong>：对用户关注的软件架构、AI 与开源生态，这段当事人解释可作为标准治理案例：在设计网络协议或模型接口时，可把未来未知参与者及其采用意愿纳入专利与许可权衡。它提供的是战略启发而非可复现方法，且当前片段不足以支撑更强的因果结论。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>协议专利决策需要考虑未来生态的不确定性</strong><p>Cerf 给出的核心理由是：当时不知道 25 年后的“盟友”是谁。这一说法把 TCP/IP 的专利选择与未来采用者、合作伙伴的不确定性联系起来，对基础协议和开放标准的许可策略具有启发意义。</p></li>
+<li><strong>该口述不足以证明开放策略具有普遍优越性</strong><p>片段没有给出专利方案的具体权衡、替代做法或协议采用效果数据。因此，它适合作为标准治理的战略案例，而不能直接证明“不申请专利”是促成 TCP/IP 普及的唯一原因，也不能推出开放许可总是优于专利限制。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never">https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:203779fe-5d4b-48bb-b494-db0b4c9c54b8</guid><pubDate>Mon, 23 Nov 2026 05:16:23 GMT</pubDate></item></channel></rss>
