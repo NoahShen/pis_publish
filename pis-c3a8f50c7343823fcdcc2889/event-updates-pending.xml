@@ -271,4 +271,36 @@
 <p><strong>发生时间</strong>：时间未确定</p>
 <h3>初始事实</h3>
 <p>据报道，NGINX近日被曝存在CVE-2026-123633和CVE-2026-123007两个高危漏洞，CVSS 4.0评分均为9.2；两者均可使未认证攻击者在启用了HTTP/2的服务器上执行任意代码。漏洞由Wiz Research、Ikotas Labs、Metnir、Rapid7和Xint五个团队分别独立发现。</p>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities">https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:adf11580-7e18-4431-a00f-feeb986d4904</guid><pubDate>Mon, 23 Nov 2026 05:24:09 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities">https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:adf11580-7e18-4431-a00f-feeb986d4904</guid><pubDate>Mon, 23 Nov 2026 05:24:09 GMT</pubDate></item><item><title>clice v1.0正式发布</title><link>https://www.oschina.net/news/503678</link><description>clice v1.0正式发布，是一个基于LLVM/Clang的C/C++语言服务器。作者称该项目经过彻底重新设计，目标是解决同类语言服务器因架构问题而长期未能解决的问题；项目完全使用C++23编写，并采用基于libuv的结构化并发异步库。</description><content:encoded><![CDATA[<section>
+<h2>clice v1.0正式发布</h2>
+<p><strong>核心实体</strong>：clice</p>
+<p><strong>主题</strong>：clice版本发布与技术实现</p>
+<p><strong>范围</strong>：clice语言服务器的版本发布、架构设计与技术实现</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>clice v1.0正式发布，是一个基于LLVM/Clang的C/C++语言服务器。作者称该项目经过彻底重新设计，目标是解决同类语言服务器因架构问题而长期未能解决的问题；项目完全使用C++23编写，并采用基于libuv的结构化并发异步库。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503678">https://www.oschina.net/news/503678</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:790755ae-7225-4eb3-a6ce-738290ff197f</guid><pubDate>Mon, 23 Nov 2026 05:24:20 GMT</pubDate></item><item><title>Google 发布 Gemini 4 Neon 模型及定价</title><link>https://www.oschina.net/news/503675/google-gemini-4-neon</link><description>据 Google，Gemini 4 系列分为三个档位：Carbon 面向最困难的长周期项目，Hydrogen 面向日常快速执行任务，Neon 位于两者之间，定位为兼顾深度与效率。Neon 的输入价格为每百万 token 3 美元，缓存输入价格为每百万 token 0.15 美元、折扣为 95%，输出价格为每百万 token 15 美元，上下文窗口为 100 万 token。</description><content:encoded><![CDATA[<section>
+<h2>Google 发布 Gemini 4 Neon 模型及定价</h2>
+<p><strong>核心实体</strong>：Gemini 4 Neon</p>
+<p><strong>主题</strong>：Gemini 4 Neon 的发布、档位定位与定价</p>
+<p><strong>范围</strong>：跟踪 Gemini 4 Neon 作为 Gemini 4 系列中间档模型的发布、规格、定价及定位</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>据 Google，Gemini 4 系列分为三个档位：Carbon 面向最困难的长周期项目，Hydrogen 面向日常快速执行任务，Neon 位于两者之间，定位为兼顾深度与效率。Neon 的输入价格为每百万 token 3 美元，缓存输入价格为每百万 token 0.15 美元、折扣为 95%，输出价格为每百万 token 15 美元，上下文窗口为 100 万 token。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503675/google-gemini-4-neon">https://www.oschina.net/news/503675/google-gemini-4-neon</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:87b87b52-fe27-4b06-9bae-fd7b3693b950</guid><pubDate>Mon, 23 Nov 2026 05:24:26 GMT</pubDate></item><item><title>Claude Code 团队披露代码约九成由 Claude 编写和评审</title><link>https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification</link><description>Claude Code 团队工程师 Addy Osmani 在 claude.dev 发表文章称，该团队约 90% 的代码由 Claude 编写和评审。他表示，没有验证回路时，每个 Claude 实例都需要人工盯守；建立让 agent 验证自身工作的回路后，可同时运行数十乃至上百个实例。</description><content:encoded><![CDATA[<section>
+<h2>Claude Code 团队披露代码约九成由 Claude 编写和评审</h2>
+<p><strong>核心实体</strong>：Claude Code 团队</p>
+<p><strong>主题</strong>：Claude 参与代码开发及自主验证的实践</p>
+<p><strong>范围</strong>：Claude Code 团队公开披露 Claude 在其代码编写、评审和验证流程中的参与程度，以及通过验证回路支持大规模并行 agent 运行的方法。</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Claude Code 团队工程师 Addy Osmani 在 claude.dev 发表文章称，该团队约 90% 的代码由 Claude 编写和评审。他表示，没有验证回路时，每个 Claude 实例都需要人工盯守；建立让 agent 验证自身工作的回路后，可同时运行数十乃至上百个实例。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification">https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f7fad059-8a3e-4c0a-b0a6-991e5cbeafde</guid><pubDate>Mon, 23 Nov 2026 05:24:44 GMT</pubDate></item><item><title>ApiGo 软件版本发布与功能演进</title><link>https://www.oschina.net/news/503663</link><description>ApiGo v6.5.1 发布。ApiGo 是一款在线接口开发和管理平台，提供多数据库插件化数据源框架及 SQL2API 功能，支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台的 MCP 接入，并支持 MySQL、Oracle、达梦、TiDB、DolphinDB、Hive、DuckDB 等 SQL 或 NoSQL 数据源。用户可通过可视化方式编写 SQL 并发布接口，平台还提供接口上下线、接口管理、接口限流和权限管理功能。</description><content:encoded><![CDATA[<section>
+<h2>ApiGo 软件版本发布与功能演进</h2>
+<p><strong>核心实体</strong>：ApiGo</p>
+<p><strong>主题</strong>：ApiGo 版本发布与功能更新</p>
+<p><strong>范围</strong>：ApiGo 在线接口开发与管理平台的版本发布，以及 MCP 接入、数据源支持、SQL2API 和接口管理能力演进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>ApiGo v6.5.1 发布。ApiGo 是一款在线接口开发和管理平台，提供多数据库插件化数据源框架及 SQL2API 功能，支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台的 MCP 接入，并支持 MySQL、Oracle、达梦、TiDB、DolphinDB、Hive、DuckDB 等 SQL 或 NoSQL 数据源。用户可通过可视化方式编写 SQL 并发布接口，平台还提供接口上下线、接口管理、接口限流和权限管理功能。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503663">https://www.oschina.net/news/503663</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:07abd964-a011-4184-8ba3-c45ded9a3d53</guid><pubDate>Mon, 23 Nov 2026 05:25:14 GMT</pubDate></item></channel></rss>
