@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>v2.4.4 的数据正确性与运维能力更新</title><link>https://www.oschina.net/news/503719</link><description>v2.4.4 重点处理数据同步和日常运维问题：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关问题；为变更、审计和系统日志增加按日期清理及三档保留期，并让 AI 智能体支持查询日志保留期、明确诊断边界。看板资源环和底部双卡也得到重做。作者建议所有 2.4.x 用户升级，但当前内容未提供具体版本修复记录、保留期时长、复现条件或验证数据。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>AI 编程 Agent 增加了代码活动量，但交付改善有限</title><link>https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</link><description>内容转述一项由哈佛大学两名博士候选人完成的工作论文：基于718家公司、725938名员工的样本，引入AI编程Agent后，人均每月新增代码行数从5017行增至6511行，提交数和Pull Request分别增长20%和23%。文章的核心判断是，代码生产活动虽然增加，任务完成情况却未同步改善，当前瓶颈更多体现为Code Review。鉴于正文被截断，Jira任务完成指标、评审流程数据及具体识别方法尚不可核验。</description><content:encoded><![CDATA[<section>
+<h2>AI 编程 Agent 增加了代码活动量，但交付改善有限</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：内容转述一项由哈佛大学两名博士候选人完成的工作论文：基于718家公司、725938名员工的样本，引入AI编程Agent后，人均每月新增代码行数从5017行增至6511行，提交数和Pull Request分别增长20%和23%。文章的核心判断是，代码生产活动虽然增加，任务完成情况却未同步改善，当前瓶颈更多体现为Code Review。鉴于正文被截断，Jira任务完成指标、评审流程数据及具体识别方法尚不可核验。</p>
+<p><strong>价值</strong>：这项研究为用户评估AI编程Agent提供了一个重要视角：区分“生成了多少代码”与“完成了多少工作”，并关注评审、返工和交付周期是否成为新的系统瓶颈。其大样本与量化指标也适合作为阅读原论文、复核识别策略及开展团队工程度量研究的线索；实际采用前，应先确认完整论文中的任务复杂度、团队构成、Agent使用方式及Jira完成指标，避免把相关性直接解释为Agent效果。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>AI编程Agent显著增加了代码活动量</strong><p>工作论文样本覆盖718家公司、725938名员工。内容报告，使用AI编程Agent后，人均每月新增代码行数由5017行升至6511行，增幅约30%；提交数增长20%，Pull Request增长23%。这些数据表明Agent首先改变了代码提交与协作活动。</p></li>
+<li><strong>代码产出增长不等于交付结果改善</strong><p>文章指出，代码行数、提交数和Pull Request均明显增长，但“活”没有相应完成，并将Code Review描述为当前瓶颈。这提示评估Agent效果时，不能把代码活动量直接视为项目交付能力或生产率。</p></li>
+<li><strong>研究结论仍需结合完整方法理解</strong><p>该研究被描述为工作论文，现有内容未提供样本选择、基线组、混杂因素控制、Jira指标的完整结果及统计显著性。截断段落恰好开始介绍Jira数据，因此只能将上述结论视为待核验的研究发现，不能据此断言Agent对交付效率存在确定因果影响。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted">https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:2ee01830-e63e-466c-8338-e89fdbe36697</guid><pubDate>Mon, 23 Nov 2026 05:19:58 GMT</pubDate></item><item><title>AI 运维助手中的人工确认与服务端二次授权机制</title><link>https://www.oschina.net/news/503710</link><description>Jync v2.4.3 的 AI 运维助手可发起同步、ETL、专属迁移和 CDC 基线重建等运行态操作，但助手只生成确认卡，必须由人点击确认。执行时，服务端会根据当前账号的角色与资源归属重新校验，校验通过后才实际生效；确认令牌还与发起账号绑定。由于内容被截断，令牌时限及完整约束无法确认。</description><content:encoded><![CDATA[<section>
+<h2>AI 运维助手中的人工确认与服务端二次授权机制</h2>
+<p><strong>分类</strong>：Method</p>
+<p><strong>摘要</strong>：Jync v2.4.3 的 AI 运维助手可发起同步、ETL、专属迁移和 CDC 基线重建等运行态操作，但助手只生成确认卡，必须由人点击确认。执行时，服务端会根据当前账号的角色与资源归属重新校验，校验通过后才实际生效；确认令牌还与发起账号绑定。由于内容被截断，令牌时限及完整约束无法确认。</p>
+<p><strong>价值</strong>：该案例为用户关注的 AI Agent 与软件工程实践提供了一个具体安全模式：将自然语言意图转化为高影响操作时，采用“助手提议—人工确认—服务端执行时二次授权”的闭环，而不是让模型直接持有执行权限。其同步、ETL、迁移和 CDC 基线等场景也可作为设计 Agent Harness、运维自动化及细粒度授权机制的参考；但现有内容不足以评价 Jync 的实际可靠性或完整安全边界。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>逐次人工确认约束 AI 执行高影响操作</strong><p>AI 助手可以提出启动或停止同步任务、立即同步、运行或停用 ETL、控制专属迁移以及重建 CDC 基线等操作，但不能自行执行；每项操作都先生成确认卡，由用户明确点击“确认执行”。这是一种用于限制 Agent 运维权限的人机协作模式。</p></li>
+<li><strong>在执行阶段重新进行服务端授权</strong><p>用户确认后，服务端不直接沿用助手发起请求时的权限状态，而是依据当前账号的角色和资源归属再次校验，只有仍然具备相应权限时操作才生效。该设计可降低权限变更、越权资源操作和过期授权被继续执行的风险。</p></li>
+<li><strong>确认令牌绑定发起账号</strong><p>确认令牌与发起操作的账号绑定，可防止确认凭证被其他账号直接借用。正文在此处截断，无法确认令牌有效期、防重放机制及其他完整限制，因此不应据此推断其已经覆盖全部确认劫持场景。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503710">https://www.oschina.net/news/503710</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:670193d2-c52e-423e-9491-a0ffe52887dd</guid><pubDate>Mon, 23 Nov 2026 05:19:26 GMT</pubDate></item><item><title>v2.4.4 的数据正确性与运维能力更新</title><link>https://www.oschina.net/news/503719</link><description>v2.4.4 重点处理数据同步和日常运维问题：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关问题；为变更、审计和系统日志增加按日期清理及三档保留期，并让 AI 智能体支持查询日志保留期、明确诊断边界。看板资源环和底部双卡也得到重做。作者建议所有 2.4.x 用户升级，但当前内容未提供具体版本修复记录、保留期时长、复现条件或验证数据。</description><content:encoded><![CDATA[<section>
 <h2>v2.4.4 的数据正确性与运维能力更新</h2>
 <p><strong>分类</strong>：Resource</p>
 <p><strong>摘要</strong>：v2.4.4 重点处理数据同步和日常运维问题：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关问题；为变更、审计和系统日志增加按日期清理及三档保留期，并让 AI 智能体支持查询日志保留期、明确诊断边界。看板资源环和底部双卡也得到重做。作者建议所有 2.4.x 用户升级，但当前内容未提供具体版本修复记录、保留期时长、复现条件或验证数据。</p>
