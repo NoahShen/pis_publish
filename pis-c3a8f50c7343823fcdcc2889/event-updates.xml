@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</title><link>https://www.oschina.net/news/503693/anthropics-historic-debut-put</link><description>该报道称，Anthropic于2026年11月19日在纳斯达克挂牌上市，股票代码为“ANT”。发行价为83美元，上市首日开盘价111.50美元，较发行价上涨34%，对应估值一度接近2万亿美元；随后股价回落，收于97美元，涨幅为17%，对应市值约1.3万亿美元。报道还称其开盘估值超过了SpaceX于2026年6月的上市纪录。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Event Updates</title><link>event-updates.xml</link><description>PIS event and event-update publications</description><atom:link rel="prev-archive" href="event-updates-pending.xml"/><item><title>NGINX曝出两项需启用HTTP/2的高危RCE漏洞</title><link>https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</link><description>据报道，NGINX近日被曝存在CVE-2026-123633和CVE-2026-123007两个高危漏洞，CVSS 4.0评分均为9.2；两者均可使未认证攻击者在启用了HTTP/2的服务器上执行任意代码。漏洞由Wiz Research、Ikotas Labs、Metnir、Rapid7和Xint五个团队分别独立发现。</description><content:encoded><![CDATA[<section>
+<h2>NGINX曝出两项需启用HTTP/2的高危RCE漏洞</h2>
+<p><strong>核心实体</strong>：NGINX</p>
+<p><strong>主题</strong>：CVE-2026-123633与CVE-2026-123007漏洞影响及修复进展</p>
+<p><strong>范围</strong>：NGINX中CVE-2026-123633和CVE-2026-123007两个漏洞的披露、未认证远程代码执行影响、HTTP/2启用前提及后续修复处置</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>据报道，NGINX近日被曝存在CVE-2026-123633和CVE-2026-123007两个高危漏洞，CVSS 4.0评分均为9.2；两者均可使未认证攻击者在启用了HTTP/2的服务器上执行任意代码。漏洞由Wiz Research、Ikotas Labs、Metnir、Rapid7和Xint五个团队分别独立发现。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities">https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:adf11580-7e18-4431-a00f-feeb986d4904</guid><pubDate>Mon, 23 Nov 2026 05:24:09 GMT</pubDate></item><item><title>wlnmp一键安装包版本更新与Nginx安全维护</title><link>https://www.oschina.net/news/503681</link><description>wlnmp一键安装包261119版本将随包Nginx升级至1.30.7。更新说明称，该版本升级用于应对NGINX2Root漏洞，并建议用户更新前备份数据。同时，该版本重写了/etc/init.d/nginx服务，不再依赖ss和netstat包，并修复了执行restart时可能导致启动失败的问题。</description><content:encoded><![CDATA[<section>
+<h2>wlnmp一键安装包版本更新与Nginx安全维护</h2>
+<p><strong>核心实体</strong>：wlnmp 一键安装包</p>
+<p><strong>主题</strong>：一键安装包版本发布及随包Nginx升级维护</p>
+<p><strong>范围</strong>：wlnmp一键安装包的版本更新，包括随包Nginx安全升级、NGINX2Root漏洞应对及/etc/init.d/nginx服务脚本调整</p>
+<p><strong>发生时间</strong>：2026-11-19T17:45:39+08:00</p>
+<h3>初始事实</h3>
+<p>wlnmp一键安装包261119版本将随包Nginx升级至1.30.7。更新说明称，该版本升级用于应对NGINX2Root漏洞，并建议用户更新前备份数据。同时，该版本重写了/etc/init.d/nginx服务，不再依赖ss和netstat包，并修复了执行restart时可能导致启动失败的问题。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503681">https://www.oschina.net/news/503681</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:62903be9-6af3-4189-bfef-2894da748656</guid><pubDate>Mon, 23 Nov 2026 05:23:48 GMT</pubDate></item><item><title>Anthropic公布83美元IPO定价及9.8亿股发行安排</title><link>https://www.oschina.net/news/503684/anthropic-prices-initial-public-offering</link><description>Anthropic将IPO发行价定为每股83美元，计划发行9.8亿股A类普通股，其中9.5635亿股由公司出售、2365万股来自现有股东，公司不会从后者出售股份中获得收益。按发行价及发行总量计算，募资规模约为800亿美元。股票预计于2026年11月19日在纳斯达克全球精选市场以代码“ANT”开始交易，发行预计于11月20日交割。</description><content:encoded><![CDATA[<section>
+<h2>Anthropic公布83美元IPO定价及9.8亿股发行安排</h2>
+<p><strong>所属主线</strong>：Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</p>
+<p><strong>核心实体</strong>：Anthropic</p>
+<p><strong>主题</strong>：纳斯达克IPO及上市首日表现</p>
+<p><strong>范围</strong>：Anthropic的首次公开募股、发行定价、纳斯达克挂牌及上市首日开盘与收盘价格、市值变化</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>本次进展</h3>
+<p>Anthropic将IPO发行价定为每股83美元，计划发行9.8亿股A类普通股，其中9.5635亿股由公司出售、2365万股来自现有股东，公司不会从后者出售股份中获得收益。按发行价及发行总量计算，募资规模约为800亿美元。股票预计于2026年11月19日在纳斯达克全球精选市场以代码“ANT”开始交易，发行预计于11月20日交割。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503684/anthropic-prices-initial-public-offering">https://www.oschina.net/news/503684/anthropic-prices-initial-public-offering</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:39b30195-28f1-4d1f-8297-350007debaf5</guid><pubDate>Mon, 23 Nov 2026 05:23:37 GMT</pubDate></item><item><title>Jync v2.4.1接入TDengine轮询源</title><link>https://www.oschina.net/news/503686</link><description>Jync v2.4.1新增TDengine轮询源，提供35种TDengine 3.x预设，通过官方驱动3.10.0的WebSocket接口（6041端口）读取数据，所需taos-jdbcdriver-3.10.0-dist.jar需由用户自备。系统通过information_schema和DESCRIBE获取元数据，将超级表纳入同步清单且不重复列举子表，并支持“ts + 声明主键”及“声明主键 + TAG”两种复合主键分块组合。该版本还涉及布尔处理和改列修复，但现有正文未展…</description><content:encoded><![CDATA[<section>
+<h2>Jync v2.4.1接入TDengine轮询源</h2>
+<p><strong>核心实体</strong>：Jync v2.4.1</p>
+<p><strong>主题</strong>：TDengine轮询读取与数据同步修复</p>
+<p><strong>范围</strong>：Jync v2.4.1中的TDengine 3.x轮询源、元数据发现、复合主键分块同步及相关布尔与改列修复</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Jync v2.4.1新增TDengine轮询源，提供35种TDengine 3.x预设，通过官方驱动3.10.0的WebSocket接口（6041端口）读取数据，所需taos-jdbcdriver-3.10.0-dist.jar需由用户自备。系统通过information_schema和DESCRIBE获取元数据，将超级表纳入同步清单且不重复列举子表，并支持“ts + 声明主键”及“声明主键 + TAG”两种复合主键分块组合。该版本还涉及布尔处理和改列修复，但现有正文未展开具体修复项。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503686">https://www.oschina.net/news/503686</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:3f6e2436-23d8-4249-a9ab-e5358c3b2bb9</guid><pubDate>Mon, 23 Nov 2026 05:23:35 GMT</pubDate></item><item><title>Casvisor 2.0.0 发布并扩展堡垒机能力</title><link>https://www.oschina.net/news/503687</link><description>Casvisor 发布 2.0.0，新增或补齐系统账号与自动改密、MySQL 和 PostgreSQL 数据库审计、批量作业、访问申请及审计日志导出等能力。该版本仍采用单个 Go 二进制形式，且没有企业版。</description><content:encoded><![CDATA[<section>
+<h2>Casvisor 2.0.0 发布并扩展堡垒机能力</h2>
+<p><strong>核心实体</strong>：Casvisor</p>
+<p><strong>主题</strong>：2.0.0 版本发布与功能更新</p>
+<p><strong>范围</strong>：Casvisor 2.0.0 的发布，以及系统账号与自动改密、MySQL 和 PostgreSQL 审计、作业中心、访问申请和审计日志导出等能力变化</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>Casvisor 发布 2.0.0，新增或补齐系统账号与自动改密、MySQL 和 PostgreSQL 数据库审计、批量作业、访问申请及审计日志导出等能力。该版本仍采用单个 Go 二进制形式，且没有企业版。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503687">https://www.oschina.net/news/503687</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:6e3c3129-3476-4f59-8493-9e3b84bcd6d5</guid><pubDate>Mon, 23 Nov 2026 05:23:09 GMT</pubDate></item><item><title>qKnow 专业版 v3.1.6 升级基础组件并上线主题品牌定制</title><link>https://www.oschina.net/news/503689</link><description>qKnow 专业版 v3.1.6 发布，对底座组件进行标准化升级，并上线主题与品牌定制能力。本次更新面向企业私有化部署场景，聚焦平台界面统一、主题调整及品牌信息配置等应用运行体验。</description><content:encoded><![CDATA[<section>
+<h2>qKnow 专业版 v3.1.6 升级基础组件并上线主题品牌定制</h2>
+<p><strong>核心实体</strong>：qKnow 智能体构建平台专业版</p>
+<p><strong>主题</strong>：产品版本发布与平台基础能力升级</p>
+<p><strong>范围</strong>：qKnow 专业版的版本迭代，重点跟踪底座组件标准化、主题与品牌定制能力及企业私有化部署体验改进</p>
+<p><strong>发生时间</strong>：时间未确定</p>
+<h3>初始事实</h3>
+<p>qKnow 专业版 v3.1.6 发布，对底座组件进行标准化升级，并上线主题与品牌定制能力。本次更新面向企业私有化部署场景，聚焦平台界面统一、主题调整及品牌信息配置等应用运行体验。</p>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503689">https://www.oschina.net/news/503689</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:f2132db9-51cf-4f58-92e2-7fabcfb59428</guid><pubDate>Mon, 23 Nov 2026 05:23:01 GMT</pubDate></item><item><title>Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</title><link>https://www.oschina.net/news/503693/anthropics-historic-debut-put</link><description>该报道称，Anthropic于2026年11月19日在纳斯达克挂牌上市，股票代码为“ANT”。发行价为83美元，上市首日开盘价111.50美元，较发行价上涨34%，对应估值一度接近2万亿美元；随后股价回落，收于97美元，涨幅为17%，对应市值约1.3万亿美元。报道还称其开盘估值超过了SpaceX于2026年6月的上市纪录。</description><content:encoded><![CDATA[<section>
 <h2>Anthropic在纳斯达克挂牌上市，首日市值约1.3万亿美元</h2>
 <p><strong>核心实体</strong>：Anthropic</p>
 <p><strong>主题</strong>：纳斯达克IPO及上市首日表现</p>
