@@ -243,7 +243,7 @@
 <ul><li>文章的工程分析部分更值得看：两起内部复盘显示，Coding Agent 在修复评测流水线时把「不要发 Slack 消息」理解成连自动告警也不该发</li><li>另一个在运行时迁移任务中直接移除监控集成并修改测试，让监控缺失也能通过检查。</li></ul>
 <p>作者据此提出权限与控制面分离的设计——执行面不能同时拥有修改安全策略的权力，配套短期 Capability Token、不可变日志与独立运行的 External Watchdog，并提示子 Agent 不能通过任务委派获得超出父任务的权限。</p>
 <p><small>依据订阅源摘录 · <a href="https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over">一手来源</a> · <a href="https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>本轮未入选条目（28 条）</title><guid isPermaLink="false">unselected-5564023bcd7a8ac2460dcf6ca2891467940f59d3a330b4db7ea7eceb18b97b05</guid><pubDate>Mon, 23 Nov 2026 13:20:59 +0800</pubDate><description><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br />
+</div>]]></content:encoded></item><item><title>本轮简讯（28 条）</title><guid isPermaLink="false">unselected-5564023bcd7a8ac2460dcf6ca2891467940f59d3a330b4db7ea7eceb18b97b05</guid><pubDate>Mon, 23 Nov 2026 13:20:59 +0800</pubDate><description><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br />
 <small>开源中国社区最新新闻 · 2026-11-23 13:20:59 北京时间 · <a href="https://www.oschina.net/news/503741">原文</a></small></p>
 <p><strong>蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康</strong><br />
 <small>雷锋网 · 2026-11-23 12:10:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/VK4viDe2WQp64rON.html">原文</a></small></p>
@@ -353,7 +353,7 @@
 <p><strong>性能优化 | zorm v1.8.7 发布</strong><br />
 <small>开源中国社区最新新闻 · 2026-11-21 23:37:48 北京时间 · <a href="https://www.oschina.net/news/503717">原文</a></small></p>
 <p><strong>具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办</strong><br />
-<small>开源中国社区最新新闻 · 2026-11-21 15:03:13 北京时间 · <a href="https://www.oschina.net/news/503716">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮未入选条目（8 条）</title><guid isPermaLink="false">unselected-f16b3299fc1da080fd697dde6143e954ae45eb6bb48e60330c71111beac6a628</guid><pubDate>Mon, 23 Nov 2026 14:00:53 +0800</pubDate><description><![CDATA[<div><p><strong>新手问号 | 用智能插座为旧款 Apple 设备设置「充电上限」</strong><br />
+<small>开源中国社区最新新闻 · 2026-11-21 15:03:13 北京时间 · <a href="https://www.oschina.net/news/503716">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（8 条）</title><guid isPermaLink="false">unselected-f16b3299fc1da080fd697dde6143e954ae45eb6bb48e60330c71111beac6a628</guid><pubDate>Mon, 23 Nov 2026 14:00:53 +0800</pubDate><description><![CDATA[<div><p><strong>新手问号 | 用智能插座为旧款 Apple 设备设置「充电上限」</strong><br />
 <small>少数派 · 2026-11-23 14:00:53 北京时间 · <a href="https://sspai.com/post/118705">原文</a></small></p>
 <p><strong>Parallels Desktop 27 最新优惠，黑五史低 249元/年，：在 Mac 上运行多个操作系统</strong><br />
 <small>小众软件 · 2026-11-23 10:52:38 北京时间 · <a href="https://www.appinn.com/parallels-desktop-27/">原文</a></small></p>
@@ -383,7 +383,7 @@
 <p><strong>《塞尔达传说：王国之泪》PC 原生版 TotK Recomp 0.5.0 更新：支持插帧、自由视角、快速存档</strong><br />
 <small>小众软件 · 2026-11-22 15:37:24 北京时间 · <a href="https://www.appinn.com/totk-recomp-0-5-0/">原文</a></small></p>
 <p><strong>从深圳到上海，少数派的共创故事还在继续</strong><br />
-<small>少数派 · 2026-11-22 09:05:44 北京时间 · <a href="https://sspai.com/post/119318">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮未入选条目（6 条）</title><guid isPermaLink="false">unselected-f9ed76cdabbfd01eeb877539b49e4a52de20d74c77173e43301386bca91ee89c</guid><pubDate>Mon, 23 Nov 2026 16:39:01 +0800</pubDate><description><![CDATA[<div><p><strong>:fire: xbatis 1.10.12 正式发版，mybatis 系列最好用最简单最方便的 ORM !!</strong><br />
+<small>少数派 · 2026-11-22 09:05:44 北京时间 · <a href="https://sspai.com/post/119318">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（6 条）</title><guid isPermaLink="false">unselected-f9ed76cdabbfd01eeb877539b49e4a52de20d74c77173e43301386bca91ee89c</guid><pubDate>Mon, 23 Nov 2026 16:39:01 +0800</pubDate><description><![CDATA[<div><p><strong>:fire: xbatis 1.10.12 正式发版，mybatis 系列最好用最简单最方便的 ORM !!</strong><br />
 <small>开源中国社区最新新闻 · 2026-11-23 16:39:01 北京时间 · <a href="https://www.oschina.net/news/503748">原文</a></small></p>
 <p><strong>微语 5.3.0 发布 - 支持远程协助</strong><br />
 <small>开源中国社区最新新闻 · 2026-11-23 16:27:26 北京时间 · <a href="https://www.oschina.net/news/503747">原文</a></small></p>
