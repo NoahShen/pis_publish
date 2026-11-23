@@ -41,4 +41,17 @@
 <li><strong>官方技术指标与独立实测应分开看待</strong><p>8K 原生分辨率、单图 2000 字、最多十张关联图片，以及理解与生成统一的自回归架构、最高 15K Token 指令处理、结构化视觉语法和 Agentic 任务规划，均来自官方介绍。文章中的实际案例验证了其中部分工作流价值，但没有形成覆盖不同题材、提示词和复杂度的系统基准。</p></li>
 <li><strong>模糊构思与明确执行需要采用不同交互方式</strong><p>当需求尚未明确时，可让模型主动扩展品牌、场景、文案和页面组织；当设计已经确定时，则应使用参考图、局部编辑和字体选择等约束手段减少重绘。文章将这两种需求区分为“替用户多想”和“严格执行”，是评估其他生成式设计工具时也可复用的能力框架。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html">https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:c2e9bfb2-8279-49f5-a102-7fb5613ef61b</guid><pubDate>Mon, 23 Nov 2026 01:30:09 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html">https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:c2e9bfb2-8279-49f5-a102-7fb5613ef61b</guid><pubDate>Mon, 23 Nov 2026 01:30:09 GMT</pubDate></item><item><title>真龙插混MAX的800V电池与边缘AI整车能量管理架构</title><link>https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html</link><description>上汽通用发布真龙插混MAX并宣布首搭别克至境世家，技术组合包括2.0T混动专用发动机、800V平台和6C插混专用电池。值得关注的工程链路有三条：电池在低SOC下仍输出较高功率，以缩小满电与亏电时的性能差异；多面液冷、热管理和BMS共同控制快充温升及析锂风险；导航数据、边缘AI和传感器融合被用于SOC轨迹规划、油电分配与扭矩预瞄。性能、噪声、温度和估算精度等数字均来自厂商发布或官方测试，缺少第三方复测、测试规程及部分适用边界，应视为待验证的厂商主张。</description><content:encoded><![CDATA[<section>
+<h2>真龙插混MAX的800V电池与边缘AI整车能量管理架构</h2>
+<p><strong>分类</strong>：Insight</p>
+<p><strong>摘要</strong>：上汽通用发布真龙插混MAX并宣布首搭别克至境世家，技术组合包括2.0T混动专用发动机、800V平台和6C插混专用电池。值得关注的工程链路有三条：电池在低SOC下仍输出较高功率，以缩小满电与亏电时的性能差异；多面液冷、热管理和BMS共同控制快充温升及析锂风险；导航数据、边缘AI和传感器融合被用于SOC轨迹规划、油电分配与扭矩预瞄。性能、噪声、温度和估算精度等数字均来自厂商发布或官方测试，缺少第三方复测、测试规程及部分适用边界，应视为待验证的厂商主张。</p>
+<p><strong>价值</strong>：对用户而言，这是一条较完整的“边缘AI＋多域控制”产品案例：导航、车辆感知和驾驶习惯被转化为SOC轨迹、油电比例与扭矩分配决策，可用于研究实时能量调度、软硬件协同和基于用户反馈的持续校正。文章还提供了800V、6C电池、液冷和低SOC功率储备等较具体的工程基线，适合作为技术跟踪与后续验证清单。由于关键数据几乎均来自厂商自述，且缺少算法细节、完整测试规程和第三方复测，不应直接据此判断产品优劣或形成投资结论。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>用低电量功率储备缩小满电与亏电性能差</strong><p>该系统采用67度插混专用电池、800V架构，综合最大功率550kW、峰值扭矩815N·m。上汽通用称，电池在20% SOC时仍可释放460kW；官方测试中，搭载该系统的至境世家零百加速为满电5.7秒、亏电5.8秒，并连续完成30次全油门加速而无动力衰减。这些结果体现了以电池功率储备支撑亏电动力性的设计思路，但数据尚缺独立验证。</p></li>
+<li><strong>以液冷和BMS闭环控制快充电芯析锂风险</strong><p>电池采用多面液冷、侧面四层水冷流道和U型流体分布设计。厂商称冷却能力提升130%，快充时电池最高温度较国标限值低15℃，快充工况电芯温差小于5℃、日常工况小于2℃；新BMS可设定析锂边界并提前干预，n-Tau算法则宣称将SOC估算误差控制在2%以内。“6C快充及全周期零析锂”仍是厂商主张，需要明确测试边界和长期验证。</p></li>
+<li><strong>将发动机噪声与电机啸叫分别治理</strong><p>发动机侧采用双PEEK平衡轴齿轮，厂商称相较金属齿轮最大降低5dBA噪声，并通过滚子链包胶、阻尼前盖、进气歧管及油泵油轨声学包裹等手段同时控制声源、传递路径和结构辐射。电机侧采用72槽V型斜槽设计，厂商称同等工况下声学表现提升3dB、声学能量降低50%。这种分源治理比笼统宣称“静谧”提供了更具体的NVH设计线索。</p></li>
+<li><strong>用导航约束生成SOC轨迹并自动分配油电</strong><p>车端边缘AI统一调度能量域与动力域，根据导航信息规划SOC轨迹。报道描述的策略是在当前电量不足以覆盖目的地时提前储电，并在到达目的地前约两公里切换为纯电行驶，从而减少人工模式切换。内容未披露模型结构、约束求解方式或实时性指标，因此其价值主要在于呈现“预测—规划—控制”的产品架构。</p></li>
+<li><strong>把道路预瞄与用户习惯纳入扭矩控制</strong><p>预瞄扭矩分配融合激光雷达和摄像头信息，提前识别前方路面并动态调整前后轮扭矩，以降低打滑；控制策略还会结合驾驶风格、常用路线和工况分布持续修正。它体现了边缘感知、预测控制与个性化标定协同的思路，但正文没有提供算法、训练数据、误检率或安全验证结果。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html">https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:08c3c4df-c62a-4c0f-8b20-d5977ad6920a</guid><pubDate>Mon, 23 Nov 2026 01:30:54 GMT</pubDate></item></channel></rss>
