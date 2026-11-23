@@ -290,4 +290,15 @@
 <li><strong>以统一台账整合基层支部业务</strong><p>v1.3 将支部日常的“人、钱、会、事”纳入同一数据库，覆盖 16 个业务模块，并提供五档权限、五类自动预警和工作报告一键生成。这些功能体现了“统一数据底座＋分级权限＋规则预警＋自动汇总”的业务系统设计思路，但各模块及预警规则的具体定义未在现有内容中展开。</p></li>
 <li><strong>Docker 一键启动是发布主张，仍需实际验证</strong><p>项目以 Docker 一条命令启动服务为主要卖点。不过可见内容没有提供命令、配置文件、依赖环境或运行截图，无法据此确认部署复杂度、可复现性以及生产可用性。</p></li>
 </ul>
-</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503721">https://www.oschina.net/news/503721</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:30fddd38-4835-42de-b3ad-5a4e1dce3f04</guid><pubDate>Mon, 23 Nov 2026 05:17:14 GMT</pubDate></item></channel></rss>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503721">https://www.oschina.net/news/503721</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:30fddd38-4835-42de-b3ad-5a4e1dce3f04</guid><pubDate>Mon, 23 Nov 2026 05:17:14 GMT</pubDate></item><item><title>v2.4.4 的数据正确性与运维能力更新</title><link>https://www.oschina.net/news/503719</link><description>v2.4.4 重点处理数据同步和日常运维问题：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关问题；为变更、审计和系统日志增加按日期清理及三档保留期，并让 AI 智能体支持查询日志保留期、明确诊断边界。看板资源环和底部双卡也得到重做。作者建议所有 2.4.x 用户升级，但当前内容未提供具体版本修复记录、保留期时长、复现条件或验证数据。</description><content:encoded><![CDATA[<section>
+<h2>v2.4.4 的数据正确性与运维能力更新</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：v2.4.4 重点处理数据同步和日常运维问题：修复跨库时间主键导致的同步删除误判，以及 CDC 位点、租约与 ClickHouse 时区绑定相关问题；为变更、审计和系统日志增加按日期清理及三档保留期，并让 AI 智能体支持查询日志保留期、明确诊断边界。看板资源环和底部双卡也得到重做。作者建议所有 2.4.x 用户升级，但当前内容未提供具体版本修复记录、保留期时长、复现条件或验证数据。</p>
+<p><strong>价值</strong>：该版本信息可为用户关注的 AI 与软件工程实践提供具体的版本评估线索：若涉及 CDC、ClickHouse、跨库时间主键或智能体运维，应将相关修复纳入升级核查；日志保留期查询与诊断边界也可作为 Agent 可观测性和运维能力设计的参考。当前材料仅能支持功能与风险点的初步识别，不能替代完整变更日志、兼容性说明或实际验证。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>跨库时间主键导致同步删除误判</strong><p>版本修复了由跨库时间主键引起的同步删除误判，说明时间型主键与跨库同步逻辑组合时可能影响删除判定。正文未提供具体触发条件、实现机制及修复后的验证结果。</p></li>
+<li><strong>CDC 位点与租约需处理 ClickHouse 时区语义</strong><p>v2.4.4 修复 CDC 位点、租约与 ClickHouse 时区绑定相关的数据问题。对使用 CDC 和 ClickHouse 的系统而言，位点与租约的时间语义应结合数据库时区配置审查，避免时间解释不一致；正文未披露更具体的故障场景和修复方式。</p></li>
+<li><strong>日志生命周期管理与智能体检索增强</strong><p>变更、审计和系统日志新增按日期清理及三档保留期，AI 智能体也补充了日志保留期查询，并划定更清晰的诊断边界。这为日志治理和智能体可观测性提供了具体功能入口，但当前内容未说明三档的具体期限、默认值和配置方法。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503719">https://www.oschina.net/news/503719</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:ebcd10d0-4971-4e75-b9cd-bd63ba882bae</guid><pubDate>Mon, 23 Nov 2026 05:18:38 GMT</pubDate></item></channel></rss>
