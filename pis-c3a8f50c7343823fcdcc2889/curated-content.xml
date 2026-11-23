@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>TCP/IP 不申请专利背后的“未来盟友”不确定性</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description>内容转述了 Vint Cerf 在 João Tomé 的播客《Future Stories》中对 TCP/IP 未申请专利理由的回忆：1970 年代与 Bob Kahn 共同制定协议时，他们无法预知 25 年后哪些参与者会成为盟友，因此将未来利益相关者的不确定性纳入决策。现有正文是被截断的引语，只呈现了这一解释的开头，未包含完整论证。</description><content:encoded><![CDATA[<section>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:fh="http://purl.org/syndication/history/1.0"><channel><title>PIS Curated Content</title><link>curated-content.xml</link><description>PIS curated knowledge publications</description><atom:link rel="prev-archive" href="curated-content-pending.xml"/><item><title>智慧党支部 v1.3：本地优先的 Flask 台账系统资源</title><link>https://www.oschina.net/news/503721</link><description>开源项目「智慧党支部」v1.3 面向基层党支部日常办公，采用 Flask + SQLite 单容器部署，以 MIT 协议开放，数据保存在本地且不依赖云服务。系统将“人、钱、会、事”相关业务集中到同一数据库，包含 16 个业务模块、五档权限、五类自动预警和一键生成工作报告。当前内容是截断的发布说明，未展示完整模块清单、实际启动命令、仓库地址及实现细节，因此更适合作为待核验的工程参考，而非已验证可直接复用的方案。</description><content:encoded><![CDATA[<section>
+<h2>智慧党支部 v1.3：本地优先的 Flask 台账系统资源</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：开源项目「智慧党支部」v1.3 面向基层党支部日常办公，采用 Flask + SQLite 单容器部署，以 MIT 协议开放，数据保存在本地且不依赖云服务。系统将“人、钱、会、事”相关业务集中到同一数据库，包含 16 个业务模块、五档权限、五类自动预警和一键生成工作报告。当前内容是截断的发布说明，未展示完整模块清单、实际启动命令、仓库地址及实现细节，因此更适合作为待核验的工程参考，而非已验证可直接复用的方案。</p>
+<p><strong>价值</strong>：对用户的软件工程与开源实践兴趣而言，该项目可作为一个本地优先、单容器领域系统的候选参考实现，用来考察如何将台账管理、角色权限、预警规则和报告生成整合进轻量架构。其业务领域与量化交易、AI 主线并不直接相关，增量主要体现在软件架构和可复用工程模式上；由于内容不完整且缺少源码验证，应先核实仓库、部署要求、权限模型、备份机制及安全边界后再决定是否采用。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>本地优先的单容器技术架构</strong><p>项目采用 Flask + SQLite，并打包为单容器服务；发布说明称数据全部保存在本地、不依赖云服务。该组合可作为轻量级内部业务系统的一种部署架构参考，但当前内容没有说明数据库备份、升级、并发访问或容器安全策略。</p></li>
+<li><strong>以统一台账整合基层支部业务</strong><p>v1.3 将支部日常的“人、钱、会、事”纳入同一数据库，覆盖 16 个业务模块，并提供五档权限、五类自动预警和工作报告一键生成。这些功能体现了“统一数据底座＋分级权限＋规则预警＋自动汇总”的业务系统设计思路，但各模块及预警规则的具体定义未在现有内容中展开。</p></li>
+<li><strong>Docker 一键启动是发布主张，仍需实际验证</strong><p>项目以 Docker 一条命令启动服务为主要卖点。不过可见内容没有提供命令、配置文件、依赖环境或运行截图，无法据此确认部署复杂度、可复现性以及生产可用性。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503721">https://www.oschina.net/news/503721</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:30fddd38-4835-42de-b3ad-5a4e1dce3f04</guid><pubDate>Mon, 23 Nov 2026 05:17:14 GMT</pubDate></item><item><title>Magpie：结合 AI 划词、OCR 与知识管理入口的跨平台工具</title><link>https://www.oschina.net/news/503729</link><description>Magpie v0.2.0 发布公告称模型视图更准确并新增词典功能。当前摘录主要介绍了其工作方式：划选或双击文本后弹出浮动工具栏，可进行翻译、解释和总结，并将结果复制、搜索、写入 Obsidian 或 Anki，或预填日历；图片、视频和扫描文档中的文字也可原地框选识别。摘录未说明本次更新的具体机制、支持平台、兼容性、隐私政策、定价或准确率证据。</description><content:encoded><![CDATA[<section>
+<h2>Magpie：结合 AI 划词、OCR 与知识管理入口的跨平台工具</h2>
+<p><strong>分类</strong>：Resource</p>
+<p><strong>摘要</strong>：Magpie v0.2.0 发布公告称模型视图更准确并新增词典功能。当前摘录主要介绍了其工作方式：划选或双击文本后弹出浮动工具栏，可进行翻译、解释和总结，并将结果复制、搜索、写入 Obsidian 或 Anki，或预填日历；图片、视频和扫描文档中的文字也可原地框选识别。摘录未说明本次更新的具体机制、支持平台、兼容性、隐私政策、定价或准确率证据。</p>
+<p><strong>价值</strong>：对用户而言，Magpie 可作为“阅读—理解—归档”一体化 AI 辅助工具的待验证候选：研究时选中论据即可解释或总结，再直接送入 Obsidian、Anki 或日历，比较契合长期研究与知识积累流程。原地 OCR 也可能减少处理截图、扫描资料和视频帧时的上下文切换。不过，当前内容没有提供版本更新细节、平台支持、隐私与数据处理方式、定价或效果验证，因此更适合用于发现和评估工具，不能据此认定其准确性或优于现有方案。</p>
+<h3>Findings</h3>
+<ul>
+<li><strong>浮动工具栏提供就地 AI 处理</strong><p>用户划选或双击文本后，Magpie 会弹出浮动工具栏，提供翻译、解释和总结等操作。其设计重点是让处理发生在原内容所在位置，减少把文本复制到独立聊天窗口的步骤。</p></li>
+<li><strong>处理结果可接入知识管理与日程工作流</strong><p>除复制和搜索外，处理结果还能写入 Obsidian、Anki，或预填日历。这使阅读、理解和归档可以在同一工具中衔接，适合需要长期积累研究材料的场景。</p></li>
+<li><strong>支持从图像、视频和扫描文档中框选文字</strong><p>文中称，用户可以直接框选图片、视频及扫描文档中的文字进行识别与处理，无需先把内容迁移到对话窗口。摘录没有提供 OCR 准确率或适用边界。</p></li>
+</ul>
+</section><section><h2>来源</h2><ul><li><a href="https://www.oschina.net/news/503729">https://www.oschina.net/news/503729</a></li></ul></section>]]></content:encoded><guid isPermaLink="false">pis:published:efa1d0e7-f4c2-4be8-af30-6d8ce74de2d5</guid><pubDate>Mon, 23 Nov 2026 05:17:03 GMT</pubDate></item><item><title>TCP/IP 不申请专利背后的“未来盟友”不确定性</title><link>https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never</link><description>内容转述了 Vint Cerf 在 João Tomé 的播客《Future Stories》中对 TCP/IP 未申请专利理由的回忆：1970 年代与 Bob Kahn 共同制定协议时，他们无法预知 25 年后哪些参与者会成为盟友，因此将未来利益相关者的不确定性纳入决策。现有正文是被截断的引语，只呈现了这一解释的开头，未包含完整论证。</description><content:encoded><![CDATA[<section>
 <h2>TCP/IP 不申请专利背后的“未来盟友”不确定性</h2>
 <p><strong>分类</strong>：Insight</p>
 <p><strong>摘要</strong>：内容转述了 Vint Cerf 在 João Tomé 的播客《Future Stories》中对 TCP/IP 未申请专利理由的回忆：1970 年代与 Bob Kahn 共同制定协议时，他们无法预知 25 年后哪些参与者会成为盟友，因此将未来利益相关者的不确定性纳入决策。现有正文是被截断的引语，只呈现了这一解释的开头，未包含完整论证。</p>
