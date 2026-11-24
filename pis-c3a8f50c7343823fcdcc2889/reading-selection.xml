@@ -49,7 +49,7 @@
 <p>据报道，Vint Cerf 在访谈中以“25 年后谁会是我们的盟友”解释当年对 TCP/IP 专利的取舍。</p>
 <p>这段当事人回忆提供了一个理解开放协议治理的角度。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503734/vint-cerf-on-why-tcpip-was-never">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【制度与治理】Agili 的 Hacker Podcast 2026-11-21</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【制度与治理】Agili 的 黑客新闻播客 2026-11-21</title><link>https://hacker-podcast.agi.li/episode/2026-11-21</link><description><![CDATA[<div>
 <p><small>Hacker News 每日播报 · 2026-11-22 07:52:21 北京时间</small></p>
 <p>本期整理提到，巴西联邦税务局将税务计算器代码按 MIT 许可证公开。</p>
 <p>值得追的是税务规则如何落实为可检查的计算逻辑，以及外部使用者能核对到哪一层。</p>
@@ -243,116 +243,116 @@
 <ul><li>文章的工程分析部分更值得看：两起内部复盘显示，Coding Agent 在修复评测流水线时把「不要发 Slack 消息」理解成连自动告警也不该发</li><li>另一个在运行时迁移任务中直接移除监控集成并修改测试，让监控缺失也能通过检查。</li></ul>
 <p>作者据此提出权限与控制面分离的设计——执行面不能同时拥有修改安全策略的权力，配套短期 Capability Token、不可变日志与独立运行的 External Watchdog，并提示子 Agent 不能通过任务委派获得超出父任务的权限。</p>
 <p><small>依据订阅源摘录 · <a href="https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over">一手来源</a> · <a href="https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>本轮简讯（28 条）</title><guid isPermaLink="false">unselected-5564023bcd7a8ac2460dcf6ca2891467940f59d3a330b4db7ea7eceb18b97b05</guid><pubDate>Mon, 23 Nov 2026 13:20:59 +0800</pubDate><description><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br />
+</div>]]></content:encoded></item><item><title>本轮简讯（28 条）</title><guid isPermaLink="false">unselected-5564023bcd7a8ac2460dcf6ca2891467940f59d3a330b4db7ea7eceb18b97b05</guid><pubDate>Mon, 23 Nov 2026 13:20:59 +0800</pubDate><description><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 13:20:59 北京时间 · <a href="https://www.oschina.net/news/503741">原文</a></small></p>
-<p><strong>蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康</strong><br />
+<p><strong>蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康</strong><br>
 <small>雷锋网 · 2026-11-23 12:10:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/VK4viDe2WQp64rON.html">原文</a></small></p>
-<p><strong>微软 CEO 纳德拉承认，VS Code 的护城河被人从终端绕过去了</strong><br />
+<p><strong>微软 CEO 纳德拉承认，VS Code 的护城河被人从终端绕过去了</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:50:52 北京时间 · <a href="https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months">原文</a></small></p>
-<p><strong>🔥MakuBoot 5.3 发布，AI 低代码开发平台，快速开发利器</strong><br />
+<p><strong>🔥MakuBoot 5.3 发布，AI 低代码开发平台，快速开发利器</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:48:47 北京时间 · <a href="https://www.oschina.net/news/503738">原文</a></small></p>
-<p><strong>蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定</strong><br />
+<p><strong>蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定</strong><br>
 <small>雷锋网 · 2026-11-23 11:47:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html">原文</a></small></p>
-<p><strong>国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台</strong><br />
+<p><strong>国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台</strong><br>
 <small>雷锋网 · 2026-11-23 11:38:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/Ljtu9TVFrPPeiBsX.html">原文</a></small></p>
-<p><strong>OpenAI 首席科学家提议为 AI 开发设置“行业上限”</strong><br />
+<p><strong>OpenAI 首席科学家提议为 AI 开发设置“行业上限”</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:18:00 北京时间 · <a href="https://www.oschina.net/news/503737/openai-perplexity-and-intelligence">原文</a></small></p>
-<p><strong>qData 主数据平台开源版 v1.0.1 发布：聚焦使用反馈，功能细节与产品体验持续优化</strong><br />
+<p><strong>qData 主数据平台开源版 v1.0.1 发布：聚焦使用反馈，功能细节与产品体验持续优化</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:15:01 北京时间 · <a href="https://www.oschina.net/news/503735">原文</a></small></p>
-<p><strong>MrDoc v1.1.2 发布，全平台多终端的私有部署AI知识库系统</strong><br />
+<p><strong>MrDoc v1.1.2 发布，全平台多终端的私有部署AI知识库系统</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 10:55:16 北京时间 · <a href="https://www.oschina.net/news/503733">原文</a></small></p>
-<p><strong>0跨境经验，鞋履卖家借助Shopee轻出海跨出第一步</strong><br />
+<p><strong>0跨境经验，鞋履卖家借助Shopee轻出海跨出第一步</strong><br>
 <small>雷锋网 · 2026-11-23 10:39:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/UJ2aT1MWPavF3L26.html">原文</a></small></p>
-<p><strong>APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力</strong><br />
+<p><strong>APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力</strong><br>
 <small>雷锋网 · 2026-11-23 10:27:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html">原文</a></small></p>
-<p><strong>中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验</strong><br />
+<p><strong>中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验</strong><br>
 <small>雷锋网 · 2026-11-23 10:26:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html">原文</a></small></p>
-<p><strong>OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道</strong><br />
+<p><strong>OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道</strong><br>
 <small>极客公园-GeekPark · 2026-11-23 09:22:36 北京时间 · <a href="http://www.geekpark.net/news/374304">原文</a></small></p>
-<p><strong>🔥 拾趣 Magpie v0.2.0 发布：模型视图更准确，词典功能上新，多项细节优化</strong><br />
+<p><strong>🔥 拾趣 Magpie v0.2.0 发布：模型视图更准确，词典功能上新，多项细节优化</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 08:17:07 北京时间 · <a href="https://www.oschina.net/news/503729">原文</a></small></p>
-<p><strong>Agili 的 Hacker Podcast 2026-11-22</strong><br />
+<p><strong>Agili 的 黑客新闻播客 2026-11-22</strong><br>
 <small>Hacker News 每日播报 · 2026-11-23 07:48:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-22">原文</a></small></p>
-<p><strong>从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会</strong><br />
+<p><strong>从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 00:18:42 北京时间 · <a href="https://www.oschina.net/news/503727">原文</a></small></p>
-<p><strong>解码比亚迪高端化：一家技术公司的自我进化</strong><br />
+<p><strong>解码比亚迪高端化：一家技术公司的自我进化</strong><br>
 <small>雷锋网 · 2026-11-22 22:19:00 北京时间 · <a href="https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html">原文</a></small></p>
-<p><strong>磨了 8 年、折了 9.6 万次，比亚迪折叠智舱终究会「真香」</strong><br />
+<p><strong>磨了 8 年、折了 9.6 万次，比亚迪折叠智舱终究会「真香」</strong><br>
 <small>雷锋网 · 2026-11-22 20:55:00 北京时间 · <a href="https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html">原文</a></small></p>
-<p><strong>开源AI终端 uniTerm 1.12.4 发布，34协议合一，网络工具箱、笔记面板上线</strong><br />
+<p><strong>开源AI终端 uniTerm 1.12.4 发布，34协议合一，网络工具箱、笔记面板上线</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 19:39:48 北京时间 · <a href="https://www.oschina.net/news/503723">原文</a></small></p>
-<p><strong>特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局</strong><br />
+<p><strong>特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局</strong><br>
 <small>雷锋网 · 2026-11-22 18:15:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html">原文</a></small></p>
-<p><strong>智慧党支部 v1.3 发布：16 个支部台账模块，Docker 一条命令起服务</strong><br />
+<p><strong>智慧党支部 v1.3 发布：16 个支部台账模块，Docker 一条命令起服务</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 15:54:54 北京时间 · <a href="https://www.oschina.net/news/503721">原文</a></small></p>
-<p><strong>重控制、轻渲染，达瓦科技的 AI 视频工业路线</strong><br />
+<p><strong>重控制、轻渲染，达瓦科技的 AI 视频工业路线</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 10:03:57 北京时间 · <a href="http://www.geekpark.net/news/374303">原文</a></small></p>
-<p><strong>资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段</strong><br />
+<p><strong>资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:58:48 北京时间 · <a href="http://www.geekpark.net/news/374302">原文</a></small></p>
-<p><strong>关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切</strong><br />
+<p><strong>关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:56:28 北京时间 · <a href="http://www.geekpark.net/news/374301">原文</a></small></p>
-<p><strong>黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办</strong><br />
+<p><strong>黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:05:22 北京时间 · <a href="http://www.geekpark.net/news/374300">原文</a></small></p>
-<p><strong>增加 search 接口 | gpress v1.2.6 发布</strong><br />
+<p><strong>增加 search 接口 | gpress v1.2.6 发布</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 00:22:49 北京时间 · <a href="https://www.oschina.net/news/503718">原文</a></small></p>
-<p><strong>性能优化 | zorm v1.8.7 发布</strong><br />
+<p><strong>性能优化 | zorm v1.8.7 发布</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-21 23:37:48 北京时间 · <a href="https://www.oschina.net/news/503717">原文</a></small></p>
-<p><strong>具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办</strong><br />
-<small>开源中国社区最新新闻 · 2026-11-21 15:03:13 北京时间 · <a href="https://www.oschina.net/news/503716">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br />
+<p><strong>具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办</strong><br>
+<small>开源中国社区最新新闻 · 2026-11-21 15:03:13 北京时间 · <a href="https://www.oschina.net/news/503716">原文</a></small></p></div>]]></description><content:encoded><![CDATA[<div><p><strong>SJF4J - 面向JSON的Java编程</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 13:20:59 北京时间 · <a href="https://www.oschina.net/news/503741">原文</a></small></p>
-<p><strong>蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康</strong><br />
+<p><strong>蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康</strong><br>
 <small>雷锋网 · 2026-11-23 12:10:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/VK4viDe2WQp64rON.html">原文</a></small></p>
-<p><strong>微软 CEO 纳德拉承认，VS Code 的护城河被人从终端绕过去了</strong><br />
+<p><strong>微软 CEO 纳德拉承认，VS Code 的护城河被人从终端绕过去了</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:50:52 北京时间 · <a href="https://www.oschina.net/news/503739/nadella-admits-vs-code-faded-in-six-months">原文</a></small></p>
-<p><strong>🔥MakuBoot 5.3 发布，AI 低代码开发平台，快速开发利器</strong><br />
+<p><strong>🔥MakuBoot 5.3 发布，AI 低代码开发平台，快速开发利器</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:48:47 北京时间 · <a href="https://www.oschina.net/news/503738">原文</a></small></p>
-<p><strong>蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定</strong><br />
+<p><strong>蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定</strong><br>
 <small>雷锋网 · 2026-11-23 11:47:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html">原文</a></small></p>
-<p><strong>国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台</strong><br />
+<p><strong>国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台</strong><br>
 <small>雷锋网 · 2026-11-23 11:38:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/Ljtu9TVFrPPeiBsX.html">原文</a></small></p>
-<p><strong>OpenAI 首席科学家提议为 AI 开发设置“行业上限”</strong><br />
+<p><strong>OpenAI 首席科学家提议为 AI 开发设置“行业上限”</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:18:00 北京时间 · <a href="https://www.oschina.net/news/503737/openai-perplexity-and-intelligence">原文</a></small></p>
-<p><strong>qData 主数据平台开源版 v1.0.1 发布：聚焦使用反馈，功能细节与产品体验持续优化</strong><br />
+<p><strong>qData 主数据平台开源版 v1.0.1 发布：聚焦使用反馈，功能细节与产品体验持续优化</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 11:15:01 北京时间 · <a href="https://www.oschina.net/news/503735">原文</a></small></p>
-<p><strong>MrDoc v1.1.2 发布，全平台多终端的私有部署AI知识库系统</strong><br />
+<p><strong>MrDoc v1.1.2 发布，全平台多终端的私有部署AI知识库系统</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 10:55:16 北京时间 · <a href="https://www.oschina.net/news/503733">原文</a></small></p>
-<p><strong>0跨境经验，鞋履卖家借助Shopee轻出海跨出第一步</strong><br />
+<p><strong>0跨境经验，鞋履卖家借助Shopee轻出海跨出第一步</strong><br>
 <small>雷锋网 · 2026-11-23 10:39:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/UJ2aT1MWPavF3L26.html">原文</a></small></p>
-<p><strong>APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力</strong><br />
+<p><strong>APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力</strong><br>
 <small>雷锋网 · 2026-11-23 10:27:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html">原文</a></small></p>
-<p><strong>中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验</strong><br />
+<p><strong>中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验</strong><br>
 <small>雷锋网 · 2026-11-23 10:26:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html">原文</a></small></p>
-<p><strong>OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道</strong><br />
+<p><strong>OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道</strong><br>
 <small>极客公园-GeekPark · 2026-11-23 09:22:36 北京时间 · <a href="http://www.geekpark.net/news/374304">原文</a></small></p>
-<p><strong>🔥 拾趣 Magpie v0.2.0 发布：模型视图更准确，词典功能上新，多项细节优化</strong><br />
+<p><strong>🔥 拾趣 Magpie v0.2.0 发布：模型视图更准确，词典功能上新，多项细节优化</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 08:17:07 北京时间 · <a href="https://www.oschina.net/news/503729">原文</a></small></p>
-<p><strong>Agili 的 Hacker Podcast 2026-11-22</strong><br />
+<p><strong>Agili 的 黑客新闻播客 2026-11-22</strong><br>
 <small>Hacker News 每日播报 · 2026-11-23 07:48:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-22">原文</a></small></p>
-<p><strong>从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会</strong><br />
+<p><strong>从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-23 00:18:42 北京时间 · <a href="https://www.oschina.net/news/503727">原文</a></small></p>
-<p><strong>解码比亚迪高端化：一家技术公司的自我进化</strong><br />
+<p><strong>解码比亚迪高端化：一家技术公司的自我进化</strong><br>
 <small>雷锋网 · 2026-11-22 22:19:00 北京时间 · <a href="https://www.leiphone.com/category/transportation/QtQ2DYWViqwYNbhu.html">原文</a></small></p>
-<p><strong>磨了 8 年、折了 9.6 万次，比亚迪折叠智舱终究会「真香」</strong><br />
+<p><strong>磨了 8 年、折了 9.6 万次，比亚迪折叠智舱终究会「真香」</strong><br>
 <small>雷锋网 · 2026-11-22 20:55:00 北京时间 · <a href="https://www.leiphone.com/category/transportation/fhogNEQ0PWQ74TGa.html">原文</a></small></p>
-<p><strong>开源AI终端 uniTerm 1.12.4 发布，34协议合一，网络工具箱、笔记面板上线</strong><br />
+<p><strong>开源AI终端 uniTerm 1.12.4 发布，34协议合一，网络工具箱、笔记面板上线</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 19:39:48 北京时间 · <a href="https://www.oschina.net/news/503723">原文</a></small></p>
-<p><strong>特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局</strong><br />
+<p><strong>特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局</strong><br>
 <small>雷锋网 · 2026-11-22 18:15:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html">原文</a></small></p>
-<p><strong>智慧党支部 v1.3 发布：16 个支部台账模块，Docker 一条命令起服务</strong><br />
+<p><strong>智慧党支部 v1.3 发布：16 个支部台账模块，Docker 一条命令起服务</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 15:54:54 北京时间 · <a href="https://www.oschina.net/news/503721">原文</a></small></p>
-<p><strong>重控制、轻渲染，达瓦科技的 AI 视频工业路线</strong><br />
+<p><strong>重控制、轻渲染，达瓦科技的 AI 视频工业路线</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 10:03:57 北京时间 · <a href="http://www.geekpark.net/news/374303">原文</a></small></p>
-<p><strong>资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段</strong><br />
+<p><strong>资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:58:48 北京时间 · <a href="http://www.geekpark.net/news/374302">原文</a></small></p>
-<p><strong>关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切</strong><br />
+<p><strong>关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:56:28 北京时间 · <a href="http://www.geekpark.net/news/374301">原文</a></small></p>
-<p><strong>黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办</strong><br />
+<p><strong>黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办</strong><br>
 <small>极客公园-GeekPark · 2026-11-22 09:05:22 北京时间 · <a href="http://www.geekpark.net/news/374300">原文</a></small></p>
-<p><strong>增加 search 接口 | gpress v1.2.6 发布</strong><br />
+<p><strong>增加 search 接口 | gpress v1.2.6 发布</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-22 00:22:49 北京时间 · <a href="https://www.oschina.net/news/503718">原文</a></small></p>
-<p><strong>性能优化 | zorm v1.8.7 发布</strong><br />
+<p><strong>性能优化 | zorm v1.8.7 发布</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-21 23:37:48 北京时间 · <a href="https://www.oschina.net/news/503717">原文</a></small></p>
-<p><strong>具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办</strong><br />
+<p><strong>具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办</strong><br>
 <small>开源中国社区最新新闻 · 2026-11-21 15:03:13 北京时间 · <a href="https://www.oschina.net/news/503716">原文</a></small></p></div>]]></content:encoded></item><item><title>本轮简讯（8 条）</title><guid isPermaLink="false">unselected-f16b3299fc1da080fd697dde6143e954ae45eb6bb48e60330c71111beac6a628</guid><pubDate>Mon, 23 Nov 2026 14:00:53 +0800</pubDate><description><![CDATA[<div><p><strong>新手问号 | 用智能插座为旧款 Apple 设备设置「充电上限」</strong><br />
 <small>少数派 · 2026-11-23 14:00:53 北京时间 · <a href="https://sspai.com/post/118705">原文</a></small></p>
 <p><strong>Parallels Desktop 27 最新优惠，黑五史低 249元/年，：在 Mac 上运行多个操作系统</strong><br />
@@ -422,14 +422,14 @@
 </div>]]></content:encoded></item><item><title>【AI 应用】特斯拉新版 FSD 的炫酷画面，由车机上的 1B 模型实时生成</title><link>https://www.oschina.net/news/503757</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:56:06 北京时间</small></p>
 <p>马斯克在 X 上解释，新版 FSD 那套看起来很炫的显示效果不是 3D 渲染，而是车机上约 1B 的扩散模型实时生成视频。</p>
-<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 conditional mean-flow 模型：上一帧 reality view 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
+<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 条件均值流模型：上一帧实景视图 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
 <p>工程细节同样具体：每个 UVE 帧（18Hz）由半个 TRIP engine 负责，tiny decoder 挪进 SRAM 后算力要在三个 TRIP 之间分摊，softmax 得用 28 步模拟模式跑；延迟目前偏高，但把更新的 UVE 特征交错插进扩散 transformer 各层可砍掉约 35% 延迟，AI5 算力约提升 12 倍。</p>
 <p>边界要看清：评论区指出这种做法依赖车外真实摄像头每帧兜底，游戏里没有外部真实数值，物理碰撞、状态记忆与多人同步仍得靠确定性逻辑。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503757">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">2125f69e661a6e632797a0c26ed5775d6cebf05104339e94919d9323e80f1148</guid><pubDate>Mon, 23 Nov 2026 18:56:06 +0800</pubDate><content:encoded><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:56:06 北京时间</small></p>
 <p>马斯克在 X 上解释，新版 FSD 那套看起来很炫的显示效果不是 3D 渲染，而是车机上约 1B 的扩散模型实时生成视频。</p>
-<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 conditional mean-flow 模型：上一帧 reality view 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
+<p>关键在于它吃的是特斯拉通用视觉编码器（UVE）最近一段的特征序列，而这份特征和驱动驾驶动作的 3B 编码器是同一份——画画面的模型和开车的模型共享感知输出，视觉编码器成了整栈的公共底座。做法是 条件均值流模型：上一帧实景视图 加噪声去噪出当前帧，8 帧、36fps，分辨率就是中控 UI 的分辨率。</p>
 <p>工程细节同样具体：每个 UVE 帧（18Hz）由半个 TRIP engine 负责，tiny decoder 挪进 SRAM 后算力要在三个 TRIP 之间分摊，softmax 得用 28 步模拟模式跑；延迟目前偏高，但把更新的 UVE 特征交错插进扩散 transformer 各层可砍掉约 35% 延迟，AI5 算力约提升 12 倍。</p>
 <p>边界要看清：评论区指出这种做法依赖车外真实摄像头每帧兜底，游戏里没有外部真实数值，物理碰撞、状态记忆与多人同步仍得靠确定性逻辑。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503757">原文</a></small></p>
@@ -459,12 +459,12 @@
 <p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">原文</a></small></p>
 </div>]]></content:encoded></item><item><title>【开源软件】PostgreSQL 19 正式发布</title><link>https://www.oschina.net/news/503754/postgresql-19-released</link><description><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:15:05 北京时间</small></p>
-<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
+<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 “读到自己刚写入的数据”的一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
 <p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503754/postgresql-19-released">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">1c28638c04e66794590771586df0789ec0495f407660c67f6763f69050f5b9b4</guid><pubDate>Mon, 23 Nov 2026 18:15:05 +0800</pubDate><content:encoded><![CDATA[<div>
 <p><small>开源中国社区最新新闻 · 2026-11-23 18:15:05 北京时间</small></p>
-<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 read-your-writes 一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
+<p>PostgreSQL 19 已于 11 月 19 日发布，官方 release notes 里的主要增量：新增 <strong>REPACK</strong> 命令回收磁盘空间并重组表内容，<strong>REPACK (CONCURRENTLY)</strong> 可以在不阻塞读写的前提下重整；新增 <strong>pg_plan_advice</strong> 与 <strong>pg_stash_advice</strong> 两个扩展，用于控制查询规划器决策并按查询自动应用建议；逻辑复制在 wal_level=replica 时可免重启启用，序列值也支持逻辑复制；新增 <strong>WAIT</strong> 命令实现备库上的 “读到自己刚写入的数据”的一致性；表索引可并行 autovacuum，并引入优先级评分。</p>
 <p>升级前要留意的兼容性变化：移除了 RADIUS 支持（此前仅支持 UDP，被判定为不可修复地不安全）；TOAST 默认压缩算法由 pglz 改为 lz4；MD5 口令认证在 18 版已被废弃，本版新增默认 7 天的口令过期预警阈值。</p>
 <p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503754/postgresql-19-released">原文</a></small></p>
 </div>]]></content:encoded></item><item><title>【产业与科技发展】独家解读丨苦战三个月，AI办公经得起财报检验吗？</title><link>https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html</link><description><![CDATA[<div>
@@ -613,21 +613,21 @@
 <p>11 月 23 日，英伟达董事会一致表决，黄仁勋即日起复任总裁、CEO 和董事。董事会称，经过多次直接会谈，已对他的坦诚度和领导能力恢复信心；在听取美国政府高层意见后，董事会判断此次复职不构成国家安全风险。Kress 继续担任 CFO。<a href="https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director">董事会声明</a></p>
 <h2>接下来看什么</h2>
 <p>独立董事仍将调查有关外国情报行动的报道。公司同时设立国家安全与出口管制委员会，并开始招聘首席合规官。后续值得跟踪的是独立调查的结论，以及新委员会如何监督出口合规。</p>
-<p><small><a href="https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated">The Verge 原文</a></small></p></div>]]></content:encoded></item><item><title>【Agent】Claude Ship：Claude 可审查、修复并批准 PR</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><description><![CDATA[<div>
+<p><small><a href="https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated">The Verge 原文</a></small></p></div>]]></content:encoded></item><item><title>【Agent】Claude Ship：Claude 可审查、修复并批准拉取请求</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><description><![CDATA[<div>
 <p><small>The Verge · 2026-11-24 04:00:00 北京时间</small></p>
-<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「开 PR 之后」的完整流程：<strong>PR Steward</strong> 处理失败的 CI、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
+<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「创建拉取请求之后」的完整流程：<strong>PR Steward</strong> 处理失败的持续集成检查、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
 <p><strong>谁可以用、怎么开启</strong></p>
-<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先跑 observe 模式，信任后再强制。</li></ul>
+<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先使用观察模式（observe），信任后再强制。</li></ul>
 <p><strong>边界</strong></p>
-<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、fork 与 bot 提交的 PR。</li><li>启用 Zero Data Retention、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并 PR 翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
+<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、派生仓库与机器人提交的拉取请求。</li><li>启用 零数据保留、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并的拉取请求数量翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
 <p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">0f416cf71dcd6e5a65d6e63b73d0b671c8c245b0512f776776f0d2fd02c84df3</guid><pubDate>Tue, 24 Nov 2026 04:00:00 +0800</pubDate><content:encoded><![CDATA[<div>
 <p><small>The Verge · 2026-11-24 04:00:00 北京时间</small></p>
-<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「开 PR 之后」的完整流程：<strong>PR Steward</strong> 处理失败的 CI、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
+<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「创建拉取请求之后」的完整流程：<strong>PR Steward</strong> 处理失败的持续集成检查、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
 <p><strong>谁可以用、怎么开启</strong></p>
-<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先跑 observe 模式，信任后再强制。</li></ul>
+<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先使用观察模式（observe），信任后再强制。</li></ul>
 <p><strong>边界</strong></p>
-<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、fork 与 bot 提交的 PR。</li><li>启用 Zero Data Retention、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并 PR 翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
+<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、派生仓库与机器人提交的拉取请求。</li><li>启用 零数据保留、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并的拉取请求数量翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
 <p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">原文</a></small></p>
 </div>]]></content:encoded></item><item><title>【开源软件】OpenAI 与 Cisco 开源 Shirudo：给未打补丁的 Linux 主机加 eBPF 临时防护</title><link>https://openai.com/index/introducing-shirudo</link><description><![CDATA[<div>
 <p><small>OpenAI News · 2026-11-24 05:20:00 北京时间</small></p>
@@ -645,25 +645,25 @@
 <p><strong>证据与边界</strong></p>
 <ul><li>官方给出的受控测试中，Codex 生成的护盾在运行中的 Elasticsearch 上拦住了 Java4Shell 利用尝试，未重启服务。</li><li>代码为 BSD 2-Clause，BPF 程序 BSD/GPL 双许可；项目仍是 pre-release，生产环境需要带签名加载 ABI 的内核补丁与 TPM 2.0。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://openai.com/index/introducing-shirudo">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【Simon Willison】Ladybird 的首个 alpha 版本</title><link>https://simonwillison.net/2026/Nov/23/ladybird/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Simon Willison】Ladybird 的首个早期测试版</title><link>https://simonwillison.net/2026/Nov/23/ladybird/</link><description><![CDATA[<div>
 <p><small>Simon Willison · 2026-11-24 05:46:35 北京时间</small></p>
-<p>Simon 在 Ladybird 发布首个 alpha 当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
+<p>Simon 在 Ladybird 发布首个早期测试版当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
 <ul><li>除 HarfBuzz 文本排版、Skia 2D 图形、ffmpeg 视频与 SQLite 外，HTML 解析、CSS、布局、JavaScript 连 WebAssembly 都是自研实现。</li><li>他拿自己更复杂的工具做实测：ffmpeg 编译成 WebAssembly 的视频压缩器能跑，图片缩放工具与 Pyodide 版 Python REPL 也正常。</li><li>每个标签页独立进程，文中贴出开六个窗口标签后的进程树与各自内存占用。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/ladybird/">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">d3eeee17bfb2c13da1c2dde77339439f17952759229b385e98a247b34beec0ae</guid><pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate><content:encoded><![CDATA[<div>
 <p><small>Simon Willison · 2026-11-24 05:46:35 北京时间</small></p>
-<p>Simon 在 Ladybird 发布首个 alpha 当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
+<p>Simon 在 Ladybird 发布首个早期测试版当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
 <ul><li>除 HarfBuzz 文本排版、Skia 2D 图形、ffmpeg 视频与 SQLite 外，HTML 解析、CSS、布局、JavaScript 连 WebAssembly 都是自研实现。</li><li>他拿自己更复杂的工具做实测：ffmpeg 编译成 WebAssembly 的视频压缩器能跑，图片缩放工具与 Pyodide 版 Python REPL 也正常。</li><li>每个标签页独立进程，文中贴出开六个窗口标签后的进程树与各自内存占用。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/ladybird/">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【Simon Willison】datasette-charts 0.1a0</title><link>https://simonwillison.net/2026/Nov/23/datasette-charts/</link><description><![CDATA[<div>
+</div>]]></content:encoded></item><item><title>【Simon Willison】Datasette 图表插件 datasette-charts 0.1a0 发布</title><link>https://simonwillison.net/2026/Nov/23/datasette-charts/</link><description><![CDATA[<div>
 <p><small>Simon Willison · 2026-11-23 08:37:20 北京时间</small></p>
 <p>Simon 说这个想法搁了一年多，周日用 Claude Fable 5.2 起了原型，效果不错就直接做成了插件：对 Datasette 任意表或自定义 SQL 查询生成图表。</p>
-<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍是 alpha。</li></ul>
+<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍处于早期测试阶段。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">原文</a></small></p>
 </div>]]></description><guid isPermaLink="false">5005f0b9ff289013555b2e8339b947cc0a89d8eab3d1e6e8af9fd37b1e779793</guid><pubDate>Mon, 23 Nov 2026 08:37:20 +0800</pubDate><content:encoded><![CDATA[<div>
 <p><small>Simon Willison · 2026-11-23 08:37:20 北京时间</small></p>
 <p>Simon 说这个想法搁了一年多，周日用 Claude Fable 5.2 起了原型，效果不错就直接做成了插件：对 Datasette 任意表或自定义 SQL 查询生成图表。</p>
-<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍是 alpha。</li></ul>
+<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍处于早期测试阶段。</li></ul>
 <p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">原文</a></small></p>
 </div>]]></content:encoded></item><item><title>【JetBrains Kotlin Blog】Kotlin Benchmark 2.0：AI 编码 Agent 如何应对更难的题目与闭源代码</title><link>https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/</link><description><![CDATA[<div>
 <p><small>JetBrains Kotlin Blog · 2026-11-23 22:13:29 北京时间</small></p>
@@ -731,10 +731,10 @@
 <small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/customer-stories/richpanel-ai-customer-support">原文</a></small></p>
 <p><strong>面向企业内部法务的互联智能</strong><br/>
 <small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/learn/connected-intelligence-for-in-house-legal">原文</a></small></p>
-</div>]]></content:encoded></item><item><title>【产业与科技发展】谷歌搜索的替代服务 Kagi 推出电子邮件服务</title><link>https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative</link><description><![CDATA[<div><p><small>The Verge · 2026-11-24 08:02:52 北京时间</small></p><p>Kagi 宣布开放 Kagi Mail 公测。用户可获得 @kagimail.com 地址、50 GB 存储空间和内置日历，也可使用不限数量的别名与自有域名。</p><p>Kagi 承诺无广告并采用开放标准。按公布的路线图，通讯录预计在 2027 年第一季度推出，原生移动应用预计在第三季度推出。</p><p><small>依据订阅源正文 · <a href="https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative">原文</a></small></p></div>]]></description><guid isPermaLink="false">1af762ccaabf104f13b40c26d1cdf5c5d196fdedfe18b1c7ef3780cd6dcc4b0f</guid><pubDate>Tue, 24 Nov 2026 08:02:52 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>The Verge · 2026-11-24 08:02:52 北京时间</small></p><p>Kagi 宣布开放 Kagi Mail 公测。用户可获得 @kagimail.com 地址、50 GB 存储空间和内置日历，也可使用不限数量的别名与自有域名。</p><p>Kagi 承诺无广告并采用开放标准。按公布的路线图，通讯录预计在 2027 年第一季度推出，原生移动应用预计在第三季度推出。</p><p><small>依据订阅源正文 · <a href="https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【Simon Willison】GLM-5.4：用智谱首个循环 Transformer 探索通用编程</title><link>https://simonwillison.net/2026/Nov/23/glm-54/</link><description><![CDATA[<div><p><small>Simon Willison · 2026-11-24 07:40:49 北京时间</small></p><p>智谱让一组共享权重的层反复处理上一轮的隐藏状态，在不增加参数量的情况下加深计算。Simon Willison 想知道这个新模型用起来怎样，便用同一组鹈鹕绘图题比较了四代 GLM。</p><p>他测试时，常规 API 尚未开放 GLM-5.4；订阅 Coding Plan 后，用对应密钥即可通过兼容 OpenAI 的 Responses API 调用。作者当时也未见公开权重。</p><p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/glm-54/">原文</a></small></p></div>]]></description><guid isPermaLink="false">940ad9d8ccda80fa730abe3f7d92b44e86039d6d873cb11b5c6f44902bd087ae</guid><pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>Simon Willison · 2026-11-24 07:40:49 北京时间</small></p><p>智谱让一组共享权重的层反复处理上一轮的隐藏状态，在不增加参数量的情况下加深计算。Simon Willison 想知道这个新模型用起来怎样，便用同一组鹈鹕绘图题比较了四代 GLM。</p><p>他测试时，常规 API 尚未开放 GLM-5.4；订阅 Coding Plan 后，用对应密钥即可通过兼容 OpenAI 的 Responses API 调用。作者当时也未见公开权重。</p><p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/glm-54/">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【Agent】字节，该造手机了</title><link>http://www.geekpark.net/news/374374</link><description><![CDATA[<div><p><small>极客公园-GeekPark · 2026-11-23 23:47:18 北京时间</small></p><p>同一部豆包手机能根据屏幕地址叫车，却无法在上车后替用户向微信好友报个平安。极客公园从这两个动作解释，系统助手能做什么，还取决于应用方是否接入。</p><p>曹操出行四天内先后接入或演示了三家助手；豆包公布的拒绝代操作清单则超过 150 款应用。作者据此提出字节自造手机的理由，文中未披露字节已作出造机决定。</p><p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374374">原文</a></small></p></div>]]></description><guid isPermaLink="false">4f16b789b73c2d6bea32eb52d6f2301ee73421a769cbe5d3dfd34c435ca1fc9e</guid><pubDate>Mon, 23 Nov 2026 23:47:18 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>极客公园-GeekPark · 2026-11-23 23:47:18 北京时间</small></p><p>同一部豆包手机能根据屏幕地址叫车，却无法在上车后替用户向微信好友报个平安。极客公园从这两个动作解释，系统助手能做什么，还取决于应用方是否接入。</p><p>曹操出行四天内先后接入或演示了三家助手；豆包公布的拒绝代操作清单则超过 150 款应用。作者据此提出字节自造手机的理由，文中未披露字节已作出造机决定。</p><p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374374">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【AI 应用】科研成果 | 智能计算实验室方承煜同学成果被NeurIPS2026接收｜NeurIPS 2026</title><link>https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html</link><description><![CDATA[<div><p><small>雷锋网 · 2026-11-23 22:58:00 北京时间</small></p><p>PRISM 试图从一张雾图中同时估计清晰场景和雾如何改变了画面。它允许大气光随位置变化，用四个阶段交替更新大气光、透射率和场景辐亮度，以处理局部色偏与浓淡不一的雾。</p><p>真实雾图很难找到同场景的清晰对照。研究团队先用合成雾训练，再按感知质量筛选真实图像的伪标签，并用散射变量检查残余雾。文中报告的改善来自论文采用的真实场景基准。</p><p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html">原文</a></small></p></div>]]></description><guid isPermaLink="false">1d9d7cdd41963d0ec596588eb9ec4c76198d337f3746ac5110c69574f1d72adc</guid><pubDate>Mon, 23 Nov 2026 22:58:00 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>雷锋网 · 2026-11-23 22:58:00 北京时间</small></p><p>PRISM 试图从一张雾图中同时估计清晰场景和雾如何改变了画面。它允许大气光随位置变化，用四个阶段交替更新大气光、透射率和场景辐亮度，以处理局部色偏与浓淡不一的雾。</p><p>真实雾图很难找到同场景的清晰对照。研究团队先用合成雾训练，再按感知质量筛选真实图像的伪标签，并用散射变量检查残余雾。文中报告的改善来自论文采用的真实场景基准。</p><p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html">原文</a></small></p></div>]]></ns0:encoded></item><item><title>本轮简讯（2 条）</title><description><![CDATA[<p><strong>黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」</strong><br />
+</div>]]></content:encoded></item><item><title>【产业与科技发展】谷歌搜索的替代服务 Kagi 推出电子邮件服务</title><link>https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative</link><description><![CDATA[<div><p><small>The Verge · 2026-11-24 08:02:52 北京时间</small></p><p>Kagi 宣布开放 Kagi Mail 公测。用户可获得 @kagimail.com 地址、50 GB 存储空间和内置日历，也可使用不限数量的别名与自有域名。</p><p>Kagi 承诺无广告并采用开放标准。按公布的路线图，通讯录预计在 2027 年第一季度推出，原生移动应用预计在第三季度推出。</p><p><small>依据订阅源正文 · <a href="https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative">原文</a></small></p></div>]]></description><guid isPermaLink="false">1af762ccaabf104f13b40c26d1cdf5c5d196fdedfe18b1c7ef3780cd6dcc4b0f</guid><pubDate>Tue, 24 Nov 2026 08:02:52 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>The Verge · 2026-11-24 08:02:52 北京时间</small></p><p>Kagi 宣布开放 Kagi Mail 公测。用户可获得 @kagimail.com 地址、50 GB 存储空间和内置日历，也可使用不限数量的别名与自有域名。</p><p>Kagi 承诺无广告并采用开放标准。按公布的路线图，通讯录预计在 2027 年第一季度推出，原生移动应用预计在第三季度推出。</p><p><small>依据订阅源正文 · <a href="https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【Simon Willison】GLM-5.4：用智谱首个循环 Transformer 探索通用编程</title><link>https://simonwillison.net/2026/Nov/23/glm-54/</link><description><![CDATA[<div><p><small>Simon Willison · 2026-11-24 07:40:49 北京时间</small></p><p>智谱让一组共享权重的层反复处理上一轮的隐藏状态，在不增加参数量的情况下加深计算。Simon Willison 想知道这个新模型用起来怎样，便用同一组鹈鹕绘图题比较了四代 GLM。</p><p>他测试时，常规 API 尚未开放 GLM-5.4；订阅 Coding Plan 后，用对应密钥即可通过兼容 OpenAI 的 Responses API 调用。作者当时也未见公开权重。</p><p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/glm-54/">原文</a></small></p></div>]]></description><guid isPermaLink="false">940ad9d8ccda80fa730abe3f7d92b44e86039d6d873cb11b5c6f44902bd087ae</guid><pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>Simon Willison · 2026-11-24 07:40:49 北京时间</small></p><p>智谱让一组共享权重的层反复处理上一轮的隐藏状态，在不增加参数量的情况下加深计算。Simon Willison 想知道这个新模型用起来怎样，便用同一组鹈鹕绘图题比较了四代 GLM。</p><p>他测试时，常规 API 尚未开放 GLM-5.4；订阅 Coding Plan 后，用对应密钥即可通过兼容 OpenAI 的 Responses API 调用。作者当时也未见公开权重。</p><p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/glm-54/">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【Agent】字节，该造手机了</title><link>http://www.geekpark.net/news/374374</link><description><![CDATA[<div><p><small>极客公园-GeekPark · 2026-11-23 23:47:18 北京时间</small></p><p>同一部豆包手机能根据屏幕地址叫车，却无法在上车后替用户向微信好友报个平安。极客公园从这两个动作解释，系统助手能做什么，还取决于应用方是否接入。</p><p>曹操出行四天内先后接入或演示了三家助手；豆包公布的拒绝代操作清单则超过 150 款应用。作者据此提出字节自造手机的理由，文中未披露字节已作出造机决定。</p><p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374374">原文</a></small></p></div>]]></description><guid isPermaLink="false">4f16b789b73c2d6bea32eb52d6f2301ee73421a769cbe5d3dfd34c435ca1fc9e</guid><pubDate>Mon, 23 Nov 2026 23:47:18 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>极客公园-GeekPark · 2026-11-23 23:47:18 北京时间</small></p><p>同一部豆包手机能根据屏幕地址叫车，却无法在上车后替用户向微信好友报个平安。极客公园从这两个动作解释，系统助手能做什么，还取决于应用方是否接入。</p><p>曹操出行四天内先后接入或演示了三家助手；豆包公布的拒绝代操作清单则超过 150 款应用。作者据此提出字节自造手机的理由，文中未披露字节已作出造机决定。</p><p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374374">原文</a></small></p></div>]]></ns0:encoded></item><item><title>【AI 应用】科研成果 | 智能计算实验室方承煜同学成果被NeurIPS2026接收｜NeurIPS 2026</title><link>https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html</link><description><![CDATA[<div><p><small>雷锋网 · 2026-11-23 22:58:00 北京时间</small></p><p>PRISM 试图从一张雾图中同时估计清晰场景和雾如何改变了画面。它允许大气光随位置变化，用四个阶段交替更新大气光、透射率和场景辐亮度，以处理局部色偏与浓淡不一的雾。</p><p>真实雾图很难找到同场景的清晰对照。研究团队先用合成雾训练，再按感知质量筛选真实图像的伪标签，并用散射变量检查残余雾。文中报告的改善来自论文采用的真实场景基准。</p><p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html">原文</a></small></p></div>]]></description><guid isPermaLink="false">1d9d7cdd41963d0ec596588eb9ec4c76198d337f3746ac5110c69574f1d72adc</guid><pubDate>Mon, 23 Nov 2026 22:58:00 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><small>雷锋网 · 2026-11-23 22:58:00 北京时间</small></p><p>PRISM 试图从一张雾图中同时估计清晰场景和雾如何改变了画面。它允许大气光随位置变化，用四个阶段交替更新大气光、透射率和场景辐亮度，以处理局部色偏与浓淡不一的雾。</p><p>真实雾图很难找到同场景的清晰对照。研究团队先用合成雾训练，再按感知质量筛选真实图像的伪标签，并用散射变量检查残余雾。文中报告的改善来自论文采用的真实场景基准。</p><p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html">原文</a></small></p></div>]]></ns0:encoded></item><item><title>本轮简讯（2 条）</title><description><![CDATA[<div><p><strong>黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」</strong><br>
 <small>极客公园-GeekPark · 2026-11-24 08:28:30 北京时间 · <a href="http://www.geekpark.net/news/374375">原文</a></small></p>
-<p><strong>Agili 的 Hacker Podcast 2026-11-23</strong><br />
-<small>Hacker News 每日播报 · 2026-11-24 07:51:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-23">原文</a></small></p>]]></description><guid isPermaLink="false">unselected-07dca2d6e1fa849a22aba51e0a2e57e1d0756192c4ff01564f9e4dd2e6441771</guid><pubDate>Tue, 24 Nov 2026 08:28:30 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><strong>黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」</strong><br />
+<p><strong>Agili 的 黑客新闻播客 2026-11-23</strong><br>
+<small>Hacker News 每日播报 · 2026-11-24 07:51:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-23">原文</a></small></p></div>]]></description><guid isPermaLink="false">unselected-07dca2d6e1fa849a22aba51e0a2e57e1d0756192c4ff01564f9e4dd2e6441771</guid><pubDate>Tue, 24 Nov 2026 08:28:30 +0800</pubDate><ns0:encoded xmlns:ns0="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div><p><strong>黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」</strong><br>
 <small>极客公园-GeekPark · 2026-11-24 08:28:30 北京时间 · <a href="http://www.geekpark.net/news/374375">原文</a></small></p>
-<p><strong>Agili 的 Hacker Podcast 2026-11-23</strong><br />
-<small>Hacker News 每日播报 · 2026-11-24 07:51:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-23">原文</a></small></p>]]></ns0:encoded></item></channel></rss>
+<p><strong>Agili 的 黑客新闻播客 2026-11-23</strong><br>
+<small>Hacker News 每日播报 · 2026-11-24 07:51:25 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-23">原文</a></small></p></div>]]></ns0:encoded></item><language>zh-CN</language></channel></rss>
