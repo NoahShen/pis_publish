@@ -599,4 +599,138 @@
 <small>理想生活实验室 · 2026-11-22 22:59:45 北京时间 · <a href="http://www.toodaylab.com/84300">原文</a></small></p>
 <p><strong>AIHOT 日报 · 2026-11-22 — Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</strong><br/>
 <small>AIHOT AI 日报 · 2026-11-22 08:00:32 北京时间 · <a href="https://aihot.news/daily/2026-11-22">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【产业与科技发展】特朗普为黄仁勋安排了一次冒险的回归</title><link>https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated</link><description><![CDATA[<div>
+<p><small>The Verge · 2026-11-24 06:25:12 北京时间</small></p>
+<p>英伟达董事会 11 月 23 日一致投票，恢复黄仁勋的总裁、CEO 与董事职务，距他因两段婚外情报道辞职不到两周。董事会声明称，决定前征询了美国政府高层意见，并认定其复职不构成国家安全风险。</p>
+<p><strong>回归附带的安排</strong></p>
+<ul><li>由独立董事组成的委员会将继续调查他成为外国情报行动目标的报道，直至得出结论，黄仁勋称会配合。</li><li>董事会另设国家安全与出口管制委员会，并开始招聘首席合规官。</li><li>临时 CEO Colette Kress 交回职务，继续担任 CFO。</li></ul>
+<p><strong>政治与市场的反应</strong></p>
+<p>报道称，辞职后特朗普公开表态欢迎他回归，并称没有其不当行为的证据；黄仁勋本人对员工表示要做一个「更好的 CEO」。事件背后是英伟达在 AI 芯片出口政策中的位置。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">31054585c60f1fbe7f7167d645f5cd96bf65adfdef2a92219dd568553a8af23a</guid><pubDate>Tue, 24 Nov 2026 06:25:12 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>The Verge · 2026-11-24 06:25:12 北京时间</small></p>
+<p>英伟达董事会 11 月 23 日一致投票，恢复黄仁勋的总裁、CEO 与董事职务，距他因两段婚外情报道辞职不到两周。董事会声明称，决定前征询了美国政府高层意见，并认定其复职不构成国家安全风险。</p>
+<p><strong>回归附带的安排</strong></p>
+<ul><li>由独立董事组成的委员会将继续调查他成为外国情报行动目标的报道，直至得出结论，黄仁勋称会配合。</li><li>董事会另设国家安全与出口管制委员会，并开始招聘首席合规官。</li><li>临时 CEO Colette Kress 交回职务，继续担任 CFO。</li></ul>
+<p><strong>政治与市场的反应</strong></p>
+<p>报道称，辞职后特朗普公开表态欢迎他回归，并称没有其不当行为的证据；黄仁勋本人对员工表示要做一个「更好的 CEO」。事件背后是英伟达在 AI 芯片出口政策中的位置。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【Agent】Claude Ship：Claude 可审查、修复并批准 PR</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><description><![CDATA[<div>
+<p><small>The Verge · 2026-11-24 04:00:00 北京时间</small></p>
+<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「开 PR 之后」的完整流程：<strong>PR Steward</strong> 处理失败的 CI、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
+<p><strong>谁可以用、怎么开启</strong></p>
+<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先跑 observe 模式，信任后再强制。</li></ul>
+<p><strong>边界</strong></p>
+<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、fork 与 bot 提交的 PR。</li><li>启用 Zero Data Retention、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并 PR 翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">0f416cf71dcd6e5a65d6e63b73d0b671c8c245b0512f776776f0d2fd02c84df3</guid><pubDate>Tue, 24 Nov 2026 04:00:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>The Verge · 2026-11-24 04:00:00 北京时间</small></p>
+<p>Anthropic 于 11 月 23 日推出 Claude Ship 测试版，把已全面可用的 Code Review 与两个新 Agent 串成「开 PR 之后」的完整流程：<strong>PR Steward</strong> 处理失败的 CI、合并冲突与评审意见，<strong>Claude Approvals</strong> 按仓库策略决定审批。</p>
+<p><strong>谁可以用、怎么开启</strong></p>
+<ul><li>Claude Team 与 Enterprise 套餐、托管在 GitHub 的仓库；开发者在 Claude Code 里执行 <strong>/ship</strong>，管理员也可按仓库逐个打开。</li><li>审批规则写成仓库里的 <strong>.claude/approvals.yml</strong>，可规定哪些路径需要几人批准、Claude 能否自行批准；官方建议先跑 observe 模式，信任后再强制。</li></ul>
+<p><strong>边界</strong></p>
+<ul><li>PR Steward 设计上不批准、不合并，合并仍靠分支保护；默认跳过草稿、fork 与 bot 提交的 PR。</li><li>启用 Zero Data Retention、HIPAA 配置或客户托管密钥的组织不可用；按 token 计费，可设月度上限。</li><li>Anthropic 自述其 Claude Code 团队 6—9 月合并 PR 翻倍、回滚比例下降逾四成，属厂商自报数据。</li></ul>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【开源软件】OpenAI 与 Cisco 开源 Shirudo：给未打补丁的 Linux 主机加 eBPF 临时防护</title><link>https://openai.com/index/introducing-shirudo</link><description><![CDATA[<div>
+<p><small>OpenAI News · 2026-11-24 05:20:00 北京时间</small></p>
+<p>OpenAI 与 Cisco 于 11 月 23 日开源 <strong>Shirudo</strong>（日语「护盾」），一个用 eBPF 在运行中的 Linux 系统上加载临时防护的运行时，覆盖漏洞披露到补丁推完之间的空窗期，不需要重启服务。</p>
+<p><strong>怎么用</strong></p>
+<ul><li>安全团队先在真实负载上验证某段「护盾」能拦住漏洞触发的行为、又不误伤正常请求，再由操作者批准上线。</li><li>Agent 可参与调查漏洞、生成护盾并验证效果，但是否部署由安全团队决定。</li><li>护盾加载前经加密签名校验，内核 eBPF 校验器与安全控制兜底，TPM 记录每次加载与移除，可离线核对。</li></ul>
+<p><strong>证据与边界</strong></p>
+<ul><li>官方给出的受控测试中，Codex 生成的护盾在运行中的 Elasticsearch 上拦住了 Java4Shell 利用尝试，未重启服务。</li><li>代码为 BSD 2-Clause，BPF 程序 BSD/GPL 双许可；项目仍是 pre-release，生产环境需要带签名加载 ABI 的内核补丁与 TPM 2.0。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://openai.com/index/introducing-shirudo">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">a8c41d3941e1ea9bf3e326ad8ba931000b56f41e91c928b2ea7a6049e75df87b</guid><pubDate>Tue, 24 Nov 2026 05:20:00 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>OpenAI News · 2026-11-24 05:20:00 北京时间</small></p>
+<p>OpenAI 与 Cisco 于 11 月 23 日开源 <strong>Shirudo</strong>（日语「护盾」），一个用 eBPF 在运行中的 Linux 系统上加载临时防护的运行时，覆盖漏洞披露到补丁推完之间的空窗期，不需要重启服务。</p>
+<p><strong>怎么用</strong></p>
+<ul><li>安全团队先在真实负载上验证某段「护盾」能拦住漏洞触发的行为、又不误伤正常请求，再由操作者批准上线。</li><li>Agent 可参与调查漏洞、生成护盾并验证效果，但是否部署由安全团队决定。</li><li>护盾加载前经加密签名校验，内核 eBPF 校验器与安全控制兜底，TPM 记录每次加载与移除，可离线核对。</li></ul>
+<p><strong>证据与边界</strong></p>
+<ul><li>官方给出的受控测试中，Codex 生成的护盾在运行中的 Elasticsearch 上拦住了 Java4Shell 利用尝试，未重启服务。</li><li>代码为 BSD 2-Clause，BPF 程序 BSD/GPL 双许可；项目仍是 pre-release，生产环境需要带签名加载 ABI 的内核补丁与 TPM 2.0。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://openai.com/index/introducing-shirudo">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【Simon Willison】Ladybird 的首个 alpha 版本</title><link>https://simonwillison.net/2026/Nov/23/ladybird/</link><description><![CDATA[<div>
+<p><small>Simon Willison · 2026-11-24 05:46:35 北京时间</small></p>
+<p>Simon 在 Ladybird 发布首个 alpha 当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
+<ul><li>除 HarfBuzz 文本排版、Skia 2D 图形、ffmpeg 视频与 SQLite 外，HTML 解析、CSS、布局、JavaScript 连 WebAssembly 都是自研实现。</li><li>他拿自己更复杂的工具做实测：ffmpeg 编译成 WebAssembly 的视频压缩器能跑，图片缩放工具与 Pyodide 版 Python REPL 也正常。</li><li>每个标签页独立进程，文中贴出开六个窗口标签后的进程树与各自内存占用。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/ladybird/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">d3eeee17bfb2c13da1c2dde77339439f17952759229b385e98a247b34beec0ae</guid><pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>Simon Willison · 2026-11-24 05:46:35 北京时间</small></p>
+<p>Simon 在 Ladybird 发布首个 alpha 当天试用：macOS 与 Linux 用户现在可直接安装，不必自行编译。他觉得速度不错、界面轻量直观，试过的网站大多能正常打开。</p>
+<ul><li>除 HarfBuzz 文本排版、Skia 2D 图形、ffmpeg 视频与 SQLite 外，HTML 解析、CSS、布局、JavaScript 连 WebAssembly 都是自研实现。</li><li>他拿自己更复杂的工具做实测：ffmpeg 编译成 WebAssembly 的视频压缩器能跑，图片缩放工具与 Pyodide 版 Python REPL 也正常。</li><li>每个标签页独立进程，文中贴出开六个窗口标签后的进程树与各自内存占用。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/ladybird/">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【Simon Willison】datasette-charts 0.1a0</title><link>https://simonwillison.net/2026/Nov/23/datasette-charts/</link><description><![CDATA[<div>
+<p><small>Simon Willison · 2026-11-23 08:37:20 北京时间</small></p>
+<p>Simon 说这个想法搁了一年多，周日用 Claude Fable 5.2 起了原型，效果不错就直接做成了插件：对 Datasette 任意表或自定义 SQL 查询生成图表。</p>
+<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍是 alpha。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">5005f0b9ff289013555b2e8339b947cc0a89d8eab3d1e6e8af9fd37b1e779793</guid><pubDate>Mon, 23 Nov 2026 08:37:20 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>Simon Willison · 2026-11-23 08:37:20 北京时间</small></p>
+<p>Simon 说这个想法搁了一年多，周日用 Claude Fable 5.2 起了原型，效果不错就直接做成了插件：对 Datasette 任意表或自定义 SQL 查询生成图表。</p>
+<ul><li>按数据特征给出建议图表（缩略图就是真实可视化结果），选中后可继续调整，也能从零手动配置。</li><li>关键差别在 <strong>对全量数据聚合</strong>：图表编译成带 GROUP BY、时间分桶与窗口函数的 SQL，结果再截到 5000 行；旧的 datasette-vega 只画当前页最多 100 行。</li><li>大表用抽样给出建议；图表状态存在 URL 的 #fragment 里，可收藏或分享。仍是 alpha。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【JetBrains Kotlin Blog】Kotlin Benchmark 2.0：AI 编码 Agent 如何应对更难的题目与闭源代码</title><link>https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/</link><description><![CDATA[<div>
+<p><small>JetBrains Kotlin Blog · 2026-11-23 22:13:29 北京时间</small></p>
+<p>JetBrains 把 7 月上线的 Kotlin Benchmark 升到 2.0：题目从简单单文件改动换成需要多步推理、调试与多文件修改的中高复杂度任务，范围也从纯开源扩成 70 个开源任务（来自 25 个仓库）加 30 个 JetBrains 内部闭源任务。</p>
+<ul><li>防刷分：Agent 做开源题时禁用网络，无法检索已发布的修复；每个配置每题限时 30 分钟。</li><li>领域覆盖：开源题含 30 个 Android、20 个后端、10 个 Kotlin Multiplatform、10 个库与工具；闭源题来自内部服务端项目。</li><li>榜单同时给出总体与开源／闭源分组成绩，可直接比较同一 Agent–模型配置在公开与私有代码上的表现差距。</li></ul>
+<p><small>依据订阅源正文 · <a href="https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">b5532fdefac945205a98f9abfd7e5956cb795803827a2f2015a291fd260df809</guid><pubDate>Mon, 23 Nov 2026 22:13:29 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>JetBrains Kotlin Blog · 2026-11-23 22:13:29 北京时间</small></p>
+<p>JetBrains 把 7 月上线的 Kotlin Benchmark 升到 2.0：题目从简单单文件改动换成需要多步推理、调试与多文件修改的中高复杂度任务，范围也从纯开源扩成 70 个开源任务（来自 25 个仓库）加 30 个 JetBrains 内部闭源任务。</p>
+<ul><li>防刷分：Agent 做开源题时禁用网络，无法检索已发布的修复；每个配置每题限时 30 分钟。</li><li>领域覆盖：开源题含 30 个 Android、20 个后端、10 个 Kotlin Multiplatform、10 个库与工具；闭源题来自内部服务端项目。</li><li>榜单同时给出总体与开源／闭源分组成绩，可直接比较同一 Agent–模型配置在公开与私有代码上的表现差距。</li></ul>
+<p><small>依据订阅源正文 · <a href="https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>【tw93.fun】2026 年我的常用 Mac 软件</title><link>https://tw93.fun/2026-11-23/mac-apps.html</link><description><![CDATA[<div>
+<p><small>tw93.fun · 来源未提供发布时间</small></p>
+<p>作者按年度惯例列出今年每天在用的 24 个 Mac 软件，并提到有了 AI 之后常用软件反而变少。</p>
+<ul><li><strong>Claude Code</strong>：以 CLI 为主几乎时刻在跑，默认 Opus 5.5 high、复杂任务换 Fable 5.2 medium；不再用 Codex，也不用多 Agent 工具，理由是想要简单可控的编码。</li><li><strong>妙言</strong>写稿（潮流周刊就在此编辑）、<strong>Mole</strong> 清垃圾与看系统状态、<strong>Kaku</strong> 作终端、<strong>Pake</strong> 把网页打包成桌面应用。</li><li>其余还有 Shottr 截图、微信输入法、NetNewsWire 读 RSS、Parallels、Sketch、Stash 等，多数附了使用理由。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://tw93.fun/2026-11-23/mac-apps.html">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">85a741fa8880ad9b7abdf9d7c901655ff575192edb433b4045c414c2a68f7124</guid><pubDate>Tue, 24 Nov 2026 08:00:59 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><small>tw93.fun · 来源未提供发布时间</small></p>
+<p>作者按年度惯例列出今年每天在用的 24 个 Mac 软件，并提到有了 AI 之后常用软件反而变少。</p>
+<ul><li><strong>Claude Code</strong>：以 CLI 为主几乎时刻在跑，默认 Opus 5.5 high、复杂任务换 Fable 5.2 medium；不再用 Codex，也不用多 Agent 工具，理由是想要简单可控的编码。</li><li><strong>妙言</strong>写稿（潮流周刊就在此编辑）、<strong>Mole</strong> 清垃圾与看系统状态、<strong>Kaku</strong> 作终端、<strong>Pake</strong> 把网页打包成桌面应用。</li><li>其余还有 Shottr 截图、微信输入法、NetNewsWire 读 RSS、Parallels、Sketch、Stash 等，多数附了使用理由。</li></ul>
+<p><small>依据订阅源摘录 · <a href="https://tw93.fun/2026-11-23/mac-apps.html">原文</a></small></p>
+</div>]]></content:encoded></item><item><title>本轮简讯（11 条）</title><description><![CDATA[<div>
+<p><strong>AIHOT 日报 · 2026-11-24 — NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会</strong><br/>
+<small>AIHOT AI 日报 · 2026-11-24 08:00:16 北京时间 · <a href="https://aihot.news/daily/2026-11-24">原文</a></small></p>
+<p><strong>提前泄露 GTA VI 的黑客被判刑，并已获释</strong><br/>
+<small>The Verge · 2026-11-24 07:25:01 北京时间 · <a href="https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released">原文</a></small></p>
+<p><strong>The Verge 2026 节日礼物指南</strong><br/>
+<small>The Verge · 2026-11-24 07:14:10 北京时间 · <a href="https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026">原文</a></small></p>
+<p><strong>多年来首个全新浏览器引擎 Ladybird 已可下载测试</strong><br/>
+<small>The Verge · 2026-11-24 06:38:09 北京时间 · <a href="https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing">原文</a></small></p>
+<p><strong>英伟达 CEO 黄仁勋归来，接下来会发生什么？</strong><br/>
+<small>The Verge · 2026-11-24 06:10:32 北京时间 · <a href="https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang">原文</a></small></p>
+<p><strong>欢迎来到精英免责的世界，黄仁勋</strong><br/>
+<small>The Verge · 2026-11-24 06:09:26 北京时间 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang">原文</a></small></p>
+<p><strong>Apple Watch Series 12 在黑五前降至历史新低</strong><br/>
+<small>The Verge · 2026-11-24 05:36:48 北京时间 · <a href="https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale">原文</a></small></p>
+<p><strong>AI 数据中心给混乱的联合国气候谈判再添变数</strong><br/>
+<small>The Verge · 2026-11-24 05:09:37 北京时间 · <a href="https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit">原文</a></small></p>
+<p><strong>Apple 续订《足球教练》第五季</strong><br/>
+<small>The Verge · 2026-11-24 04:56:00 北京时间 · <a href="https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv">原文</a></small></p>
+<p><strong>Richpanel 借助 GPT-6 系列模型在 30 天内把 50% 客服自动化</strong><br/>
+<small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/customer-stories/richpanel-ai-customer-support">原文</a></small></p>
+<p><strong>面向企业内部法务的互联智能</strong><br/>
+<small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/learn/connected-intelligence-for-in-house-legal">原文</a></small></p>
+</div>]]></description><guid isPermaLink="false">unselected-f9ffb45dda0cecc7cf112638a7a0f32bbe48d46a60971ee0f32e03e6731d1584</guid><pubDate>Tue, 24 Nov 2026 08:00:16 +0800</pubDate><content:encoded><![CDATA[<div>
+<p><strong>AIHOT 日报 · 2026-11-24 — NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会</strong><br/>
+<small>AIHOT AI 日报 · 2026-11-24 08:00:16 北京时间 · <a href="https://aihot.news/daily/2026-11-24">原文</a></small></p>
+<p><strong>提前泄露 GTA VI 的黑客被判刑，并已获释</strong><br/>
+<small>The Verge · 2026-11-24 07:25:01 北京时间 · <a href="https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released">原文</a></small></p>
+<p><strong>The Verge 2026 节日礼物指南</strong><br/>
+<small>The Verge · 2026-11-24 07:14:10 北京时间 · <a href="https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026">原文</a></small></p>
+<p><strong>多年来首个全新浏览器引擎 Ladybird 已可下载测试</strong><br/>
+<small>The Verge · 2026-11-24 06:38:09 北京时间 · <a href="https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing">原文</a></small></p>
+<p><strong>英伟达 CEO 黄仁勋归来，接下来会发生什么？</strong><br/>
+<small>The Verge · 2026-11-24 06:10:32 北京时间 · <a href="https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang">原文</a></small></p>
+<p><strong>欢迎来到精英免责的世界，黄仁勋</strong><br/>
+<small>The Verge · 2026-11-24 06:09:26 北京时间 · <a href="https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang">原文</a></small></p>
+<p><strong>Apple Watch Series 12 在黑五前降至历史新低</strong><br/>
+<small>The Verge · 2026-11-24 05:36:48 北京时间 · <a href="https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale">原文</a></small></p>
+<p><strong>AI 数据中心给混乱的联合国气候谈判再添变数</strong><br/>
+<small>The Verge · 2026-11-24 05:09:37 北京时间 · <a href="https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit">原文</a></small></p>
+<p><strong>Apple 续订《足球教练》第五季</strong><br/>
+<small>The Verge · 2026-11-24 04:56:00 北京时间 · <a href="https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv">原文</a></small></p>
+<p><strong>Richpanel 借助 GPT-6 系列模型在 30 天内把 50% 客服自动化</strong><br/>
+<small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/customer-stories/richpanel-ai-customer-support">原文</a></small></p>
+<p><strong>面向企业内部法务的互联智能</strong><br/>
+<small>OpenAI News · 2026-11-23 16:00:00 北京时间 · <a href="https://openai.com/business/learn/connected-intelligence-for-in-house-legal">原文</a></small></p>
 </div>]]></content:encoded></item></channel></rss>
