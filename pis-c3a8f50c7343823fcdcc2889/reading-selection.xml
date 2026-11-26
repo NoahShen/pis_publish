@@ -2089,5 +2089,43 @@
 <small>在花🎗️科技圈 · 2026-11-26 14:30:02 北京时间 · <a href="https://t.me/zaihuapd/45378">原文</a></small></p>
 <p><strong>【产业与科技发展】月活破百万、同比暴涨93.9%：淘宝成为韩国增速最快的电商平台</strong><br />
 <small>雷锋网 · 2026-11-26 13:46:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/7P7TJEooLlAQxqGH.html">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【清霜之辰-博客】Agent 要删掉整个目录的时候，审批门该拦在哪一步</title><link>https://h89.cn/archives/880.html</link><guid isPermaLink="false">89075656d4150820ee9a1988e6528f0b4f5fefc8d4307cca3f3cf9e5f251793a</guid><pubDate>Mon, 23 Nov 2026 12:44:00 GMT</pubDate><description><![CDATA[<p><small>清霜之辰-博客 · 2026-11-23 20:44:00 北京时间</small></p>
+<p>作者在给呈言智（chyan-agent）的审批门收尾时发现文档与代码对不上：requirements.md 里 FR-5 写的是 human 模式审批超时后降级到 ai 裁决，实际代码超时直接返回 <strong>ErrApprovalTimeout</strong>，调用方当致命错误终止本轮，只有审批通道故障或压根没配人工通道才降级到 ai。同一周还修了审批单被 pending 快照和 SSE 推送重复拉起的问题——批准第一张再点第二张，接口返回 400 被前端当成错误弹出，改成 409 后客户端才知道「已经批过了」。</p>
+<p>文章的核心判断是审批不是一个弹窗，而是四道位置不同的闸：规则层（<strong>deny 在生成审批单之前</strong>，read 默认放行、其余默认询问）、模式层（ai 启发式表加 LLM 审核员、human、full）、bash 命令黑名单（在审批之后，批准了照样拒，共 11 条正则）、diff 预览（按磁盘当前内容 dry-run，不依赖 git）。作者自己踩的坑是字面量优先于通配：一条具体的 allow 能压过通配的 deny，所以「绝对不允许」只写一条通配 deny 并不成立；ai 模式也比想象中保守，连 <strong>rm -rf ./build</strong> 都会按高风险直接拒。</p>
+<p>边界写得很清楚：黑名单是正则词法匹配而不是安全沙箱，变量拼接、alias、base64 解码后再执行都可能绕过；<strong>git push --force</strong> 也在黑名单里，human 模式下人工批准同样跑不了，需要强推只能绕开 bash 工具或改代码。作者承认这套门目前只解决「命令形态 + 规则 + 人眼」，还没解决目标一致性。</p>
+<p>他因此列出五件未完成的事，最要紧的是审批只绑命令字符串、不绑目标：用户要删 A、命令实际删 B 时不会被自动发现，因为审批门不做 shell 解析、变量展开和 realpath，也不拿命令目标和用户原话比对。两条改进路径是先把破坏性操作落成结构化计划（审批 realpath 后的 targets 与计划 hash，执行前再校验一次），以及把 ai 模式改成先跑确定性判定、AI 只判灰区，deny 不允许被 AI 覆盖。文末给了一张 11 条判据清单，可直接拿来对自家 Agent 的审批链路。</p>
+<p><small>依据订阅源正文 · <a href="https://h89.cn/archives/880.html">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>清霜之辰-博客 · 2026-11-23 20:44:00 北京时间</small></p>
+<p>作者在给呈言智（chyan-agent）的审批门收尾时发现文档与代码对不上：requirements.md 里 FR-5 写的是 human 模式审批超时后降级到 ai 裁决，实际代码超时直接返回 <strong>ErrApprovalTimeout</strong>，调用方当致命错误终止本轮，只有审批通道故障或压根没配人工通道才降级到 ai。同一周还修了审批单被 pending 快照和 SSE 推送重复拉起的问题——批准第一张再点第二张，接口返回 400 被前端当成错误弹出，改成 409 后客户端才知道「已经批过了」。</p>
+<p>文章的核心判断是审批不是一个弹窗，而是四道位置不同的闸：规则层（<strong>deny 在生成审批单之前</strong>，read 默认放行、其余默认询问）、模式层（ai 启发式表加 LLM 审核员、human、full）、bash 命令黑名单（在审批之后，批准了照样拒，共 11 条正则）、diff 预览（按磁盘当前内容 dry-run，不依赖 git）。作者自己踩的坑是字面量优先于通配：一条具体的 allow 能压过通配的 deny，所以「绝对不允许」只写一条通配 deny 并不成立；ai 模式也比想象中保守，连 <strong>rm -rf ./build</strong> 都会按高风险直接拒。</p>
+<p>边界写得很清楚：黑名单是正则词法匹配而不是安全沙箱，变量拼接、alias、base64 解码后再执行都可能绕过；<strong>git push --force</strong> 也在黑名单里，human 模式下人工批准同样跑不了，需要强推只能绕开 bash 工具或改代码。作者承认这套门目前只解决「命令形态 + 规则 + 人眼」，还没解决目标一致性。</p>
+<p>他因此列出五件未完成的事，最要紧的是审批只绑命令字符串、不绑目标：用户要删 A、命令实际删 B 时不会被自动发现，因为审批门不做 shell 解析、变量展开和 realpath，也不拿命令目标和用户原话比对。两条改进路径是先把破坏性操作落成结构化计划（审批 realpath 后的 targets 与计划 hash，执行前再校验一次），以及把 ai 模式改成先跑确定性判定、AI 只判灰区，deny 不允许被 AI 覆盖。文末给了一张 11 条判据清单，可直接拿来对自家 Agent 的审批链路。</p>
+<p><small>依据订阅源正文 · <a href="https://h89.cn/archives/880.html">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【人工智能】AI 助理替人打电话：Pine 发布 Pine Phone，Decagon 开放个人助理网关</title><link>http://www.geekpark.net/news/374536</link><guid isPermaLink="false">90725d9dc2cbb57981b01722ae721453bb47b53f8e4a12f98b63dad65c2110a4</guid><pubDate>Thu, 26 Nov 2026 09:04:47 GMT</pubDate><description><![CDATA[<p><small>极客公园-GeekPark · 2026-11-26 17:04:47 北京时间</small></p>
+<p>极客公园与 Pine AI 联合创始人兼 CTO 孙雨润对谈，交代了消费者这一侧 AI 助理的进展：企业客服 AI 公司 Decagon 在 10 月推出 <strong>Personal Agent Gateway</strong>，让消费者的 AI 助理直接与企业客服系统沟通；Pine 于 2024 年 6 月成立，核心团队来自声网 Agora，已完成 2500 万美元 A 轮，10 月发布 Pine Computer（为 AI 设计的云端计算环境），11 月发布 <strong>Pine Phone</strong>，让 AI 在操作网页、处理文件的同时拨打真实电话。</p>
+<p>案例：一名用户因公司搬迁需提前结束网络服务，运营商坚持收整个账期费用，本人打了五六次电话没解决；Pine 先检索计费规定与历史案例，再带依据交涉，最终账单被调整——作者注明这起案例的具体法律依据仍待核实。Pine 公布过 93% 的谈判成功率，孙雨润澄清这是梳理需求、判断是否符合政策之后符合条件的任务完成率，并非所有请求都能达成的概率。</p>
+<p>能力边界给得很实在：Pine 10 月公布的 SaaS-Bench v1.1 中，系统检查点通过率 78.3%，但<strong>完整任务完成率只有 27.4%</strong>——步骤大多能做对，最后一环出错整件事仍会失败。产品设计上不提供「Always Approve」：谈判到关键点会回来请示，代表用户沟通时先声明自己是助理，客服要求本人授权就把用户拉进三方通话。</p>
+<p>孙雨润认为双方 Agent 之后的核心问题不是寒暄，而是身份验证、授权与责任划分；他观察到企业 AI 客服目前多停在 Tier 1 的问答与信息收集，涉及降价、退款仍要转真人或更高权限部门。文章还提到需求侧的一个反直觉结论：高频用户未必是高收入人群，而是被琐事缠身的小企业主，例如正在施工、没空接询价电话的空调安装师傅。</p>
+<p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374536">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>极客公园-GeekPark · 2026-11-26 17:04:47 北京时间</small></p>
+<p>极客公园与 Pine AI 联合创始人兼 CTO 孙雨润对谈，交代了消费者这一侧 AI 助理的进展：企业客服 AI 公司 Decagon 在 10 月推出 <strong>Personal Agent Gateway</strong>，让消费者的 AI 助理直接与企业客服系统沟通；Pine 于 2024 年 6 月成立，核心团队来自声网 Agora，已完成 2500 万美元 A 轮，10 月发布 Pine Computer（为 AI 设计的云端计算环境），11 月发布 <strong>Pine Phone</strong>，让 AI 在操作网页、处理文件的同时拨打真实电话。</p>
+<p>案例：一名用户因公司搬迁需提前结束网络服务，运营商坚持收整个账期费用，本人打了五六次电话没解决；Pine 先检索计费规定与历史案例，再带依据交涉，最终账单被调整——作者注明这起案例的具体法律依据仍待核实。Pine 公布过 93% 的谈判成功率，孙雨润澄清这是梳理需求、判断是否符合政策之后符合条件的任务完成率，并非所有请求都能达成的概率。</p>
+<p>能力边界给得很实在：Pine 10 月公布的 SaaS-Bench v1.1 中，系统检查点通过率 78.3%，但<strong>完整任务完成率只有 27.4%</strong>——步骤大多能做对，最后一环出错整件事仍会失败。产品设计上不提供「Always Approve」：谈判到关键点会回来请示，代表用户沟通时先声明自己是助理，客服要求本人授权就把用户拉进三方通话。</p>
+<p>孙雨润认为双方 Agent 之后的核心问题不是寒暄，而是身份验证、授权与责任划分；他观察到企业 AI 客服目前多停在 Tier 1 的问答与信息收集，涉及降价、退款仍要转真人或更高权限部门。文章还提到需求侧的一个反直觉结论：高频用户未必是高收入人群，而是被琐事缠身的小企业主，例如正在施工、没空接询价电话的空调安装师傅。</p>
+<p><small>依据订阅源摘录 · <a href="http://www.geekpark.net/news/374536">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【人工智能】42 州总检察长联名施压，阻止 Character.AI 在破产程序中出售用户聊天记录</title><link>https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats</link><guid isPermaLink="false">cb1c00fd178018b669c363f1914d783a20c80c5ba4475bbf4b97182d686947cf</guid><pubDate>Thu, 26 Nov 2026 09:54:40 GMT</pubDate><description><![CDATA[<p><small>The Verge · 2026-11-26 17:54:40 北京时间</small></p>
+<p><strong>前情提要</strong><br />Character.AI 在今年 10 月申请 Chapter 11 破产，此前经历多起丑闻与法律诉讼（包括来自迪士尼的诉讼）。迪士尼随后买下公司部分资产，并把 CEO Karandeep Anand 与部分技术团队招入，那笔交易同样遭到一个跨州总检察长联盟反对。</p>
+<p><strong>本次进展</strong><br />11 月 26 日，42 位美国州总检察长组成的两党联盟集中发布声明，要求阻止公司在破产程序中拍卖用户数据。他们称拟出售的是<strong>超过 2100 万个美国账户的私人聊天记录，其中 210 多万个账户注册者为未成年人</strong>，且没有任何保护措施：不要求买家遵守原有隐私政策、没有让用户删除数据的途径、也不限制买家把数据再转售。首个竞标方 2026 年 11 月 13 日才成立，没有母公司或投资方记录。</p>
+<p><strong>接下来看什么</strong><br />纽约、康涅狄格、加州、科罗拉多等州针对聊天机器人的法律将于 2027 年 1 月 1 日生效，Character.AI 的业务可能触犯其中条款。值得跟踪的是破产法院对出售方案的裁定，以及最终买家与数据处置条款如何约定——这会是「用户对话记录能否作为破产资产变现」的第一个判例级样本。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>The Verge · 2026-11-26 17:54:40 北京时间</small></p>
+<p><strong>前情提要</strong><br />Character.AI 在今年 10 月申请 Chapter 11 破产，此前经历多起丑闻与法律诉讼（包括来自迪士尼的诉讼）。迪士尼随后买下公司部分资产，并把 CEO Karandeep Anand 与部分技术团队招入，那笔交易同样遭到一个跨州总检察长联盟反对。</p>
+<p><strong>本次进展</strong><br />11 月 26 日，42 位美国州总检察长组成的两党联盟集中发布声明，要求阻止公司在破产程序中拍卖用户数据。他们称拟出售的是<strong>超过 2100 万个美国账户的私人聊天记录，其中 210 多万个账户注册者为未成年人</strong>，且没有任何保护措施：不要求买家遵守原有隐私政策、没有让用户删除数据的途径、也不限制买家把数据再转售。首个竞标方 2026 年 11 月 13 日才成立，没有母公司或投资方记录。</p>
+<p><strong>接下来看什么</strong><br />纽约、康涅狄格、加州、科罗拉多等州针对聊天机器人的法律将于 2027 年 1 月 1 日生效，Character.AI 的业务可能触犯其中条款。值得跟踪的是破产法院对出售方案的裁定，以及最终买家与数据处置条款如何约定——这会是「用户对话记录能否作为破产资产变现」的第一个判例级样本。</p>
+<p><small>依据订阅源正文 · <a href="https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats">原文</a></small></p>]]></content:encoded></item>
+    <item><title>本轮简讯（2 条）</title><guid isPermaLink="false">unselected-e7107645391d7e2bfb61c525ae6bd863ce4b3d172209564b66c5a45ef654125c</guid><pubDate>Thu, 26 Nov 2026 09:38:59 GMT</pubDate><description><![CDATA[<p><strong>中国双 11 智能手机销量同比降 17%，苹果仍居第一、华为是唯一增长的主要厂商</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 17:38:59 北京时间 · <a href="https://t.me/zaihuapd/45384">原文</a></small></p>
+<p><strong>SpaceX 向美国儿童投资账户捐股，马斯克等额配捐</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 16:31:02 北京时间 · <a href="https://t.me/zaihuapd/45383">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>中国双 11 智能手机销量同比降 17%，苹果仍居第一、华为是唯一增长的主要厂商</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 17:38:59 北京时间 · <a href="https://t.me/zaihuapd/45384">原文</a></small></p>
+<p><strong>SpaceX 向美国儿童投资账户捐股，马斯克等额配捐</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 16:31:02 北京时间 · <a href="https://t.me/zaihuapd/45383">原文</a></small></p>]]></content:encoded></item>
 </channel>
 </rss>
