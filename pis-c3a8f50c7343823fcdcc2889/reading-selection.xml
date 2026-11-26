@@ -1892,5 +1892,78 @@
 &lt;small&gt;少数派 · 2026-11-24 11:03:10 北京时间 · &lt;a href="https://sspai.com/post/119412"&gt;原文&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;雷峰早报：黄仁勋复职、DeepSeek 估值传闻与蚂蚁医疗模型开源&lt;/strong&gt;&lt;br /&gt;
 &lt;small&gt;雷锋网 · 2026-11-24 09:42:00 北京时间 · &lt;a href="https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html"&gt;原文&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">unselected-b27252741f2fb7ec98f9e4470e2f375d9f01f2fcb6d8dbdb13bc7b46717fea39</guid><pubDate>Tue, 24 Nov 2026 13:03:36 +0800</pubDate></item>
+<item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【大模型】Sand.ai 发布 MAGI-2：480B 参数，1080P 视频每秒 0.5 元</title><link>https://www.oschina.net/news/503820/sand-ai-magi-2</link><guid isPermaLink="false">17d31d2aef7aeef54f2ea41072a2112073c984599031b1d7747fef3aab9f0f14</guid><pubDate>Thu, 26 Nov 2026 10:54:20 +0800</pubDate><description><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-26 10:54:20 北京时间</small></p>
+<p>Sand.ai（三呆科技）发布音视频生成模型 <strong>MAGI-2</strong>：总参数 480B、单次推理约激活 28B（上一版 MAGI-2 Preview 为 114B 与约 6B），可生成最长 30 秒、1080P、25 帧的视频与同步音频，支持最多 20 份图片／视频／音频参考素材，也能对已有视频做编辑。</p>
+<p>价格是这次发布的核心卖点：官方标价每秒 0.08 美元（开源中国记作每秒 0.5 元人民币），称是同规格主流模型的十分之一。雷锋网给出的对照是 Artificial Analysis「图生视频、带音频」榜单按测试设置列出的 API 价格，每分钟 4.80 美元与 34.12 美元；在该榜单上 MAGI-2 暂列第一，领先第二名 Seedance 2.5 五个 Elo 分。</p>
+<p>可用范围与待确认项：API 已开放申请，官方称计划尽快开源全量权重，模型权重与完整技术报告尚未发布；榜单排名与两档 API 价格均引自雷锋网报道，未见独立复现数据。发布时间两处报道不一致，开源中国记为 11 月 24 日，雷锋网记为 11 月 25 日。</p>
+<p><small>依据开源中国订阅源摘录，参数与榜单数据由雷锋网早报补充 · <a href="https://www.oschina.net/news/503820/sand-ai-magi-2">原文</a> · <a href="https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html">雷锋网报道</a></small></p>
+</div>]]></description><content:encoded><![CDATA[<div>
+<p><small>开源中国社区最新新闻 · 2026-11-26 10:54:20 北京时间</small></p>
+<p>Sand.ai（三呆科技）发布音视频生成模型 <strong>MAGI-2</strong>：总参数 480B、单次推理约激活 28B（上一版 MAGI-2 Preview 为 114B 与约 6B），可生成最长 30 秒、1080P、25 帧的视频与同步音频，支持最多 20 份图片／视频／音频参考素材，也能对已有视频做编辑。</p>
+<p>价格是这次发布的核心卖点：官方标价每秒 0.08 美元（开源中国记作每秒 0.5 元人民币），称是同规格主流模型的十分之一。雷锋网给出的对照是 Artificial Analysis「图生视频、带音频」榜单按测试设置列出的 API 价格，每分钟 4.80 美元与 34.12 美元；在该榜单上 MAGI-2 暂列第一，领先第二名 Seedance 2.5 五个 Elo 分。</p>
+<p>可用范围与待确认项：API 已开放申请，官方称计划尽快开源全量权重，模型权重与完整技术报告尚未发布；榜单排名与两档 API 价格均引自雷锋网报道，未见独立复现数据。发布时间两处报道不一致，开源中国记为 11 月 24 日，雷锋网记为 11 月 25 日。</p>
+<p><small>依据开源中国订阅源摘录，参数与榜单数据由雷锋网早报补充 · <a href="https://www.oschina.net/news/503820/sand-ai-magi-2">原文</a> · <a href="https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html">雷锋网报道</a></small></p>
+</div>]]></content:encoded></item>
+<item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【大模型】OpenAI 修正 GPT-6.2 额度扣减错误，Astra 达上限加快 40%</title><link>https://t.me/zaihuapd/45372</link><guid isPermaLink="false">d0db5bee8d2451c249671bb3c26a27cdd0869fbc2a92a42c2187f046aff9a1b2</guid><pubDate>Thu, 26 Nov 2026 11:04:43 +0800</pubDate><description><![CDATA[<div>
+<p><small>在花🎗️科技圈 · 2026-11-26 11:04:43 北京时间</small></p>
+<p>OpenAI 于 11 月 25 日向部分 Codex 用户发邮件说明，GPT-6.2 Astra 与 Sol 的部分请求（含 Ultrafast 模式）此前额度扣减低于预期，现已更正，用户可能更快触达使用上限。</p>
+<p>修正后的具体影响：达到上限的速度在 <strong>Astra 上加快 40%</strong>、在 <strong>Sol 上加快 25%</strong>；订阅价格不变，过去少扣的用量不补扣费用。GPT-6.2 系列仍比 GPT-6 Astra 与 GPT-6.1 Sol 支撑更多使用量，其他模型不受影响；额度与重置时间可在 Settings → Usage 查看。</p>
+<p>作为补偿，Tibo 称 Go、Plus、Pro 与 Business 用户将各获得一张重置卡（banked reset）。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/zaihuapd/45372">原文</a></small></p>
+</div>]]></description><content:encoded><![CDATA[<div>
+<p><small>在花🎗️科技圈 · 2026-11-26 11:04:43 北京时间</small></p>
+<p>OpenAI 于 11 月 25 日向部分 Codex 用户发邮件说明，GPT-6.2 Astra 与 Sol 的部分请求（含 Ultrafast 模式）此前额度扣减低于预期，现已更正，用户可能更快触达使用上限。</p>
+<p>修正后的具体影响：达到上限的速度在 <strong>Astra 上加快 40%</strong>、在 <strong>Sol 上加快 25%</strong>；订阅价格不变，过去少扣的用量不补扣费用。GPT-6.2 系列仍比 GPT-6 Astra 与 GPT-6.1 Sol 支撑更多使用量，其他模型不受影响；额度与重置时间可在 Settings → Usage 查看。</p>
+<p>作为补偿，Tibo 称 Go、Plus、Pro 与 Business 用户将各获得一张重置卡（banked reset）。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/zaihuapd/45372">原文</a></small></p>
+</div>]]></content:encoded></item>
+<item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【Find Blog👁发现博客】🖼 博主 Dejavu Moe 开源了自己的 Hugo 静态博客主题——Hugo Icy</title><link>https://t.me/FindBlog/671</link><guid isPermaLink="false">4440ee16811b2e1877b63bd9785c34d3ef528373f012a6c873e53e81748f628b</guid><pubDate>Wed, 25 Nov 2026 21:34:53 +0800</pubDate><description><![CDATA[<div>
+<p><small>Find Blog👁发现博客 · 2026-11-25 21:34:53 北京时间</small></p>
+<p>博主 Dejavu Moe 开源了自用的 Hugo 主题 <strong>Hugo Icy</strong>，完全用原生 HTML／CSS／JavaScript 编写，主打轻量简洁。</p>
+<p>除 Hugo 基础功能外，主题内置若干具体特性：Android／iOS 实况照片渲染、由 Pele 驱动的 Mermaid 图表、行内表情包渲染、给文章加密码访问，以及提供 <code>llms-full.txt</code> 供 AI 读取站点内容、协助部署配置。</p>
+<p>源码在 GitHub（DejavuMoe/hugo-theme-icy），另有文档站 icy.zsh.moe 与演示站 blog.dejavu.moe；作者称可按需定制。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/FindBlog/671">原文</a></small></p>
+</div>]]></description><content:encoded><![CDATA[<div>
+<p><small>Find Blog👁发现博客 · 2026-11-25 21:34:53 北京时间</small></p>
+<p>博主 Dejavu Moe 开源了自用的 Hugo 主题 <strong>Hugo Icy</strong>，完全用原生 HTML／CSS／JavaScript 编写，主打轻量简洁。</p>
+<p>除 Hugo 基础功能外，主题内置若干具体特性：Android／iOS 实况照片渲染、由 Pele 驱动的 Mermaid 图表、行内表情包渲染、给文章加密码访问，以及提供 <code>llms-full.txt</code> 供 AI 读取站点内容、协助部署配置。</p>
+<p>源码在 GitHub（DejavuMoe/hugo-theme-icy），另有文档站 icy.zsh.moe 与演示站 blog.dejavu.moe；作者称可按需定制。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/FindBlog/671">原文</a></small></p>
+</div>]]></content:encoded></item>
+<item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【小声读书 🙈】🔁🖼 转发：Antigravity 智能体平台的安装与使用教程</title><link>https://t.me/weekly_books/2644</link><guid isPermaLink="false">9ac94e68c0694819c9f203a7e00e748154e320d0dec3ab6044b091d77db6ede6</guid><pubDate>Wed, 25 Nov 2026 16:51:51 +0800</pubDate><description><![CDATA[<div>
+<p><small>小声读书 🙈 · 2026-11-25 16:51:51 北京时间</small></p>
+<p>频道转发（原始来源 mastergo）一篇 Google Antigravity 的入门教程。Antigravity 是 Google 的智能体开发平台：用户说明要做什么，智能体自行规划、写代码、开浏览器验证。</p>
+<p>据转述，教程覆盖账号与网络准备、安装、使用方式、额度计算，以及各类报错的处置办法，正文链接指向 monk.party 上的教程页；订阅源只给出这一段介绍，未提供教程要点。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/weekly_books/2644">原文</a></small></p>
+</div>]]></description><content:encoded><![CDATA[<div>
+<p><small>小声读书 🙈 · 2026-11-25 16:51:51 北京时间</small></p>
+<p>频道转发（原始来源 mastergo）一篇 Google Antigravity 的入门教程。Antigravity 是 Google 的智能体开发平台：用户说明要做什么，智能体自行规划、写代码、开浏览器验证。</p>
+<p>据转述，教程覆盖账号与网络准备、安装、使用方式、额度计算，以及各类报错的处置办法，正文链接指向 monk.party 上的教程页；订阅源只给出这一段介绍，未提供教程要点。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/weekly_books/2644">原文</a></small></p>
+</div>]]></content:encoded></item>
+<item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>本轮简讯（5 条）</title><guid isPermaLink="false">unselected-8c9e66e3c371c57c213c016e45cca5eef0dee5617aaa5fc98fdd2376cc0fd1ef</guid><pubDate>Thu, 26 Nov 2026 12:00:01 +0800</pubDate><description><![CDATA[<div>
+<p><strong>爱奇艺称收到纳斯达克不合规通知，需在 180 日内整改</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:00:01 北京时间 · <a href="https://t.me/zaihuapd/45373">原文</a></small></p>
+<p><strong>微软 Copilot 负责人：很多软件的主要客户以后不再是人类</strong><br />
+<small>开源中国社区最新新闻 · 2026-11-26 11:28:47 北京时间 · <a href="https://www.oschina.net/news/503822/agents-are-very-harsh-customers">原文</a></small></p>
+<p><strong>Anthropic CEO 否认主张把人类自由意志交给 AI</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 10:27:19 北京时间 · <a href="https://t.me/zaihuapd/45371">原文</a></small></p>
+<p><strong>雷锋网早报：奥迪长春工厂产能利用率跌破 10%、Anthropic 创始人兄妹上市次日套现 37 亿元</strong><br />
+<small>雷锋网 · 2026-11-26 09:30:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html">原文</a></small></p>
+<p><strong>极客早知道：黄仁勋复职后首次全员大会道歉、iPhone Duo 零部件成本率创新高、Anthropic 跌破发行价</strong><br />
+<small>极客公园-GeekPark · 2026-11-26 08:19:57 北京时间 · <a href="http://www.geekpark.net/news/374500">原文</a></small></p>
+</div>]]></description><content:encoded><![CDATA[<div>
+<p><strong>爱奇艺称收到纳斯达克不合规通知，需在 180 日内整改</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:00:01 北京时间 · <a href="https://t.me/zaihuapd/45373">原文</a></small></p>
+<p><strong>微软 Copilot 负责人：很多软件的主要客户以后不再是人类</strong><br />
+<small>开源中国社区最新新闻 · 2026-11-26 11:28:47 北京时间 · <a href="https://www.oschina.net/news/503822/agents-are-very-harsh-customers">原文</a></small></p>
+<p><strong>Anthropic CEO 否认主张把人类自由意志交给 AI</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 10:27:19 北京时间 · <a href="https://t.me/zaihuapd/45371">原文</a></small></p>
+<p><strong>雷锋网早报：奥迪长春工厂产能利用率跌破 10%、Anthropic 创始人兄妹上市次日套现 37 亿元</strong><br />
+<small>雷锋网 · 2026-11-26 09:30:00 北京时间 · <a href="https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html">原文</a></small></p>
+<p><strong>极客早知道：黄仁勋复职后首次全员大会道歉、iPhone Duo 零部件成本率创新高、Anthropic 跌破发行价</strong><br />
+<small>极客公园-GeekPark · 2026-11-26 08:19:57 北京时间 · <a href="http://www.geekpark.net/news/374500">原文</a></small></p>
+</div>]]></content:encoded></item>
 </channel>
 </rss>
