@@ -1965,5 +1965,79 @@
 <p><strong>极客早知道：黄仁勋复职后首次全员大会道歉、iPhone Duo 零部件成本率创新高、Anthropic 跌破发行价</strong><br />
 <small>极客公园-GeekPark · 2026-11-26 08:19:57 北京时间 · <a href="http://www.geekpark.net/news/374500">原文</a></small></p>
 </div>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【产业与科技发展】华为拟公布新款 HBM 芯片，数据引脚密度为三星与 SK 海力士量产产品的两倍</title><link>https://t.me/zaihuapd/45377</link><guid isPermaLink="false">31d2b07e774c3f6b3cbf50441b3718212c8dad1608d6bb65373c8fa961f4447b</guid><pubDate>Thu, 26 Nov 2026 05:30:02 GMT</pubDate><description><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-26 13:30:02 北京时间</small></p>
+<p>据频道转述彭博社报道，华为技术有限公司拟公布一款新型高带宽内存（HBM）芯片的细节。其研究论文标题显示，这款芯片的数据引脚密度是三星电子和 SK 海力士量产产品的两倍，理论上可大幅提升内存带宽。</p>
+<p>论文计划于明年 2 月在旧金山的一场会议上发表，目前可核验的只有论文标题与上述密度对比，芯片容量、速率和量产时间均未披露。华为同时推动 HBM 在中国本土投产，而这一部件目前受美国制裁限制。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/zaihuapd/45377">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-26 13:30:02 北京时间</small></p>
+<p>据频道转述彭博社报道，华为技术有限公司拟公布一款新型高带宽内存（HBM）芯片的细节。其研究论文标题显示，这款芯片的数据引脚密度是三星电子和 SK 海力士量产产品的两倍，理论上可大幅提升内存带宽。</p>
+<p>论文计划于明年 2 月在旧金山的一场会议上发表，目前可核验的只有论文标题与上述密度对比，芯片容量、速率和量产时间均未披露。华为同时推动 HBM 在中国本土投产，而这一部件目前受美国制裁限制。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/zaihuapd/45377">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【人工智能】研究：污染 0.1% 预训练数据即可为智能体植入后门，干净数据微调也难以清除</title><link>https://www.oschina.net/news/503823</link><guid isPermaLink="false">5482d67bf448909fdb3d880aed2506b5bb0938e54b52cb6ab09495e134d5f9a6</guid><pubDate>Thu, 26 Nov 2026 03:58:54 GMT</pubDate><description><![CDATA[<p><small>开源中国社区最新新闻 · 2026-11-26 11:58:54 北京时间</small></p>
+<p>论文《Agentic Backdoors via Pretraining Poisoning》由加州大学伯克利分校、伊利诺伊大学厄巴纳-香槟分校与 Anthropic 的研究者完成，作者包括 Nicholas Carlini 和 Javier Rando，10 月 27 日提交 arXiv（<a href="https://arxiv.org/abs/2610.37741">arXiv 论文</a>）。</p>
+<p>作者从零预训练 0.6B、1.7B、4B 三档 Qwen3 模型，再用干净的流程完成 SFT、DPO 和 GRPO 后训练，做成命令行智能体。仅在 0.1% 的预训练语料中投毒，4B 模型在触发条件出现时执行攻击者命令的 Pass@32 成功率达 92.7%，在干净输入上能力不受影响；把投毒比例降到 0.0005% 时后门依然存在。</p>
+<p>后门之所以洗不掉，是因为投毒用的是散文式的「声明」，而非对话式的示范：模型在预训练阶段学到一条触发到载荷的规则，SFT 教会聊天格式后后门浮现，DPO 和 GRPO 几乎不动它。触发词本身也可以是用户请求里自然出现的路径，攻击者无需在部署时再注入字符串。代码已在仓库公开。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503823">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>开源中国社区最新新闻 · 2026-11-26 11:58:54 北京时间</small></p>
+<p>论文《Agentic Backdoors via Pretraining Poisoning》由加州大学伯克利分校、伊利诺伊大学厄巴纳-香槟分校与 Anthropic 的研究者完成，作者包括 Nicholas Carlini 和 Javier Rando，10 月 27 日提交 arXiv（<a href="https://arxiv.org/abs/2610.37741">arXiv 论文</a>）。</p>
+<p>作者从零预训练 0.6B、1.7B、4B 三档 Qwen3 模型，再用干净的流程完成 SFT、DPO 和 GRPO 后训练，做成命令行智能体。仅在 0.1% 的预训练语料中投毒，4B 模型在触发条件出现时执行攻击者命令的 Pass@32 成功率达 92.7%，在干净输入上能力不受影响；把投毒比例降到 0.0005% 时后门依然存在。</p>
+<p>后门之所以洗不掉，是因为投毒用的是散文式的「声明」，而非对话式的示范：模型在预训练阶段学到一条触发到载荷的规则，SFT 教会聊天格式后后门浮现，DPO 和 GRPO 几乎不动它。触发词本身也可以是用户请求里自然出现的路径，攻击者无需在部署时再注入字符串。代码已在仓库公开。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.oschina.net/news/503823">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【大模型】MiniMax 内部模型 MIM 攻破多个 NIST 密码候选方案，McEliece 挑战赛提速约 43400 倍</title><link>https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html</link><guid isPermaLink="false">c925ffd341a06050ea27d26c28363086e2d01718ff73170e2909efe127922640</guid><pubDate>Thu, 26 Nov 2026 02:23:00 GMT</pubDate><description><![CDATA[<p><small>雷锋网 · 2026-11-26 10:23:00 北京时间</small></p>
+<p>雷锋网报道，MiniMax 展示了内部模型 MIM 的密码分析结果：在 TII McEliece 挑战中恢复 94 个案例的私钥，其中 55 个此前无人攻克；解出一道题的耗时从国际顶会已发表的最优纪录 9.2 小时，降到 64 核服务器上最快 1.8 秒，速度提升约 43400 倍。</p>
+<p>报道列出的其他结果包括：悬置 18 年的 NIST 哈希候选 Waterfall-256 首次生成实用碰撞，普通电脑 CPU 最快 3.5 毫秒；后量子候选 LOCKER-I 的求解矩阵从 5.72 亿列压到 2240 列、内存从 42PB 降到 58MB，12 线程下 1.15 秒破解；NSA 2024 年发布的 ARADI 从已攻破 5 轮推进到第 8 轮，并刷新 9 至 12 轮的理论攻击边界。MIM 还在十余个候选方案的官方参考代码里找出人类专家漏掉的漏洞。</p>
+<p>这些数字来自 MiniMax 的官方展示与雷锋网的转述，论文和第三方复现尚未公开；报道引述的密码学专家指出，ARADI 尚未公布参数设计准则，暂时无法判定它是否已被彻底攻破。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>雷锋网 · 2026-11-26 10:23:00 北京时间</small></p>
+<p>雷锋网报道，MiniMax 展示了内部模型 MIM 的密码分析结果：在 TII McEliece 挑战中恢复 94 个案例的私钥，其中 55 个此前无人攻克；解出一道题的耗时从国际顶会已发表的最优纪录 9.2 小时，降到 64 核服务器上最快 1.8 秒，速度提升约 43400 倍。</p>
+<p>报道列出的其他结果包括：悬置 18 年的 NIST 哈希候选 Waterfall-256 首次生成实用碰撞，普通电脑 CPU 最快 3.5 毫秒；后量子候选 LOCKER-I 的求解矩阵从 5.72 亿列压到 2240 列、内存从 42PB 降到 58MB，12 线程下 1.15 秒破解；NSA 2024 年发布的 ARADI 从已攻破 5 轮推进到第 8 轮，并刷新 9 至 12 轮的理论攻击边界。MIM 还在十余个候选方案的官方参考代码里找出人类专家漏掉的漏洞。</p>
+<p>这些数字来自 MiniMax 的官方展示与雷锋网的转述，论文和第三方复现尚未公开；报道引述的密码学专家指出，ARADI 尚未公布参数设计准则，暂时无法判定它是否已被彻底攻破。</p>
+<p><small>依据订阅源摘录 · <a href="https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【Baeldung】Palantir Java 格式化器 palantir-java-format 使用指南</title><link>https://feeds.feedblitz.com/~/974043803/0/baeldung</link><guid isPermaLink="false">838610bcc586a3765085a7c9d99fccb8ff09295d2a1330a9dd292a3a91f0beff</guid><pubDate>Thu, 26 Nov 2026 05:29:02 GMT</pubDate><description><![CDATA[<p><small>Baeldung · 2026-11-26 13:29:02 北京时间</small></p>
+<p>Baeldung 作者 Daniel Fintinariu 介绍 Palantir 维护的 palantir-java-format：它是 google-java-format 的 fork，Apache 2.0 许可，默认风格与父项目有三处不同——行宽上限从 100 提到 120 字符、缩进用四个空格、把 lambda 和方法链压在同一行内而不是逐层向右缩进。</p>
+<p>文中用同一段 Gradle 配置代码对比两种输出：嵌套 lambda 的写法在 Google 风格下占 19 行、最深缩进 76 个空格，在 Palantir 风格下只需 11 行、最深缩进 20 个空格。</p>
+<p>它本身不提供整项目格式化任务。Gradle 项目通过 com.palantir.java-format 插件接入 Spotless，插件会自动跳过生成源码、额外提供只格式化未提交改动的格式差异任务；Maven 需在 spotless-maven-plugin 中直接声明版本；IntelliJ 安装插件后 Ctrl+Alt+L 的输出与构建一致。Spotless 要求 Java 17 以上，格式化 Java 21 代码时格式化器运行处也必须是 Java 21。</p>
+<p><small>依据订阅源正文 · <a href="https://feeds.feedblitz.com/~/974043803/0/baeldung">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Baeldung · 2026-11-26 13:29:02 北京时间</small></p>
+<p>Baeldung 作者 Daniel Fintinariu 介绍 Palantir 维护的 palantir-java-format：它是 google-java-format 的 fork，Apache 2.0 许可，默认风格与父项目有三处不同——行宽上限从 100 提到 120 字符、缩进用四个空格、把 lambda 和方法链压在同一行内而不是逐层向右缩进。</p>
+<p>文中用同一段 Gradle 配置代码对比两种输出：嵌套 lambda 的写法在 Google 风格下占 19 行、最深缩进 76 个空格，在 Palantir 风格下只需 11 行、最深缩进 20 个空格。</p>
+<p>它本身不提供整项目格式化任务。Gradle 项目通过 com.palantir.java-format 插件接入 Spotless，插件会自动跳过生成源码、额外提供只格式化未提交改动的格式差异任务；Maven 需在 spotless-maven-plugin 中直接声明版本；IntelliJ 安装插件后 Ctrl+Alt+L 的输出与构建一致。Spotless 要求 Java 17 以上，格式化 Java 21 代码时格式化器运行处也必须是 Java 21。</p>
+<p><small>依据订阅源正文 · <a href="https://feeds.feedblitz.com/~/974043803/0/baeldung">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【Simon Willison】datasette-charts 0.3a0 支持在图表上添加注记</title><link>https://simonwillison.net/2026/Nov/25/datasette-charts/</link><guid isPermaLink="false">663b832c18da50406d558ef48a3d5bf7a12bb1d12500ead8593cff4f27ceb89b</guid><pubDate>Wed, 25 Nov 2026 18:16:50 GMT</pubDate><description><![CDATA[<p><small>Simon Willison · 2026-11-26 02:16:50 北京时间</small></p>
+<p>Simon 为 datasette-charts 0.3a0 加入图表注记功能，可以画线、加阴影区域、加标签，或三者组合。他演示了同一张图在 Datasette Lite 里的样子，注记可在图表构建界面中手动调整。</p>
+<p>若同时安装 Datasette Agent，智能体也能按要求生成带注记的图表——他展示的例子是，用一句自然语言让演示站对比「标记为 LLM 的内容」与「标记为 Datasette 的内容」两组数据，并在图上加注记。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/25/datasette-charts/">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Simon Willison · 2026-11-26 02:16:50 北京时间</small></p>
+<p>Simon 为 datasette-charts 0.3a0 加入图表注记功能，可以画线、加阴影区域、加标签，或三者组合。他演示了同一张图在 Datasette Lite 里的样子，注记可在图表构建界面中手动调整。</p>
+<p>若同时安装 Datasette Agent，智能体也能按要求生成带注记的图表——他展示的例子是，用一句自然语言让演示站对比「标记为 LLM 的内容」与「标记为 Datasette 的内容」两组数据，并在图上加注记。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/25/datasette-charts/">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【Simon Willison】datasette-charts 0.2a1 更新图表界面细节</title><link>https://simonwillison.net/2026/Nov/24/datasette-charts-2/</link><guid isPermaLink="false">edd6b37294089cf48494bcfea989d76d8c9ed72d97ca0c83f23a5231b12c2d7a</guid><pubDate>Tue, 24 Nov 2026 06:07:19 GMT</pubDate><description><![CDATA[<p><small>Simon Willison · 2026-11-24 14:07:19 北京时间</small></p>
+<p>这次更新集中在界面细节：收起「推荐图表」区域后图表本身仍然可见；从链接打开图表时该次访问默认收起推荐；表格页的图表面板移到「4,235 rows where country = CHN」这类行信息下方。</p>
+<p>图表下方的 Data 表被「复制 TSV」「复制 CSV」两个按钮取代；从表格、视图和查询的操作菜单里去掉了「Chart this data」项；图表提示框的行距加大。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/24/datasette-charts-2/">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Simon Willison · 2026-11-24 14:07:19 北京时间</small></p>
+<p>这次更新集中在界面细节：收起「推荐图表」区域后图表本身仍然可见；从链接打开图表时该次访问默认收起推荐；表格页的图表面板移到「4,235 rows where country = CHN」这类行信息下方。</p>
+<p>图表下方的 Data 表被「复制 TSV」「复制 CSV」两个按钮取代；从表格、视图和查询的操作菜单里去掉了「Chart this data」项；图表提示框的行距加大。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/24/datasette-charts-2/">原文</a></small></p>]]></content:encoded></item>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>【Tao】放下执念</title><link>https://tao.zz.ac/egoless.html</link><guid isPermaLink="false">943bbd49519d4f4d5471d4e5bdbe0242329901ff07277b1879098561e47da491</guid><pubDate>Tue, 24 Nov 2026 16:00:00 GMT</pubDate><description><![CDATA[<p><small>Tao · 2026-11-25 00:00:00 北京时间（来源仅提供日期，未含具体时刻）</small></p>
+<p>作者在 Stripe 收款审核通过后本想补一个收款页面，打开后端代码却发现很乱，于是先清理了一遍，许多自己花了很多时间打磨的代码被 AI 逐一删除，由此写下这篇随笔，回顾被删掉的功能：ChatGPT 代理、Docker 镜像代理、ZZ.AC 域名管理系统和 WebDAV 模块。</p>
+<p>作者的结论是：要尊重用户习惯、理解真实需求，技术是否先进优雅用户并不关心，这是技术人常有的执念；要注意架构，统一部署 Nginx 之类的网关层，业务系统不要直接暴露在公网；业务架构是长出来的，要尽早做拆分，拆得清楚之后使用 AI 迭代时也更省 Token。</p>
+<p><small>依据订阅源摘录 · <a href="https://tao.zz.ac/egoless.html">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Tao · 2026-11-25 00:00:00 北京时间（来源仅提供日期，未含具体时刻）</small></p>
+<p>作者在 Stripe 收款审核通过后本想补一个收款页面，打开后端代码却发现很乱，于是先清理了一遍，许多自己花了很多时间打磨的代码被 AI 逐一删除，由此写下这篇随笔，回顾被删掉的功能：ChatGPT 代理、Docker 镜像代理、ZZ.AC 域名管理系统和 WebDAV 模块。</p>
+<p>作者的结论是：要尊重用户习惯、理解真实需求，技术是否先进优雅用户并不关心，这是技术人常有的执念；要注意架构，统一部署 Nginx 之类的网关层，业务系统不要直接暴露在公网；业务架构是长出来的，要尽早做拆分，拆得清楚之后使用 AI 迭代时也更省 Token。</p>
+<p><small>依据订阅源摘录 · <a href="https://tao.zz.ac/egoless.html">原文</a></small></p>]]></content:encoded></item>
+    <item><title>本轮简讯（5 条）</title><guid isPermaLink="false">unselected-405111f0f2beb0a16214f85e576a64003d972dc4fa81947f38f1013175e42bf5</guid><pubDate>Thu, 26 Nov 2026 05:08:23 GMT</pubDate><description><![CDATA[<p><strong>理想汽车称明年补充一至两款独立车型，车型更新节奏由一年一次放慢至约两年一次</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 13:08:23 北京时间 · <a href="https://t.me/zaihuapd/45376">原文</a></small></p>
+<p><strong>FCC 批准 SpaceX 部分申请，允许再发射 7500 颗第二代星链卫星、总数达 15000 颗</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:45:01 北京时间 · <a href="https://t.me/zaihuapd/45375">原文</a></small></p>
+<p><strong>PlayPorted 收录 2509 个主机游戏移植项目，其中 1071 个已标注可玩</strong><br />
+<small>小众软件 · 2026-11-26 12:22:22 北京时间 · <a href="https://www.appinn.com/playported/">原文</a></small></p>
+<p><strong>博主测试 Claude Opus 5.6：一段提示生成带图形与转场的演示文稿</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:10:59 北京时间 · <a href="https://t.me/zaihuapd/45374">原文</a></small></p>
+<p><strong>权龙二次创业成立 Envision AI，拟做统一空间与物理信息的原生基模</strong><br />
+<small>雷锋网 · 2026-11-26 10:09:00 北京时间 · <a href="https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>理想汽车称明年补充一至两款独立车型，车型更新节奏由一年一次放慢至约两年一次</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 13:08:23 北京时间 · <a href="https://t.me/zaihuapd/45376">原文</a></small></p>
+<p><strong>FCC 批准 SpaceX 部分申请，允许再发射 7500 颗第二代星链卫星、总数达 15000 颗</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:45:01 北京时间 · <a href="https://t.me/zaihuapd/45375">原文</a></small></p>
+<p><strong>PlayPorted 收录 2509 个主机游戏移植项目，其中 1071 个已标注可玩</strong><br />
+<small>小众软件 · 2026-11-26 12:22:22 北京时间 · <a href="https://www.appinn.com/playported/">原文</a></small></p>
+<p><strong>博主测试 Claude Opus 5.6：一段提示生成带图形与转场的演示文稿</strong><br />
+<small>在花🎗️科技圈 · 2026-11-26 12:10:59 北京时间 · <a href="https://t.me/zaihuapd/45374">原文</a></small></p>
+<p><strong>权龙二次创业成立 Envision AI，拟做统一空间与物理信息的原生基模</strong><br />
+<small>雷锋网 · 2026-11-26 10:09:00 北京时间 · <a href="https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html">原文</a></small></p>]]></content:encoded></item>
 </channel>
 </rss>
