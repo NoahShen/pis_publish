@@ -2252,5 +2252,49 @@
 <small>在花🎗️科技圈 · 2026-11-28 02:04:49 北京时间 · <a href="https://t.me/zaihuapd/45413">原文</a></small></p><p><strong>【宏观与社会】任正非称美国制裁促华为自立，请《纽约时报》向特朗普转达感谢</strong><br />
 <small>在花🎗️科技圈 · 2026-11-28 00:35:48 北京时间 · <a href="https://t.me/zaihuapd/45412">原文</a></small></p><p><strong>【投资与金融】美团财报电话会：Keeta 沙特实现全季度盈利</strong><br />
 <small>雷锋网 · 2026-11-27 20:24:00 北京时间 · <a href="https://www.leiphone.com/category/industrynews/bNneZTVQVkQBiKrH.html">原文</a></small></p><p><strong>【投资与金融】B 站十几年的家底，在 AI 时代「升值」</strong><br />
-<small>极客公园-GeekPark · 2026-11-27 16:29:54 北京时间 · <a href="http://www.geekpark.net/news/374593">原文</a></small></p>]]></content:encoded></item></channel>
+<small>极客公园-GeekPark · 2026-11-27 16:29:54 北京时间 · <a href="http://www.geekpark.net/news/374593">原文</a></small></p>]]></content:encoded></item>    <item><title>【小声读书 🙈】把家用 GL-BE6500 路由器区域从 CN 改为 US</title><link>https://t.me/weekly_books/2645</link><guid isPermaLink="false">c35d4ccf1eb94dec35f4088b3140578978e3e423b0dfac05dda162226dd26fdb</guid><pubDate>Sat, 28 Nov 2026 01:00:03 GMT</pubDate><description><![CDATA[<p><small>小声读书 🙈 · 2026-11-28 09:00:03 北京时间</small></p>
+<p>作者记录今天用 GitHub 上的开源项目把家里 GL-BE6500 路由器的区域从 CN 改成 US：重启后 AdGuard Home、WireGuard、Tailscale、ZeroTier 等功能都出现了，他的说法是「硬件还是那个硬件，两个字节一改」。</p>
+<p>他提示两个细节：改区重启后，后台语言要切换为英文或繁体中文才能看到相应功能；手机端要装海外版 GL.iNet App 才能管理这些功能。项目地址为 <a href="https://github.com/wifiway123/gl-country">wifiway123/gl-country</a>。</p>
+<p>后半段是对家庭网络的回顾：折腾过 iKuai、OpenWrt、Proxmox、软路由、旁路由，家里常开一台 Mac mini；如今让一个家庭网络运维 Agent 通过 SSH 排查故障、分析日志、备份配置，再用 Bark 推送消息，重要操作由他本人审批。他表示更偏爱开放、可编程、有开源生态的硬件。文末附有同款路由器的购买链接。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/weekly_books/2645">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>小声读书 🙈 · 2026-11-28 09:00:03 北京时间</small></p>
+<p>作者记录今天用 GitHub 上的开源项目把家里 GL-BE6500 路由器的区域从 CN 改成 US：重启后 AdGuard Home、WireGuard、Tailscale、ZeroTier 等功能都出现了，他的说法是「硬件还是那个硬件，两个字节一改」。</p>
+<p>他提示两个细节：改区重启后，后台语言要切换为英文或繁体中文才能看到相应功能；手机端要装海外版 GL.iNet App 才能管理这些功能。项目地址为 <a href="https://github.com/wifiway123/gl-country">wifiway123/gl-country</a>。</p>
+<p>后半段是对家庭网络的回顾：折腾过 iKuai、OpenWrt、Proxmox、软路由、旁路由，家里常开一台 Mac mini；如今让一个家庭网络运维 Agent 通过 SSH 排查故障、分析日志、备份配置，再用 Bark 推送消息，重要操作由他本人审批。他表示更偏爱开放、可编程、有开源生态的硬件。文末附有同款路由器的购买链接。</p>
+<p><small>依据订阅源摘录 · <a href="https://t.me/weekly_books/2645">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【人工智能】OpenAI 反诉苹果窃取商业机密，双方从单方起诉转为互诉</title><link>http://www.geekpark.net/news/374621</link><guid isPermaLink="false">b923c54a563ccd12bbd005d0c330669001711e4048a9341211a373e6cee9c81e</guid><pubDate>Sat, 28 Nov 2026 00:53:50 GMT</pubDate><description><![CDATA[<p><small>极客公园-GeekPark · 2026-11-28 08:53:50 北京时间</small></p>
+<p><strong>前情提要</strong><br />今年 7 月，苹果以窃取商业机密为由起诉 OpenAI。据报道，OpenAI 正在准备一系列新的个人设备，并称这些设备有望「在苹果视为自家地盘的领域胜过苹果」。</p>
+<p><strong>本次进展</strong><br />当地时间周五（11 月 27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作。据报道，OpenAI 在诉状中称苹果这样做是为了「不择手段地进行不公平竞争」，还指控苹果利用自身的「规模和财力来阻碍竞争」，存在「各种违法、不公平和侵权行为」。两家公司均未立即回应媒体的置评请求。这场官司由此从苹果一方起诉变成双方互诉。</p>
+<p><strong>接下来看什么</strong><br />法院如何处理这起反诉、苹果方面如何答辩，以及 OpenAI 个人设备与供应商合作的后续——有分析认为，这场诉讼关系到未来 AI 设备由谁主导。</p>
+<p><small>依据订阅源摘录（转述第一财经报道）· <a href="http://www.geekpark.net/news/374621">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>极客公园-GeekPark · 2026-11-28 08:53:50 北京时间</small></p>
+<p><strong>前情提要</strong><br />今年 7 月，苹果以窃取商业机密为由起诉 OpenAI。据报道，OpenAI 正在准备一系列新的个人设备，并称这些设备有望「在苹果视为自家地盘的领域胜过苹果」。</p>
+<p><strong>本次进展</strong><br />当地时间周五（11 月 27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作。据报道，OpenAI 在诉状中称苹果这样做是为了「不择手段地进行不公平竞争」，还指控苹果利用自身的「规模和财力来阻碍竞争」，存在「各种违法、不公平和侵权行为」。两家公司均未立即回应媒体的置评请求。这场官司由此从苹果一方起诉变成双方互诉。</p>
+<p><strong>接下来看什么</strong><br />法院如何处理这起反诉、苹果方面如何答辩，以及 OpenAI 个人设备与供应商合作的后续——有分析认为，这场诉讼关系到未来 AI 设备由谁主导。</p>
+<p><small>依据订阅源摘录（转述第一财经报道）· <a href="http://www.geekpark.net/news/374621">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【AI 应用】支付宝 SkillPay 实测：Skill 可买断或订阅售卖，买断 0.01–50 元</title><link>https://aihot.news/daily/2026-11-28</link><guid isPermaLink="false">ab2dd60e31a767e72bc93be81b86c6b8138c52d1a570d5353fc8b51f9cbad50a</guid><pubDate>Sat, 28 Nov 2026 00:00:08 GMT</pubDate><description><![CDATA[<p><small>AIHOT AI 日报 · 2026-11-28 08:00:08 北京时间</small></p>
+<p>作者完整实测了支付宝 SkillPay 平台的 Skill 变现流程。该平台 7 月上线，支持两种售卖模式：买断制把 Skill 完整内容交付到本地，定价 0.01–50 元；订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文，按周、月、季度收费，上限 50 元，免费试用最低 5 次。</p>
+<p>同一期日报还收录 OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction，以及「在 GEMINI.md 里加一句话让模型边干活边汇报」的 Antigravity 使用技巧。</p>
+<p><small>依据订阅源摘录 · <a href="https://aihot.news/daily/2026-11-28">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>AIHOT AI 日报 · 2026-11-28 08:00:08 北京时间</small></p>
+<p>作者完整实测了支付宝 SkillPay 平台的 Skill 变现流程。该平台 7 月上线，支持两种售卖模式：买断制把 Skill 完整内容交付到本地，定价 0.01–50 元；订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文，按周、月、季度收费，上限 50 元，免费试用最低 5 次。</p>
+<p>同一期日报还收录 OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction，以及「在 GEMINI.md 里加一句话让模型边干活边汇报」的 Antigravity 使用技巧。</p>
+<p><small>依据订阅源摘录 · <a href="https://aihot.news/daily/2026-11-28">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【Simon Willison】datasette-charts 0.4a0：按实测摩擦点改进图表插件钩子</title><link>https://simonwillison.net/2026/Nov/27/datasette-charts/</link><guid isPermaLink="false">e4bf49a17ef7bb3b9de5dd65efd8054d8445f4d918755712f083b389d7c8a6a4</guid><pubDate>Fri, 27 Nov 2026 23:57:17 GMT</pubDate><description><![CDATA[<p><small>Simon Willison · 2026-11-28 07:57:17 北京时间</small></p>
+<p>作者发布 datasette-charts 0.4a0。这个插件自带的图表类型钩子此前一直没有被真正用过，他让 Claude Opus 5.5 写了一个实验性插件来试这个钩子，结果暴露出设计上的一批摩擦点；本次发布针对这些点调整，目标是让编写额外的图表插件明显更顺手。</p>
+<p>同时上线了插件网站 <a href="https://charts.datasette.io">charts.datasette.io</a>，包含面向插件作者的教程，以及核心图表与标注的画廊，每项都链接到 Datasette Lite 上的可交互示例。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/27/datasette-charts/">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Simon Willison · 2026-11-28 07:57:17 北京时间</small></p>
+<p>作者发布 datasette-charts 0.4a0。这个插件自带的图表类型钩子此前一直没有被真正用过，他让 Claude Opus 5.5 写了一个实验性插件来试这个钩子，结果暴露出设计上的一批摩擦点；本次发布针对这些点调整，目标是让编写额外的图表插件明显更顺手。</p>
+<p>同时上线了插件网站 <a href="https://charts.datasette.io">charts.datasette.io</a>，包含面向插件作者的教程，以及核心图表与标注的画廊，每项都链接到 Datasette Lite 上的可交互示例。</p>
+<p><small>依据订阅源摘录 · <a href="https://simonwillison.net/2026/Nov/27/datasette-charts/">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【Simon Willison】datasette-mcp 0.4：适配 Datasette 1.0a44</title><link>https://simonwillison.net/2026/Nov/27/datasette-mcp/</link><guid isPermaLink="false">9311a99a8f3fe1ab16d8acb0d0a15c5323209a7fcdaf00b2051b238f6bffad5d</guid><pubDate>Fri, 27 Nov 2026 00:26:17 GMT</pubDate><description><![CDATA[<p><small>Simon Willison · 2026-11-27 08:26:17 北京时间</small></p>
+<p>作者发布 datasette-mcp 0.4。发布说明只有一条：修复与 Datasette 1.0a44 的兼容性。标签为 model-context-protocol、datasette。</p>
+<p><small>依据订阅源发布说明 · <a href="https://simonwillison.net/2026/Nov/27/datasette-mcp/">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Simon Willison · 2026-11-27 08:26:17 北京时间</small></p>
+<p>作者发布 datasette-mcp 0.4。发布说明只有一条：修复与 Datasette 1.0a44 的兼容性。标签为 model-context-protocol、datasette。</p>
+<p><small>依据订阅源发布说明 · <a href="https://simonwillison.net/2026/Nov/27/datasette-mcp/">原文</a></small></p>]]></content:encoded></item>
+    <item><title>本轮简讯（3 条）</title><guid isPermaLink="false">unselected-a95b77d149afa531da7002aadc9f3bdffa97269f143b71afa8606a1e95df9010</guid><pubDate>Sat, 28 Nov 2026 01:08:54 GMT</pubDate><description><![CDATA[<p><strong>【软件工程】Telegram 创始人称旧版 iOS 正遭大规模攻击，提醒用户更新</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 09:08:54 北京时间 · <a href="https://t.me/zaihuapd/45414">原文</a></small></p><p><strong>【投资与金融】比亚迪发布纯电 MPV「Whale」：车长 5.27 米，官方估算续航 900 公里</strong><br />
+<small>The Verge · 2026-11-28 08:02:49 北京时间 · <a href="https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge">原文</a></small></p><p><strong>【软件工程】美国保险公司 Allstate 网站、App 与道路救援自 11 月 23 日起故障</strong><br />
+<small>The Verge · 2026-11-28 05:52:42 北京时间 · <a href="https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>【软件工程】Telegram 创始人称旧版 iOS 正遭大规模攻击，提醒用户更新</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 09:08:54 北京时间 · <a href="https://t.me/zaihuapd/45414">原文</a></small></p><p><strong>【投资与金融】比亚迪发布纯电 MPV「Whale」：车长 5.27 米，官方估算续航 900 公里</strong><br />
+<small>The Verge · 2026-11-28 08:02:49 北京时间 · <a href="https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge">原文</a></small></p><p><strong>【软件工程】美国保险公司 Allstate 网站、App 与道路救援自 11 月 23 日起故障</strong><br />
+<small>The Verge · 2026-11-28 05:52:42 北京时间 · <a href="https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday">原文</a></small></p>]]></content:encoded></item>
+</channel>
 </rss>
