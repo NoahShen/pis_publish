@@ -2465,5 +2465,34 @@
     <item><title>本轮简讯（1 条）</title><guid isPermaLink="false">unselected-b562f59671b832a01f092e0d6650a078e417ad92e16bb9d20ae82d6769c14a1c</guid><pubDate>Sat, 28 Nov 2026 08:26:57 GMT</pubDate><description><![CDATA[<p><strong>【宏观与社会】马斯克：文明在长期繁荣且无严重外部威胁的时期生育率会崩塌</strong><br />
 <small>在花🎗️科技圈 · 2026-11-28 16:26:57 北京时间 · <a href="https://t.me/zaihuapd/45420">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>【宏观与社会】马斯克：文明在长期繁荣且无严重外部威胁的时期生育率会崩塌</strong><br />
 <small>在花🎗️科技圈 · 2026-11-28 16:26:57 北京时间 · <a href="https://t.me/zaihuapd/45420">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【Baeldung】Java Weekly 第 673 期：Java 语言演进的内部视角与 Spring 全线发布</title><link>https://feeds.feedblitz.com/~/974394263/0/baeldung</link><guid isPermaLink="false">ae9c0a9f31ceee123122eb2657f5964065e29a06712e65220e67cbe85a3b6f86</guid><pubDate>Sat, 28 Nov 2026 13:06:20 GMT</pubDate><description><![CDATA[<p><small>Baeldung · 2026-11-28 21:06:20 北京时间</small></p>
+<p><strong>Java 语言演进</strong>：本期开篇是 JavaOne 主题演讲的解读——为什么一些看起来「显然」的改进始终进不了 Java，而 lambda、record、模式匹配和虚拟线程却像一直都存在；Brian Goetz 讲的是语言设计背后的内部权衡，编者提示实际情况比表面复杂。</p>
+<p><strong>安全成为本期主线</strong>：Java4Shell 漏洞占据多篇（foojay 梳理暴露面、WildFly 给出说明，JetBrains 要求更新 IDE、ReSharper、.NET 工具、Toolbox App 与 Gateway），Oracle 另宣布 Java 转向更频繁的安全更新节奏。</p>
+<p><strong>JDK 28 相关</strong>：JEP 545 把 ZGC 的内存准备移出启动路径；JEP 547 Lazy Constants 第四次预览进入 JDK 28；新增 jlink 安全属性插件。</p>
+<p><strong>版本集中落地</strong>：Spring Boot 4.2.0 / 4.1.3 / 4.0.10、Spring AI 2.1.0 GA 与 2.0.3 GA、Spring Data 2026.1.0、Spring Cloud 2026.0.0（Paddington）、Spring Batch 6.1 GA、Spring Modulith 2.2 GA 同日发布；Quarkus 4.0 大版本、GraalVM Community 25 Innovation 6、Maven 3.10.2 亦在其列。</p>
+<p><strong>两篇值得翻看的</strong>：Spring AI 2.1 的 human-in-the-loop 工具调用如何在服务重启后仍然存续；以及 frankel.ch 谈「评审 AI 生成的代码」——agent 产出代码的速度远超人工阅读速度，评审量上去后有效性明显下降，作者认为控制权不是丢失而是被重新划分。</p>
+<p>文末另附 Werner Vogels 的 2027 技术预测，以及 Baeldung 新版平台首页。</p>
+<p><small>依据周刊编者摘要与链接标题列表（未逐篇打开原文）· <a href="https://feeds.feedblitz.com/~/974394263/0/baeldung">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>Baeldung · 2026-11-28 21:06:20 北京时间</small></p>
+<p><strong>Java 语言演进</strong>：本期开篇是 JavaOne 主题演讲的解读——为什么一些看起来「显然」的改进始终进不了 Java，而 lambda、record、模式匹配和虚拟线程却像一直都存在；Brian Goetz 讲的是语言设计背后的内部权衡，编者提示实际情况比表面复杂。</p>
+<p><strong>安全成为本期主线</strong>：Java4Shell 漏洞占据多篇（foojay 梳理暴露面、WildFly 给出说明，JetBrains 要求更新 IDE、ReSharper、.NET 工具、Toolbox App 与 Gateway），Oracle 另宣布 Java 转向更频繁的安全更新节奏。</p>
+<p><strong>JDK 28 相关</strong>：JEP 545 把 ZGC 的内存准备移出启动路径；JEP 547 Lazy Constants 第四次预览进入 JDK 28；新增 jlink 安全属性插件。</p>
+<p><strong>版本集中落地</strong>：Spring Boot 4.2.0 / 4.1.3 / 4.0.10、Spring AI 2.1.0 GA 与 2.0.3 GA、Spring Data 2026.1.0、Spring Cloud 2026.0.0（Paddington）、Spring Batch 6.1 GA、Spring Modulith 2.2 GA 同日发布；Quarkus 4.0 大版本、GraalVM Community 25 Innovation 6、Maven 3.10.2 亦在其列。</p>
+<p><strong>两篇值得翻看的</strong>：Spring AI 2.1 的 human-in-the-loop 工具调用如何在服务重启后仍然存续；以及 frankel.ch 谈「评审 AI 生成的代码」——agent 产出代码的速度远超人工阅读速度，评审量上去后有效性明显下降，作者认为控制权不是丢失而是被重新划分。</p>
+<p>文末另附 Werner Vogels 的 2027 技术预测，以及 Baeldung 新版平台首页。</p>
+<p><small>依据周刊编者摘要与链接标题列表（未逐篇打开原文）· <a href="https://feeds.feedblitz.com/~/974394263/0/baeldung">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【产业与科技发展】冯骥：AI 或加剧内容产业两极分化，主张从超额财富中提取公共红利</title><link>https://t.me/zaihuapd/45421</link><guid isPermaLink="false">6dc3a8ff93e11b49d8203dd2dc1438eac092a5d58a6d0cf302c46a4ba5ac274c</guid><pubDate>Sat, 28 Nov 2026 11:19:22 GMT</pubDate><description><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-28 19:19:22 北京时间</small></p>
+<p>《黑神话：悟空》制作人、游戏科学创始人冯骥近日发表约 8000 字长文，判断 AI 可能加剧内容产业的两极分化，绝大部分以此谋生的从业者都会受到影响。报道称他同一周试玩了一批由 Anthropic 新模型 Claude Fable 5.2 生成的网页游戏，不少作品完成度超出他的预期。</p>
+<p><strong>核心判断</strong>：内容生产不再稀缺之后，用户注意力与社会共识反而更稀缺，用户可能更倾向选择熟悉的 IP 和值得信赖的厂商，腰部从业者的利润会「微薄化乃至消失」。</p>
+<p><strong>分配主张</strong>：他认为这一轮 AI 直接冲击脑力劳动，在坚持按劳分配为主体的前提下，可以从 AI 替代人工所创造的超额社会财富中提取公共红利，向每个人平均分配。</p>
+<p>以上均为冯骥的个人判断，非行业统计或研究结论。</p>
+<p><small>依据订阅源摘录（转引第一财经，仅要点，未取得原文）· <a href="https://t.me/zaihuapd/45421">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-28 19:19:22 北京时间</small></p>
+<p>《黑神话：悟空》制作人、游戏科学创始人冯骥近日发表约 8000 字长文，判断 AI 可能加剧内容产业的两极分化，绝大部分以此谋生的从业者都会受到影响。报道称他同一周试玩了一批由 Anthropic 新模型 Claude Fable 5.2 生成的网页游戏，不少作品完成度超出他的预期。</p>
+<p><strong>核心判断</strong>：内容生产不再稀缺之后，用户注意力与社会共识反而更稀缺，用户可能更倾向选择熟悉的 IP 和值得信赖的厂商，腰部从业者的利润会「微薄化乃至消失」。</p>
+<p><strong>分配主张</strong>：他认为这一轮 AI 直接冲击脑力劳动，在坚持按劳分配为主体的前提下，可以从 AI 替代人工所创造的超额社会财富中提取公共红利，向每个人平均分配。</p>
+<p>以上均为冯骥的个人判断，非行业统计或研究结论。</p>
+<p><small>依据订阅源摘录（转引第一财经，仅要点，未取得原文）· <a href="https://t.me/zaihuapd/45421">原文</a></small></p>]]></content:encoded></item>
+    <item><title>本轮简讯（1 条）</title><guid isPermaLink="false">unselected-27319ee962097ed00543e899c46c2990a701acd7a82d310daa5767e5aacc00ab</guid><pubDate>Sat, 28 Nov 2026 12:19:10 GMT</pubDate><description><![CDATA[<p><strong>【家庭与生活】微短剧应用人均单日使用 129 分钟，专家称刷剧后「变笨」可恢复</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 20:19:10 北京时间 · <a href="https://t.me/zaihuapd/45422">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>【家庭与生活】微短剧应用人均单日使用 129 分钟，专家称刷剧后「变笨」可恢复</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 20:19:10 北京时间 · <a href="https://t.me/zaihuapd/45422">原文</a></small></p>]]></content:encoded></item>
 </channel>
 </rss>
