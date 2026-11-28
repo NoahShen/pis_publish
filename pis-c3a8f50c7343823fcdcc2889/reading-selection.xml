@@ -2381,5 +2381,89 @@
     <item><title>本轮简讯（1 条）</title><guid isPermaLink="false">unselected-2c727edfdd5a57907805a25f819de787bdc231db7dec457cc509d831e3626a2e</guid><pubDate>Fri, 27 Nov 2026 23:58:27 GMT</pubDate><description><![CDATA[<p><strong>【产业与科技发展】黑五硬盘价格较两年前翻倍，二手企业盘涨幅最高超两倍</strong><br />
 <small>Hacker News 每日播报 · 2026-11-28 07:58:27 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-27">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>【产业与科技发展】黑五硬盘价格较两年前翻倍，二手企业盘涨幅最高超两倍</strong><br />
 <small>Hacker News 每日播报 · 2026-11-28 07:58:27 北京时间 · <a href="https://hacker-podcast.agi.li/episode/2026-11-27">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【扫地僧º笔记】monk.party 商店页面新增细腻动画效果</title><link>https://t.me/lover_links/9963</link><guid isPermaLink="false">bc8ed2537ddedcf779846b535d631a688c95affa94406a8a3f8318e8c525ea7e</guid><pubDate>Sat, 28 Nov 2026 09:56:12 GMT</pubDate><description><![CDATA[<p><small>扫地僧º笔记 · 2026-11-28 17:56:12 北京时间</small></p>
+<p>作者发帖说，monk.party 的商店页面（monk.party/store/）加了很细腻的动画效果，并附了一张页面截图。</p>
+<p>帖子只有这一句说明，没有展开动画的具体实现方式或改动范围。</p>
+<p><small>依据订阅源短帖与图片 · <a href="https://t.me/lover_links/9963">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>扫地僧º笔记 · 2026-11-28 17:56:12 北京时间</small></p>
+<p>作者发帖说，monk.party 的商店页面（monk.party/store/）加了很细腻的动画效果，并附了一张页面截图。</p>
+<p>帖子只有这一句说明，没有展开动画的具体实现方式或改动范围。</p>
+<p><small>依据订阅源短帖与图片 · <a href="https://t.me/lover_links/9963">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【软件工程】小众软件开源盘点：10 款工具，从旧手机控制面板到 Mac 刘海暂存架</title><link>https://www.appinn.com/open-source-roundup-20261128/</link><guid isPermaLink="false">5ffd720202cdf5f3daa37f9024a9a737b605b7fc14dd2d28c821af36bb0564d8</guid><pubDate>Sat, 28 Nov 2026 07:27:38 GMT</pubDate><description><![CDATA[<p><small>小众软件 · 2026-11-28 15:27:38 北京时间</small></p>
+<p>本期盘点 10 款开源项目，写法都是先用一个具体麻烦引出用途：</p>
+<ul>
+<li><strong>BatteryHubX</strong>：把无线鼠标、部分无线键盘、耳机和手柄的电量百分比放到 Windows 任务栏；原名 BatteryHub，微软商店里的新版叫 BatteryHubX，商店说明源代码随安装包提供。</li>
+<li><strong>Yogurt</strong>：在本机录制麦克风与系统音频，本地转写并生成会议纪要，可导出 Markdown，无需邀请录音机器人；支持 macOS、Windows、Linux。</li>
+<li><strong>ILoveNotch</strong>：把截图等文件拖到 MacBook 刘海暂存，可预览或隔空投送；需 macOS 14.6 及以上的 Apple Silicon 机型。</li>
+<li><strong>Kiri</strong>：给 Docker 容器配上「服务名.kiri.local」这样的本地域名，原有 docker 与 docker compose 命令照用。</li>
+<li><strong>OpenMotion</strong>：按参考视频生成可编辑动效，在 Studio 时间线上换文案素材、调时长与转场，导出 MP4。</li>
+<li><strong>Ghost-Downloader-3</strong>：普通文件、BT、磁力链接、M3U8、YouTube 视频及字幕放在同一工具里下载。</li>
+<li><strong>AutoClip</strong>：从长视频里挑候选片段、裁成竖屏并加字幕，再从结果里挑选。</li>
+<li><strong>PhoneBox</strong>：闲置安卓手机经 USB 或局域网连电脑，做音量控制器与 OBS 场景切换面板，按钮位置可自排，无需 Root。</li>
+<li><strong>Mika</strong>：在独立虚拟屏幕里浏览群聊并给出摘要，手机前台可继续做别的事；操作其他应用需 Android 12 以上，项目方推荐 14 及以上。</li>
+<li><strong>AFFiNE</strong>：文档与白板放在同一工作区，支持离线使用与 Docker 自托管。</li>
+</ul>
+<p>原文对每个项目只给用途和关键限制，没有性能对比或评测数据。</p>
+<p><small>依据订阅源正文（文末附来源方关于第三方 AI 提炼的免责声明）· <a href="https://www.appinn.com/open-source-roundup-20261128/">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>小众软件 · 2026-11-28 15:27:38 北京时间</small></p>
+<p>本期盘点 10 款开源项目，写法都是先用一个具体麻烦引出用途：</p>
+<ul>
+<li><strong>BatteryHubX</strong>：把无线鼠标、部分无线键盘、耳机和手柄的电量百分比放到 Windows 任务栏；原名 BatteryHub，微软商店里的新版叫 BatteryHubX，商店说明源代码随安装包提供。</li>
+<li><strong>Yogurt</strong>：在本机录制麦克风与系统音频，本地转写并生成会议纪要，可导出 Markdown，无需邀请录音机器人；支持 macOS、Windows、Linux。</li>
+<li><strong>ILoveNotch</strong>：把截图等文件拖到 MacBook 刘海暂存，可预览或隔空投送；需 macOS 14.6 及以上的 Apple Silicon 机型。</li>
+<li><strong>Kiri</strong>：给 Docker 容器配上「服务名.kiri.local」这样的本地域名，原有 docker 与 docker compose 命令照用。</li>
+<li><strong>OpenMotion</strong>：按参考视频生成可编辑动效，在 Studio 时间线上换文案素材、调时长与转场，导出 MP4。</li>
+<li><strong>Ghost-Downloader-3</strong>：普通文件、BT、磁力链接、M3U8、YouTube 视频及字幕放在同一工具里下载。</li>
+<li><strong>AutoClip</strong>：从长视频里挑候选片段、裁成竖屏并加字幕，再从结果里挑选。</li>
+<li><strong>PhoneBox</strong>：闲置安卓手机经 USB 或局域网连电脑，做音量控制器与 OBS 场景切换面板，按钮位置可自排，无需 Root。</li>
+<li><strong>Mika</strong>：在独立虚拟屏幕里浏览群聊并给出摘要，手机前台可继续做别的事；操作其他应用需 Android 12 以上，项目方推荐 14 及以上。</li>
+<li><strong>AFFiNE</strong>：文档与白板放在同一工作区，支持离线使用与 Docker 自托管。</li>
+</ul>
+<p>原文对每个项目只给用途和关键限制，没有性能对比或评测数据。</p>
+<p><small>依据订阅源正文（文末附来源方关于第三方 AI 提炼的免责声明）· <a href="https://www.appinn.com/open-source-roundup-20261128/">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【产业与科技发展】澳洲法院要求苹果 2027 年起开放第三方应用商店，智利监管机构同日起诉苹果</title><link>https://t.me/zaihuapd/45419</link><guid isPermaLink="false">99ba7098bf58dfd914c3e1c8cf7895b7f9135732c4bdd23edca9b8111baec737</guid><pubDate>Sat, 28 Nov 2026 07:00:18 GMT</pubDate><description><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-28 15:00:18 北京时间</small></p>
+<p><strong>前情提要</strong>：Epic Games 就 App Store 的抽成与应用分发限制，在多个司法辖区起诉苹果。苹果长期只允许通过自家 App Store 分发 iOS 应用，并限制开发者引导用户使用外部支付渠道。</p>
+<p><strong>本次进展</strong>：澳大利亚联邦法院裁定，苹果须从 2027 年 3 月 1 日起允许澳区 iPhone 用户通过第三方应用商店和网站安装应用，并开放替代支付方式与外部支付链接；Fortnite 将立即重返澳区 App Store。法官认定苹果在 iOS 应用分发和支付市场具有实质性市场力量，其限制竞争的做法违反澳大利亚竞争法；苹果称将上诉并申请暂缓执行。同日，智利国家经济检察院（FNE）对苹果提起反垄断诉讼，指控其在 iOS 应用分发和应用内购买市场滥用主导地位，寻求 8000 万美元罚款，并要求苹果允许侧载、第三方应用商店和替代应用内支付，允许开发者引导用户至外部支付渠道。苹果回应称已知悉 FNE 的请求、将继续配合调查，强调 App Store 意在保障用户安全与信息安全、为开发者提供可信渠道，同时称其并未在任何市场形成垄断，反对 FNE 对相关市场的界定。</p>
+<p><strong>接下来看什么</strong>：苹果的上诉与暂缓执行申请是否获准，决定 2027 年 3 月 1 日这一生效时点能否维持；智利案件刚进入程序，苹果对相关市场界定的抗辩是后续争点。</p>
+<p><small>依据订阅源摘录（转引 9to5Mac）· <a href="https://t.me/zaihuapd/45419">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>在花🎗️科技圈 · 2026-11-28 15:00:18 北京时间</small></p>
+<p><strong>前情提要</strong>：Epic Games 就 App Store 的抽成与应用分发限制，在多个司法辖区起诉苹果。苹果长期只允许通过自家 App Store 分发 iOS 应用，并限制开发者引导用户使用外部支付渠道。</p>
+<p><strong>本次进展</strong>：澳大利亚联邦法院裁定，苹果须从 2027 年 3 月 1 日起允许澳区 iPhone 用户通过第三方应用商店和网站安装应用，并开放替代支付方式与外部支付链接；Fortnite 将立即重返澳区 App Store。法官认定苹果在 iOS 应用分发和支付市场具有实质性市场力量，其限制竞争的做法违反澳大利亚竞争法；苹果称将上诉并申请暂缓执行。同日，智利国家经济检察院（FNE）对苹果提起反垄断诉讼，指控其在 iOS 应用分发和应用内购买市场滥用主导地位，寻求 8000 万美元罚款，并要求苹果允许侧载、第三方应用商店和替代应用内支付，允许开发者引导用户至外部支付渠道。苹果回应称已知悉 FNE 的请求、将继续配合调查，强调 App Store 意在保障用户安全与信息安全、为开发者提供可信渠道，同时称其并未在任何市场形成垄断，反对 FNE 对相关市场的界定。</p>
+<p><strong>接下来看什么</strong>：苹果的上诉与暂缓执行申请是否获准，决定 2027 年 3 月 1 日这一生效时点能否维持；智利案件刚进入程序，苹果对相关市场界定的抗辩是后续争点。</p>
+<p><small>依据订阅源摘录（转引 9to5Mac）· <a href="https://t.me/zaihuapd/45419">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【小声读书 🙈】警惕技术乐观主义之上的社会学幻想</title><link>https://t.me/weekly_books/2646</link><guid isPermaLink="false">111dad2b81493bef2a909865d8a7a080f50537b7242d995a7756419a129296d4</guid><pubDate>Sat, 28 Nov 2026 06:33:44 GMT</pubDate><description><![CDATA[<p><small>小声读书 🙈 · 2026-11-28 14:33:44 北京时间</small></p>
+<p>作者读完冯骥《后 AI 时代最重要的问题》后提出不同意见：提前研究 AI 对就业、财富分配和人的尊严的冲击是对的，但提前研究风险，和提前设计一个理想社会是两码事。</p>
+<p><strong>三个还没跨过去的台阶</strong>：AI 在智力测试中超越人类、在现实中替代劳动、创造可持续的经济收益，这三件事之间还隔着很远。现在连 AI 原生的商业模式和组织形态都没摸清，此时设计社会形态，类似在拨号上网年代设计移动互联网的社会形态。</p>
+<p><strong>对「AI 超额财富公共红利」的追问</strong>：什么叫 AI 创造的超额财富、谁来界定、谁来征收、谁来监督、如何防止权力滥用、不同国家之间如何协调。他赞同知识积累具有公共属性，但从文明遗产的共同性推导出法律与经济意义上的全民股权，中间还有大量论证要做。</p>
+<p><strong>制度不是生产力的赠品</strong>：过去两百年社会制度的进步，是无数人持续实践、博弈和建设的结果，不是生产力增长的自动产物；他反对把未来的物质丰裕当作解决现实制度困境的捷径，也反对把 AI 当成跑出大同社会的工具。</p>
+<p><strong>对内容产业没那么悲观</strong>：创作门槛降低同时会抬高创意、审美和产品体验的竞争标准，并可能催生今天想不到的新需求；但供给可以无限逼近廉价，有效需求未必同步增长。他自己的处境是有用不完的 Token，怎么找到真实场景、创造价值、获得客户、形成持续现金流仍是巨大课题。</p>
+<p>结论是：好的制度要能在承认人性自利、利益冲突和权力不对等的前提下运行；可以向往乌托邦，但不能把乌托邦当作制度建设的代用品。</p>
+<p><small>依据订阅源全文 · <a href="https://t.me/weekly_books/2646">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>小声读书 🙈 · 2026-11-28 14:33:44 北京时间</small></p>
+<p>作者读完冯骥《后 AI 时代最重要的问题》后提出不同意见：提前研究 AI 对就业、财富分配和人的尊严的冲击是对的，但提前研究风险，和提前设计一个理想社会是两码事。</p>
+<p><strong>三个还没跨过去的台阶</strong>：AI 在智力测试中超越人类、在现实中替代劳动、创造可持续的经济收益，这三件事之间还隔着很远。现在连 AI 原生的商业模式和组织形态都没摸清，此时设计社会形态，类似在拨号上网年代设计移动互联网的社会形态。</p>
+<p><strong>对「AI 超额财富公共红利」的追问</strong>：什么叫 AI 创造的超额财富、谁来界定、谁来征收、谁来监督、如何防止权力滥用、不同国家之间如何协调。他赞同知识积累具有公共属性，但从文明遗产的共同性推导出法律与经济意义上的全民股权，中间还有大量论证要做。</p>
+<p><strong>制度不是生产力的赠品</strong>：过去两百年社会制度的进步，是无数人持续实践、博弈和建设的结果，不是生产力增长的自动产物；他反对把未来的物质丰裕当作解决现实制度困境的捷径，也反对把 AI 当成跑出大同社会的工具。</p>
+<p><strong>对内容产业没那么悲观</strong>：创作门槛降低同时会抬高创意、审美和产品体验的竞争标准，并可能催生今天想不到的新需求；但供给可以无限逼近廉价，有效需求未必同步增长。他自己的处境是有用不完的 Token，怎么找到真实场景、创造价值、获得客户、形成持续现金流仍是巨大课题。</p>
+<p>结论是：好的制度要能在承认人性自利、利益冲突和权力不对等的前提下运行；可以向往乌托邦，但不能把乌托邦当作制度建设的代用品。</p>
+<p><small>依据订阅源全文 · <a href="https://t.me/weekly_books/2646">原文</a></small></p>]]></content:encoded></item>
+    <item><title>【为也行】用香港汇丰再开 Google Pro：扣款为新加坡元的设置步骤</title><link>https://t.me/weiyexing/3982</link><guid isPermaLink="false">c87b30ee16be4674c19d13872c4d6242da5ff6970ea9e9770b084413a2c82d94</guid><pubDate>Sat, 28 Nov 2026 06:04:51 GMT</pubDate><description><![CDATA[<p><small>为也行 · 2026-11-28 14:04:51 北京时间</small></p>
+<p>作者又开了一个 Google Pro 订阅，付款用香港汇丰，扣款币种是新加坡元，并把相关设置步骤公开供参考。</p>
+<p>他在这条回复的上一帖里提到一个现象：账号地区是中国、代理在境外时，Gemini 可以用，但 Antigravity 不可以。</p>
+<ul>
+<li><strong>换支付资料</strong>：付款中心 → 设置 → 支付资料，新建并切换到新加坡的资料，直到套餐价格显示 SGD；若不显示 SGD，需要先移除此前其他地区的支付资料。</li>
+<li><strong>改账号关联地区</strong>：在 Google 的 country-association 表单里提交改为新加坡。</li>
+<li><strong>首次登录</strong>：第一次登录 Antigravity 时可能还要校验年龄，跳到浏览器扫码完成即可。</li>
+</ul>
+<p>作者自己标注「风险未知，仅供参考」。</p>
+<p><small>依据订阅源短帖（含所回复的上一条内容）· <a href="https://t.me/weiyexing/3982">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><small>为也行 · 2026-11-28 14:04:51 北京时间</small></p>
+<p>作者又开了一个 Google Pro 订阅，付款用香港汇丰，扣款币种是新加坡元，并把相关设置步骤公开供参考。</p>
+<p>他在这条回复的上一帖里提到一个现象：账号地区是中国、代理在境外时，Gemini 可以用，但 Antigravity 不可以。</p>
+<ul>
+<li><strong>换支付资料</strong>：付款中心 → 设置 → 支付资料，新建并切换到新加坡的资料，直到套餐价格显示 SGD；若不显示 SGD，需要先移除此前其他地区的支付资料。</li>
+<li><strong>改账号关联地区</strong>：在 Google 的 country-association 表单里提交改为新加坡。</li>
+<li><strong>首次登录</strong>：第一次登录 Antigravity 时可能还要校验年龄，跳到浏览器扫码完成即可。</li>
+</ul>
+<p>作者自己标注「风险未知，仅供参考」。</p>
+<p><small>依据订阅源短帖（含所回复的上一条内容）· <a href="https://t.me/weiyexing/3982">原文</a></small></p>]]></content:encoded></item>
+    <item><title>本轮简讯（1 条）</title><guid isPermaLink="false">unselected-b562f59671b832a01f092e0d6650a078e417ad92e16bb9d20ae82d6769c14a1c</guid><pubDate>Sat, 28 Nov 2026 08:26:57 GMT</pubDate><description><![CDATA[<p><strong>【宏观与社会】马斯克：文明在长期繁荣且无严重外部威胁的时期生育率会崩塌</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 16:26:57 北京时间 · <a href="https://t.me/zaihuapd/45420">原文</a></small></p>]]></description><content:encoded><![CDATA[<p><strong>【宏观与社会】马斯克：文明在长期繁荣且无严重外部威胁的时期生育率会崩塌</strong><br />
+<small>在花🎗️科技圈 · 2026-11-28 16:26:57 北京时间 · <a href="https://t.me/zaihuapd/45420">原文</a></small></p>]]></content:encoded></item>
 </channel>
 </rss>
